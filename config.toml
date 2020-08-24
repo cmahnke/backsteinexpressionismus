@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "de"
+title = "Backsteinexpressionismus"
+publishDir = "docs"
+canonifyurls = true
+languagecode = "de"
+defaultcontentlanguage = "de"
+rssLimit = 25
