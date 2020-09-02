@@ -1,0 +1,13 @@
+---
+title: 'Über das Logo'
+date: 2020-09-01T20:24:07+02:00
+type: book
+tags:
+- Hannover
+- Anzeiger Hochhaus
+- Fritz Höger
+- Illustration
+- Buch
+---
+
+Im ersten Eintrag geht es um die Quelle für das Logo und einige Designelemente. Sie sind dem Deckel des [Titel] von [Jahr] entnommen. Einer sehr schönen Darstellung des [Anzeiger Hochauses](/tags/anzeiger-hochaus) in [Hannover](/tags/hannover) von [Fritz Höger](/tags/fritz-hoeger). Leider ist diese Illustration alles was es zum Theme im Kalender gibt.
