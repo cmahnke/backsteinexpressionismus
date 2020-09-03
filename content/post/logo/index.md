@@ -8,6 +8,11 @@ tags:
 - Fritz Höger
 - Illustration
 - Buch
+resources:
+- src: "front.jpg"
+  name: title
+  params:
+    iiif: front/info.json
 ---
 
 Im ersten Eintrag geht es um die Quelle für das Logo und einige Designelemente. Sie sind dem Deckel des [Titel] von [Jahr] entnommen. Einer sehr schönen Darstellung des [Anzeiger Hochauses](/tags/anzeiger-hochaus) in [Hannover](/tags/hannover) von [Fritz Höger](/tags/fritz-hoeger). Leider ist diese Illustration alles was es zum Theme im Kalender gibt.

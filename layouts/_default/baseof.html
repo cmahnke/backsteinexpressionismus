@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}">
+    {{ if hasPrefix .Page.Name "404" }}
+        <meta http-equiv="refresh" content="15; URL={{ .Site.BaseURL }}">
+    {{ end }}
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
+    <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
+
+    {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
+    {{ $opts := dict "targetPath" "js/main.js" "defines" $defines "minify" true }}
+    {{ $flipster := resources.Get "js/main.js" | js.Build $opts }}
+    {{- $js := slice $flipster | resources.Concat "js/concated.js" | minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+
+    {{- $flipsterStyle := resources.Get "css/flipster/jquery.flipster.min.css" -}}
+    {{ $options := (dict "targetPath" "base.css" "outputStyle" "compressed") -}}
+    {{- $ourTemplate := resources.Get "scss/base.scss" -}}
+    {{- $ourStyle := $ourTemplate | resources.ExecuteAsTemplate "scss/base.scss" . | toCSS $options -}}
+    {{- $style := slice $flipsterStyle $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
+
+    {{/* External Styles - Fonts etc */}}
+    {{ range .Site.Params.stylesheets -}}
+    <link href="{{ . }}" rel="stylesheet">
+    {{- end -}}
+
+    {{ hugo.Generator }}
+  </head>
+
+     {{ $class := "" }}
+     {{ if hasPrefix .Page.File.Path "about" }}
+         {{ $class = "about" }}
+     {{ end }}
+     {{ if .IsHome }}
+         {{- $class = "home" -}}
+     {{ end }}
+     {{ if .Params.metaPage }}
+         {{ $class = printf "%s %s" $class "meta" }}
+     {{ end }}
+     <body class="{{ $class }}">
+       <div id="page">
+         {{ partial "header.html" . }}
+         <div id="main">
+             {{ block "content" . }}{{ end }}
+             {{ partial "footer.html" . }}
+         </div>
+       </div>
+   </body>
+ </html>
