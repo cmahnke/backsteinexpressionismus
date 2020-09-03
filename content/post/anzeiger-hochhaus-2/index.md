@@ -8,9 +8,10 @@ tags:
 - Fritz Höger
 - Foto
 - Postkarte
----
 resources:
 - src: "front.jpg"
   name: title
   params:
     iiif: front/info.json
+---
+Ja, die Karte ist schief gedruckt...
