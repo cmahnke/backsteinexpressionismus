@@ -13,6 +13,10 @@ resources:
   name: title
   params:
     iiif: front/info.json
+- src: "end.jpg"
+  name: end
+  params:
+    iiif: end/info.json
 ---
 
-Im ersten Eintrag geht es um die Quelle für das Logo und einige Designelemente. Sie sind dem Deckel des [Titel] von [Jahr] entnommen. Einer sehr schönen Darstellung des [Anzeiger Hochauses](/tags/anzeiger-hochaus) in [Hannover](/tags/hannover) von [Fritz Höger](/tags/fritz-hoeger). Leider ist diese Illustration alles was es zum Theme im Kalender gibt.
+Im ersten Eintrag geht es um die Quelle für das Logo und einige Designelemente. Sie sind dem Deckel des [Titel] von [Jahr] entnommen. Einer sehr schönen Darstellung des [Anzeiger Hochauses](/tags/anzeiger-hochaus) in [Hannover](/tags/hannover) von [Fritz Höger](/tags/fritz-hoeger). Leider ist diese Illustration, abgesehen von der Anzeige am Ende, alles was es zum Theme im Kalender gibt.

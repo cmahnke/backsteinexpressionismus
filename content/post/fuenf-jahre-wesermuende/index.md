@@ -13,10 +13,10 @@ resources:
   name: title
   params:
     iiif: front/info.json
-- src: "page075.jpg"
+- src: "page080a.jpg"
   name: page
   params:
-    iiif: page075/info.json
+    iiif: page080a/info.json
 ---
 
 Um herauszufinden, wie man dazu kommt ein Blog zum Thema "Backsteinexpressionismus"  zumachen müssen wir weit in meine Vergangenheit zurück reisen.
