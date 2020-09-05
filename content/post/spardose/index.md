@@ -7,4 +7,6 @@ tags:
 - Fritz Höger
 ---
 
+{{< figure src="tumblr_nx5c61SUxV1tfawupo1_1280" >}}
+
 Ausgeborgt aus dem  [Flohmarktfunde Blog](https://flohmarktfunde.projektemacher.org/post/spardose/)
