@@ -1,0 +1,10 @@
+<div class="post">
+  <div class="title">
+          <h1>{{ .Title }}</h1>
+        </div>
+
+    <div class="body">
+      {{ .Content }}
+    </div>
+    {{ partial "metadata.html" . }}
+</div>
