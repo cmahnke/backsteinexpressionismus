@@ -24,4 +24,11 @@ Irgendwann in der Kindheit, in der ersten Hälfte der 80er Jahre, bin ich regelm
 
 Aber immer vorbei an einem irgendwie komischem Gebäude, dunkel, kastenförmig und hoch. Das war der Wohnwasserturm, als Kind fragt man sich nicht wirklich was den wohl ein Wohnwasserturm sei, obwohl schon dies Gebäudekategorie eher ungewöhnlich ist. "Normale" Wassertürme gibt es in Bremerhaven einige, von daher war diese spezielle Art nur einer unter anderen, einer in dem eben auch noch Leute wohnen.
 
- Über drei Jahrzehnte später fiel mir dann das Buch "10 Jahre Wesermünde" in die Hände und ich fand den Turm wieder, anders als in der Kindheit ganz ohne umgebende Bebauung stand er da...
+Über drei Jahrzehnte später fiel mir dann das Buch "10 Jahre Wesermünde" in die Hände und ich fand den Turm wieder, anders als in der Kindheit ganz ohne umgebende Bebauung stand er da...
+
+Der [Wohnwasserturm Wulsdorf](https://de.wikipedia.org/wiki/Wohnwasserturm_Wulsdorf).
+
+<div class="reference">
+# Bibliografische Angaben
+Dr. Walter Delius: Fünf Jahre Wesermünde. Wesermünde 1929.
+</div>

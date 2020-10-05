@@ -1,6 +1,6 @@
 ---
-title:
-date:
+title: "Anzeiger Hochhaus Hannover"
+date: 2020-10-15T18:27:07+02:00
 type: postcard
 tags:
 - Hannover
@@ -14,3 +14,5 @@ resources:
   params:
     iiif: front/info.json
 ---
+
+Eine weitere Postkarte vom [Anzeiger Hochhaus in Hannover](https://de.wikipedia.org/wiki/Anzeiger-Hochhaus).

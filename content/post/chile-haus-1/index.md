@@ -1,10 +1,10 @@
 ---
-title:
-date:
+title: Chilehaus
+date: 2020-09-24T18:23:07+02:00
 type: postcard
 tags:
 - Hamburg
-- Chile-Haus
+- Chilehaus
 - Fritz Höger
 - Foto
 - Postkarte
@@ -14,3 +14,5 @@ resources:
   params:
     iiif: front/info.json
 ---
+
+Eine Ansicht des [Chilehaus' in Hamburg](https://de.wikipedia.org/wiki/Chilehaus).
