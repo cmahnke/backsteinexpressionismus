@@ -1,8 +1,8 @@
 ---
-title: "Berlin Und Das Reich"
+title: "Berlin und das Reich"
 date: 2020-09-18T10:40:10+02:00
 date:
-type: postcard
+type: book
 tags:
 - Berlin
 - Kirche am Hohenzollernplatz
@@ -10,6 +10,14 @@ tags:
 - Foto
 - Buch
 resources:
+- src: "front.jpg"
+  name: title
+  params:
+    iiif: front/info.json
+- src: "title.jpg"
+  name: title
+  params:
+    iiif: title/info.json
 - src: "page192a.jpg"
   name: title
   params:
@@ -20,5 +28,5 @@ Das Buch beinhaltet neben weiteren interessanten Gebäuden von Emil Fahrenkamp u
 
 <div class="reference">
 # Bibliografische Angaben
-Mario Krammer: Berlin und das Reich. Verlag Ullstein, Berlin 1935.
+Mario Krammer: Berlin und das Reich - Geschichte der Reichshauptstadt. Verlag Ullstein, Berlin 1935.
 </div>
