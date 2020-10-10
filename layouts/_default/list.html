@@ -2,9 +2,5 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
-    {{ if .IsHome }}
-        {{ partial "home.html" . }}
-    {{ else }}
-        {{ partial "list.html" . }}
-    {{ end }}
+  {{ partial "list.html" . }}
 {{ end }}

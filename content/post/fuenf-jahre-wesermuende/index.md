@@ -10,9 +10,13 @@ tags:
 - Buch
 resources:
 - src: "front.jpg"
-  name: title
+  name: front
   params:
     iiif: front/info.json
+- src: "title.jpg"
+  name: title
+  params:
+    iiif: title/info.json
 - src: "page080a.jpg"
   name: page
   params:

@@ -1,0 +1,43 @@
+{{- $context := path.Dir .File.Path -}}
+{{- $entry := . -}}
+{{- $orientation := "" -}}
+{{- $fit := "" -}}
+{{- $previewImg := "" -}}
+{{- $images := newScratch -}}
+
+{{- range .Params.resources -}}
+    {{- if eq .name "front" -}}
+        {{- $images.Set "previewLoc" (path.Join $context .src) -}}
+        {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
+
+    {{ end }}
+{{ end }}
+
+{{- $imgLocation := $images.Get "previewLoc" -}}
+{{- $previewImg := $images.Get "preview" -}}
+{{- if eq $previewImg nil -}}
+    {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
+{{- end -}}
+
+{{/*
+To use real brick dimensions see https://www.hausjournal.net/ziegelsteine-masse-der-uebersicht
+You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calculations
+*/}}
+
+{{ if lt $previewImg.Width $previewImg.Height }}
+    {{- $orientation = "portrait" -}}
+    {{- $fit = "1000x400" -}}
+{{- else -}}
+    {{- $orientation = "landscape" -}}
+    {{- $fit = "400x1000" -}}
+{{- end -}}
+{{- $previewImg = $previewImg.Fit (printf "%s %s" $fit "center") -}}
+<a href="{{ .RelPermalink }}">
+    <div class="list-entry {{ .Params.type }} {{ $orientation }}">
+        <div class="preview">
+            <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
+
+        </div>
+
+    </div>
+<a>
