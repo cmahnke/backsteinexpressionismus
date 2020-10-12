@@ -5,6 +5,29 @@
 
     <div class="body">
       {{ .Content }}
+      {{- if .Params.type -}}
+        <div class="{{ .Params.itemType }}-description">
+          {{- if eq .Params.type "book" -}}
+              <h1>{{ i18n "aboutTheNeu" }} {{ i18n "book" }}</h1>
+          {{- else if eq .Params.itemType "postcard" -}}
+              <h1>{{ i18n "aboutTheNeu" }} {{ i18n "postcard" }}</h1>
+          {{- else if eq .Params.itemType "other" -}}
+              <h1>{{ i18n "aboutTheFem" }} {{ i18n "other" }}</h1>
+          {{- end -}}
+
+          {{- .Params.description | markdownify -}}
+        </div>
+      {{- end -}}
+
+      {{- if eq .Params.type "book" -}}
+        <div class="book-description-images">
+          {{- range .Params.resources -}}
+            {{- if or (or (eq .name "front") (eq .name "title")) (eq .name "cover") -}}
+              {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink) }}
+            {{- end -}}
+          {{- end -}}
+        </div>
+      {{- end -}}
     </div>
     {{ partial "metadata.html" . }}
 </div>

@@ -1,7 +1,9 @@
 {
-    "scripts": {"build": "hugo"
-    },
+  "scripts": {
+    "build": "hugo"
+  },
   "dependencies": {
+    "masonry-layout": "^4.2.2",
     "ol": "^6.4.3"
   },
   "devDependencies": {

@@ -39,3 +39,20 @@ find . -name '*.tif' -exec magick {} -background white -gravity NorthWest -exten
 ```
 convert Logo.tif -define webp:quality=100 -define webp:lossless=true -define webp:method=6 Logo.webp
 ```
+
+# Remove generated IIIF directories
+
+```
+find content/post/ -mindepth 2 -maxdepth 2 -type d -print -exec rm -r {} \;
+```
+
+# Running hugo
+
+## Without watching
+
+This might be needed if there are to many sub directories (with IIIF structures) generated, since watching might not work in this setup.
+
+```
+hugo serve -F --debug --disableFastRender  --disableLiveReload --watch=false --renderToDisk
+
+```

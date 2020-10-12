@@ -1,0 +1,37 @@
+{{- $context := .contextPath -}}
+{{- $pageURL := .pageURL -}}
+{{- $class := "" -}}
+{{- $orientation := "" -}}
+{{- if .context.params.class -}}
+    {{- $class = .context.params.class -}}
+{{- end -}}
+{{- $previewImg := (.context.Resources.ByType "image").GetMatch .context.name -}}
+{{ if lt $previewImg.Width $previewImg.Height }}
+    {{- $orientation = "portrait" -}}
+{{- else -}}
+    {{- $orientation = "landscape" -}}
+{{- end -}}
+
+{{- $mapName := replace (replace (replace .context.params.iiif "/" "_") "." "") "-" "_" -}}
+{{- $infoJson := printf "/%s" (path.Join $context .context.params.iiif) -}}
+{{- $baseURL := printf "/%s/%s/" $context (path.Dir .context.params.iiif) -}}
+
+<div class="iiif-image {{ $class | safeHTML }} {{ $orientation | safeHTML }}">
+    <a name="{{ $mapName }}"></a>
+    <div id="{{ $mapName }}" class="viewer {{ $class }}"></div>
+
+    {{ $rotation := 0 }}
+    {{ if .context.params.rotate }}
+        {{ $rotation = .context.params.rotate }}
+    {{ end }}
+    <script type="text/javascript">
+        {{ $mapName | safeJS }}_Div = document.getElementById("{{ $mapName }}");
+        {{ $mapName | safeJS }} = addMap({{ $mapName | safeJS }}_Div, "{{ $infoJson }}", {{ $rotation }}, {{ $baseURL }});
+    </script>
+    <div class="share">
+        {{ $downloadURL := printf "%s" .context.src }}
+        <a href="{{ $downloadURL }}" class="image-download">Volle Auflösung herunterladen</a> |
+        <a href="{{ $infoJson }}" class="iiif-link">IIIF Manifest</a> |
+        <a href="{{ $pageURL }}#{{ $mapName }}" class="image-link">Link zu diesem Bild</a>
+    </div>
+  </div>
