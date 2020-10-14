@@ -41,7 +41,7 @@ font-size: 1.625em;
     display: block;
     margin: auto;
     width: fit-content;
-    padding-bottom: 1em;
+    padding-bottom: 1.4em;
 }
 
 .top-nav {
@@ -109,6 +109,7 @@ font-size: 1.625em;
         .navigation-item {
             vertical-align: middle;
             display: inline;
+            padding-left: .6em;
             @media (max-width : 56em) {
                 float: none !important;
                 text-align: center;
@@ -240,7 +241,7 @@ font-size: 1.625em;
 
 .footer {
     width: 100%;
-    padding: 1.5em 0;
+    padding: 1.5em 0 .5em;
     margin: 0 auto 0;
     background-color: $brick-bg-color;
 
@@ -258,6 +259,7 @@ font-size: 1.625em;
             }
 
             .menu-item {
+                padding: .4em .8em;
                 display: inline;
             }
         }

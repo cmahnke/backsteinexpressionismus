@@ -34,10 +34,11 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
 <div class="brick {{ .Params.type }} {{ $orientation }}">
     <a href="{{ .RelPermalink }}">
 
-            <div class="preview" style="background-image: url({{ $previewImg.RelPermalink | safeCSS }});">
+            <div class="preview" >
 {{/*
-                <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
+                style="background-image: url({{ $previewImg.RelPermalink | safeCSS }});"
 */}}
+<img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
             </div>
             <div class="summary">
                 {{ .Summary }}
@@ -45,5 +46,5 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
         <div class="list-entry">
 
         </div>
-    <a>
+    </a>
 </div>

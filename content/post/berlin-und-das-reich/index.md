@@ -1,7 +1,6 @@
 ---
 title: "Berlin und das Reich"
 date: 2020-09-18T10:40:10+02:00
-date:
 type: book
 tags:
 - Berlin

@@ -1,5 +1,5 @@
 ---
-title: 'Über das Logo'
+title: 'Kalenders des Hanoverschen Anzeigers von 1934'
 date: 2020-09-01T20:24:07+02:00
 type: book
 tags:
