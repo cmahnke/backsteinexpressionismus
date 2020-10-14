@@ -22,6 +22,7 @@
       {{- if eq .Params.type "book" -}}
         <div class="book-description-images">
           {{- range .Params.resources -}}
+            {{- $context := path.Dir .File.Path -}}
             {{- if or (or (eq .name "front") (eq .name "title")) (eq .name "cover") -}}
               {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink) }}
             {{- end -}}

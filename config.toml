@@ -6,13 +6,26 @@ canonifyurls = true
 languagecode = "de"
 defaultcontentlanguage = "de"
 rssLimit = 25
-theme = "projektemacher-base"
+#theme = "projektemacher-base"
+
 
 [params]
     author = "Christian Mahnke"
     homeTitle = "Backsteinexpressionismus"
     description = ""
     keywords = ""
+    stylesheets = ["https://fontlibrary.org/face/futura-renner"]
+
+[menu]
+    [[menu.main]]
+        name = "Start"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Über"
+        url = "/about"
+        weight = 2
 
 [module]
     [[module.mounts]]
@@ -31,6 +44,9 @@ theme = "projektemacher-base"
         source = "node_modules/ol"
         target = "assets/css/ol"
 
+    [[module.mounts]]
+        source = "node_modules/normalize.css"
+        target = "assets/css/normalize"
 
 [markup]
     [markup.goldmark]

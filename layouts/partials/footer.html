@@ -1,0 +1,22 @@
+<footer class="footer" role="contentinfo">
+	<div class="menu-container menu-footer" role="navigation">
+		<div class="menu">
+          <ul id="menu-footer-items" class="menu-footer-items">
+            {{- with .Site.Menus.main -}}
+                {{- range sort . -}}
+                    <li class='menu-item {{ if eq ("/") (.URL) }}menu-item-type-custom menu-item-object-custom{{ else }}menu-item-type-post_type menu-item-object-page{{ end }}'>
+                      <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                    </li>
+                {{- end -}}
+            {{- end -}}
+          </ul>
+        </div>
+    </div>
+
+   <div class="credit">
+        <p class="projektemacher">
+            {{ .Site.Title }} {{ i18n "projektemacher" | safeHTML }}
+        </p>
+	</div>
+
+</footer>

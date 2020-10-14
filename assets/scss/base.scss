@@ -1,1 +1,216 @@
+/* See https://fontlibrary.org/en/font/futura-renner */
+$font-body-font: 'FuturaRennerRegular' !default;
+
+$color-body-text: '' !default;
+$color-link-text: '' !default;
+
+@import "icons";
 @import "ol-iiif";
+
+body {
+    font-family: $font-body-font, Helvetica;
+    font-size: 1.125em;
+    color: $color-body-text;
+}
+
+main {
+    margin: 1.2em auto;
+    padding: 5%;
+    width: 85%;
+
+    @media (min-width: 56em) {
+        margin: 3em auto;
+    }
+}
+
+.navigation, .footer {
+font-size: 1.625em;
+}
+
+.top-nav {
+    width: 100%;
+    padding: 0.4em 0;
+    margin: 0 auto 1em;
+
+    .navigation-title {
+        padding-left: 1em;
+        font-size: 2em;
+        font-weight: 700;
+        @media (max-width : 20em) {
+            font-size: 1.5em;
+        }
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .menu {
+        font-size: 2em;
+        vertical-align: middle;
+        @media (max-width : 20em) {
+            font-size: 1.5em;
+        }
+    }
+
+    .navigation-list {
+        list-style-type: none;
+        float: right;
+        padding-right: 1em;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        @media (max-width : 56em) {
+            position: absolute;
+            top: 3rem;
+            right: 0;
+            left: 0;
+            z-index: 10;
+            visibility: hidden;
+            opacity: 0;
+            padding: 0;
+            max-height: 0;
+            width: auto;
+            background-color: #fafafa;
+            border-top: solid 2px $color-body-text;
+            border-bottom: solid 2px $color-body-text;
+            transition: opacity 0.25s, max-height 0.15s linear;
+            height: auto;
+        }
+        @media (max-width : 20em) {
+            top: 2.4rem;
+        }
+
+        .navigation-item {
+            vertical-align: middle;
+            display: inline;
+            @media (max-width : 56em) {
+                float: none !important;
+                text-align: center;
+                display: block;
+
+                a,
+                a:active,
+                a:focus,
+                a:hover,
+                a:visited {
+                    color: $color-body-text;
+                }
+
+                a,
+                span {
+                    line-height: 3rem;
+                    font-size: 1.6em;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+
+            }
+
+            @media (max-width : 20em) {
+                a,
+                span {
+                    line-height: 2.4rem;
+                    font-size: 1.2em;
+                }
+            }
+
+        }
+    }
+}
+
+#menu-toggle {
+    display: none;
+    @media (max-width : 50em) {
+        &:checked + label + ul {
+            visibility: visible;
+            opacity: 1;
+            max-height: 100rem;
+        }
+    }
+}
+
+.menu-button {
+    margin-right: 2em;
+    cursor: pointer;
+
+    @media (max-width : 20em) {
+        margin-right: 1.5em;
+    }
+
+    &:focus,
+    &:hover {
+        color: $color-link-text;
+    }
+}
+
+@media (min-width: 56em) {
+    .menu-button {
+        display: none;
+    }
+}
+
+.footer {
+    width: 100%;
+    margin: 3.5em auto 0;
+
+    .menu-footer {
+        .menu {
+            list-style-type: none;
+            text-align: center;
+
+            .menu-footer-items {
+                padding-inline-start: 0;
+            }
+
+            .menu-item {
+                display: inline;
+            }
+        }
+    }
+
+    .credit {
+        text-align: center;
+        margin-top: 0.8em;
+        font-size: smaller;
+
+        p {
+            margin: auto;
+
+            &.projektemacher {
+                margin: 0.6em 0;
+            }
+
+        }
+    }
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: $color-body-text;
+}
+
+body.about {
+    background-position: 97% 5em;
+    background-image: url("/images/cm.svg");
+    background-repeat: no-repeat;
+}
+
+.share {
+    text-align: end;
+    font-size: small;
+    line-height: normal;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+
+    a {
+        text-decoration: none;
+    }
+}

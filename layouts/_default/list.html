@@ -2,5 +2,8 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
-  {{ partial "list.html" . }}
+  <div class="page-container">
+    {{ partial "list.html" . }}
+  </div>
+    {{ partial "pagination.html" . }}
 {{ end }}

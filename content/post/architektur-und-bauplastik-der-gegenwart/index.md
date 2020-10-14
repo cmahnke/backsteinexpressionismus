@@ -9,7 +9,7 @@ tags:
 - Buch
 resources:
 - src: "front.jpg"
-  name: title
+  name: front
   params:
     iiif: front/info.json
 - src: "title.jpg"

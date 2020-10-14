@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "masonry-layout": "^4.2.2",
+    "normalize.css": "^8.0.1",
     "ol": "^6.4.3"
   },
   "devDependencies": {
