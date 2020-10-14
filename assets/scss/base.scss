@@ -1,8 +1,8 @@
 /* See https://fontlibrary.org/en/font/futura-renner */
 $font-body-font: 'FuturaRennerRegular' !default;
 
-$color-body-text: '' !default;
-$color-link-text: '' !default;
+$color-body-text: hsl(48, 93%, 89%) !default;
+$color-link-text: hsl(48, 93%, 89%) !default;
 
 @import "icons";
 @import "ol-iiif";
@@ -11,12 +11,19 @@ body {
     font-family: $font-body-font, Helvetica;
     font-size: 1.125em;
     color: $color-body-text;
+
+    background-image: url(/images/stars.svg);
+    background-color: #112e63;
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
 }
 
 main {
     margin: 1.2em auto;
     padding: 5%;
     width: 85%;
+    margin: auto;
 
     @media (min-width: 56em) {
         margin: 3em auto;
@@ -25,6 +32,12 @@ main {
 
 .navigation, .footer {
 font-size: 1.625em;
+}
+
+.pagination {
+    display: block;
+    margin: auto;
+    width: fit-content;
 }
 
 .top-nav {
@@ -118,6 +131,35 @@ font-size: 1.625em;
             }
 
         }
+    }
+}
+
+.brick {
+    display: inline-block;
+    background-color: #660000;
+    border-radius: .5em;
+    margin: .3em;
+    display: flex;
+
+
+    .preview {
+        display: inline-block;
+        margin-right: .6em;
+        height: 200px;
+        border-radius: .5em 0 0 .5em;
+        background-repeat: no-repeat;
+    }
+
+    &.landscape .preview {
+        width: 15em;
+    }
+
+    &.portrait .preview {
+        width: 10em;
+    }
+
+    .summary {
+        display: inline-block;
     }
 }
 

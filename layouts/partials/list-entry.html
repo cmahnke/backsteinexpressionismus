@@ -1,7 +1,7 @@
 {{- $context := path.Dir .File.Path -}}
 {{- $entry := . -}}
 {{- $orientation := "" -}}
-{{- $fit := "" -}}
+{{- $fit := "x200" -}}
 {{- $previewImg := "" -}}
 {{- $images := newScratch -}}
 
@@ -24,20 +24,26 @@ To use real brick dimensions see https://www.hausjournal.net/ziegelsteine-masse-
 You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calculations
 */}}
 
+
 {{ if lt $previewImg.Width $previewImg.Height }}
     {{- $orientation = "portrait" -}}
-    {{- $fit = "1000x400" -}}
 {{- else -}}
     {{- $orientation = "landscape" -}}
-    {{- $fit = "400x1000" -}}
 {{- end -}}
 {{- $previewImg = $previewImg.Fit (printf "%s %s" $fit "center") -}}
-<a href="{{ .RelPermalink }}">
-    <div class="list-entry {{ .Params.type }} {{ $orientation }}">
-        <div class="preview">
-            <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
+<div class="brick {{ .Params.type }} {{ $orientation }}">
+    <a href="{{ .RelPermalink }}">
+
+            <div class="preview" style="background-image: url({{ $previewImg.RelPermalink | safeCSS }});">
+{{/*
+                <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
+*/}}
+            </div>
+            <div class="summary">
+                {{ .Summary }}
+            </div>
+        <div class="list-entry">
 
         </div>
-
-    </div>
-<a>
+    <a>
+</div>

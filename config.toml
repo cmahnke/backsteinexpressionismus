@@ -52,3 +52,6 @@ rssLimit = 25
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe= true
+
+[imaging]
+    quality = 95
