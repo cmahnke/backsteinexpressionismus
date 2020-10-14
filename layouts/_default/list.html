@@ -2,8 +2,9 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
-  <div class="page-container">
+  <div class="page-container zigzag">
     {{ partial "list.html" . }}
-  </div>
     {{ partial "pagination.html" . }}
+  </div>
+
 {{ end }}
