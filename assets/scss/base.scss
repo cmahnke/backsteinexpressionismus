@@ -3,15 +3,33 @@
   font-family: 'FuturaRennerRegular';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/FuturaRenner-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/FuturaRenner-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/FuturaRenner-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  src: url('/fonts/FuturaRenner-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('/fonts/FuturaRenner-Regular.woff') format('woff'), /* Modern Browsers */
        url('/fonts/FuturaRenner-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/fonts/FuturaRenner-Regular.svg#futurarennerregular') format('svg'); /* Legacy iOS */
 }
 
-$font-body-font: 'FuturaRennerRegular' !default;
+/* Source: https://www.onlinewebfonts.com/download/b63d0a3ff6733aa14cbffb232072c22f */
+@font-face {
+  font-family: "HolofernesRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/HolofernesNFW01-Regular.woff2") format("woff2"),
+       url("/fonts/HolofernesNFW01-Regular.woff") format("woff");
+}
+
+/* Source: https://www.onlinewebfonts.com/download/3e8042d2739cb66ae6ef7ffc372014db */
+@font-face {
+  font-family: "Neuland";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Neuland.woff2") format("woff2"),
+       url("/fonts/Neuland.woff") format("woff");
+}
+
+$font-body: 'FuturaRennerRegular' !default;
+$font-logo: 'HolofernesRegular' !default;
+$font-heading: 'Neuland' !default;
 
 $brick-bg-color: #660000 !default;
 $frame-bg-color: darken($brick-bg-color, 20%);
@@ -24,7 +42,7 @@ $color-bg: #112e63 !default;
 @import "ol-iiif";
 
 body {
-    font-family: $font-body-font, Helvetica;
+    font-family: $font-body, Helvetica;
     font-size: 1.125em;
     color: $color-body-text;
 
@@ -46,8 +64,13 @@ main {
     }
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-family: $font-heading;
+}
+
 .navigation, .footer {
-font-size: 1.625em;
+    font-size: 1.625em;
 }
 
 .pagination {
@@ -55,6 +78,12 @@ font-size: 1.625em;
     margin: auto;
     width: fit-content;
     padding-bottom: 1.4em;
+}
+
+.expressionism-font {
+    letter-spacing: 1.5px;
+    font-family: $font-logo;
+    font-weight: normal;
 }
 
 .top-nav {
@@ -66,8 +95,8 @@ font-size: 1.625em;
 
     .navigation-title {
         padding-left: 1em;
-        font-size: 2em;
-        font-weight: 700;
+        font-size: 3em;
+
         @media (max-width : 20em) {
             font-size: 1.5em;
         }
