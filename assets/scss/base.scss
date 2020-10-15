@@ -74,10 +74,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .pagination {
+  /*
     display: block;
     margin: auto;
     width: fit-content;
     padding-bottom: 1.4em;
+    */
+}
+
+.pagination-spacing {
+  display: block;
+  margin: auto;
+  width: fit-content;
+  padding-bottom: 1.4em;
 }
 
 .expressionism-font {
@@ -279,6 +288,35 @@ h1,h2,h3,h4,h5,h6 {
     .menu-button {
         display: none;
     }
+}
+
+.post {
+  &.brick {
+    display: block;
+
+  }
+
+  .container {
+    padding: .6rem;
+    min-height: calc(96vh - 10% - 3em)
+  }
+
+  .date {
+    text-align: center;
+    margin: auto;
+    display: block;
+    /* width: calc(fit-content + 3rem); */
+    width: fit-content;
+    padding-bottom: .6rem;
+    border-bottom: $color-body-text solid .2rem;
+  }
+  .title {
+
+  }
+  .body {
+
+  }
+
 }
 
 .footer {

@@ -1,6 +1,6 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 }}
-<nav class="navigation pagination" role="navigation">
+<nav class="navigation pagination pagination-spacing" role="navigation">
 	<div class="nav-links">
 		{{ if $pag.HasPrev }}
 			<a class="back-next" href="{{ $pag.Prev.URL }}">{{ i18n "previous_page" }}</a>
