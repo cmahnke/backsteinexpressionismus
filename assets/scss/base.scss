@@ -1,7 +1,20 @@
 /* See https://fontlibrary.org/en/font/futura-renner */
+@font-face {
+  font-family: 'FuturaRennerRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/FuturaRenner-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/FuturaRenner-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/FuturaRenner-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/FuturaRenner-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/FuturaRenner-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/FuturaRenner-Regular.svg#futurarennerregular') format('svg'); /* Legacy iOS */
+}
+
 $font-body-font: 'FuturaRennerRegular' !default;
 
 $brick-bg-color: #660000 !default;
+$frame-bg-color: darken($brick-bg-color, 20%);
 
 $color-body-text: hsl(48, 93%, 89%) !default;
 $color-link-text: hsl(48, 93%, 89%) !default;

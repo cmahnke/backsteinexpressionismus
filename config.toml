@@ -14,7 +14,8 @@ rssLimit = 25
     homeTitle = "Backsteinexpressionismus"
     description = ""
     keywords = ""
-    stylesheets = ["https://fontlibrary.org/face/futura-renner"]
+    #stylesheets = ["https://fontlibrary.org/face/futura-renner"]
+    stylesheets = []
 
 [menu]
     [[menu.main]]
