@@ -3,9 +3,11 @@
 <main class="content">
     <div class="post brick">
       <div class="container">
-        <div class="date">
-            {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
-        </div>
+        {{- if not .Params.metaPage -}}
+          <div class="date">
+              {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
+          </div>
+        {{- end -}}
         <div class="title">
                 <h1>{{ .Title }}</h1>
               </div>
@@ -53,7 +55,9 @@
               </div>
             {{- end -}}
           </div>
-          {{ partial "metadata.html" . }}
+          {{- if not .Params.metaPage -}}
+            {{- partial "metadata.html" . -}}
+          {{- end -}}
         </div>
     </div>
 </main>

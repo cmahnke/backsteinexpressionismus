@@ -51,6 +51,12 @@ body {
     background-size: contain;
     background-position: top;
     background-attachment: fixed;
+
+    &.about {
+        background-position: 97% 7em;
+        background-image: url("/images/cm.svg");
+        background-repeat: no-repeat;
+    }
 }
 
 main {
@@ -297,7 +303,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .container {
-    padding: .6rem;
+    padding: 1.4em;
     min-height: calc(96vh - 10% - 3em)
   }
 
@@ -363,6 +369,11 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+.tagcloud {
+  padding-left: .6em;
+}
+
+
 a,
 a:active,
 a:focus,
@@ -370,12 +381,6 @@ a:hover,
 a:visited {
     text-decoration: none;
     color: $color-body-text;
-}
-
-body.about {
-    background-position: 97% 5em;
-    background-image: url("/images/cm.svg");
-    background-repeat: no-repeat;
 }
 
 .share {
