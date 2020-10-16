@@ -119,9 +119,18 @@ h1,h2,h3,h4,h5,h6 {
         padding-left: 3rem;
         font-size: 3em;
 
+        @media (max-width : 47em) {
+            padding-left: 1.5rem;
+        }
+
+        @media (max-width : 43.75em) {
+            font-size: 2em;
+        }
+
         @media (max-width : 20em) {
             font-size: 1.5em;
         }
+
     }
 
     .float-right {
@@ -253,23 +262,12 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: .5em;
     margin: .6em;
 
-    .preview-img {
-        display: inline-block;
-        /* margin-right: .6em; */
-        height: 200px;
-        border-radius: .5em 0 0 .5em;
-        background-repeat: no-repeat;
-        width: fit-content;
 
-        img {
-            border-radius: .5em 0 0 .5em;
-        }
-    }
 
     .title {
         font-weight: normal;
         font-family: $font-heading;
-        padding: .4rem .2rem;
+        padding: .6rem .2rem;
     }
 
     .summary {
@@ -277,7 +275,7 @@ h1,h2,h3,h4,h5,h6 {
         overflow: hidden;
         text-overflow: ellipsis;
         padding: .2rem .3rem .2rem .2rem;
-        max-height: calc(200px - 2rem - 3em);
+        max-height: calc(200px - 2rem - 4em);
     }
 
 }
@@ -288,9 +286,17 @@ h1,h2,h3,h4,h5,h6 {
     flex-wrap: wrap;
     justify-content: center;
 
+
     .brick {
         display: flex;
         height: 200px;
+        transition: transform 2s linear;
+        box-shadow: inset 0px 0px 6px 6px rgba(0,0,0,0.5);
+
+        &:hover {
+            transform: rotate(.45deg);
+            transition: transform 4s linear 1.5s;
+        }
 
         &.landscape {
             width: 55%;
@@ -298,20 +304,16 @@ h1,h2,h3,h4,h5,h6 {
             .preview-img {
                 max-width: 20em;
             }
-
-            .container {
-
-            }
         }
 
         &.portrait {
             width: 40%;
 
-             .preview-img {
+            .preview-img {
                 max-width: 9em;
             }
 
-            .container {
+            .read-more {
 
             }
         }
@@ -320,7 +322,27 @@ h1,h2,h3,h4,h5,h6 {
             /* padding: .6em; */
         }
 
+        .preview-img {
+            display: inline-block;
+            /* margin-right: .6em; */
+            height: 200px;
+            border-radius: .5em 0 0 .5em;
+            background-repeat: no-repeat;
+            width: fit-content;
+            position: relative;
+            box-shadow: inset 0 0 6px 6px rgba(0,0,0,.5);
+
+            img {
+                border-radius: .5em 0 0 .5em;
+                /* This enables the shadow but removes the image
+                z-index:-1;
+                */
+                position: relative;
+            }
+        }
+
         .container {
+
             margin-left: .6em;
             height: 200px;
             position: relative;
@@ -334,13 +356,13 @@ h1,h2,h3,h4,h5,h6 {
         }
 
         .read-more {
-            width: 100%;
+            width: calc(100% - 6px);
             display: inline-block;
             /* height: fit-content; */
             height: 2.4em;
             position: absolute;
-            bottom: 0px;
-            left: 0;
+            bottom: 9px;
+            right: 9px;
             padding-bottom: .4rem;
             background: linear-gradient(rgba($brick-bg-color, 0), rgba($brick-bg-color, 1) 40%);
             border-bottom-right-radius: .5em;
@@ -356,6 +378,14 @@ h1,h2,h3,h4,h5,h6 {
                 padding-bottom: .4em;
                 font-size: larger;
             }
+        }
+    }
+
+    @media (max-width : 56.25em) {
+        .brick,
+        .brick.landscape,
+        .brick.portrait {
+            width: 100%;
         }
     }
 }
@@ -466,6 +496,70 @@ h1,h2,h3,h4,h5,h6 {
   padding-left: .6em;
 }
 
+.text-content figure img {
+    margin: auto;
+    max-width: 100%;
+}
+
+/* IIIF */
+.iiif {
+
+    .viewer {
+        width: 100%;
+        height: 65vh;
+        display: block;
+
+        &.portrait {
+            height: 99vh;
+        }
+
+        &.landscape {
+            height: 55vh;
+        }
+
+    }
+
+    .iiif-image {
+        width: 100%;
+    }
+
+    .iiif-image .front {
+        order: 1;
+    }
+
+    .iiif-image .title {
+        order: 2;
+    }
+
+    .iiif-image.order-1 {
+        order: 1;
+    }
+
+    .iiif-image.order-2 {
+        order: 2;
+    }
+
+    .iiif-image.order-3 {
+        order: 3;
+    }
+
+    .iiif-image.order-4 {
+        order: 4;
+    }
+
+    .iiif-image.order-5 {
+        order: 5;
+    }
+
+    .iiif-image.order-6 {
+        order: 5;
+    }
+
+    .iiif-image.order-7 {
+        order: 7;
+    }
+
+}
 
 a,
 a:active,

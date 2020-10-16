@@ -4,7 +4,6 @@
     "svgo": "node_modules/.bin/svgo -i Source\\ Files/Background/Stars.svg -o static/images/stars.svg"
   },
   "dependencies": {
-    "masonry-layout": "^4.2.2",
     "normalize.css": "^8.0.1",
     "ol": "^6.4.3"
   },

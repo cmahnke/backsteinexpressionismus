@@ -8,6 +8,6 @@ tags:
 - Fritz Höger
 ---
 
-{{< figure src="tumblr_nx5c61SUxV1tfawupo1_1280" >}}
+{{< figure src="tumblr_nx5c61SUxV1tfawupo1_1280.jpg" >}}
 
 Ausgeborgt aus dem [Flohmarktfunde Blog](https://flohmarktfunde.projektemacher.org/post/spardose/), das [Chilehaus' in Hamburg](https://de.wikipedia.org/wiki/Chilehaus) als Spardose.

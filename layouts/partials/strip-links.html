@@ -1,4 +1,5 @@
 {{- $content := .RawContent -}}
+{{- $content = replaceRE "(.*)<!--more-->.*" "$1" $content -}}
 {{- $content = replaceRE "(.*)\\{\\{.*?\\}\\}" "$1" $content -}}
 {{- $content = replaceRE "\\[([^\\]]*)\\]\\([^\\)]*\\)" "$1" $content -}}
 

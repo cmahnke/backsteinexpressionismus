@@ -43,7 +43,7 @@ convert Logo.tif -define webp:quality=100 -define webp:lossless=true -define web
 # Remove generated IIIF directories
 
 ```
-find content/post/ -mindepth 2 -maxdepth 2 -type d -print -exec rm -r {} \;
+find content/post/ -name info.json -exec dirname {} \; | xargs rm -r 
 ```
 
 # Running hugo
