@@ -51,6 +51,12 @@ body {
     background-size: contain;
     background-position: top;
     background-attachment: fixed;
+
+    &.about {
+        background-position: 97% 7em;
+        background-image: url("/images/cm.svg");
+        background-repeat: no-repeat;
+    }
 }
 
 main {
@@ -74,11 +80,21 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .pagination {
+  /*
     display: block;
     margin: auto;
     width: fit-content;
     padding-top: .4em;
-    padding-bottom: 1.2em;
+    padding-bottom: 1.4em;
+    */
+}
+
+.pagination-spacing {
+  display: block;
+  margin: auto;
+  width: fit-content;
+  padding-top: .4em;
+  padding-bottom: 1.4em;
 }
 
 .expressionism-font {
@@ -316,6 +332,35 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+.post {
+  &.brick {
+    display: block;
+
+  }
+
+  .container {
+    padding: 1.4em;
+    min-height: calc(96vh - 10% - 3em)
+  }
+
+  .date {
+    text-align: center;
+    margin: auto;
+    display: block;
+    /* width: calc(fit-content + 3rem); */
+    width: fit-content;
+    padding-bottom: .6rem;
+    border-bottom: $color-body-text solid .2rem;
+  }
+  .title {
+
+  }
+  .body {
+
+  }
+
+}
+
 .footer {
     width: 100%;
     padding: 1.5em 0 .5em;
@@ -360,6 +405,11 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+.tagcloud {
+  padding-left: .6em;
+}
+
+
 a,
 a:active,
 a:focus,
@@ -367,12 +417,6 @@ a:hover,
 a:visited {
     text-decoration: none;
     color: $color-body-text;
-}
-
-body.about {
-    background-position: 97% 5em;
-    background-image: url("/images/cm.svg");
-    background-repeat: no-repeat;
 }
 
 .share {
