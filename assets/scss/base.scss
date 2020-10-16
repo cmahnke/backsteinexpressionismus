@@ -32,11 +32,11 @@ $font-logo: 'HolofernesRegular' !default;
 $font-heading: 'Neuland' !default;
 
 $brick-bg-color: #660000 !default;
-$frame-bg-color: darken($brick-bg-color, 20%);
-
+$frame-bg-color: darken($brick-bg-color, 7.5%);
 $color-body-text: hsl(48, 93%, 89%) !default;
 $color-link-text: hsl(48, 93%, 89%) !default;
 $color-bg: #112e63 !default;
+$mortar-color: darken($color-body-text, 25%);
 
 @import "icons";
 @import "ol-iiif";
@@ -60,7 +60,7 @@ main {
     margin: auto;
 
     @media (min-width: 56em) {
-        margin: 3em auto;
+        margin: 3em auto 0;
     }
 }
 
@@ -77,7 +77,8 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     margin: auto;
     width: fit-content;
-    padding-bottom: 1.4em;
+    padding-top: .4em;
+    padding-bottom: 1.2em;
 }
 
 .expressionism-font {
@@ -90,11 +91,14 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     /* padding: 0.2em 0; */
     margin: 0 auto 1em;
-    position:relative;
+    position: relative;
+    /*
     background-color: $brick-bg-color;
+    */
+    background-color: $frame-bg-color;
 
     .navigation-title {
-        padding-left: 1em;
+        padding-left: 3rem;
         font-size: 3em;
 
         @media (max-width : 20em) {
@@ -115,18 +119,24 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .container {
-        padding: .6em;
+        padding: 1.5rem .6em .6em;
+        position: relative;
     }
 
     .navigation-list {
+        padding-inline-start: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
         list-style-type: none;
-        float: right;
-        padding-right: 1em;
+        right: .5em;
+        padding-right: 3rem;
         margin-block-start: 0;
         margin-block-end: 0;
         height: 2em;
         line-height: 2em;
         text-align: center;
+        font-size: larger;
         @media (max-width : 56em) {
             position: absolute;
             top: 3rem;
@@ -186,7 +196,7 @@ h1,h2,h3,h4,h5,h6 {
         }
     }
     &:after {
-        background: $brick-bg-color;
+        background: $frame-bg-color;
     }
 }
 
@@ -199,11 +209,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .zigzag:after {
-    /* background: $brick-bg-color; */
     content: "";
     height: 2vw;
     position: absolute;
-    top: 100%;
+    top: calc(100% - 1px);
     left: 0;
     right: 0;
     clip-path: polygon(
@@ -222,31 +231,57 @@ h1,h2,h3,h4,h5,h6 {
 /* See https://stackoverflow.com/a/54160649 */
 
 .brick {
-    display: inline-block;
+    width: fit-content;
     background-color: $brick-bg-color;
     border-radius: .5em;
     margin: .3em;
     display: flex;
 
 
-    .preview {
+    .preview-img {
         display: inline-block;
         margin-right: .6em;
         height: 200px;
         border-radius: .5em 0 0 .5em;
         background-repeat: no-repeat;
+        width: fit-content;
+
+        img {
+            border-radius: .5em 0 0 .5em;
+        }
     }
 
-    &.landscape .preview {
-        width: 15em;
+    &.landscape {
+        /* width: fit-content(60%); */
+        .preview-img {
+            max-width: 20em;
+        }
     }
 
-    &.portrait .preview {
-        width: 10em;
+    &.portrait {
+        /* width: fit-content(40%); */
+
+         .preview-img {
+            max-width: 9em;
+        }
+    }
+
+    .title {
+        font-weight: normal;
+        font-family: $font-heading;
+        padding: .4rem .2rem;
     }
 
     .summary {
         display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: .2rem;
+    }
+
+    .container {
+        max-width: 40%;
+        height: 200px;
     }
 }
 
@@ -285,7 +320,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     padding: 1.5em 0 .5em;
     margin: 0 auto 0;
-    background-color: $brick-bg-color;
+    background-color: $frame-bg-color;
 
     .menu-footer {
         .menu {

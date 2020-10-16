@@ -1,7 +1,7 @@
 {{- $context := path.Dir .File.Path -}}
 {{- $entry := . -}}
 {{- $orientation := "" -}}
-{{- $fit := "x200" -}}
+{{- $fit := "500x200" -}}
 {{- $previewImg := "" -}}
 {{- $images := newScratch -}}
 
@@ -32,13 +32,19 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
 {{- end -}}
 {{- $previewImg = $previewImg.Fit (printf "%s %s" $fit "center") -}}
 <div class="brick {{ .Params.type }} {{ $orientation }}">
-    <a href="{{ .RelPermalink }}">
-
-            <div class="preview" >
+    <!-- <a href="{{ .RelPermalink }}"> -->
+            <div class="preview-img" >
+                <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
 {{/*
-                style="background-image: url({{ $previewImg.RelPermalink | safeCSS }});"
+    style="background-image: url({{ $previewImg.RelPermalink | safeCSS }});"
 */}}
-<img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
+
+            </div>
+    <div class="container">
+
+
+            <div class="title">
+                {{ .Title }}
             </div>
             <div class="summary">
                 {{ .Summary }}
@@ -46,5 +52,6 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
         <div class="list-entry">
 
         </div>
-    </a>
+    </div>
+    <!-- </a> -->
 </div>
