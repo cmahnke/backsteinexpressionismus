@@ -4,7 +4,7 @@
 {{ end }}
 {{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
 
-<main class="content">
+<main class="content brick-wall">
     {{- range $paginator.Pages -}}
         {{ partial "list-entry.html" . }}
     {{ end }}

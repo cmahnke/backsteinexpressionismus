@@ -23,8 +23,10 @@ resources:
     iiif: page080a/info.json
 ---
 
-Um herauszufinden, wie man dazu kommt ein Blog zum Thema "Backsteinexpressionismus" zumachen müssen wir weit in meine Vergangenheit zurück reisen:
+Um herauszufinden, wie man dazu kommt ein Blog zum Thema "<span class="expressionism-font">Backsteinexpressionismus</span>" zu machen müssen wir weit in meine Vergangenheit zurück reisen:
 Irgendwann in der Kindheit, in der ersten Hälfte der 80er Jahre, bin ich regelmäßig durch Wulsdorf, eine Stadtteil von Bremerhaven gefahren worden. Immer die gleiche Strecke, immer auf dem Weg in die "Stadt". Vielleicht zu den Großeltern oder zum einkaufen, wohin genau, kann ich nicht mehr sagen.
+
+<!--more-->
 
 Aber immer vorbei an einem irgendwie komischem Gebäude, dunkel, kastenförmig und hoch. Das war der Wohnwasserturm, als Kind fragt man sich nicht wirklich was den wohl ein Wohnwasserturm sei, obwohl schon dies Gebäudekategorie eher ungewöhnlich ist. "Normale" Wassertürme gibt es in Bremerhaven einige, von daher war diese spezielle Art nur einer unter anderen, einer in dem eben auch noch Leute wohnen.
 

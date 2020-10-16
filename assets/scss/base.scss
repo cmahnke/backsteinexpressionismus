@@ -53,9 +53,10 @@ body {
     background-attachment: fixed;
 
     &.about {
-        background-position: 97% 7em;
-        background-image: url("/images/cm.svg");
-        background-repeat: no-repeat;
+        background: url(/images/stars.svg) fixed,  url("/images/cm.svg") no-repeat;
+        background-color: $color-bg;
+        background-position: top, 97% 7em;
+        background-size: contain, auto;
     }
 }
 
@@ -247,12 +248,9 @@ h1,h2,h3,h4,h5,h6 {
 /* See https://stackoverflow.com/a/54160649 */
 
 .brick {
-    width: fit-content;
     background-color: $brick-bg-color;
     border-radius: .5em;
     margin: .3em;
-    display: flex;
-
 
     .preview-img {
         display: inline-block;
@@ -267,20 +265,7 @@ h1,h2,h3,h4,h5,h6 {
         }
     }
 
-    &.landscape {
-        /* width: fit-content(60%); */
-        .preview-img {
-            max-width: 20em;
-        }
-    }
 
-    &.portrait {
-        /* width: fit-content(40%); */
-
-         .preview-img {
-            max-width: 9em;
-        }
-    }
 
     .title {
         font-weight: normal;
@@ -295,9 +280,77 @@ h1,h2,h3,h4,h5,h6 {
         padding: .2rem;
     }
 
-    .container {
-        max-width: 40%;
-        height: 200px;
+}
+
+.brick-wall {
+    width: 100%;
+    display: flow-root;
+
+    .brick {
+        /* width: fit-content; */
+        display: flex;
+
+        &.landscape {
+            /* width: fit-content(60%); */
+            width: 55%;
+
+            .preview-img {
+                max-width: 20em;
+            }
+
+            .container {
+
+            }
+        }
+
+        &.portrait {
+            /* width: fit-content(40%); */
+            width: 40%;
+
+             .preview-img {
+                max-width: 9em;
+            }
+
+            .container {
+
+            }
+        }
+
+        .container {
+            height: 200px;
+            position: relative;
+            width: 100%;
+
+            p {
+                margin-block-start: 0;
+                margin-block-end: 0;
+                overflow: hidden;
+            }
+        }
+
+        .read-more {
+            width: 100%;
+            display: inline-block;
+            /* height: fit-content; */
+            height: 2.4em;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            padding-bottom: .4rem;
+            background: linear-gradient(rgba($brick-bg-color, 0), rgba($brick-bg-color, 1) 40%);
+            border-bottom-right-radius: .5em;
+
+            a {
+                display: block;
+                width: 100%;
+                margin: auto;
+                bottom: 0;
+                text-align: center;
+                position: absolute;
+                padding-bottom: .4em;
+                font-size: larger;
+            }
+        }
     }
 }
 
@@ -340,7 +393,7 @@ h1,h2,h3,h4,h5,h6 {
 
   .container {
     padding: 1.4em;
-    min-height: calc(96vh - 10% - 3em)
+    /* min-height: calc(96vh - 10% - 3em) */
   }
 
   .date {

@@ -27,6 +27,6 @@ Die Seite wird von [GitHub](https://github.com/) gehosted.
 
 # Kontakt
 
-"Backsteinexpressionismus" ist ein Projekt von **Christian Mahnke**.
+"<span class="expressionism-font">Backsteinexpressionismus</span>" ist ein Projekt von **Christian Mahnke**.
 
 Kontakt ist via [E-Mail](mailto:Backsteinexpressionismus@projektemacher.org) möglich.
