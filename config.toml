@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://backsteinexpressionismus.projektemacher.org/"
 languageCode = "de"
 title = "Backsteinexpressionismus"
 publishDir = "docs"
@@ -6,8 +6,7 @@ canonifyurls = true
 languagecode = "de"
 defaultcontentlanguage = "de"
 rssLimit = 25
-#theme = "projektemacher-base"
-
+Paginate = 20
 
 [params]
     author = "Christian Mahnke"

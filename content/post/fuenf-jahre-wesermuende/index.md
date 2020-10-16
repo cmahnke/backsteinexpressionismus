@@ -1,6 +1,7 @@
 ---
 title: 'Warum Backsteinexpressionismus?'
 date: 2020-09-01T20:25:07+02:00
+description: 'Dr. Walter Delius: Fünf Jahre Wesermünde. Wesermünde 1929. <a class="worldcat" href="http://www.worldcat.org/oclc/257313922">&nbsp;</a>'
 type: book
 tags:
 - Bremerhaven
@@ -32,9 +33,4 @@ Aber immer vorbei an einem irgendwie komischem Gebäude, dunkel, kastenförmig u
 
 Über drei Jahrzehnte später fiel mir dann das Buch "10 Jahre Wesermünde" in die Hände und ich fand den Turm wieder, anders als in der Kindheit ganz ohne umgebende Bebauung stand er da...
 
-Der [Wohnwasserturm Wulsdorf](https://de.wikipedia.org/wiki/Wohnwasserturm_Wulsdorf).
-
-<div class="reference">
-# Bibliografische Angaben
-Dr. Walter Delius: Fünf Jahre Wesermünde. Wesermünde 1929.
-</div>
+Mehr über den [Wohnwasserturm Wulsdorf](https://de.wikipedia.org/wiki/Wohnwasserturm_Wulsdorf) kann man in der Wikipedia nachlesen.

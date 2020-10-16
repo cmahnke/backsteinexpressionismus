@@ -9,7 +9,6 @@
     {{- if eq .name "front" -}}
         {{- $images.Set "previewLoc" (path.Join $context .src) -}}
         {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
-
     {{ end }}
 {{ end }}
 
@@ -25,30 +24,35 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
 */}}
 
 
-{{ if lt $previewImg.Width $previewImg.Height }}
+{{- if lt $previewImg.Width $previewImg.Height -}}
     {{- $orientation = "portrait" -}}
 {{- else -}}
     {{- $orientation = "landscape" -}}
 {{- end -}}
 {{- $previewImg = $previewImg.Fit (printf "%s %s" $fit "center") -}}
 <div class="brick {{ .Params.type }} {{ $orientation }}">
-    <a href="{{ .RelPermalink }}">
-        <div class="preview-img" >
-            <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
-
-        </div>
-    </a>
+    {{- if ne .Params.type "other" -}}
+        <a href="{{ .RelPermalink }}">
+            <div class="preview-img" >
+                <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">
+            </div>
+        </a>
+    {{- end -}}
     <div class="container">
         <a href="{{ .RelPermalink }}">
             <div class="title">
                 {{ .Title }}
             </div>
             <div class="summary">
-                {{ .Summary }}
+{{ partial "strip-links.html" . }}
+{{/*
+                {{ .Summary | plainify }}
+*/}}
             </div>
         </a>
         <div class="read-more">
             <a href="{{ .RelPermalink }}">Beitrag ansehen</a>
         </div>
     </div>
+
 </div>

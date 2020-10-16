@@ -1,0 +1,5 @@
+{{- $content := .RawContent -}}
+{{- $content = replaceRE "(.*)\\{\\{.*?\\}\\}" "$1" $content -}}
+{{- $content = replaceRE "\\[([^\\]]*)\\]\\([^\\)]*\\)" "$1" $content -}}
+
+{{- $content | safeHTML -}}

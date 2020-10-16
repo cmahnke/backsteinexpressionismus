@@ -14,6 +14,10 @@
 
           <div class="body">
 
+            <div class="text-content">
+              {{ .Content }}
+            </div>
+
             <div class="iiif">
               {{- $context := path.Dir .File.Path -}}
               {{- $pageURL := .Permalink -}}
@@ -26,11 +30,7 @@
               {{- end -}}
             </div>
 
-            <div class="text-content">
-              {{ .Content }}
-            </div>
-
-            {{- if .Params.type -}}
+            {{- if and .Params.type .Params.description -}}
               <div class="{{ .Params.itemType }}-description">
                 {{- if eq .Params.type "book" -}}
                     <h1>{{ i18n "aboutTheNeu" }} {{ i18n "book" }}</h1>
