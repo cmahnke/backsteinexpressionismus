@@ -19,12 +19,10 @@
     {{- $js := slice $main | resources.Concat "js/main.js" | minify | fingerprint -}}
     <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
-    {{ $options := (dict "targetPath" "base.css" "outputStyle" "compressed") -}}
+    {{ $options := (dict "targetPath" "base.css" "outputStyle" "compressed" "includePaths" (slice "node_modules/normalize.css" "node_modules/ol")) -}}
     {{- $ourTemplate := resources.Get "scss/base.scss" -}}
     {{- $ourStyle := $ourTemplate | resources.ExecuteAsTemplate "scss/base.scss" . | toCSS $options -}}
-    {{- $normalizeStyle := resources.Get "css/normalize/normalize.css" -}}
-    {{- $olStyle := resources.Get "css/ol/ol.css" -}}
-    {{- $style := slice $normalizeStyle $olStyle $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
+    {{- $style := slice $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
 
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32.png" | absURL }}" sizes="32x32">

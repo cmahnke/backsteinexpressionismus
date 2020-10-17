@@ -40,14 +40,6 @@ Paginate = 20
         source = "static"
         target = "static"
 
-    [[module.mounts]]
-        source = "node_modules/ol"
-        target = "assets/css/ol"
-
-    [[module.mounts]]
-        source = "node_modules/normalize.css"
-        target = "assets/css/normalize"
-
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
