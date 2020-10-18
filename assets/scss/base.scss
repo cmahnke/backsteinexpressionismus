@@ -47,9 +47,9 @@ body {
     font-family: $font-body, Helvetica;
     font-size: 1.125em;
     color: $color-body-text;
+    background-color: $color-bg;
 
     background-image: url(/images/stars.svg);
-    background-color: $color-bg;
     background-size: contain;
     background-position: top;
     background-attachment: fixed;
@@ -66,8 +66,12 @@ main {
     margin: 1.2em auto;
     padding: 5%;
     width: 85%;
-    margin: auto;
     box-sizing: border-box;
+
+    @media (max-width : 20em) {
+      padding: 2%;
+      width: 95%;
+    }
 
     @media (min-width: 56em) {
         margin: 3em auto 0;
@@ -121,16 +125,21 @@ h1,h2,h3,h4,h5,h6 {
         padding-left: 3rem;
         font-size: 3em;
 
-        @media (max-width : 47em) {
+        @media (max-width : 48em) {
             padding-left: 1.5rem;
         }
 
-        @media (max-width : 43.75em) {
+        @media (max-width : 45em) {
             font-size: 2em;
         }
 
-        @media (max-width : 20em) {
+        @media (max-width : 30em) {
             font-size: 1.5em;
+        }
+
+        @media (max-width : 20em) {
+            font-size: 1em;
+            padding-left: .5rem;
         }
 
     }
@@ -168,7 +177,7 @@ h1,h2,h3,h4,h5,h6 {
         font-size: larger;
         @media (max-width : 56em) {
             position: absolute;
-            top: 3rem;
+            top: 6em;
             right: 0;
             left: 0;
             z-index: 10;
@@ -177,7 +186,7 @@ h1,h2,h3,h4,h5,h6 {
             padding: 0;
             max-height: 0;
             width: auto;
-            background-color: #fafafa;
+            background-color: $frame-bg-color;
             border-top: solid 2px $color-body-text;
             border-bottom: solid 2px $color-body-text;
             transition: opacity 0.25s, max-height 0.15s linear;
@@ -264,8 +273,6 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: .5em;
     margin: .6em;
 
-
-
     .title {
         font-weight: normal;
         font-family: $font-heading;
@@ -278,6 +285,7 @@ h1,h2,h3,h4,h5,h6 {
         text-overflow: ellipsis;
         padding: .2rem .3rem .2rem .2rem;
         max-height: calc(200px - 2rem - 4em);
+        text-align: justify;
     }
 
 }
@@ -286,47 +294,64 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 
 
     .brick {
         display: flex;
         height: 200px;
-        transition: transform 2s linear;
-        box-shadow: inset 0px 0px 6px 6px rgba(0,0,0,0.5);
+        width: fit-content;
+        /* box-shadow: inset 0px 0px 6px 6px rgba(0,0,0,0.5); */
+        transition: transform .35s;
+
+        @media (max-width : 56.25em) {
+          width: 100%;
+          max-width: unset;
+        }
 
         &:hover {
-            transform: rotate(.45deg);
-            transition: transform 4s linear 1.5s;
+          transform: scale(1.05) rotate(.9deg);
         }
 
         &.landscape {
-            width: 55%;
-
             .preview-img {
                 max-width: 20em;
+            }
+
+            .summary {
+                  min-width: 27vw;
+                  @media (max-width : 56.25em) {
+                    min-width: unset;
+                  }
             }
         }
 
         &.portrait {
-            width: 40%;
-
             .preview-img {
                 max-width: 9em;
             }
 
-            .read-more {
-
+            .summary {
+                  min-width: 22vw;
+                  @media (max-width : 56.25em) {
+                    min-width: unset;
+                  }
             }
+
         }
 
-        &.other .container {
-            /* padding: .6em; */
+        &.other {
+          .summary {
+                min-width: 45vw;
+                @media (max-width : 56.25em) {
+                  min-width: unset;
+                }
+          }
+
         }
 
         .preview-img {
             display: inline-block;
-            /* margin-right: .6em; */
             height: 200px;
             border-radius: .5em 0 0 .5em;
             background-repeat: no-repeat;
@@ -341,32 +366,54 @@ h1,h2,h3,h4,h5,h6 {
                 */
                 position: relative;
             }
+
+            @media (max-width : 30em) {
+                width: 100%;
+                order: 1;
+                max-width: unset;
+            }
+
+        }
+
+        .title {
+          width: fit-content;
+          padding-right: .6em;
+          @media (max-width : 56.25em) {
+            width: unset;
+          }
         }
 
         .container {
-
-            margin-left: .6em;
+            margin: 0 .6em;
             height: 200px;
             position: relative;
-            width: 100%;
+            width: min-content;
+            @media (max-width : 56.25em) {
+              width: unset;
+            }
 
             p {
                 margin-block-start: 0;
                 margin-block-end: 0;
                 overflow: hidden;
             }
+
+            @media (max-width : 30em) {
+                order: 2;
+                width: 100%
+            }
+
         }
 
         .read-more {
-            width: calc(100% - 6px);
+            width: 100%;
             display: inline-block;
-            /* height: fit-content; */
             height: 2.4em;
             position: absolute;
-            bottom: 9px;
-            right: 9px;
+            bottom: 3px;
+            right: 3px;
             padding-bottom: .4rem;
-            background: linear-gradient(rgba($brick-bg-color, 0), rgba($brick-bg-color, 1) 40%);
+            background: linear-gradient(rgba($brick-bg-color, 0), rgba($brick-bg-color, 1) 30%);
             border-bottom-right-radius: .5em;
             border-bottom-left-radius: .5em;
 
@@ -379,17 +426,30 @@ h1,h2,h3,h4,h5,h6 {
                 position: absolute;
                 padding-bottom: .4em;
                 font-size: larger;
+                white-space: nowrap;
             }
         }
     }
-
+/*
     @media (max-width : 56.25em) {
         .brick,
         .brick.landscape,
         .brick.portrait {
             width: 100%;
+            max-width: unset;
+
+            .title, .container {
+              width: unset;
+            }
+
+            .summary {
+                  min-width: unset;
+            }
         }
+
+
     }
+    */
 }
 
 #menu-toggle {
@@ -406,9 +466,23 @@ h1,h2,h3,h4,h5,h6 {
 .menu-button {
     margin-right: 2em;
     cursor: pointer;
+    margin-top: -1rem;
 
     @media (max-width : 20em) {
         margin-right: 1.5em;
+    }
+
+    .menu:before {
+      content: '=';
+      display: inline-block;
+      vertical-align: bottom;
+      margin-top: -.6rem;
+      font-family: $font-logo;
+      font-weight: normal;
+      font-size: 2em;
+      @media (max-width : 20em) {
+          font-size: 1.5em;
+      }
     }
 
     &:focus,
@@ -452,7 +526,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .footer {
     width: 100%;
-    padding: 1.5em 0 .5em;
+    padding: 2em 0 .5em;
     margin: 0 auto 0;
     background-color: $frame-bg-color;
 
@@ -460,9 +534,10 @@ h1,h2,h3,h4,h5,h6 {
         .menu {
             list-style-type: none;
             text-align: center;
+            background-color: black;
 
             .menu-footer-items {
-                padding-top: .6em;
+                padding: .4em 0;
                 padding-inline-start: 0;
                 display: inline-block;
                 margin-block-start: 0em;
@@ -472,6 +547,9 @@ h1,h2,h3,h4,h5,h6 {
             .menu-item {
                 padding: .4em .8em;
                 display: inline;
+                a {
+                  color: $color-bg;
+                }
             }
         }
 
