@@ -26,7 +26,7 @@ fi
 for IMAGE in `ls -1 content/post/**/page*.jpg content/post/**/front.jpg content/post/**/end.jpg content/post/**/title.jpg content/post/**/*-recto.jpg content/post/**/*-verso.jpg content/post/**/img*.jpg`
 do
     OUTPUT_DIR=`dirname $IMAGE`
-    IIIF_DIR=`basename -s .jpg $IMAGE`
+    IIIF_DIR=`basename $IMAGE .jpg`
     if [ $OUTPUT_PREFIX = ""] ; then
         TARGET=$OUTPUT_DIR/$IIIF_DIR
     else
