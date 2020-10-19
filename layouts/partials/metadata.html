@@ -1,9 +1,7 @@
-<div class="metadata">
-  <div class="tags">
-      {{ if isset .Params "tags" }}
-          {{ range $tag := .Params.tags }}
-              <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a>
-          {{ end }}
+<div class="tags">
+  {{ if isset .Params "tags" }}
+      {{ range $tag := .Params.tags }}
+          <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a>
       {{ end }}
-  </div>
+  {{ end }}
 </div>

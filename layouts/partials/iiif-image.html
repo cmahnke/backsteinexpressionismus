@@ -1,29 +1,46 @@
-{{- $context := .contextPath -}}
+{{- $contextPath := .contextPath -}}
 {{- $pageURL := .pageURL -}}
 {{- $class := "" -}}
 {{- $orientation := "" -}}
+{{- $rotation := 0 -}}
+{{- $images := newScratch -}}
 {{- if .context.params.class -}}
     {{- $class = .context.params.class -}}
 {{- end -}}
-{{- $previewImg := (.context.Resources.ByType "image").GetMatch .context.name -}}
-{{ if lt $previewImg.Width $previewImg.Height }}
+{{- if isset .context "name" -}}
+    {{- $images.Set "master" ((.pageContext.Resources.ByType "image").GetMatch .context.name) -}}
+{{- else -}}
+    {{- $images.Set "master" ((.pageContext.Resources.ByType "image").GetMatch .context.src) -}}
+{{- end -}}
+
+{{- $masterImg := $images.Get "master" -}}
+{{- if eq $masterImg nil -}}
+    {{- warnf "Cant find image %s" (path.Join .contextPath .context.src) -}}
+{{- end -}}
+
+{{ if lt $masterImg.Width $masterImg.Height }}
     {{- $orientation = "portrait" -}}
 {{- else -}}
     {{- $orientation = "landscape" -}}
 {{- end -}}
 
+{{- if .context.params.rotate -}}
+    {{- $rotation = .context.params.rotate -}}
+    {{- if and (or (eq $rotation "90") (eq $rotation "-90")) (eq $orientation  "portrait") -}}
+        {{- $orientation = "landscape" -}}
+    {{- else if and (or (eq $rotation "90") (eq $rotation "-90")) (eq $orientation  "portrait") -}}
+        {{- $orientation = "portrait" -}}
+    {{- end -}}
+{{- end -}}
+
 {{- $mapName := replace (replace (replace .context.params.iiif "/" "_") "." "") "-" "_" -}}
-{{- $infoJson := printf "/%s" (path.Join $context .context.params.iiif) -}}
-{{- $baseURL := printf "/%s/%s/" $context (path.Dir .context.params.iiif) -}}
+{{- $infoJson := printf "/%s" (path.Join $contextPath .context.params.iiif) -}}
+{{- $baseURL := printf "/%s/%s/" $contextPath (path.Dir .context.params.iiif) -}}
 
 <div class="iiif-image {{ $class | safeHTML }} {{ $orientation | safeHTML }}">
     <a name="{{ $mapName }}"></a>
-    <div id="{{ $mapName }}" class="viewer {{ $class }}"></div>
+    <div id="{{ $mapName }}" class="viewer {{ $class | safeHTML }} {{ $orientation | safeHTML }}"></div>
 
-    {{ $rotation := 0 }}
-    {{ if .context.params.rotate }}
-        {{ $rotation = .context.params.rotate }}
-    {{ end }}
     <script type="text/javascript">
         {{ $mapName | safeJS }}_Div = document.getElementById("{{ $mapName }}");
         {{ $mapName | safeJS }} = addMap({{ $mapName | safeJS }}_Div, "{{ $infoJson }}", {{ $rotation }}, {{ $baseURL }});

@@ -10,8 +10,18 @@
        url('/fonts/FuturaRenner-Regular.svg#futurarennerregular') format('svg'); /* Legacy iOS */
 }
 
-/* Source: https://www.onlinewebfonts.com/download/b63d0a3ff6733aa14cbffb232072c22f */
+
 @font-face {
+/*
+    Source: https://blogfonts.com/irrlicht-dunkle.font
+    font-family: 'IrrlichtDunkleRegular';
+    src: url('/fonts/irrlicht-dunkle-webfont.woff2') format('woff2'),
+         url('/fonts/irrlicht-dunkle-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+*/
+/* Source: https://www.onlinewebfonts.com/download/b63d0a3ff6733aa14cbffb232072c22f */
+
   font-family: "HolofernesRegular";
   font-style: normal;
   font-weight: 400;
@@ -38,6 +48,8 @@ $color-body-text: hsl(48, 93%, 89%) !default;
 $color-link-text: hsl(48, 93%, 89%) !default;
 $color-bg: #112e63 !default;
 $mortar-color: darken($color-body-text, 25%);
+
+$color-light: $color-body-text;
 
 @import "icons";
 @import "ol";
@@ -68,15 +80,31 @@ main {
     width: 85%;
     box-sizing: border-box;
 
+    @media (max-width : 45em) {
+        padding: 1em;
+        margin: .6em auto;
+    }
+
+    @media (max-width : 30em) {
+        padding: .5em;
+        margin: unset;
+        width: unset;
+    }
+
     @media (max-width : 20em) {
-      padding: 2%;
-      width: 95%;
+        padding: .5em;
     }
 
     @media (min-width: 56em) {
         margin: 3em auto 0;
     }
+
+    &.content {
+        width: 100%
+    }
+
 }
+
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
@@ -113,6 +141,14 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 1.5px;
     font-family: $font-logo;
     font-weight: normal;
+
+    @media (max-width : 30em) {
+        letter-spacing: 1.15px;
+    }
+
+    @media (max-width : 20em) {
+        letter-spacing: unset;
+    }
 }
 
 .top-nav {
@@ -122,24 +158,23 @@ h1,h2,h3,h4,h5,h6 {
     background-color: $frame-bg-color;
 
     .navigation-title {
-        padding-left: 3rem;
+        margin-left: 2rem;
         font-size: 3em;
 
-        @media (max-width : 48em) {
-            padding-left: 1.5rem;
-        }
 
         @media (max-width : 45em) {
-            font-size: 2em;
+            margin-left: 1rem;
+            font-size: 1.8em;
         }
 
         @media (max-width : 30em) {
-            font-size: 1.5em;
+            font-size: 1.25em;
+            margin-left: .5rem;
         }
 
         @media (max-width : 20em) {
-            font-size: 1em;
-            padding-left: .5rem;
+            font-size: 1.05em;
+            margin-left: .2rem;
         }
 
     }
@@ -192,8 +227,17 @@ h1,h2,h3,h4,h5,h6 {
             transition: opacity 0.25s, max-height 0.15s linear;
             height: auto;
         }
+
+        @media (max-width : 45em) {
+            top: 8rem;
+        }
+
+        @media (max-width : 30em) {
+            top: 7rem;
+        }
+
         @media (max-width : 20em) {
-            top: 2.4rem;
+            top: 6rem;
         }
 
         .navigation-item {
@@ -238,6 +282,68 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+#menu-toggle {
+    display: none;
+    @media (max-width : 50em) {
+        &:checked + label + ul {
+            visibility: visible;
+            opacity: 1;
+            max-height: 100rem;
+        }
+    }
+}
+
+.menu-button {
+    margin-right: 1.5em;
+    cursor: pointer;
+    margin-top: -1rem;
+
+    @media (max-width : 45em) {
+        margin-right: 1rem;
+    }
+
+    @media (max-width : 30em) {
+        margin-right: .5rem;
+    }
+
+    @media (max-width : 20em) {
+        margin-right: .2rem;
+    }
+
+    .menu:before {
+      content: '=';
+      display: inline-block;
+      vertical-align: bottom;
+      margin-top: -.6rem;
+      font-family: $font-logo;
+      font-weight: normal;
+      font-size: 2em;
+
+      @media (max-width : 45em) {
+          vertical-align: middle;
+      }
+
+      @media (max-width : 30em) {
+          font-size: 1.4em;
+          vertical-align: bottom;
+      }
+
+      @media (max-width : 20em) {
+          margin-top: -.1rem;
+      }
+    }
+
+    &:focus,
+    &:hover {
+        color: $color-link-text;
+    }
+
+    @media (min-width: 56em) {
+        display: none;
+    }
+
+}
+
 .page-container{
   position: relative;
 
@@ -273,10 +379,46 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: .5em;
     margin: .6em;
 
+    /* See https://stackoverflow.com/a/28152300
+       and https://codepen.io/hyrumwhite/pen/MQLbjP */
+    .body .text-content {
+        a,
+        a:active,
+        a:focus,
+        a:hover,
+        a:visited {
+            border-bottom:2px dotted darken($brick-bg-color, 4%);
+            display: inline-block;
+            position: relative;
+            &:after {
+                  content: '';
+                  width: 100%;
+                  border-bottom:2px dotted darken($brick-bg-color, 4%);
+                  position: absolute;
+                  bottom:-1px;
+                  left: -2px;
+            }
+        }
+    }
+
+
     .title {
         font-weight: normal;
         font-family: $font-heading;
         padding: .6rem .2rem;
+
+        @media (max-width : 30em) {
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width : 20em) {
+            h1 {
+                font-size: 1.2em;
+            }
+        }
+
     }
 
     .summary {
@@ -286,6 +428,9 @@ h1,h2,h3,h4,h5,h6 {
         padding: .2rem .3rem .2rem .2rem;
         max-height: calc(200px - 2rem - 4em);
         text-align: justify;
+        @media (max-width : 30em) {
+            max-width: 90%;
+        }
     }
 
 }
@@ -296,13 +441,16 @@ h1,h2,h3,h4,h5,h6 {
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-
     .brick {
         display: flex;
         height: 200px;
         width: fit-content;
-        /* box-shadow: inset 0px 0px 6px 6px rgba(0,0,0,0.5); */
         transition: transform .35s;
+
+        @media (max-width : 30em) {
+            height: unset;
+            display: block;
+        }
 
         @media (max-width : 56.25em) {
           width: 100%;
@@ -357,20 +505,23 @@ h1,h2,h3,h4,h5,h6 {
             background-repeat: no-repeat;
             width: fit-content;
             position: relative;
-            box-shadow: inset 0 0 6px 6px rgba(0,0,0,.5);
 
             img {
-                border-radius: .5em 0 0 .5em;
-                /* This enables the shadow but removes the image
-                z-index:-1;
-                */
                 position: relative;
+                height: 200px;
             }
 
             @media (max-width : 30em) {
                 width: 100%;
                 order: 1;
-                max-width: unset;
+                max-width: unset !important;
+
+                img {
+                    border-top-left-radius: 0.5em;
+                    border-top-right-radius: 0.5em;
+                    width: 100%;
+                    height: unset;
+                }
             }
 
         }
@@ -380,6 +531,10 @@ h1,h2,h3,h4,h5,h6 {
           padding-right: .6em;
           @media (max-width : 56.25em) {
             width: unset;
+          }
+
+          @media (max-width : 20em) {
+            font-size: .9em;
           }
         }
 
@@ -417,6 +572,12 @@ h1,h2,h3,h4,h5,h6 {
             border-bottom-right-radius: .5em;
             border-bottom-left-radius: .5em;
 
+            @media (max-width : 30em) {
+                width: calc(100% - 1em);
+                right: .1em;
+                left: .1em;
+            }
+
             a {
                 display: block;
                 width: 100%;
@@ -429,71 +590,6 @@ h1,h2,h3,h4,h5,h6 {
                 white-space: nowrap;
             }
         }
-    }
-/*
-    @media (max-width : 56.25em) {
-        .brick,
-        .brick.landscape,
-        .brick.portrait {
-            width: 100%;
-            max-width: unset;
-
-            .title, .container {
-              width: unset;
-            }
-
-            .summary {
-                  min-width: unset;
-            }
-        }
-
-
-    }
-    */
-}
-
-#menu-toggle {
-    display: none;
-    @media (max-width : 50em) {
-        &:checked + label + ul {
-            visibility: visible;
-            opacity: 1;
-            max-height: 100rem;
-        }
-    }
-}
-
-.menu-button {
-    margin-right: 2em;
-    cursor: pointer;
-    margin-top: -1rem;
-
-    @media (max-width : 20em) {
-        margin-right: 1.5em;
-    }
-
-    .menu:before {
-      content: '=';
-      display: inline-block;
-      vertical-align: bottom;
-      margin-top: -.6rem;
-      font-family: $font-logo;
-      font-weight: normal;
-      font-size: 2em;
-      @media (max-width : 20em) {
-          font-size: 1.5em;
-      }
-    }
-
-    &:focus,
-    &:hover {
-        color: $color-link-text;
-    }
-}
-
-@media (min-width: 56em) {
-    .menu-button {
-        display: none;
     }
 }
 
@@ -565,6 +661,9 @@ h1,h2,h3,h4,h5,h6 {
 
             &.projektemacher {
                 padding: 0.6em 0;
+                @media (max-width : 30em) {
+                    font-size: smaller;
+                }
             }
 
         }
@@ -573,72 +672,24 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .tagcloud {
-  padding-left: .6em;
+    margin: .6em;
+    padding-left: .6em;
+    a,
+    a:active,
+    a:focus,
+    a:hover,
+    a:visited {
+        border-bottom: none !important;
+
+        &:after {
+            border-bottom: none !important;
+        }
+    }
 }
 
 .text-content figure img {
     margin: auto;
     max-width: 100%;
-}
-
-/* IIIF */
-.iiif {
-
-    .viewer {
-        width: 100%;
-        height: 65vh;
-        display: block;
-
-        &.portrait {
-            height: 99vh;
-        }
-
-        &.landscape {
-            height: 55vh;
-        }
-
-    }
-
-    .iiif-image {
-        width: 100%;
-    }
-
-    .iiif-image .front {
-        order: 1;
-    }
-
-    .iiif-image .title {
-        order: 2;
-    }
-
-    .iiif-image.order-1 {
-        order: 1;
-    }
-
-    .iiif-image.order-2 {
-        order: 2;
-    }
-
-    .iiif-image.order-3 {
-        order: 3;
-    }
-
-    .iiif-image.order-4 {
-        order: 4;
-    }
-
-    .iiif-image.order-5 {
-        order: 5;
-    }
-
-    .iiif-image.order-6 {
-        order: 5;
-    }
-
-    .iiif-image.order-7 {
-        order: 7;
-    }
-
 }
 
 a,
@@ -671,4 +722,126 @@ a.worldcat {
     a {
         text-decoration: none;
     }
+}
+
+.tag-container {
+    .tags-title {
+        font-size: larger;
+        margin-bottom: .6em;
+        display: inline-block;
+    }
+    .tags a {
+        padding-right: .3em;
+    }
+}
+
+/* IIIF */
+.iiif, .book-description-images {
+
+  .viewer {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+      &.portrait {
+          width: 75vw;
+          height: calc(75vw * 1.5);
+
+          @media (max-width: 37.5em) {
+             width: 85vw;
+             height: calc(85vw * 1.5);
+          }
+
+          @media (max-width: 30em) {
+             width: 80vw;
+             height: calc(80vw * 1.5);
+          }
+
+      }
+
+      &.landscape {
+          width: 75vw;
+          height: calc(75vw / 1.5);
+
+          @media (max-width: 37.5em) {
+             width: 85vw;
+             height: calc(85vw / 1.5);
+          }
+
+          @media (max-width: 30em) {
+             width: 80vw;
+             height: calc(80vw / 1.5);
+          }
+      }
+
+  }
+
+  .iiif-image {
+    width: 100%;
+    padding: 0.3em;
+  }
+
+  .iiif-image.cover {
+    display: inline-block;
+  }
+
+  .iiif-image.cover {
+      order: 1;
+  }
+
+  .iiif-image.front {
+      order: 2;
+  }
+
+  .iiif-image.title {
+      order: 3;
+  }
+
+  .lanscape {
+      width: 100%;
+  }
+
+  .iiif-image.order-1 {
+    order: 11;
+    width: 100%;
+  }
+
+  .iiif-image.order-2 {
+    order: 12;
+    width: 100%;
+  }
+
+  .iiif-image.order-3 {
+    order: 13;
+    width: 100%;
+  }
+
+  .iiif-image.order-4 {
+    order: 14;
+    width: 100%;
+  }
+
+  .iiif-image.order-5 {
+    order: 15;
+    width: 100%;
+  }
+
+  .iiif-image.order-6 {
+    order: 16;
+    width: 100%;
+  }
+
+  .iiif-image.order-7 {
+    order: 17;
+    width: 100%;
+  }
+
+  .iiif-image.order-8 {
+    order: 18;
+    width: 100%;
+  }
+}
+
+.book-description-images {
+    margin: auto;
 }

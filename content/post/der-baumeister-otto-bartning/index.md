@@ -33,9 +33,11 @@ resources:
 - src: "img005.jpg"
   params:
     iiif: img005/info.json
+    rotate: 90
 - src: "img006.jpg"
   params:
     iiif: img006/info.json
+    rotate: 90
 ---
 
 Dieses Buch von 1926 stellt die Arbeiten von [Otto Bartning](https://de.wikipedia.org/wiki/Otto_Bartning) vor, hier herausgegriffen die  Bauwerke für die Zeipauer Dachstein- und Braunkohlenwerke AG in Zeipau (Niederschlesien).

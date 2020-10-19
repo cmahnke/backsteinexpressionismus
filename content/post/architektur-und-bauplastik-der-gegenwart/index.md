@@ -18,7 +18,6 @@ resources:
   params:
     iiif: title/info.json
 - src: "page126.jpg"
-  name: title
   params:
     iiif: page126/info.json
 ---

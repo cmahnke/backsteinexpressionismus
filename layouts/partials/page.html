@@ -22,7 +22,7 @@
               {{- $context := path.Dir .File.Path -}}
               {{- $pageURL := .Permalink -}}
               {{- range .Params.resources -}}
-                {{- if or (and (ne $.Params.itemType "work") (ne $.Params.itemType "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
+                {{- if or (and (ne $.Params.type "work") (ne $.Params.type "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
                   {{- if .params.iiif -}}
                     {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page) }}
                   {{- end -}}
@@ -47,16 +47,18 @@
             {{- if or (eq .Params.type "book") -}}
               <div class="book-description-images">
                 {{- range .Params.resources -}}
-                  {{- $context := path.Dir .File.Path -}}
                   {{- if or (or (eq .name "front") (eq .name "title")) (eq .name "cover") -}}
-                    {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink) }}
+                    {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page) }}
                   {{- end -}}
                 {{- end -}}
               </div>
             {{- end -}}
           </div>
           {{- if not .Params.metaPage -}}
-            {{- partial "metadata.html" . -}}
+              <div class="tag-container">
+                  <span class="tags-title">Schlagworte</span>
+                    {{- partial "metadata.html" . -}}
+              </div>
           {{- end -}}
         </div>
     </div>
