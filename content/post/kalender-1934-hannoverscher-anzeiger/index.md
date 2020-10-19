@@ -20,7 +20,7 @@ resources:
     iiif: end/info.json
 ---
 
-Im ersten Eintrag geht es um die Quelle für das Logo und einige Designelemente. Sie sind dem Deckel des Kalenders des Hannoverschen Anzeigers von 1934 entnommen. Einer sehr schönen Darstellung des [Anzeiger Hochauses](/tags/anzeiger-hochaus) in [Hannover](/tags/hannover) von [Fritz Höger](/tags/fritz-hoeger). Leider ist diese Illustration, abgesehen von der Anzeige am Ende, alles was es zum Theme im Kalender gibt.
+Im ersten Eintrag geht es um die Inspiration für einige Designelemente. Sie sind dem Deckel des Kalenders des Hannoverschen Anzeigers von 1934 entnommen. Einer sehr schönen Darstellung des [Anzeiger Hochauses](/tags/anzeiger-hochaus) in [Hannover](/tags/hannover) von [Fritz Höger](/tags/fritz-hoeger). Leider ist diese Illustration, abgesehen von der Anzeige am Ende, alles was es zum Theme im Kalender gibt.
 
 <!--more-->
 
