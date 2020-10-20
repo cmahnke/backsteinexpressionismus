@@ -3,6 +3,17 @@
 TILE_SIZE=512
 IIIF_STATIC_CMD=""
 OUTPUT_PREFIX=""
+DEFAULT_URL_PREFIX="."
+
+if [[ -z "$URL_PREFIX" ]] ; then
+    echo "URL_PREFIX is not set, setting it to '$DEFAULT_URL_PREFIX'"
+    URL_PREFIX="$DEFAULT_URL_PREFIX"
+else
+    if [ `echo "$URL_PREFIX" | rev| head -c 1` = "/" ] ; then
+        URL_PREFIX=`echo $URL_PREFIX |sed 's/.$//'`
+        echo "Removed tailing slash: $URL_PREFIX"
+    fi
+fi
 
 if ! command -v vips &> /dev/null
 then
@@ -23,7 +34,7 @@ else
 fi
 
 # IIFF
-for IMAGE in `ls -1 content/post/**/page*.jpg content/post/**/front.jpg content/post/**/end.jpg content/post/**/title.jpg content/post/**/*-recto.jpg content/post/**/*-verso.jpg content/post/**/img*.jpg`
+for IMAGE in `ls -1 content/post/**/page*.jpg content/post/**/front.jpg content/post/**/end.jpg content/post/**/title.jpg content/post/**/*-recto.jpg content/post/**/*-verso.jpg content/post/**/img*.jpg content/post/**/**/*.jpg`
 do
     OUTPUT_DIR=`dirname $IMAGE`
     IIIF_DIR=`basename $IMAGE .jpg`
@@ -33,10 +44,19 @@ do
         TARGET=$OUTPUT_PREFIX/$OUTPUT_DIR/$IIIF_DIR
         mkdir -p $TARGET
     fi
+    echo "Processing $IMAGE..."
+
+    if [ "$URL_PREFIX" = "." ] ; then
+        IIIF_ID="$URL_PREFIX"
+    else
+        IIIF_ID="$URL_PREFIX/$(echo $OUTPUT_DIR |cut -d'/' -f2-)"
+        echo "Setting IIIF identifier to '$IIIF_ID'"
+    fi
+
     echo "Generating IIIF files for $IMAGE in directory $OUTPUT_DIR, IIIF directory $IIIF_DIR ($TARGET)"
     if [ $IIIF_STATIC_CMD = "vips" ] ; then
-        vips dzsave $IMAGE $TARGET -t $TILE_SIZE --layout iiif --id '.'
+        vips dzsave $IMAGE $TARGET -t $TILE_SIZE --layout iiif --id "$IIIF_ID"
     elif [ $IIIF_STATIC_CMD = "iiif_static.py" ] ; then
-        iiif_static.py -d $TARGE -i '.' -t $TILE_SIZE $IMAGE
+        iiif_static.py -d $TARGE -i "$IIIF_ID" -t $TILE_SIZE $IMAGE
     fi
 done
