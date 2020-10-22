@@ -6,7 +6,7 @@ tags:
 - Bernhard Hoetger
 - Walter Müller-Wulckow
 - Bremen
-- Böttcherstraße
+- Böttcherstrasse
 - Paula-Becker-Modersohn-Haus
 ---
 

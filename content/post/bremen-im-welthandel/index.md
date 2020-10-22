@@ -6,7 +6,7 @@ type: book
 tags:
 - Bernhard Hoetger
 - Bremen
-- Böttcherstraße
+- Böttcherstrasse
 - Paula-Becker-Modersohn-Haus
 resources:
 - src: "front.jpg"
