@@ -1,11 +1,13 @@
 ---
 title: "Das Paula-Becker-Modersohn-Haus in Bremen"
-date: 2020-10-03T17:19:12+02:00
+date: 2020-11-02T18:29:07+02:00
 description: 'Walter Müller-Wulckow: Das Paula-Becker-Modersohn-Haus Führer und Plan. Angelsachsen-Verlag, Bremen 1930. <a class="worldcat" href="http://www.worldcat.org/oclc/61625546">&nbsp;</a>'
-draft: true
 tags:
 - Bernhard Hoetger
 - Walter Müller-Wulckow
+- Bremen
+- Böttcherstraße
+- Paula-Becker-Modersohn-Haus
 ---
 
 Wenn man in der Nähe von Bremerhaven aufwächst, ist eine weitere Begegnung mit Backsteinexpressiniosmus unausweichlich, wenn die Eltern einen Ausflug in die nächste größere Stadt machen: Die [Böttcherstraße in Bremen](https://de.wikipedia.org/wiki/B%C3%B6ttcherstra%C3%9Fe_(Bremen)).
