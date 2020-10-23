@@ -29,3 +29,5 @@ resources:
 
 Das Buch beinhaltet neben einigen Ansichten der Stadt auch eine Menge von geschäftlichen Gebäuden, dem Hafen und dem Flughafen, auch aus Bremerhaven...
 <!--more-->
+
+Gefunden im [Antiquariat Pretzsch](https://antiquariat-pretzsch.de/) N°1.

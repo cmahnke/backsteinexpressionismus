@@ -21,7 +21,7 @@ resources:
 ---
 
 Im ersten Eintrag geht es um die Inspiration für einige Designelemente. Sie sind dem Deckel des Kalenders des Hannoverschen Anzeigers von 1934 entnommen. Einer sehr schönen Darstellung des [Anzeiger Hochauses](/tags/anzeiger-hochaus) in [Hannover](/tags/hannover) von [Fritz Höger](/tags/fritz-hoeger). Leider ist diese Illustration, abgesehen von der Anzeige am Ende, alles was es zum Theme im Kalender gibt.
-
 <!--more-->
-
 Mehr Informationen zum Gebäude, das hier sicher noch öfter zu sehen sein wird, bietet die [Wikipedia](https://de.wikipedia.org/wiki/Anzeiger-Hochhaus).
+
+Dieses Buch ist ausnahmsweise vom besten Anbieter historischer Tapeten in Göttingen - [Zeitzeug](http://zeitzeug.de/).

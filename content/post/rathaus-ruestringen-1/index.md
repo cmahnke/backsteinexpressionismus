@@ -16,3 +16,5 @@ resources:
 ---
 
 Eine Postkarte vom [Rathaus in Wilhelmshaven](https://de.wikipedia.org/wiki/Rathaus_Wilhelmshaven).
+<!--more-->
+[Zeitzeug](http://zeitzeug.de/) ist nich nur der beste beste Anbieter historischer Tapeten in Göttingen, sondern verfügt auch über eine umfangreiche und vor allem sehr gut sortierte Auswahl an Postkarten.
