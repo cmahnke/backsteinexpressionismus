@@ -10,25 +10,6 @@
        url('/fonts/FuturaRenner-Regular.svg#futurarennerregular') format('svg'); /* Legacy iOS */
 }
 
-
-@font-face {
-/*
-    Source: https://blogfonts.com/irrlicht-dunkle.font
-    font-family: 'IrrlichtDunkleRegular';
-    src: url('/fonts/irrlicht-dunkle-webfont.woff2') format('woff2'),
-         url('/fonts/irrlicht-dunkle-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-*/
-/* Source: https://www.onlinewebfonts.com/download/b63d0a3ff6733aa14cbffb232072c22f */
-
-  font-family: "HolofernesRegular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/HolofernesNFW01-Regular.woff2") format("woff2"),
-       url("/fonts/HolofernesNFW01-Regular.woff") format("woff");
-}
-
 /* Source: https://www.onlinewebfonts.com/download/3e8042d2739cb66ae6ef7ffc372014db */
 @font-face {
   font-family: "Neuland";
@@ -39,7 +20,6 @@
 }
 
 $font-body: 'FuturaRennerRegular' !default;
-$font-logo: 'HolofernesRegular' !default;
 $font-heading: 'Neuland' !default;
 
 $brick-bg-color: #660000 !default;
@@ -137,25 +117,40 @@ h1,h2,h3,h4,h5,h6 {
   padding-bottom: 1.4em;
 }
 
-.expressionism-font {
-    letter-spacing: 1.5px;
-    font-family: $font-logo;
-    font-weight: normal;
-
-    @media (max-width : 30em) {
-        letter-spacing: 1.15px;
-    }
-
-    @media (max-width : 20em) {
-        letter-spacing: unset;
-    }
-}
-
 .top-nav {
     width: 100%;
     margin: 0 auto 1em;
     position: relative;
     background-color: $frame-bg-color;
+
+    .title {
+        display: inline-block;
+        max-width: 70%;
+        width: 55vw;
+        margin-left: 2rem;
+        vertical-align: middle;
+        /* fill: $color-body-text; */
+
+        @media (max-width : 45em) {
+            max-width: 80%;
+            width: 75vw;
+
+            margin-left: 1rem;
+        }
+
+        @media (max-width : 30em) {
+            max-width: 90%;
+            width: 75vw;
+            margin-left: .5rem;
+        }
+
+        @media (max-width : 20em) {
+            max-width: 90%;
+            width: 80vw;
+            margin-left: .2rem;
+        }
+
+    }
 
     .navigation-title {
         margin-left: 2rem;
@@ -199,7 +194,7 @@ h1,h2,h3,h4,h5,h6 {
     .navigation-list {
         padding-inline-start: 0;
         position: absolute;
-        top: 50%;
+        top: 67%;
         transform: translateY(-50%);
         list-style-type: none;
         right: .5em;
@@ -311,25 +306,22 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .menu:before {
-      content: '=';
+      content: url(/images/burger.svg);
       display: inline-block;
       vertical-align: bottom;
-      margin-top: -.6rem;
-      font-family: $font-logo;
-      font-weight: normal;
-      font-size: 2em;
+      margin-top: 1rem;
 
       @media (max-width : 45em) {
-          vertical-align: middle;
+          font-size: 1.6em;
+          margin-top: -.8rem;
       }
 
       @media (max-width : 30em) {
           font-size: 1.4em;
-          vertical-align: bottom;
       }
 
       @media (max-width : 20em) {
-          margin-top: -.1rem;
+          /* margin-top: .2rem; */
       }
     }
 
@@ -845,4 +837,10 @@ a.worldcat {
 
 .book-description-images {
     margin: auto;
+}
+
+.inline-title {
+  display: inline;
+  height: 1.125em;
+  vertical-align: sub;
 }

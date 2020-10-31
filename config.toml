@@ -12,8 +12,9 @@ disablePathToLower = true
 [params]
     author = "Christian Mahnke"
     homeTitle = "Backsteinexpressionismus"
-    description = ""
-    keywords = ""
+    header = "/images/header.svg"
+    description = "Alte Abbildungen von Backsteinexpressionismus-Gebäuden aus Büchen und von Postkarten."
+    keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Acrhitecture, Books, Postcards"
     #stylesheets = ["https://fontlibrary.org/face/futura-renner"]
     stylesheets = []
 

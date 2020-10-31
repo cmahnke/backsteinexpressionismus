@@ -3,6 +3,8 @@ docs
 resources
 yarn-error.log
 static/images/favicon*
+static/images/header.svg
+static/images/burger.svg
 # Generated contents
 resources
 content/post/**/preview.png

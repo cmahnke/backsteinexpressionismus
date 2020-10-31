@@ -24,7 +24,7 @@ resources:
     iiif: page080a/info.json
 ---
 
-Um herauszufinden, wie man dazu kommt ein Blog zum Thema "<span class="expressionism-font">Backsteinexpressionismus</span>" zu machen müssen wir weit in meine Vergangenheit zurück reisen:
+Um herauszufinden, wie man dazu kommt ein Blog zum Thema "<img src="/images/header.svg" alt="Backsteinexpressionismus" class="inline-title">" zu machen, müssen wir weit in meine Vergangenheit zurück reisen:
 Irgendwann in der Kindheit, in der ersten Hälfte der 80er Jahre, bin ich regelmässig durch Wulsdorf, eine Stadtteil von Bremerhaven gefahren worden. Immer die gleiche Strecke, immer auf dem Weg in die "Stadt". Vielleicht zu den Grosseltern oder zum einkaufen, wohin genau, kann ich nicht mehr sagen.
 
 <!--more-->

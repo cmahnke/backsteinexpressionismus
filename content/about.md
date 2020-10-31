@@ -9,7 +9,7 @@ Und so habe ich seit einigen Jahren eine kleine Sammlung an Abbildungen, meist P
 
 ## TODO
 
-* Mehr Informationen über <span class="expressionism-font">Backsteinexpressionismus</span> bereitstellen, bis da hin sind zu einzelnen Abbildungen Informationen verlinkt.
+* Mehr Informationen über <img src="/images/header.svg" alt="Backsteinexpressionismus" class="inline-title"> bereitstellen, bis da hin sind zu einzelnen Abbildungen Informationen verlinkt.
 
 ## Schlagworte
 
@@ -35,6 +35,6 @@ Die Seite wird von [GitHub](https://github.com/) gehosted.
 
 # Kontakt
 
-"<span class="expressionism-font">Backsteinexpressionismus</span>" ist ein Projekt von **Christian Mahnke**.
+"<img src="/images/header.svg" alt="Backsteinexpressionismus" class="inline-title">" ist ein Projekt von **Christian Mahnke**.
 
 Kontakt ist via [E-Mail](mailto:backsteinexpressionismus@projektemacher.org) möglich.
