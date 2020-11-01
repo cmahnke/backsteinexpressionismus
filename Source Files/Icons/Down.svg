@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Down.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg881"
+   version="1.1"
+   viewBox="0 0 19.931965 7.8382888"
+   height="7.8382888mm"
+   width="19.931965mm">
+  <defs
+     id="defs875">
+    <rect
+       id="rect1446"
+       height="27.970238"
+       width="76.351189"
+       y="65.76786"
+       x="37.797619" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="600"
+     inkscape:window-width="767"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="273.34823"
+     inkscape:cx="279.99986"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata878">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-31.750038,-75.84328)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <g
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1446);fill:#000000;fill-opacity:1;stroke:none"
+       id="text1444"
+       transform="rotate(-90,41.71602,79.762424)"
+       aria-label="(">
+      <path
+         id="path1452"
+         fill="#fdf3c9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:HolofernesNFW01-Regular;-inkscape-font-specification:HolofernesNFW01-Regular"
+         d="m 43.661812,89.364604 -5.864937,-8.598967 4.894797,-10.186468 2.348179,-0.782727 -3.086809,9.006867 3.682122,10.925098 z" />
+    </g>
+  </g>
+</svg>

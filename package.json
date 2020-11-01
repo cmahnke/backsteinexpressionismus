@@ -3,10 +3,12 @@
     "svgo": "yarn run svgo-background && yarn run svgo-header && yarn run svgo-icons",
     "svgo-background": "node_modules/.bin/svgo -i Source\\ Files/Background/Stars.svg -o static/images/stars.svg",
     "svgo-header": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",
-    "svgo-icons": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Burger.svg -o static/images/burger.svg"
-
+    "svgo-icons": "yarn run svgo-icon-burger && yarn run svgo-icon-down",
+    "svgo-icon-burger": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Burger.svg -o static/images/burger.svg",
+    "svgo-icon-down": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Down.svg -o static/images/down.svg"
   },
   "dependencies": {
+    "jquery": "^3.5.1",
     "normalize.css": "^8.0.1",
     "ol": "^6.4.3"
   },

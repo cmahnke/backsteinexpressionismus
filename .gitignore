@@ -5,6 +5,7 @@ yarn-error.log
 static/images/favicon*
 static/images/header.svg
 static/images/burger.svg
+static/images/down.svg
 # Generated contents
 resources
 content/post/**/preview.png

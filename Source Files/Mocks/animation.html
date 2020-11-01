@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Background Test</title>
+  <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+
+  <style media="screen">
+
+    body {
+      margin: 0px;
+      background-color: #112e63;
+      background-image: url(../../static/images/stars.svg);
+    }
+
+    .top-nav {
+        width: 100%;
+        margin: 0 auto 1em;
+        position: relative;
+        background-color: #400000;
+    }
+
+    .zigzag:after {
+        content: "";
+        height: 2vw;
+        position: absolute;
+        top: calc(100% - 1px);
+        left: 0;
+        right: 0;
+        clip-path: polygon(0 0,2.5% 100%,5% 0,7.5% 100%,10% 0,12.5% 100%,15% 0,17.5% 100%,20% 0,22.5% 100%,25% 0,27.5% 100%,30% 0,32.5% 100%,35% 0,37.5% 100%,40% 0,42.5% 100%,45% 0,47.5% 100%,50% 0,52.5% 100%,55% 0,57.5% 100%,60% 0,62.5% 100%,65% 0,67.5% 100%,70% 0,72.5% 100%,75% 0,77.5% 100%,80% 0,82.5% 100%,85% 0,87.5% 100%,90% 0,92.5% 100%,95% 0,97.5% 100%,100% 0);
+    }
+
+    .top-nav .container {
+        padding: 1.5rem .6em .6em;
+        position: relative;
+    }
+
+    .top-nav .navigation-title {
+        margin-left: 2rem;
+        font-size: 3em;
+    }
+
+    .top-nav:after {
+        background: #400000;
+    }
+
+    .top-nav .navigation-list {
+        padding-inline-start: 0;
+        position: absolute;
+        top: 67%;
+        transform: translateY(-50%);
+        list-style-type: none;
+        right: .5em;
+        padding-right: 3rem;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        font-size: larger;
+    }
+
+    .top-nav .navigation-list .navigation-item {
+        vertical-align: middle;
+        display: inline;
+        padding-left: .6em;
+    }
+
+
+    a, a:active, a:focus, a:hover, a:visited {
+        text-decoration: none;
+        color: #fdf3c9;
+    }
+
+/* ------------------------ */
+
+    @keyframes down-arrow {
+      30%  {bottom: 1.2em;}
+      36%  {bottom: .2em;}
+      42%  {bottom: 1.6em;}
+      48%  {bottom: .2em;}
+      54%  {bottom: 1.6em;}
+      60%  {bottom: .2em;}
+      66%  {bottom: 1.2em;}
+    }
+
+    .arrow {
+        text-align: center;
+        display: block;
+        height: 100vh;
+        transition: all linear .5s
+    }
+
+    .down {
+      position: absolute;
+      bottom: 1.2em;
+      animation-name: down-arrow;
+      animation-duration: 3s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+
+    #logo-image {
+      top: 0;
+      height: 100%;
+      max-height: 100vh;
+      width: 100%;
+      object-fit: fill;
+      object-position: top;
+      transition: all linear .5s
+    }
+
+    #logo-container {
+       margin: auto;
+       width: 100%;
+       height: 100%;
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="top-nav zigzag">
+    <section class="container">
+      <a class="navigation-title" href="http://localhost:1313/">
+        <img class="title" src="../../static/images/header.svg" alt="Backsteinexpressionismus">
+      </a>
+      <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/">Start</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/about">Über</a>
+            </li>
+      </ul>
+    </section>
+  </nav>
+
+  <div id="logo-container">
+    <img id="logo-image" src="../Logo/Anzeiger%20Hochhaus.svg">
+  </div>
+  <div class="arrow">
+    <img class="down" src="../../static/images/down.svg">
+  </div>
+
+  <script type="text/javascript">
+    $(window).on('load', function () {
+      var logoStart = $('#logo-container').position().top;
+      var logoHeight = $('#logo-container').height();
+      var pxPercent = 100 / logoHeight;
+      var finshed = false;
+
+      $(document).scroll(function () {
+
+
+        if ($(document).scrollTop() > logoStart && $(document).scrollTop() < logoHeight + logoStart) {
+          var currPercet = $(document).scrollTop() * pxPercent;
+          var opa = 1 - (currPercet / 100);
+
+          $('#logo-image').css({opacity: opa, height: currPercet + '%'});
+
+          $('.arrow').css({opacity: opa - .35});
+
+          console.log($(document).scrollTop() + '->' + currPercet);
+
+          if (currPercet > 98) {
+            $('.arrow, #logo-image').css({display: 'none'});
+
+          }
+
+        } else if ( $(document).scrollTop() > logoHeight) {
+          finshed = true;
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
