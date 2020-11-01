@@ -17,3 +17,4 @@ convert static/images/favicon-128.png -resize 64x64 static/images/favicon-64.png
 convert static/images/favicon-16.png static/images/favicon-32.png static/images/favicon-64.png static/images/favicon-128.png -colors 256 static/images/favicon.ico
 
 yarn install
+yarn run svgo
