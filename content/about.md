@@ -35,6 +35,6 @@ Die Seite wird von [GitHub](https://github.com/) gehosted.
 
 # Kontakt
 
-"<img src="/images/header.svg" alt="Backsteinexpressionismus" class="inline-title">" ist ein Projekt von **Christian Mahnke**.
+"<img src="/images/header.svg" alt="Backsteinexpressionismus" class="inline-title">" ist ein [Projekt](https://projektemacher.org) von **Christian Mahnke**.
 
 Kontakt ist via [E-Mail](mailto:backsteinexpressionismus@projektemacher.org) möglich.
