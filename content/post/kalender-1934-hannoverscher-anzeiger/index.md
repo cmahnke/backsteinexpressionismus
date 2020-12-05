@@ -24,4 +24,4 @@ Im ersten Eintrag geht es um die Inspiration für einige Designelemente. Sie sin
 <!--more-->
 Mehr Informationen zum Gebäude, das hier sicher noch öfter zu sehen sein wird, bietet die [Wikipedia](https://de.wikipedia.org/wiki/Anzeiger-Hochhaus).
 
-Dieses Buch ist ausnahmsweise vom besten Anbieter historischer Tapeten in Göttingen - [Zeitzeug](http://zeitzeug.de/).
+<div class="source">Dieses Buch ist ausnahmsweise vom besten Anbieter historischer Tapeten in Göttingen - <a href="http://zeitzeug.de/">Zeitzeug</a>.</div>

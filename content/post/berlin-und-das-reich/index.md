@@ -26,4 +26,4 @@ resources:
 
 Das Buch beinhaltet neben weiteren interessanten Gebäuden von Emil Fahrenkamp und Hans Hertlein auch eine Abbildung der [Kirche am Hohenzollernplatz](https://de.wikipedia.org/wiki/Kirche_am_Hohenzollernplatz)
 <!--more-->
-Gefunden im [Antiquariat Pretzsch](https://antiquariat-pretzsch.de/) N°1.
+<div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>

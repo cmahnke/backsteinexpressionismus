@@ -29,5 +29,6 @@ resources:
 
 Das Buch beinhaltet neben einigen Ansichten der Stadt auch eine Menge von geschäftlichen Gebäuden, dem Hafen und dem Flughafen, auch aus Bremerhaven...
 <!--more-->
+Die Abbildungen hier zeigen die [Böttcherstrasse in Bremen](https://de.wikipedia.org/wiki/B%C3%B6ttcherstra%C3%9Fe_(Bremen)).
 
-Gefunden im [Antiquariat Pretzsch](https://antiquariat-pretzsch.de/) N°1.
+<div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>

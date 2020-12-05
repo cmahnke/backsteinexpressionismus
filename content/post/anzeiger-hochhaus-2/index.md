@@ -19,4 +19,4 @@ Eine weitere Postkarte vom [Anzeiger Hochhaus in Hannover](https://de.wikipedia.
 <!--more-->
 Ja, die Karte ist schief gedruckt...
 
-[Zeitzeug](http://zeitzeug.de/) ist nich nur der beste beste Anbieter historischer Tapeten in Göttingen, sondern verfügt auch über eine umfangreiche und vor allem sehr gut sortierte Auswahl an Postkarten.
+<div class="source"><a href="http://zeitzeug.de/">Zeitzeug</a> ist nicht nur der beste beste Anbieter historischer Tapeten in Göttingen, sondern verfügt auch über eine umfangreiche und vor allem sehr gut sortierte Auswahl an Postkarten.</div>

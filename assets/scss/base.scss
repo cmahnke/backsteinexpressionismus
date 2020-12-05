@@ -844,3 +844,14 @@ a.worldcat {
   height: 1.125em;
   vertical-align: sub;
 }
+
+.source {
+    font-size: small;
+    text-align: right;
+    margin: 1.5em;
+    color: lighten(#6c757d, 20%);
+
+    a {
+        color: lighten(#007bff, 20%);
+    }
+}

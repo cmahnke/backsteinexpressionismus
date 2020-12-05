@@ -1,6 +1,8 @@
 {{- $content := .RawContent -}}
-{{- $content = replaceRE "(.*)<!--more-->.*" "$1" $content -}}
+{{- $content = replaceRE "(?s)(.*)<!--more-->.*" "$1" $content -}}
+{{/* Remove shortcodes */}}
 {{- $content = replaceRE "(.*)\\{\\{.*?\\}\\}" "$1" $content -}}
-{{- $content = replaceRE "\\[([^\\]]*)\\]\\([^\\)]*\\)" "$1" $content -}}
+{{/* Remove markdown links */}}
+{{- $content = replaceRE "\\[([^\\]]*)\\]\\(.+\\)*\\)" "$1" $content -}}
 
 {{- $content | safeHTML -}}
