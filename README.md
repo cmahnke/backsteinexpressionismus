@@ -43,7 +43,7 @@ convert Logo.tif -define webp:quality=100 -define webp:lossless=true -define web
 # Remove generated IIIF directories
 
 ```
-find content/post/ -name info.json -exec dirname {} \; | xargs rm -r 
+find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 ```
 
 # Running hugo
@@ -51,8 +51,14 @@ find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 ## Without watching
 
 This might be needed if there are to many sub directories (with IIIF structures) generated, since watching might not work in this setup.
+This stopped to work reliably between Hugo 0.79.0 and 0.81.0
 
 ```
 hugo serve -F --debug --disableFastRender  --disableLiveReload --watch=false --renderToDisk
+```
 
+# Using Docker
+
+```
+docker run --name hugo -v `pwd`/docs:/usr/share/nginx/html -p 1313:80 nginx
 ```

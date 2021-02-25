@@ -17,6 +17,7 @@ disablePathToLower = true
     keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Acrhitecture, Books, Postcards"
     #stylesheets = ["https://fontlibrary.org/face/futura-renner"]
     stylesheets = []
+    copyright = "MMXXI"
 
 [menu]
     [[menu.main]]
