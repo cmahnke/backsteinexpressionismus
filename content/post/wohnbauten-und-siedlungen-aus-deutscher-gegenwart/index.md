@@ -35,3 +35,5 @@ Genauer zu einer in dieser Reihe erschienen Bücher von [Walter Müller-Wulckow]
 In diesem Band geht es, wie der Titel schon verrät, um Wohngebäude. Bauten der folgenden Architekten sind abgebildet:
 * [Otto Bartning](https://de.wikipedia.org/wiki/Otto_Bartning)
 * [Bernhard Hoetger](https://de.wikipedia.org/wiki/Bernhard_Hoetger)
+
+<div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>
