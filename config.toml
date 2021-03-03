@@ -50,3 +50,6 @@ disablePathToLower = true
 
 [imaging]
     quality = 95
+
+[taxonomies]
+  tag = "tags"

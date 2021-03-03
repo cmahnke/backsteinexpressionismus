@@ -1,0 +1,24 @@
+{{ define "title" }}
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+  <main class="content term">
+      <div class="post brick">
+        <div class="container">
+            <div class="title">
+                <h1>Alle Beiträge mit dem Schlagwort {{ .Title }}</h1>
+            </div>
+            <div class="body">
+                <div class="text-content">
+                  {{ .Content }}
+                </div>
+            </div>
+        </div>
+      </div>
+  </main>
+  <div class="page-container zigzag">
+    {{ partial "list.html" . }}
+    {{ partial "pagination.html" . }}
+  </div>
+
+{{ end }}
