@@ -1,6 +1,7 @@
 ---
 title: "Planetarium Düsseldorf"
 description: ''
+type: building
 aliases:
   - /tags/Tonhalle-Düsseldorf
 ---

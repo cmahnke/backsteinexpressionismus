@@ -1,6 +1,7 @@
 ---
 title: "Rüstringer Rathaus"
 description: ''
+type: building
 aliases:
   - /tags/Rathaus-Wilhelmshaven
   - /tags/Wilhelmshavener-Rathaus
