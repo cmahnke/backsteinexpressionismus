@@ -29,6 +29,7 @@ tags:
 - St. Antonius Ickern
 - Haus der Technik
 - St. Bonifatius Frankfurt
+- St. Franziskus Hamburg
 - Johannes Göderitz
 - Wilhelm Wagner
 - Hermann Höger
@@ -41,6 +42,7 @@ tags:
 - Adolf Abel
 - Hanns Hopp
 - Martin Weber
+- Johann Kamps
 resources:
 - src: "front.jpg"
   name: front
@@ -65,13 +67,10 @@ resources:
 - src: "page020.jpg"
   params:
     iiif: page020/info.json
+    rotate: 90
 - src: "page021.jpg"
   params:
     iiif: page021/info.json
-    rotate: 90
-- src: "page024.jpg"
-  params:
-    iiif: page024/info.json
     rotate: 90
 - src: "page025.jpg"
   params:
@@ -79,15 +78,19 @@ resources:
 - src: "page028.jpg"
   params:
     iiif: page028/info.json
+    rotate: 90
 - src: "page041.jpg"
   params:
     iiif: page041/info.json
+    rotate: 90
 - src: "page043.jpg"
   params:
     iiif: page043/info.json
+    rotate: 90
 - src: "page045.jpg"
   params:
     iiif: page045/info.json
+    rotate: 90
 - src: "page051.jpg"
   params:
     iiif: page051/info.json
@@ -95,9 +98,11 @@ resources:
 - src: "page052.jpg"
   params:
     iiif: page052/info.json
+    rotate: 90
 - src: "page053.jpg"
   params:
     iiif: page053/info.json
+    rotate: 90
 - src: "page054.jpg"
   params:
     iiif: page054/info.json
@@ -120,6 +125,7 @@ resources:
 - src: "page073.jpg"
   params:
     iiif: page073/info.json
+    rotate: 90
 - src: "page078.jpg"
   params:
     iiif: page078/info.json
@@ -146,9 +152,11 @@ resources:
 - src: "page096.jpg"
   params:
     iiif: page096/info.json
+    rotate: 90
 - src: "page097.jpg"
   params:
     iiif: page097/info.json
+    rotate: 90
 - src: "page107.jpg"
   params:
     iiif: page107/info.json
@@ -163,6 +171,7 @@ Genauer, zu einer in dieser Reihe erschienen Bücher von [Walter Müller-Wulckow
 In diesem Band geht es, wie der Titel schon verrät, um Bauten der Gemeinschaft, wie Stadthallen und Kirchen. Bauten der folgenden Architekten sind abgebildet:
 
 * [Johannes Göderitz](https://de.wikipedia.org/wiki/Johannes_G%C3%B6deritz)
+* [Friedrich Fischer](https://de.wikipedia.org/wiki/Friedrich_Fischer_(Architekt))
 * [Wilhelm Wagner](https://de.wikipedia.org/wiki/Wilhelm_Wagner_(Architekt))
 * [Hermann Höger](https://de.wikipedia.org/wiki/Hermann_H%C3%B6ger)
 * [Fritz Schuhmacher](https://de.wikipedia.org/wiki/Fritz_Schumacher)
@@ -174,7 +183,8 @@ In diesem Band geht es, wie der Titel schon verrät, um Bauten der Gemeinschaft,
 * [Adolf Abel](https://de.wikipedia.org/wiki/Adolf_Abel_(Architekt))
 * [Hanns Hopp](https://de.wikipedia.org/wiki/Hanns_Hopp)
 * [Martin Weber](https://de.wikipedia.org/wiki/Martin_Weber_(Architekt))
-
+* [Johann Kamps](https://de.wikipedia.org/wiki/Johann_Kamps)
+* [Carl Bensel](https://de.wikipedia.org/wiki/Carl_Bensel)
 
 
 <div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>
