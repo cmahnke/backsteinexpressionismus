@@ -1,46 +1,59 @@
 {{- $contextPath := .contextPath -}}
 {{- $pageURL := .pageURL -}}
+{{- $page := .pageContext }}
+{{- $site := .site }}
+{{- if eq $site nil -}}
+    {{- $site = .Site -}}
+{{- end -}}
+{{- $imgLocation := path.Join $contextPath .context.src -}}
 {{- $class := "" -}}
 {{- $orientation := "" -}}
-{{- $rotation := 0 -}}
-{{- $images := newScratch -}}
 {{- if .context.params.class -}}
     {{- $class = .context.params.class -}}
 {{- end -}}
-{{- if isset .context "name" -}}
-    {{- $images.Set "master" ((.pageContext.Resources.ByType "image").GetMatch .context.name) -}}
+
+{{- $previewImg := "" -}}
+{{- if .context.name -}}
+    {{- $previewImg = ($page.Resources.GetMatch .context.name) -}}
 {{- else -}}
-    {{- $images.Set "master" ((.pageContext.Resources.ByType "image").GetMatch .context.src) -}}
+    {{- $previewImg = ($page.Resources.GetMatch .context.src) -}}
 {{- end -}}
-
-{{- $masterImg := $images.Get "master" -}}
-{{- if eq $masterImg nil -}}
-    {{- warnf "Cant find image %s" (path.Join .contextPath .context.src) -}}
+{{- if eq $previewImg nil -}}
+    {{ errorf "Can't find image %s" $imgLocation }}
 {{- end -}}
-
-{{ if lt $masterImg.Width $masterImg.Height }}
+{{ if lt $previewImg.Width $previewImg.Height }}
     {{- $orientation = "portrait" -}}
 {{- else -}}
     {{- $orientation = "landscape" -}}
 {{- end -}}
 
-{{- if .context.params.rotate -}}
-    {{- $rotation = .context.params.rotate -}}
-    {{- if and (or (eq $rotation "90") (eq $rotation "-90")) (eq $orientation  "portrait") -}}
-        {{- $orientation = "landscape" -}}
-    {{- else if and (or (eq $rotation "90") (eq $rotation "-90")) (eq $orientation  "portrait") -}}
-        {{- $orientation = "portrait" -}}
-    {{- end -}}
-{{- end -}}
-
 {{- $mapName := replace (replace (replace .context.params.iiif "/" "_") "." "") "-" "_" -}}
+{{/*
 {{- $infoJson := printf "/%s" (path.Join $contextPath .context.params.iiif) -}}
 {{- $baseURL := printf "/%s/%s/" $contextPath (path.Dir .context.params.iiif) -}}
+*/}}
+{{- $infoJson := "" -}}
+{{- $baseURL := "" -}}
+
+{{- if or $site.IsServer (not (isset $site.Params "productioniiifurlprefix")) -}}
+    {{- $infoJson = printf "/%s" (path.Join $contextPath .context.params.iiif) -}}
+    {{- $baseURL = printf "/%s/%s/" $contextPath (path.Dir .context.params.iiif) -}}
+{{- else -}}
+    {{- $infoJson = printf "%s%s" $site.Params.productionIIIFURLPrefix (path.Join $contextPath .context.params.iiif) -}}
+    {{- $baseURL = "" -}}
+{{- end -}}
 
 <div class="iiif-image {{ $class | safeHTML }} {{ $orientation | safeHTML }}">
     <a name="{{ $mapName }}"></a>
-    <div id="{{ $mapName }}" class="viewer {{ $class | safeHTML }} {{ $orientation | safeHTML }}"></div>
+    {{- if .heading -}}
+        <span class="image-heading">{{ .heading }}</span>
+    {{- end -}}
+    <div id="{{ $mapName }}" class="viewer {{ $class }} {{ $orientation | safeHTML }}"></div>
 
+    {{ $rotation := 0 }}
+    {{ if .context.params.rotate }}
+        {{ $rotation = .context.params.rotate }}
+    {{ end }}
     <script type="text/javascript">
         {{ $mapName | safeJS }}_Div = document.getElementById("{{ $mapName }}");
         {{ $mapName | safeJS }} = addMap({{ $mapName | safeJS }}_Div, "{{ $infoJson }}", {{ $rotation }}, {{ $baseURL }});

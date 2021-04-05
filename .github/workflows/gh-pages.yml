@@ -32,7 +32,24 @@ jobs:
           yarn install
 
       - name: Create IIIF derivates
-        run: docker run -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
+        run: |
+          echo "Running as ${UID}"
+          docker run -e CHOWN_UID=${UID} -e URL_PREFIX="https://static.projektemacher.org/backsteinexpressionismus/" -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
+
+      - name: IIIF directory upload and cleanup
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          SSHPASS: ${{ secrets.DEPLOY_PASS }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: |
+          cd content
+          find post -name info.json -exec dirname {} \; > files.lst
+          cat files.lst | xargs chmod 775
+          sshpass -e rsync -aP --size-only --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH/backsteinexpressionismus/
+          rm -f files.lst
+          cd ..
+          find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 
       - name: Generate Files
         env:

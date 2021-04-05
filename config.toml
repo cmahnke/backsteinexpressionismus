@@ -15,9 +15,9 @@ disablePathToLower = true
     header = "/images/header.svg"
     description = "Alte Abbildungen von Backsteinexpressionismus-Gebäuden aus Büchen und von Postkarten."
     keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Acrhitecture, Books, Postcards"
-    #stylesheets = ["https://fontlibrary.org/face/futura-renner"]
     stylesheets = []
     copyright = "MMXXI"
+        productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
 
 [menu]
     [[menu.main]]
