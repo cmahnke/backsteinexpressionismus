@@ -110,7 +110,7 @@ window.addMap = function(element, url, rotation, baseURL) {
                         return;
                     }
                     options.zDirection = -1;
-                    if (baseURL !== undefined) {
+                    if (baseURL !== undefined && baseURL != '') {
                         options.url = baseURL;
                     }
                     var iiifTileSource = new IIIF(options);
