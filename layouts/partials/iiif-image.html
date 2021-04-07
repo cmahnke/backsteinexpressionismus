@@ -38,6 +38,7 @@
 {{- if or $site.IsServer (not (isset $site.Params "productioniiifurlprefix")) -}}
     {{- $infoJson = printf "/%s" (path.Join $contextPath .context.params.iiif) -}}
     {{- $baseURL = printf "/%s/%s/" $contextPath (path.Dir .context.params.iiif) -}}
+    {{- warnf "Setting IIIF URL locally to %s" $infoJson -}}
 {{- else -}}
     {{- $infoJson = printf "%s%s" $site.Params.productionIIIFURLPrefix (path.Join $contextPath .context.params.iiif) -}}
     {{- $baseURL = "" -}}

@@ -24,7 +24,7 @@
               {{- range .Params.resources -}}
                 {{- if or (and (ne $.Params.type "work") (ne $.Params.type "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
                   {{- if .params.iiif -}}
-                    {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page) }}
+                    {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page "site" $.Site) }}
                   {{- end -}}
                 {{- end -}}
               {{- end -}}
@@ -48,7 +48,7 @@
               <div class="book-description-images">
                 {{- range .Params.resources -}}
                   {{- if or (or (eq .name "front") (eq .name "title")) (eq .name "cover") -}}
-                    {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page) }}
+                    {{ partial "iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page  "site" $.Site) }}
                   {{- end -}}
                 {{- end -}}
               </div>

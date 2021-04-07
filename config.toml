@@ -17,7 +17,7 @@ disablePathToLower = true
     keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Acrhitecture, Books, Postcards"
     stylesheets = []
     copyright = "MMXXI"
-        productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
+    productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
 
 [menu]
     [[menu.main]]
