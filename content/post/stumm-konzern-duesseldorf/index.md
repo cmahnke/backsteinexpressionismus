@@ -1,6 +1,6 @@
 ---
 title: "Postkarte Stummhaus Düsseldorf"
-date: 2021-04-22T19:15:07+0:00
+date: 2021-04-22T19:15:07+01:00
 type: postcard
 tags:
 - Düsseldorf
