@@ -23,6 +23,13 @@ jobs:
           password: ${{ secrets.CR_PAT }}
           logout: false
 
+      - name: Setup deploy dependencies
+        env:
+          DEPLOY_SSH_IDENTITY: ${{ secrets.DEPLOY_SSH_IDENTITY }}
+        run: |
+          sudo apt-get install imagemagick parallel rsync sshpass
+          mkdir -p ~/.ssh && echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
+
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
