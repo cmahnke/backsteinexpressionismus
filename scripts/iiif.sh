@@ -56,7 +56,14 @@ do
     echo "Generating IIIF files for $IMAGE in directory $OUTPUT_DIR, IIIF directory $IIIF_DIR ($TARGET)"
     if [ $IIIF_STATIC_CMD = "vips" ] ; then
         vips dzsave $IMAGE $TARGET -t $TILE_SIZE --layout iiif --id "$IIIF_ID"
+        mkdir -p  $TARGET/full/full/0/
+        cp $IMAGE $TARGET/full/full/0/default.jpg
     elif [ $IIIF_STATIC_CMD = "iiif_static.py" ] ; then
-        iiif_static.py -d $TARGE -i "$IIIF_ID" -t $TILE_SIZE $IMAGE
+        iiif_static.py -d $TARGET -i "$IIIF_ID" -t $TILE_SIZE $IMAGE
     fi
+    if [[ -n "$CHOWN_UID" ]] ; then
+        echo "Changing owner of $TARGET to $CHOWN_UID"
+        chown -R $CHOWN_UID $TARGET
+    fi
+
 done
