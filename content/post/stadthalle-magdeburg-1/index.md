@@ -1,13 +1,13 @@
 ---
-title: "Postkarte Messeturm Köln"
+title: "Postkarte Stadhalle Magdeburg"
 date: 2021-04-15T19:15:07+01:00
-type: postcard
+type: book
 tags:
 - Magdeburg
 - Stadthalle Magdeburg
 - Adolf Abel
 - Foto
-- Postkarte
+- Buch
 resources:
 - src: "front.jpg"
   name: front

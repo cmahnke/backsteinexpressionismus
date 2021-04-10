@@ -34,3 +34,5 @@ Aber immer vorbei an einem irgendwie komischem Gebäude, dunkel, kastenförmig u
 Über drei Jahrzehnte später fiel mir im [Antiquariat Pretzsch](https://antiquariat-pretzsch.de/) N°1 dann das Buch "10 Jahre Wesermünde" in die Hände und ich fand den Turm wieder, anders als in der Kindheit ganz ohne umgebende Bebauung stand er da...
 
 Mehr über den [Wohnwasserturm Wulsdorf](https://de.wikipedia.org/wiki/Wohnwasserturm_Wulsdorf) kann man in der Wikipedia nachlesen.
+
+<div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>
