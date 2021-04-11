@@ -8,7 +8,7 @@ defaultcontentlanguage = "de"
 rssLimit = 25
 Paginate = 20
 disablePathToLower = true
-themes = ["projektemacher-base"]
+theme = ["projektemacher-base"]
 
 [params]
     author = "Christian Mahnke"
