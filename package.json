@@ -6,13 +6,5 @@
     "svgo-icons": "yarn run svgo-icon-burger && yarn run svgo-icon-down",
     "svgo-icon-burger": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Burger.svg -o static/images/burger.svg",
     "svgo-icon-down": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Down.svg -o static/images/down.svg"
-  },
-  "dependencies": {
-    "jquery": "^3.5.1",
-    "normalize.css": "^8.0.1",
-    "ol": "^6.4.3"
-  },
-  "devDependencies": {
-    "svgo": "^1.3.2"
   }
 }
