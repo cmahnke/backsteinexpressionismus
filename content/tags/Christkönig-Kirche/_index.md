@@ -3,6 +3,10 @@ title: "Christkönig-Kirche"
 description: ''
 type: building
 location: Bischofsheim
+geojson:
+  coordinates:
+  - 49.99169
+  - 8.3549983
 ---
 
 * Entworfen von [Dominikus Böhm](/tags/Dominikus-Böhm)

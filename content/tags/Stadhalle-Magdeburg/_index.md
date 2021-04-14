@@ -3,6 +3,10 @@ title: "Stadhalle Magdeburg"
 description: ''
 type: building
 location: Magdeburg
+geojson:
+  coordinates:
+  - 52.118304
+  - 11.637547
 ---
 
 * Entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz)

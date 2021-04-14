@@ -1,0 +1,12 @@
+{{ $content := .Content }}
+<div class="geojsonPopup">
+    <div class="title">
+        {{ .Title }}
+    </div>
+    <div class="content">
+        {{ $content | markdownify }}
+    </div>
+    <div class="link">
+        <a href="{{ .RelPermalink }}">{{ i18n "readmore" }}</a>
+    </div>
+</div>

@@ -3,6 +3,10 @@ title: "Hans-Sachs-Haus"
 description: ''
 type: building
 location: Gelsenkirchen
+geojson:
+  coordinates:
+  - 51.5110761
+  - 7.0906052
 ---
 
 * Entworfen von [Alfred Fischer](/tags/Alfred-Fischer)

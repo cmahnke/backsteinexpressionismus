@@ -44,6 +44,18 @@ theme = ["projektemacher-base"]
         source = "static"
         target = "static"
 
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["geojson", "gjson"]
+
+[outputFormats]
+  [outputFormats.GEOJSON]
+    mediaType = "application/json"
+    isPlainText = true
+    isHTML = false
+    baseName = "map"
+    notAlternative = true
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]

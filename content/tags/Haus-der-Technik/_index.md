@@ -5,6 +5,10 @@ type: building
 location:
   - Königsberg
   - Kaliningrad
+geojson:
+  coordinates:
+  - 54.7215982
+  - 20.5086936
 ---
 
 * Entworfen von [Hanns Hopp](/tags/Hans-Hopp)

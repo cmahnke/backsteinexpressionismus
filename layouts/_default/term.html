@@ -9,6 +9,11 @@
                 <h1>Alle Beiträge mit dem Schlagwort {{ .Title }}</h1>
             </div>
             <div class="body">
+{{/*
+                {{- if .Params.previewimg -}}
+
+                {{- end -}}
+*/}}
                 {{ if ne .Description "" }}
                     <div class="tag-description">
                         {{ .Description }}

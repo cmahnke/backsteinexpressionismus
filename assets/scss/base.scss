@@ -1,5 +1,7 @@
 @import "normalize";
 @import "fonts/futura-renner";
+@import "share.scss";
+@import "media-info";
 
 /* Source: https://www.onlinewebfonts.com/download/3e8042d2739cb66ae6ef7ffc372014db */
 @font-face {
@@ -692,27 +694,8 @@ a:visited {
     color: $color-body-text;
 }
 
-a.worldcat {
-    text-decoration: none;
-
-    &:after {
-        display: inline-block;
-        width: 1em;
-        content: url($link-light);
-    }
-}
-
 .share {
-    text-align: end;
-    font-size: small;
-    line-height: normal;
     margin-right: 1em;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
-
-    a {
-        text-decoration: none;
-    }
 }
 
 .tag-container {
