@@ -3,7 +3,7 @@
 {{ end }}
 {{ define "content" }}
 
-    {{- if ne .Kind "section " -}}
+    {{- if ne .Kind "section" -}}
         {{- $filter := "" -}}
         {{- $filterField := "" -}}
         {{- $source := "tags" -}}
@@ -30,7 +30,7 @@
     {{- else -}}
         <ul class="overview list">
             {{- range .Pages -}}
-                <li class="entry {{ $filter }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                <li class="entry list"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{- end -}}
         </ul>
     {{- end -}}
