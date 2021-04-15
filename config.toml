@@ -27,6 +27,11 @@ theme = ["projektemacher-base"]
         weight = 1
 
     [[menu.main]]
+        name = "Übersichten"
+        url = "/lists"
+        weight = 1
+
+    [[menu.main]]
         name = "Über"
         url = "/about"
         weight = 2

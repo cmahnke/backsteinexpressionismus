@@ -369,30 +369,31 @@ h1,h2,h3,h4,h5,h6 {
 
     /* See https://stackoverflow.com/a/28152300
        and https://codepen.io/hyrumwhite/pen/MQLbjP */
-    .body .text-content {
-        a,
-        a:active,
-        a:focus,
-        a:hover,
-        a:visited {
-            border-bottom:2px dotted darken($brick-bg-color, 4%);
-            display: inline-block;
-            position: relative;
-            &:after {
-                  content: '';
-                  width: 100%;
-                  border-bottom:2px dotted darken($brick-bg-color, 4%);
-                  position: absolute;
-                  bottom:-1px;
-                  left: -2px;
-            }
-        }
-
+    .body  {
         &.list {
-            width: max-content;
+            width: 60%;
             margin: auto;
         }
 
+        .text-content {
+            a,
+            a:active,
+            a:focus,
+            a:hover,
+            a:visited {
+                border-bottom:2px dotted darken($brick-bg-color, 4%);
+                display: inline-block;
+                position: relative;
+                &:after {
+                      content: '';
+                      width: 100%;
+                      border-bottom:2px dotted darken($brick-bg-color, 4%);
+                      position: absolute;
+                      bottom:-1px;
+                      left: -2px;
+                }
+            }
+        }
     }
 
     .overview-page-title {

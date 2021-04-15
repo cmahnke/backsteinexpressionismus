@@ -1,5 +1,5 @@
-Backsteinexpressionisus
-=======================
+Backsteinexpressionismus
+========================
 
 # Fixing thin black borders
 
