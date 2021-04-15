@@ -1,0 +1,39 @@
+{{- if ne .Kind "section" -}}
+    {{- $filter := "" -}}
+    {{- $filterField := "" -}}
+    {{- $source := "tags" -}}
+
+    {{- if .Page.Params.overview -}}
+        {{- $filter = .Page.Params.overview.filter -}}
+        {{- $filterField = .Page.Params.overview.filterfield -}}
+        {{- if .Page.Params.overview.source -}}
+            {{- $source = .Page.Params.overview.source -}}
+        {{- end -}}
+    {{- else -}}
+        {{- errorf "Overview metadata missing for page %s" .Page.path -}}
+    {{- end -}}
+
+    {{- $filterField := printf ".Page.Params.%s" $filterField -}}
+    {{- $sourceSection := ( where .Site.Pages "Section" $source) -}}
+    {{- $pages := where $sourceSection $filterField "eq" $filter -}}
+    <h1 class="overview-page-title">{{ .Title }}</h1>
+    <div class="overview-page-content">
+        {{ .Content }}
+    </div>
+
+    <ul class="overview page {{ $filter }}">
+        {{- range $pages.ByTitle -}}
+            <li class="entry {{ $filter }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end -}}
+    </ul>
+{{- else -}}
+    <ul class="overview list">
+        <h1 class="overview-list-title">{{ .Title }}</h1>
+        <div class="overview-list-content">
+            {{ .Content }}
+        </div>
+        {{- range .Pages -}}
+            <li class="entry list"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end -}}
+    </ul>
+{{- end -}}

@@ -7,3 +7,5 @@ overview:
   filter: architect
   filterField: type
 ---
+Gebäude der folgenden Architekten sind auf der Seite zu finden.
+Die Liste ist nicht notwendigerweise vollständig.

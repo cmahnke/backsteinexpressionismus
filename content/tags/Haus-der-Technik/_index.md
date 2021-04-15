@@ -5,6 +5,8 @@ type: building
 location:
   - Königsberg
   - Kaliningrad
+aliases:
+  - /tags/Haus-der-Technik-Königsberg
 geojson:
   coordinates:
   - 54.7215982
