@@ -387,8 +387,18 @@ h1,h2,h3,h4,h5,h6 {
                   left: -2px;
             }
         }
+
+        &.list {
+            width: max-content;
+            margin: auto;
+        }
+
     }
 
+    .overview-page-title {
+            width: max-content;
+            margin: auto;
+    }
 
     .title {
         font-weight: normal;

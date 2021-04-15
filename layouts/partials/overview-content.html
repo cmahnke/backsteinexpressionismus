@@ -1,7 +1,7 @@
 <div class="title">
     <h1 class="overview-page-title">{{ .Title }}</h1>
 </div>
-<div class="body">
+<div class="body list">
     <div class="overview-list-content">
         {{ .Content }}
     </div>
@@ -26,13 +26,13 @@
 
         <ul class="overview page {{ $filter }}">
             {{- range $pages.ByTitle -}}
-                <li class="entry {{ $filter }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                <li class="entry {{ $filter }}"><a href="{{ .RelPermalink }}">{{ replace .Title "ß" "ss" }}</a></li>
             {{- end -}}
         </ul>
     {{- else -}}
         <ul class="overview list">
             {{- range .Pages -}}
-                <li class="entry list"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                <li class="entry list"><a href="{{ .RelPermalink }}">{{ replace .Title "ß" "ss" }}</a></li>
             {{- end -}}
         </ul>
     {{- end -}}
