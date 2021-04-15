@@ -1,39 +1,39 @@
-{{- if ne .Kind "section" -}}
-    {{- $filter := "" -}}
-    {{- $filterField := "" -}}
-    {{- $source := "tags" -}}
-
-    {{- if .Page.Params.overview -}}
-        {{- $filter = .Page.Params.overview.filter -}}
-        {{- $filterField = .Page.Params.overview.filterfield -}}
-        {{- if .Page.Params.overview.source -}}
-            {{- $source = .Page.Params.overview.source -}}
-        {{- end -}}
-    {{- else -}}
-        {{- errorf "Overview metadata missing for page %s" .Page.path -}}
-    {{- end -}}
-
-    {{- $filterField := printf ".Page.Params.%s" $filterField -}}
-    {{- $sourceSection := ( where .Site.Pages "Section" $source) -}}
-    {{- $pages := where $sourceSection $filterField "eq" $filter -}}
+<div class="title">
     <h1 class="overview-page-title">{{ .Title }}</h1>
-    <div class="overview-page-content">
+</div>
+<div class="body">
+    <div class="overview-list-content">
         {{ .Content }}
     </div>
+    {{- if ne .Kind "section" -}}
+        {{- $filter := "" -}}
+        {{- $filterField := "" -}}
+        {{- $source := "tags" -}}
 
-    <ul class="overview page {{ $filter }}">
-        {{- range $pages.ByTitle -}}
-            <li class="entry {{ $filter }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- if .Page.Params.overview -}}
+            {{- $filter = .Page.Params.overview.filter -}}
+            {{- $filterField = .Page.Params.overview.filterfield -}}
+            {{- if .Page.Params.overview.source -}}
+                {{- $source = .Page.Params.overview.source -}}
+            {{- end -}}
+        {{- else -}}
+            {{- errorf "Overview metadata missing for page %s" .Page.path -}}
         {{- end -}}
-    </ul>
-{{- else -}}
-    <ul class="overview list">
-        <h1 class="overview-list-title">{{ .Title }}</h1>
-        <div class="overview-list-content">
-            {{ .Content }}
-        </div>
-        {{- range .Pages -}}
-            <li class="entry list"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{- end -}}
-    </ul>
-{{- end -}}
+
+        {{- $filterField := printf ".Page.Params.%s" $filterField -}}
+        {{- $sourceSection := ( where .Site.Pages "Section" $source) -}}
+        {{- $pages := where $sourceSection $filterField "eq" $filter -}}
+
+        <ul class="overview page {{ $filter }}">
+            {{- range $pages.ByTitle -}}
+                <li class="entry {{ $filter }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- end -}}
+        </ul>
+    {{- else -}}
+        <ul class="overview list">
+            {{- range .Pages -}}
+                <li class="entry list"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- end -}}
+        </ul>
+    {{- end -}}
+</div>

@@ -2,5 +2,13 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
-    {{ partial "overview-content.html" . }}
+    <div class="page-container zigzag">
+        <main class="content">
+            <div class="post brick">
+                <div class="container">
+                    {{ partial "overview-content.html" . }}
+              </div>
+          </div>
+      </main>
+    </div>
 {{ end }}
