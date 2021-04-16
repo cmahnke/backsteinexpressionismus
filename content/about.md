@@ -15,7 +15,7 @@ Und so habe ich seit einigen Jahren eine kleine Sammlung an Abbildungen, meist P
 
 Tags mit weniger als drei Vorkommen werden hier nicht angezeigt.
 
-{{< tagcloud >}}
+{{< tags/cloud >}}
 
 # Kolophon
 

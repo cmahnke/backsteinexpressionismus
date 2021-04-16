@@ -9,6 +9,7 @@ rssLimit = 25
 Paginate = 20
 disablePathToLower = true
 theme = ["projektemacher-base"]
+copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemacher</a>'
 
 [params]
     author = "Christian Mahnke"
@@ -17,7 +18,8 @@ theme = ["projektemacher-base"]
     description = "Alte Abbildungen von Backsteinexpressionismus-Gebäuden aus Büchen und von Postkarten."
     keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Acrhitecture, Books, Postcards"
     stylesheets = []
-    copyright = "MMXXI"
+    copyrightYears = "MMXXI"
+    cc = false
     productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
 
 [menu]
