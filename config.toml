@@ -56,7 +56,7 @@ copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemache
     suffixes = ["geojson", "gjson"]
 
 [outputFormats]
-  [outputFormats.GEOJSON]
+  [outputFormats.geojson]
     mediaType = "application/json"
     isPlainText = true
     isHTML = false

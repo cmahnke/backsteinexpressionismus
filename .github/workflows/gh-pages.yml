@@ -72,6 +72,10 @@ jobs:
       - name: Build Hugo site
         run: hugo --i18n-warnings
 
+      - name: Validate JSON
+        run: |
+          yarn run validate
+
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
