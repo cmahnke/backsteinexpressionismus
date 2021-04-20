@@ -5,6 +5,7 @@
     "svgo-header": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Logo/Header.svg -o static/images/header.svg",
     "svgo-icons": "yarn run svgo-icon-burger && yarn run svgo-icon-down",
     "svgo-icon-burger": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Burger.svg -o static/images/burger.svg",
-    "svgo-icon-down": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Down.svg -o static/images/down.svg"
+    "svgo-icon-down": "svgo --config '{ \"plugins\": [ {\"removeAttrs\": { \"attrs\": \"(style|font-weight|font-size|font-family)\" } } ] }' --enable=removeAttrs -i Source\\ Files/Icons/Down.svg -o static/images/down.svg",
+    "validate": "yarn run validate-iiif"
   }
 }
