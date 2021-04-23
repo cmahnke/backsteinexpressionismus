@@ -44,13 +44,11 @@
      {{ if hasPrefix .Page.File.Path "about" }}
          {{ $class = "about" }}
      {{ end }}
-     {{ if .IsHome }}
-         {{- $class = "home" -}}
-     {{ end }}
+
      {{ if .Params.metaPage }}
          {{ $class = printf "%s %s" $class "meta" }}
      {{ end }}
-     <body class="{{ $class }}">
+     <body class="{{ $class }} {{ if .IsHome }}home{{ end }}">
        <div id="page">
          {{ partial "header.html" . }}
          <div id="main">
