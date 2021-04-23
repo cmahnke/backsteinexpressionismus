@@ -1,5 +1,5 @@
 ---
-title: "Postkarte Messeturm Köln"
+title: "Magdeburg"
 date: 2021-05-21T19:15:07+01:00
 type: book
 description: 'Walter von Molo: Magdeburg. Herausgegeben vom Wirtschafts- und Verkehrsamt der Stadt Magdeburg 1929. <a class="worldcat" href="http://www.worldcat.org/oclc/72236396">&nbsp;</a>'
