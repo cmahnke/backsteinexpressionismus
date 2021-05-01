@@ -1,6 +1,8 @@
 <main class="content error404">
     <div class="post brick">
         <div class="container">
+
+{{/*
             <div class="title">
                 <h1>404</h1>
                 <h1>Nicht gefunden</h1>
@@ -9,6 +11,8 @@
                <p>Die angeforderte URL konnte auf dem Server nicht gefunden werden.</p>
                <p>Du kannst hier zurück zur <a href="{{ .Site.BaseURL | safeHTML }}">Startseite</a>.</p>
             </div>
+*/}}
+{{- partialCached "404-content.html" . -}}
         </div>
     </div>
 </main>

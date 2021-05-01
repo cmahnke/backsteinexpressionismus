@@ -31,28 +31,9 @@
             </div>
 
             {{- if and .Params.type .Params.description -}}
-              <div class="{{ .Params.itemType }}-description">
-                {{- if eq .Params.type "book" -}}
-                    <h1>{{ i18n "aboutTheNeu" }} {{ i18n "book" }}</h1>
-                {{- else if eq .Params.itemType "postcard" -}}
-                    <h1>{{ i18n "aboutTheNeu" }} {{ i18n "postcard" }}</h1>
-                {{- else if eq .Params.itemType "other" -}}
-                    <h1>{{ i18n "aboutTheFem" }} {{ i18n "other" }}</h1>
-                {{- end -}}
-
-                {{- .Params.description | markdownify -}}
-              </div>
+                {{- partial (printf "media/%s.html" .Params.type ) . -}}
             {{- end -}}
 
-            {{- if or (eq .Params.type "book") -}}
-              <div class="book-description-images">
-                {{- range .Params.resources -}}
-                  {{- if or (or (eq .name "front") (eq .name "title")) (eq .name "cover") -}}
-                    {{ partial "iiif/iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page  "site" $.Site) }}
-                  {{- end -}}
-                {{- end -}}
-              </div>
-            {{- end -}}
           </div>
           {{- if not .Params.metaPage -}}
               <div class="tag-container">
