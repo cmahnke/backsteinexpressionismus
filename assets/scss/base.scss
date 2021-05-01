@@ -410,6 +410,9 @@ h6 {
 
         &:hover {
             transform: scale(1.05) rotate(.9deg);
+            @media (max-width : 56.25em) {
+                transform: scale(1.05);
+            }
         }
 
         &.landscape {
