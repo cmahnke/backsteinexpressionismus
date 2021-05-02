@@ -7,8 +7,8 @@ location:
   - Bremerhaven
 geojson:
   coordinates:
-  - 53.5106277
   - 8.5975113
+  - 53.5106277
 ---
 
 

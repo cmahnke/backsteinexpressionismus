@@ -5,8 +5,8 @@ type: building
 location: Düsseldorf
 geojson:
   coordinates:
-  - 51.2203605
   - 6.7745112
+  - 51.2203605
 ---
 
 * Entworfen von [Paul Bonatz](/tags/Paul-Bonatz)

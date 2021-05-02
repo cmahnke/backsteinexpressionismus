@@ -6,8 +6,8 @@ location:
   - Berlin
 geojson:
   coordinates:
-  - 52.5830488
   - 13.2834519
+  - 52.5830488
 ---
 
 * Entworfen von [Eugen Schmohl](/tags/Eugen-Schmohl)

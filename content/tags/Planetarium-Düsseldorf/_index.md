@@ -7,8 +7,8 @@ aliases:
   - /tags/Rheinhalle-Düsseldorf
 geojson:
   coordinates:
-  - 51.2320933
   - 6.7704388
+  - 51.2320933
 ---
 
 * Entworfen von [Wilhelm Kreis](/tags/Wilhelm-Kreis)

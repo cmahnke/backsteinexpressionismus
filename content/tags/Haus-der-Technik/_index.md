@@ -9,8 +9,8 @@ aliases:
   - /tags/Haus-der-Technik-Königsberg
 geojson:
   coordinates:
-  - 54.7215982
   - 20.5086936
+  - 54.7215982
 ---
 
 * Entworfen von [Hanns Hopp](/tags/Hans-Hopp)

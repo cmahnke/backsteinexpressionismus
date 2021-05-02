@@ -5,8 +5,8 @@ type: building
 location: Gelsenkirchen
 geojson:
   coordinates:
-  - 51.5110761
   - 7.0906052
+  - 51.5110761
 ---
 
 * Entworfen von [Alfred Fischer](/tags/Alfred-Fischer)

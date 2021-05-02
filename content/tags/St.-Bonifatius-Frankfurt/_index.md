@@ -5,8 +5,8 @@ type: building
 location: Frankfurt
 geojson:
   coordinates:
-  - 50.0934171
   - 8.6727415
+  - 50.0934171
 ---
 
 * Entworfen von [Martin Weber](/tags/Martin-Weber)

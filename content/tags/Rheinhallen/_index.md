@@ -5,8 +5,8 @@ type: building
 location: Köln
 geojson:
   coordinates:
-  - 50.9427122
   - 6.9710936
+  - 50.9427122
 ---
 
 * Entworfen von [Adolf Abel](/tags/Adolf-Abel)

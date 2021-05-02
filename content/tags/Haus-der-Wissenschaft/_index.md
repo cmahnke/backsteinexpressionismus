@@ -6,8 +6,8 @@ location:
   - Braunschweig
 geojson:
   coordinates:
-  - 52.274832
   - 10.5274163
+  - 52.274832
 ---
 
 * Entworfen von [Emil Herzig](/tags/Emil Herzig)

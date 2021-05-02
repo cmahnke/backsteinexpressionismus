@@ -7,8 +7,8 @@ location:
   - Ickern
 geojson:
   coordinates:
-  - 51.5924924
   - 7.3374243
+  - 51.5924924
 ---
 
 * Entworfen von [Alfred Fischer](/tags/Alfred-Fischer)

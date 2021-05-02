@@ -10,8 +10,8 @@ aliases:
   - /tags/Wilhelmshavener-Rathaus
 geojson:
   coordinates:
-  - 53.5267311
   - 8.1076964
+  - 53.5267311
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)

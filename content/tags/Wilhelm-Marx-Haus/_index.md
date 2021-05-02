@@ -6,8 +6,8 @@ location:
   - Köln
 geojson:
   coordinates:
-  - 51.224654
   - 6.7746431
+  - 51.224654
 ---
 
 * Entworfen von [Wilhelm Kreis](/tags/Wilhelm-Kreis)

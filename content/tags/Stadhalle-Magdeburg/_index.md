@@ -5,8 +5,8 @@ type: building
 location: Magdeburg
 geojson:
   coordinates:
-  - 52.118304
   - 11.637547
+  - 52.118304
 ---
 
 * Entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz)

@@ -5,8 +5,8 @@ type: building
 location: Hannover
 geojson:
   coordinates:
-  - 52.3770514
   - 9.7293844
+  - 52.3770514
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)

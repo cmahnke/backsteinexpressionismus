@@ -5,8 +5,8 @@ type: building
 location: Magdeburg
 geojson:
   coordinates:
-  - 52.1177189
   - 11.6384616
+  - 52.1177189
 ---
 
 * Entworfen von [Albin Müller](/tags/Albin-Müller)

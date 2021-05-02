@@ -6,8 +6,8 @@ location:
   - Berlin
 geojson:
   coordinates:
-  - 52.4941648
   - 13.3247507
+  - 52.4941648
 ---
 
 * Entworfen von [Ossip Klarwein](/tags/Ossip-Klarwein) (Büro [Fritz Höger](/tags/Fritz-Höger))

@@ -8,8 +8,8 @@ aliases:
   - /tags/Haus-der-Technik-Essen
 geojson:
   coordinates:
-  - 51.4526649
   - 7.0136258
+  - 51.4526649
 ---
 
 * Entworfen von [Edmund Körner](/tags/Edmund-Körner)

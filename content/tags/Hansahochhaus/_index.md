@@ -6,8 +6,8 @@ location:
   - Köln
 geojson:
   coordinates:
-  - 50.9490277
   - 6.9490351
+  - 50.9490277
 ---
 
 * Entworfen von [Jacob Koerfer](/tags/Jacob-Koerfer)

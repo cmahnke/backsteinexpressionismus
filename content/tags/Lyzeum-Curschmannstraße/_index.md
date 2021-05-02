@@ -5,8 +5,8 @@ type: building
 location: Hamburg
 geojson:
   coordinates:
-  - 53.5875113
   - 9.9762056
+  - 53.5875113
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)

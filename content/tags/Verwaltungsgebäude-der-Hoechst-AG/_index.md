@@ -7,8 +7,8 @@ location:
   - Frankfurt-Höchst
 geojson:
   coordinates:
-  - 50.09472
   - 8.5322369
+  - 50.09472
 ---
 
 * Entworfen von [Peter Behrens](/tags/Peter-Behrens)
