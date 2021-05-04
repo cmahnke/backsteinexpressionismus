@@ -9,6 +9,7 @@ tags:
 - Foto
 - Buch
 - Zeipau
+- Dachstein- und Braunkohlenwerke Zeipau
 resources:
 - src: "front.jpg"
   name: front
