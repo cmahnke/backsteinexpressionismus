@@ -1,5 +1,14 @@
 {{ define "title" }}
-  {{ .Title }} · {{ .Site.Title }}
+    {{- $title := "" -}}
+    {{- if eq .CurrentSection.Title "" -}}
+        {{- $title = .Title -}}
+    {{- else if eq .CurrentSection.Title .Title -}}
+        {{- $title = .Title -}}
+    {{- else -}}
+        {{- $title = printf "%s: %s" .CurrentSection.Title .Title -}}
+    {{- end -}}
+
+  {{ $title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
     <div class="page-container zigzag">

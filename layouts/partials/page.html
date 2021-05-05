@@ -8,15 +8,35 @@
               {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
           </div>
         {{- end -}}
+
+        {{- $title := "" -}}
+        {{- if eq .CurrentSection.Title "" -}}
+            {{- $title = .Title -}}
+        {{- else if eq .CurrentSection.Title .Title -}}
+            {{- $title = .Title -}}
+        {{- else -}}
+            {{- $title = printf "%s: %s" .CurrentSection.Title .Title -}}
+        {{- end -}}
+
         <div class="title">
-            <h1>{{ .Title }}</h1>
+            <h1>{{ $title }}</h1>
         </div>
 
           <div class="body">
 
             <div class="text-content">
-              {{ .Content }}
+                {{ .Content }}
             </div>
+
+              <div class="post-relations">
+                  {{- if or (eq .Kind "section") (ne .CurrentSection.Dir "")  -}}
+                      {{- partial "post-relations" . -}}
+                  {{- else -}}
+                      <div class="section-parent">
+                          {{- i18n "singleFind" -}}
+                      </div>
+                  {{- end -}}
+              </div>
 
             <div class="iiif">
               {{- $context := path.Dir .File.Path -}}

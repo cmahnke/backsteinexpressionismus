@@ -9,6 +9,8 @@ tags:
 - Buch
 - Zeipau
 - Worpswede
+- Dachstein- und Braunkohlenwerke Zeipau
+- Hoetger-Hof
 resources:
 - src: "front.jpg"
   name: front
@@ -18,15 +20,6 @@ resources:
   name: title
   params:
     iiif: title/info.json
-- src: "page022.jpg"
-  params:
-    iiif: page022/info.json
-- src: "page023.jpg"
-  params:
-    iiif: page023/info.json
-- src: "page025.jpg"
-  params:
-    iiif: page025/info.json
 ---
 
 Dieses Buch gehört zur Reihe der "Blauen Bücher"...

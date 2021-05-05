@@ -1,6 +1,6 @@
 {{ $pages := .Pages }}
 {{ if .IsHome }}
-    {{ $pages = .Site.RegularPages }}
+    {{ $pages = where .Site.Pages "Section" "post" }}
 {{ end }}
 {{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
 

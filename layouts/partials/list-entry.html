@@ -6,7 +6,7 @@
 {{- $images := newScratch -}}
 
 {{- range .Params.resources -}}
-    {{- if eq .name "front" -}}
+    {{- if or (eq .name "front") (eq .name "preview") -}}
         {{- $images.Set "previewLoc" (path.Join $context .src) -}}
         {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
     {{ end }}
@@ -40,8 +40,16 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
     {{- end -}}
     <div class="container">
         <a href="{{ .RelPermalink }}">
+            {{- $title := "" -}}
+            {{- if eq .CurrentSection.Title "" -}}
+                {{- $title = .Title -}}
+            {{- else if eq .CurrentSection.Title .Title -}}
+                {{- $title = .Title -}}
+            {{- else -}}
+                {{- $title = printf "%s: %s" .CurrentSection.Title .Title -}}
+            {{- end -}}
             <div class="title">
-                {{ .Title }}
+                {{ $title }}
             </div>
             <div class="summary">
                 {{ partial "macros/strip-links.html" . }}
