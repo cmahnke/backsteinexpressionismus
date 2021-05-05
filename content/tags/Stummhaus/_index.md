@@ -10,4 +10,7 @@ geojson:
 ---
 
 * Entworfen von [Paul Bonatz](/tags/Paul-Bonatz)
-* [Das Stummhaus in der Wikipedia](https://de.wikipedia.org/wiki/Stummhaus)
+
+Das Stummhaus in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Stummhaus)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6043.htm)

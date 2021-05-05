@@ -10,4 +10,7 @@ geojson:
 ---
 
 * Entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz)
-* [Die Stadhalle Magdeburg in der Wikipedia](https://de.wikipedia.org/wiki/Stadthalle_Magdeburg)
+
+Die Stadhalle Magdeburg in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Stadthalle_Magdeburg)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6124.htm)

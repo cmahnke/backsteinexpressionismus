@@ -12,4 +12,7 @@ geojson:
 ---
 
 * Entworfen von [Wilhelm Kreis](/tags/Wilhelm-Kreis)
-* [Das Planetarium Düsseldorf (heute Tonhalle Düsseldorf)](https://de.wikipedia.org/wiki/Tonhalle_D%C3%BCsseldorf)
+
+Das Planetarium Düsseldorf (heute Tonhalle Düsseldorf) in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Tonhalle_D%C3%BCsseldorf)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6044.htm)

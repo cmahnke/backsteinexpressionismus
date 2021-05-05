@@ -10,4 +10,7 @@ geojson:
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)
-* [Das Chilehaus in der Wikipedia](https://de.wikipedia.org/wiki/Chilehaus)
+
+Das Chilehaus in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Chilehaus)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/1109.htm)

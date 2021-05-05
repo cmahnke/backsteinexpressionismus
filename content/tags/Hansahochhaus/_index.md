@@ -11,4 +11,7 @@ geojson:
 ---
 
 * Entworfen von [Jacob Koerfer](/tags/Jacob-Koerfer)
-* [Das Hansahochhaus in der Wikipedia](https://de.wikipedia.org/wiki/Hansahochhaus)
+
+Das Hansahochhaus in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Hansahochhaus)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6120.htm)

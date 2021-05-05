@@ -11,4 +11,7 @@ geojson:
 ---
 
 * Entworfen von [Eugen Schmohl](/tags/Eugen-Schmohl)
-* [Der Borsigturm in der Wikipedia](https://de.wikipedia.org/wiki/Borsig_(Unternehmen)#Der_Borsigturm)
+
+Der Borsigturm in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Borsig_(Unternehmen)#Der_Borsigturm)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/5996.htm)

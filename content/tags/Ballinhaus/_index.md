@@ -9,4 +9,6 @@ geojson:
   - 53.5480155
 ---
 
-* [Das Ballinhaus (heute Messberghof) in der Wikipedia](https://de.wikipedia.org/wiki/Me%C3%9Fberghof)
+Das Ballinhaus (heute Messberghof) in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Me%C3%9Fberghof)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/9722.htm)

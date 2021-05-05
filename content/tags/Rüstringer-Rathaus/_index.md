@@ -15,4 +15,7 @@ geojson:
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)
-* [Das Rüstringer Rathaus (heute Wilhelmshaven) in der Wikipedia](https://de.wikipedia.org/wiki/Rathaus_Wilhelmshaven)
+
+Das Rüstringer Rathaus (heute Wilhelmshaven) in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Rathaus_Wilhelmshaven)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/1108.htm)

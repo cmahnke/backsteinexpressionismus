@@ -12,4 +12,7 @@ geojson:
 ---
 
 * Entworfen von [Peter Behrens](/tags/Peter-Behrens)
-* [Das Technisches Verwaltungsgebäude der Hoechst AG in der Wikipedia](https://de.wikipedia.org/wiki/Technisches_Verwaltungsgeb%C3%A4ude_der_Hoechst_AG)
+
+Das Technisches Verwaltungsgebäude der Hoechst AG in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Technisches_Verwaltungsgeb%C3%A4ude_der_Hoechst_AG)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6991.htm)

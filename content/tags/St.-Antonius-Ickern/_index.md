@@ -12,4 +12,7 @@ geojson:
 ---
 
 * Entworfen von [Alfred Fischer](/tags/Alfred-Fischer)
-* [Die St. Antonius Kirche Ickern (heute Teil von Castrop-Rauxel) in der Wikipedia](https://de.wikipedia.org/wiki/St._Antonius_(Castrop-Rauxel))
+
+Die St. Antonius Kirche Ickern (heute Teil von Castrop-Rauxel) in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/St._Antonius_(Castrop-Rauxel))
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/288.htm)

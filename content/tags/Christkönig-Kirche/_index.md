@@ -10,4 +10,7 @@ geojson:
 ---
 
 * Entworfen von [Dominikus Böhm](/tags/Dominikus-Böhm)
-* [Die Christkönig-Kirche in der Wikipedia](https://de.wikipedia.org/wiki/Christk%C3%B6nig_(Bischofsheim))
+
+Die Christkönig-Kirche in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Christk%C3%B6nig_(Bischofsheim))
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/794.htm)

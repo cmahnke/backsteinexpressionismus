@@ -10,4 +10,7 @@ geojson:
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)
-* [Das Anzeiger Hochhaus in der Wikipedia](https://de.wikipedia.org/wiki/Anzeiger-Hochhaus)
+
+Das Anzeiger Hochhaus in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Anzeiger-Hochhaus)
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/7497.htm)
