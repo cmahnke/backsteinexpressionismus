@@ -39,3 +39,5 @@ resources:
   params:
     iiif: page063/info.json
 ---
+
+Die [Stadhalle Magdeburg](/tags/Stadthalle-Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).

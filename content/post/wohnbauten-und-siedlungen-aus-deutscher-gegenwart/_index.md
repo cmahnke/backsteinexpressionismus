@@ -4,6 +4,7 @@ date: 2021-04-01T18:25:07+02:00
 description: 'Walter Müller-Wulckow: Wohnbauten und Siedlungen mit 110 großen Bildseiten und 35 Grundrissen. Karl Langewiesche, Königstein im Taunus 1928. <a class="worldcat" href="http://www.worldcat.org/oclc/1072695799">&nbsp;</a>'
 type: book
 tags:
+- Walter Müller-Wulckow
 - Otto Bartning
 - Bernhard Hoetger
 - Buch

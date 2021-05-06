@@ -2,6 +2,7 @@
 title: "Stadhalle Magdeburg"
 description: ''
 type: building
+archinformID: projekte/6124
 location: Magdeburg
 geojson:
   coordinates:

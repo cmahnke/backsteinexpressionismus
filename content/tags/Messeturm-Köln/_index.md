@@ -2,6 +2,7 @@
 title: "Messeturm Köln"
 description: ''
 type: building
+#archinformID:
 location: Köln
 geojson:
   coordinates:

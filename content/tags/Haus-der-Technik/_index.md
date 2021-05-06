@@ -2,6 +2,7 @@
 title: "Haus der Technik"
 description: ''
 type: building
+archinformID: projekte/12442
 location:
   - Königsberg
   - Kaliningrad

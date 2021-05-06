@@ -2,6 +2,7 @@
 title: "St. Bonifatius Frankfurt"
 description: ''
 type: building
+archinformID: projekte/75083
 location: Frankfurt
 geojson:
   coordinates:

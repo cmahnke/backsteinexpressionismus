@@ -2,6 +2,7 @@
 title: "Gesundheitsamt Hamburg"
 description: ''
 type: building
+archinformID: projekte/75941
 location: Hamburg
 geojson:
   coordinates:

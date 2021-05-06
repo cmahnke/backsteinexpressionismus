@@ -2,6 +2,7 @@
 title: "Paula-Becker-Modersohn-Haus"
 description: ''
 type: building
+archinformID: projekte/6364
 location: Bremen
 geojson:
   coordinates:

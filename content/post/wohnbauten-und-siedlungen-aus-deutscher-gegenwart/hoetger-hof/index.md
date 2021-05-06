@@ -14,3 +14,4 @@ resources:
   params:
     iiif: page025/info.json
 ---
+Seite 23 und 25: Der [Hoetger-Hof](/tags/Hoetger-Hof) von [Bernhard Hoetger](/tags/Bernhard-Hoetger).

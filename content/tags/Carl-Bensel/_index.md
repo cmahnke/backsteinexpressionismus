@@ -2,6 +2,7 @@
 title: "Carl Bensel"
 description: ''
 type: architect
+archinformID: arch/23216
 ---
 
 Carl Bensel in der...

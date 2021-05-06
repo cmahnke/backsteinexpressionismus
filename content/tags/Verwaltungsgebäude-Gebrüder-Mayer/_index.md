@@ -2,6 +2,7 @@
 title: "Verwaltungsgebäude und Lagerschuppen Gebrüder Mayer"
 description: ''
 type: building
+archinformID: projekte/6773
 location: Hannover
 geojson:
   coordinates:

@@ -2,6 +2,7 @@
 title: "Hoetger-Hof"
 description: ''
 type: building
+archinformID: projekte/6365
 location:
   - Worpswede
 geojson:
@@ -12,4 +13,5 @@ geojson:
 
 * Entworfen von [Bernhard Hoetger](/tags/Bernhard-Hoetger)
 
-* [Hoetger-Hof in der Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6365.htm)
+Der Hoetger-Hof in der...
+* [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6365.htm)

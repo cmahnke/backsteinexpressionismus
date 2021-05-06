@@ -2,6 +2,7 @@
 title: "Chilehaus"
 description: ''
 type: building
+archinformID: projekte/1109
 location: Hamburg
 geojson:
   coordinates:
@@ -14,3 +15,4 @@ geojson:
 Das Chilehaus in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Chilehaus)
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/1109.htm)
+* [Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/chilehaus)

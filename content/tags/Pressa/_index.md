@@ -2,6 +2,7 @@
 title: "Pressa"
 description: ''
 type: building
+archinformID: projekte/29525
 location: Köln
 ---
 

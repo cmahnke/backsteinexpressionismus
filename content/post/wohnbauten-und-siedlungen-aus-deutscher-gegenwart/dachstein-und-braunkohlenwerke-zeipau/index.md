@@ -11,3 +11,4 @@ resources:
   params:
     iiif: page022/info.json
 ---
+Seite 22: Das Direktorenwohnhaus der [Dachstein- und Braunkohlenwerke Zeipau](/tags/Dachstein--und-Braunkohlenwerke-Zeipau) von [Otto Bartning](/tags/Otto-Bartning).

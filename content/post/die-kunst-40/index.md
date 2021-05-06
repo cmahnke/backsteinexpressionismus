@@ -7,6 +7,9 @@ tags:
 - Hamburg
 - Fritz Schumacher
 - Buch
+- Erika-Schwesternhaus
+- Lotsenwache Hamburg
+- Gewerbehaus Hamburg
 resources:
 - src: "front.jpg"
   name: front

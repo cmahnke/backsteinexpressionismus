@@ -34,9 +34,14 @@ copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemache
         weight = 1
 
     [[menu.main]]
+        name = "Links"
+        url = "/links"
+        weight = 2
+
+    [[menu.main]]
         name = "Über"
         url = "/about"
-        weight = 2
+        weight = 3
 
 [module]
     [[module.mounts]]

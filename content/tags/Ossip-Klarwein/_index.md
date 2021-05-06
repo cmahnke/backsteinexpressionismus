@@ -2,6 +2,7 @@
 title: "Ossip Klarwein"
 description: ''
 type: architect
+archinformID: arch/68687
 ---
 
 Ossip Klarwein in der...

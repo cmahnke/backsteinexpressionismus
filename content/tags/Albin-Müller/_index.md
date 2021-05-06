@@ -2,6 +2,7 @@
 title: "Albin Müller"
 description: ''
 type: architect
+archinformID: arch/4734
 aliases:
   - /tags/Albinmüller
 ---

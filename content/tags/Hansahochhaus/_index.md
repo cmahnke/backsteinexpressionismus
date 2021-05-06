@@ -2,6 +2,7 @@
 title: "Hansahochhaus"
 description: ''
 type: building
+archinformID: projekte/6120
 location:
   - Köln
 geojson:

@@ -2,6 +2,7 @@
 title: "Haus der Wissenschaft"
 description: ''
 type: building
+#archinformID:
 location:
   - Braunschweig
 geojson:

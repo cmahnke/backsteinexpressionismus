@@ -1,6 +1,6 @@
 ---
 title: "Albinmüller-Turm"
-date: 2021-05-21T19:15:07+01:00
+date: 2021-05-28T19:15:07+01:00
 tags:
 - Magdeburg
 - Albinmüller-Turm
@@ -27,3 +27,5 @@ resources:
   params:
     iiif: page069/info.json
 ---
+
+Der [Albinmüller-Turm](/tags/Albinmüller-Turm) von [Albin Müller](/tags/Albin Müller).

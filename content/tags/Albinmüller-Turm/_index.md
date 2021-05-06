@@ -2,6 +2,7 @@
 title: "Albinmüller-Turm Magdeburg"
 description: ''
 type: building
+#archinformID:
 location: Magdeburg
 geojson:
   coordinates:

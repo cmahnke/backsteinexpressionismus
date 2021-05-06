@@ -656,11 +656,17 @@ a:visited {
     .tags-title {
         font-size: larger;
         margin-bottom: 0.6em;
-        display: inline-block;
+        display: block;
     }
 
     .tags a {
         padding-right: 0.3em;
+    }
+
+    .tags-additional {
+        font-size: small;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 }
 /* IIIF */

@@ -8,6 +8,7 @@ tags:
 - Hamm
 - Essen
 - Königsberg
+- Kaliningrad
 - Düsseldorf
 - Berlin
 - Hannover
@@ -33,7 +34,13 @@ tags:
 - Essener Börse
 - Hansahochhaus
 - Borsigturm
+- Stummhaus
+- Lotsenwache Hamburg
+- Gewerbehaus Hamburg
+- Handelshof Königsberg
 - Verwaltungsgebäude der Hoechst AG
+- Verwaltungsgebäude Gebrüder Mayer
+- Zeche Sachsen
 resources:
 - src: "front.jpg"
   name: front
@@ -43,67 +50,6 @@ resources:
   name: title
   params:
     iiif: title/info.json
-- src: "page011.jpg"
-  params:
-    iiif: page011/info.json
-- src: "page023.jpg"
-  params:
-    iiif: page023/info.json
-    rotate: 90
-- src: "page056.jpg"
-  params:
-    iiif: page056/info.json
-- src: "page057.jpg"
-  params:
-    iiif: page057/info.json
-- src: "page058.jpg"
-  params:
-    iiif: page058/info.json
-- src: "page066.jpg"
-  params:
-    iiif: page066/info.json
-    rotate: 90
-- src: "page067.jpg"
-  params:
-    iiif: page067/info.json
-    rotate: 90
-- src: "page069.jpg"
-  params:
-    iiif: page069/info.json
-    rotate: 90
-- src: "page070.jpg"
-  params:
-    iiif: page070/info.json
-- src: "page071.jpg"
-  params:
-    iiif: page071/info.json
-- src: "page072.jpg"
-  params:
-    iiif: page072/info.json
-- src: "page073.jpg"
-  params:
-    iiif: page073/info.json
-- src: "page074.jpg"
-  params:
-    iiif: page074/info.json
-- src: "page075.jpg"
-  params:
-    iiif: page075/info.json
-- src: "page076.jpg"
-  params:
-    iiif: page076/info.json
-- src: "page077.jpg"
-  params:
-    iiif: page077/info.json
-- src: "page078.jpg"
-  params:
-    iiif: page078/info.json
-- src: "page079.jpg"
-  params:
-    iiif: page079/info.json
-- src: "page080.jpg"
-  params:
-    iiif: page080/info.json
 ---
 
 Dieses Buch gehört zur Reihe der "Blauen Bücher"...
@@ -123,5 +69,6 @@ In diesem Band geht es, wie der Titel schon verrät, um Wirtschaftsgebäude. Bau
 * [Peter Behrens](https://de.wikipedia.org/wiki/Peter_Behrens)
 * [Paul Bonatz](https://de.wikipedia.org/wiki/Paul_Bonatz)
 
+Nicht alles gezeigte ist dem Backsteinexpressionismus zuzurechnen...
 
 <div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°2</a>.</div>
