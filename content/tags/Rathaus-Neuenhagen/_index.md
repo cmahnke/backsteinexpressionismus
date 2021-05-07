@@ -3,6 +3,7 @@ title: "Rathaus Neuenhagen"
 description: ''
 type: building
 location: Neuenhagen
+build: 1925-1926
 geojson:
   coordinates:
   - 13.6879291
@@ -11,5 +12,5 @@ geojson:
 
 * Entworfen von [Wilhelm Wagner](/tags/Wilhelm-Wagner)
 
-Rathaus Neuenhagen in der...
+# Rathaus Neuenhagen in der...
 * [Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/rathaus-neuenhagen)

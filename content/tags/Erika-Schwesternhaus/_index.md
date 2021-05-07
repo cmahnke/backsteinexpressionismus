@@ -4,6 +4,9 @@ description: ''
 type: building
 archinformID: projekte/5984
 location: Hamburg
+build: 1912-1914
+aliases:
+  - /tags/Schwesternhaus-Eppendorfer-Krankenhaus
 geojson:
   coordinates:
   - 9.9727276
@@ -12,5 +15,6 @@ geojson:
 
 * Entworfen von [Fritz Schumacher](/tags/Fritz-Schumacher)
 
-Das Erika-Schwesternhaus in der...
+# Das Erika-Schwesternhaus in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/5984.htm)
+* [Werksverzeichnis der Fritz-Schumacher-Gesellschaft](http://fritzschumacher.de/gesellschaft/werkkatalog/141-schwesternhaus-eppendorfer-krankenhaus/)

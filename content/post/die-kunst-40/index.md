@@ -10,6 +10,12 @@ tags:
 - Erika-Schwesternhaus
 - Lotsenwache Hamburg
 - Gewerbehaus Hamburg
+- Hauptfeuerwache Berliner Tor
+- Verwaltungsgebäude Dammtorwall
+- Feuerwache Petroleumhafen
+- Seglerheim Hamburg
+- Zollverwaltungsgebäude Hamburg
+- Voksschule Klein-Grasbrook
 resources:
 - src: "front.jpg"
   name: front

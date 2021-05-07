@@ -4,6 +4,7 @@ description: ''
 type: building
 archinformID: projekte/75941
 location: Hamburg
+build: 1925
 geojson:
   coordinates:
   - 10.014444
@@ -12,5 +13,5 @@ geojson:
 
 * Entworfen von [Hermann Höger](/tags/Hermann-Höger)
 
-Das Gesundheitsamt Hamburg in der...
+# Das Gesundheitsamt Hamburg in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/75941.htm)

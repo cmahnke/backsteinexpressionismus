@@ -3,6 +3,7 @@ title: "Dachstein- und Braunkohlenwerke Zeipau"
 description: ''
 type: building
 location: Zeipau
+#build: 192X-192X
 aliases:
   - /tags/Zeipauer-Dachstein--und-Braunkohlenwerke
 geojson:
@@ -14,7 +15,7 @@ geojson:
 * Entworfen von [Otto Bartning](/tags/Otto-Bartning)
 
 
-Die Dachstein- und Braunkohlenwerke Zeipau in der...
+# Die Dachstein- und Braunkohlenwerke Zeipau in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/4016.htm)
 * [Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/wasserturm-zeipau)
 

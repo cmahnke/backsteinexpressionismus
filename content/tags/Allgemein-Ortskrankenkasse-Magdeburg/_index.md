@@ -4,6 +4,7 @@ description: ''
 type: building
 archinformID: projekte/6125
 location: Magdeburg
+build: 1926-1927
 geojson:
   coordinates:
   - 11.6384616
@@ -12,5 +13,5 @@ geojson:
 
 * Entworfen von [Karl Krayl](/tags/Karl-Krayl)
 
-Die Allgemein Ortskrankenkasse Magdeburg in der...
+# Die Allgemein Ortskrankenkasse Magdeburg in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6125.htm)

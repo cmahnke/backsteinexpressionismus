@@ -3,6 +3,7 @@ title: "Handelshof Königsberg"
 description: ''
 type: building
 archinformID: projekte/12441
+build: 1923
 location:
   - Königsberg
   - Kaliningrad
@@ -14,5 +15,5 @@ geojson:
 
 * Entworfen von [Hanns Hopp](/tags/Hanns-Hopp)
 
-Der Handelshof Königsberg in der...
+# Der Handelshof Königsberg in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/12441.htm)

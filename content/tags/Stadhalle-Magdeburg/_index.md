@@ -4,6 +4,7 @@ description: ''
 type: building
 archinformID: projekte/6124
 location: Magdeburg
+build: 1926-1927
 geojson:
   coordinates:
   - 11.637547
@@ -12,6 +13,6 @@ geojson:
 
 * Entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz)
 
-Die Stadhalle Magdeburg in der...
+# Die Stadhalle Magdeburg in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Stadthalle_Magdeburg)
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6124.htm)

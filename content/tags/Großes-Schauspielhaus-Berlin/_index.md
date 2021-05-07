@@ -4,6 +4,7 @@ description: ''
 type: building
 archinformID: projekte/5980
 location: Berlin
+#build: 192X-192X
 geojson:
   coordinates:
   - 13.3861983
@@ -12,5 +13,5 @@ geojson:
 
 * Umbau durch [Hans Poelzig](/tags/Hans-Poelzig), existiert nicht mehr.
 
-Das Großes Schauspielhaus Berlin in der...
+# Das Großes Schauspielhaus Berlin in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/1381.htm)

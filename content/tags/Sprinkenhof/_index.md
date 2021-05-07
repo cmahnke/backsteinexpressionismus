@@ -4,6 +4,7 @@ description: ''
 type: building
 archinformID: projekte/6362
 location: Hamburg
+build: 1930-1932
 geojson:
   coordinates:
   - 10.001199
@@ -12,7 +13,7 @@ geojson:
 
 * Entworfen von [Hans und Oskar Gerson](/tags/Hans-und-Oskar-Gerson)
 
-Der Sprinkenhof in der...
+# Der Sprinkenhof in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Sprinkenhof)
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6362.htm)
 * [Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/sprinkenhof)

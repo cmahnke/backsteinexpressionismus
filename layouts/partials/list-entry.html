@@ -9,11 +9,13 @@
     {{- if or (eq .name "front") (eq .name "preview") -}}
         {{- $images.Set "previewLoc" (path.Join $context .src) -}}
         {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
+        {{- $images.Set "params" (.params) -}}
     {{ end }}
 {{ end }}
 
 {{- $imgLocation := $images.Get "previewLoc" -}}
 {{- $previewImg := $images.Get "preview" -}}
+{{- $params := $images.Get "params" -}}
 {{- if eq $previewImg nil -}}
     {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
 {{- end -}}
@@ -23,13 +25,19 @@ To use real brick dimensions see https://www.hausjournal.net/ziegelsteine-masse-
 You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calculations
 */}}
 
+{{- $rotate := "" -}}
+{{- if isset $params "rotate" -}}
+    {{- $rotate = printf " r%d" (add $params.rotate  180) -}}
+{{- end -}}
+{{- $imgOptions := (printf "%s %s %s" $fit $rotate "center") -}}
+{{- $previewImg = $previewImg.Fit $imgOptions -}}
 
 {{- if lt $previewImg.Width $previewImg.Height -}}
     {{- $orientation = "portrait" -}}
 {{- else -}}
     {{- $orientation = "landscape" -}}
 {{- end -}}
-{{- $previewImg = $previewImg.Fit (printf "%s %s" $fit "center") -}}
+
 <div class="brick {{ .Params.type }} {{ $orientation }}">
     {{- if ne .Params.type "other" -}}
         <a href="{{ .RelPermalink }}">

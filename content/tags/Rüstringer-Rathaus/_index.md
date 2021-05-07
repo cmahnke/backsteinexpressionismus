@@ -3,6 +3,7 @@ title: "Rüstringer Rathaus"
 description: ''
 type: building
 archinformID: projekte/1108
+build: 1928-1929
 location:
   - Wilhelmshaven
   - Rüstringen
@@ -17,7 +18,7 @@ geojson:
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)
 
-Das Rüstringer Rathaus (heute Wilhelmshaven) in der...
+# Das Rüstringer Rathaus (heute Wilhelmshaven) in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Rathaus_Wilhelmshaven)
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/1108.htm)
 * [Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/rathaus-von-wilhelmshaven)

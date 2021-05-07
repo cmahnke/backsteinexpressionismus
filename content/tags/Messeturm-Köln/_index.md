@@ -4,6 +4,7 @@ description: ''
 type: building
 #archinformID:
 location: Köln
+#build: 192X-192X
 geojson:
   coordinates:
   - 6.9697171
@@ -11,5 +12,8 @@ geojson:
 ---
 
 * Entworfen von [Adolf Abel](/tags/Adolf-Abel)
-* [Der Messeturm Köln in der Wikipedia](https://de.wikipedia.org/wiki/Messeturm_K%C3%B6ln)
-* Siehe auch [Pressa](/tags/Pressa)
+
+# Der Messeturm Köln in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Messeturm_K%C3%B6ln)
+
+Siehe auch [Pressa](/tags/Pressa)

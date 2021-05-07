@@ -4,6 +4,7 @@ description: ''
 type: building
 archinformID: projekte/1109
 location: Hamburg
+build: 1922-1924
 geojson:
   coordinates:
   - 9.9994392
@@ -12,7 +13,7 @@ geojson:
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)
 
-Das Chilehaus in der...
+# Das Chilehaus in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Chilehaus)
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/1109.htm)
 * [Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/chilehaus)

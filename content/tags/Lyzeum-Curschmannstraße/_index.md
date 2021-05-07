@@ -2,6 +2,7 @@
 title: "Lyzeum Curschmannstrasse"
 description: ''
 type: building
+build: 1924-1926
 #archinformID:
 location: Hamburg
 geojson:
@@ -11,4 +12,7 @@ geojson:
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)
-* [Das Lyzeum Curschmannstrasse (heute Stadtteilschule Eppendorf) in der Wikipedia](https://de.wikipedia.org/wiki/Stadtteilschule_Eppendorf)
+
+
+# Das Lyzeum Curschmannstrasse (heute Stadtteilschule Eppendorf) in der...
+* [Wikipedia](https://de.wikipedia.org/wiki/Stadtteilschule_Eppendorf)

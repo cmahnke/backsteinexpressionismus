@@ -3,6 +3,7 @@ title: "Kaufmännische Fortbildungsschule Lübeckertordamm"
 description: ''
 type: building
 archinformID: projekte/5956
+build: 1919-1920
 location: Hamburg
 geojson:
   coordinates:
@@ -12,6 +13,6 @@ geojson:
 
 * Entworfen von [Fritz Schumacher](/tags/Fritz-Schumacher)
 
-Die Kaufmännische Fortbildungsschule Lübeckertordamm in der...
+# Die Kaufmännische Fortbildungsschule Lübeckertordamm in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/5956.htm)
-* [Fritz-Schumacher-Gesellschaft (Werksverzeichnis)](https://fritzschumacher.de/gesellschaft/werkkatalog/214)
+* [Werksverzeichnis der Fritz-Schumacher-Gesellschaft](https://fritzschumacher.de/gesellschaft/werkkatalog/214)

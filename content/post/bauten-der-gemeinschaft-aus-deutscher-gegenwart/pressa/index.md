@@ -16,4 +16,4 @@ resources:
     iiif: page071/info.json
 ---
 
-Seite : [Pressa Köln](/tags/Pressa) von [Adolf Abel](/tags/Adolf-Abel).
+Seite 45 und 71: [Pressa Köln](/tags/Pressa) von [Adolf Abel](/tags/Adolf-Abel).

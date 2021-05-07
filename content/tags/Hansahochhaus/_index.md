@@ -3,6 +3,7 @@ title: "Hansahochhaus"
 description: ''
 type: building
 archinformID: projekte/6120
+build: 1924-1925
 location:
   - Köln
 geojson:
@@ -13,6 +14,6 @@ geojson:
 
 * Entworfen von [Jacob Koerfer](/tags/Jacob-Koerfer)
 
-Das Hansahochhaus in der...
+# Das Hansahochhaus in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Hansahochhaus)
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6120.htm)
