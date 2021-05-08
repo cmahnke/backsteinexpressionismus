@@ -6,9 +6,12 @@
 
     {{ partial "html/head/meta.html" . }}
 
-    {{ if and (eq .Kind "term") (eq .Content "") }}
+    {{- if and (eq .Kind "term") (eq .Content "") -}}
         <meta name="projektemacher:term" content="empty">
-    {{ end }}
+    {{- end -}}
+    {{- if .Params.notes -}}
+        <meta name="projektemacher:notes" content="{{ .Params.notes }}">
+    {{- end -}}
 
     {{- partial "html/head/style.html" (dict "context" . "css" "css/style.css") -}}
     {{- partial "html/head/script.html" (dict "js" (partial "html/head/iiif-js.html" .)) -}}
