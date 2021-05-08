@@ -4,6 +4,7 @@ description: ''
 type: building
 build: 1925-1926
 archinformID: projekte/6044
+location: Düsseldorf
 aliases:
   - /tags/Tonhalle-Düsseldorf
   - /tags/Rheinhalle-Düsseldorf

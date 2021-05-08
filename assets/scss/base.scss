@@ -39,6 +39,23 @@ body {
         background-position: top, 97% 7em;
         background-size: contain, auto;
     }
+    &.meta {
+        .brick {
+            &.post {
+                width: 60%;
+                margin: auto;
+                @media (max-width : 45em) {
+                    width: 100%;
+                }
+                .title {
+                    word-break: break-all;
+                }
+            }
+            .body.list {
+                width: unset;
+            }
+        }
+    }
 }
 
 main {
@@ -195,8 +212,7 @@ h6 {
         font-size: larger;
         @media (max-width : 56.25em) {
             position: absolute;
-            /*top: 5.4em;*/
-            top: 7.4em;
+            top: 8em;
             right: 0;
             left: 0;
             z-index: 10;
@@ -798,10 +814,12 @@ a:visited {
     text-align: center;
 }
 
-.navto-links {
-    margin-right: 1em;
-}
+@media (min-width : 56.25em) {
+    .navto-links {
+        margin-right: 1em;
+    }
 
-.navto-about {
-    margin-right: 4rem;
+    .navto-about {
+        margin-right: 4rem;
+    }
 }

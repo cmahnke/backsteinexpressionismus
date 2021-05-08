@@ -1,6 +1,6 @@
 ---
 title: "Stadthalle"
-date: 2021-05-21T19:15:07+01:00
+date: 2021-05-21T20:15:07+01:00
 tags:
 - Magdeburg
 - Stadthalle Magdeburg

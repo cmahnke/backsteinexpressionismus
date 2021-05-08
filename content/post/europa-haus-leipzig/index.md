@@ -1,11 +1,11 @@
 ---
 title: Europa-Haus Leipzig
-draft: true
-date: 2021-05-28T18:23:07+02:00
+date: 2021-06-05T18:23:07+02:00
 type: postcard
 tags:
 - Leipzig
 - Europa-Haus
+- Otto Paul Burghardt
 - Wilhelm Kreis
 - Foto
 - Postkarte
