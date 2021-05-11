@@ -837,14 +837,11 @@ a:visited {
         margin-block-end: 1em;
     }
 
-    .tag-info-container {
-        display: flex;
-        flex-direction: column;
-    }
-
+    .tag-info-container,
     .post-relations {
         display: flex;
         flex-direction: column;
+        flex-basis: 50%;
     }
 
     .meta-seperator {
