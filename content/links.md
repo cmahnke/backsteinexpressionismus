@@ -4,11 +4,11 @@ metaPage: true
 displayinlist: false
 ---
 
-# Backsteinexpressionismus in der...
+# Backsteinexpressionismus...
 
-* [Internationalen Architektur-Datenbank](https://deu.archinform.net/stich/3199.htm)
-* [Baunetz_Wissen_](https://www.baunetzwissen.de/glossar/b/backsteinexpressionismus-1479515)
-* [Internationale Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/gebaeude/backsteinexpressionismus)
+* [in der Internationalen Architektur-Datenbank](https://deu.archinform.net/stich/3199.htm)
+* [im Baunetz_Wissen_](https://www.baunetzwissen.de/glossar/b/backsteinexpressionismus-1479515)
+* [in der Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/gebaeude/backsteinexpressionismus)
 
 # Aktuelle Abbildungen...
 
