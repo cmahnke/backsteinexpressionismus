@@ -39,6 +39,7 @@ body {
         background-position: top, 97% 7em;
         background-size: contain, auto;
     }
+
     &.meta {
         .brick {
             &.post {
@@ -47,10 +48,12 @@ body {
                 @media (max-width : 45em) {
                     width: 100%;
                 }
+
                 .title {
                     word-break: break-all;
                 }
             }
+
             .body.list {
                 width: unset;
             }
@@ -140,11 +143,7 @@ h6 {
         margin-left: 2rem;
         vertical-align: middle;
         min-width: 45vw;
-
-        @media (max-width : 56.25em) {
-
-        }
-
+        @media (max-width : 56.25em) {}
         @media (max-width : 45em) {
             max-width: 80%;
             min-width: 75vw;
@@ -164,9 +163,8 @@ h6 {
 
     .navigation-title {
         margin-left: 2rem;
-
         @media (max-width : 45em) {
-            margin-left: .8rem;
+            margin-left: 0.8rem;
             font-size: 1.8em;
         }
         @media (max-width : 30em) {
@@ -286,7 +284,6 @@ h6 {
     @media (max-width: 56.25em) {
         display: inline-block;
     }
-
     @media (max-width : 45em) {
         margin-right: 1rem;
     }
@@ -302,11 +299,9 @@ h6 {
         height: 1.6em;
         width: 1.6em;
         margin-top: unset;
-
         @media (max-width: 56.25em) {
             display: inline-block;
         }
-
     }
 
     &:focus,
@@ -813,7 +808,6 @@ a:visited {
 .img-center {
     text-align: center;
 }
-
 @media (min-width : 56.25em) {
     .navto-links {
         margin-right: 1em;
@@ -821,5 +815,63 @@ a:visited {
 
     .navto-about {
         margin-right: 4rem;
+    }
+}
+
+.meta-container {
+    margin-bottom: 4em;
+    display: flex;
+    column-gap: 4em;
+    @media (max-width : 56.25em) {
+        display: unset;
+        margin-bottom: 2em;
+    }
+
+    .building-info,
+    .section-contents-list,
+    .section-parent {
+        font-size: 1.4em;
+        font-weight: 400;
+        font-family: $font-heading;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+
+    .tag-info-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-relations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meta-seperator {
+        width: 70%;
+    }
+
+    ul {
+        margin-block-start: 0.4em;
+        margin-block-end: 0.4em;
+
+        li p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+    }
+
+    .meta-title {
+        margin-block-start: 0.4em;
+        margin-block-end: 0.4em;
+        /* text-align: center; */
+    }
+
+    .meta-content {
+        margin-left: 1.4rem;
+    }
+
+    h1 {
+        font-size: 1em;
     }
 }
