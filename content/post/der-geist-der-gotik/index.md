@@ -25,3 +25,6 @@ resources:
 ---
 
 Ein Backsteingebäude aus dem Frühwerk von [Hans Poelzig](/tags/Hans-Poelzig): Die Chemische Fabrik [Luboń](https://de.wikipedia.org/wiki/Lubo%C5%84) in Polen, früher Lobau, Posen.
+
+<!--more-->
+<div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>
