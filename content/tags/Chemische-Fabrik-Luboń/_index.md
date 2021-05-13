@@ -3,7 +3,9 @@ title: "Chemische Fabrik Luboń"
 description: ''
 type: building
 archinformID: projekte/1383
-location: Hannover
+location:
+  - Lobau
+  - Luboń
 build: 1911-1912
 geojson:
   coordinates:
