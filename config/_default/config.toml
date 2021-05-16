@@ -11,7 +11,7 @@
 
     [params.preview]
         outputPrefix = "ogPreview"
-        outputSuffix = ".jpg"
+        outputSuffix = ".png"
         format =  "svg"
         image = "preview.jpg"
         source = "overlay"

@@ -1,5 +1,5 @@
 ---
-title: Böttcherstraße
+title: Böttcherstrasse
 date: 2020-12-05T18:43:07+02:00
 type: postcard
 tags:

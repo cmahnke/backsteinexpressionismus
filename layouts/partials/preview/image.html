@@ -1,0 +1,36 @@
+{{- $context := .context -}}
+{{- $width := .width -}}
+{{- $height := .height -}}
+
+{{- $previewImg := "" -}}
+{{- $images := newScratch -}}
+{{- if isset .context.Site.Params "preview" -}}
+    {{- $previewImgName := $context.Site.Params.preview.outputPrefix -}}
+    {{- if ne $context.Sites.First .context.Site -}}
+        {{- $previewImgName = printf "%s.%s%s" $previewImgName $context.Site.Language.Lang $context.Site.Params.preview.outputSuffix -}}
+    {{- else -}}
+        {{- $previewImgName = printf "%s%s" $previewImgName $context.Site.Params.preview.outputSuffix -}}
+    {{- end -}}
+    {{- $overlayImg := ($context.Resources.ByType "image").GetMatch $previewImgName -}}
+
+    {{- range $context.Params.resources -}}
+        {{- if or (eq .name "front") (eq .name "preview") -}}
+            {{- $tmpImg := $context.Resources.GetMatch .name -}}
+            {{- if isset .params "rotate" -}}
+                {{- $tmpImg = $tmpImg.Resize (printf "%dx r%d" $tmpImg.Width (add 180 .params.rotate)) -}}
+            {{- end -}}
+            {{- $tmpImg = $tmpImg.Fill (printf "%dx%d smart" $width $height) -}}
+
+            {{- $images.Set "preview" $tmpImg -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- $background := $images.Get "preview" -}}
+
+    {{- if and (ne $background nil) (ne $overlayImg nil) -}}
+        {{- $overlayFilter := images.Overlay $overlayImg 1 1 -}}
+        {{- $previewImg = ($background | images.Filter $overlayFilter) -}}
+    {{- end -}}
+{{- end -}}
+
+{{- return $previewImg -}}
