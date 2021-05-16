@@ -1,0 +1,22 @@
+[params]
+    author = "Christian Mahnke"
+    homeTitle = "Backsteinexpressionismus"
+    header = "/images/header.svg"
+    description = "Alte Abbildungen von Backsteinexpressionismus-Gebäuden aus Büchen und von Postkarten."
+    keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Acrhitecture, Books, Postcards"
+    stylesheets = []
+    copyrightYears = "MMXXI"
+    cc = false
+    productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
+
+    [params.preview]
+        outputPrefix = "ogPreview"
+        outputSuffix = ".jpg"
+        format =  "svg"
+        image = "preview.jpg"
+        source = "overlay"
+        [params.preview.size]
+            height = 630
+            width = 1200
+        [params.preview.svg]
+            template = "./Source Files/Other/preview-template.svg"

@@ -21,3 +21,5 @@ content/post/*/page*/
 content/post/*/end-*/
 content/post/*/front-*/
 static/images/stars.svg
+content/**/ogPreview.*g
+content/**/ogPreview-overlay.*g

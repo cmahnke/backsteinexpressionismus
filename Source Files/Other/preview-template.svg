@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    width="1200"
+    height="630"
+    viewBox="0 0 1200 630"
+    version="1.1"
+    id="svg8"
+    inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+    <defs id="defs2">
+        <rect id="textbox" x="0" y="525" width="1200" height="100" />
+        <pattern id="bg-pattern" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="../../static/images/raben.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <style id="style1570">
+            @font-face {
+              font-family: 'FuturaRenner';
+              font-style: normal;
+              font-weight: 400;
+              src: local('FuturaRenner'),
+                   url('../../themes/projektemacher-base/static/fonts/FuturaRenner-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+                   url('../../themes/projektemacher-base/static/fonts/FuturaRenner-Regular.woff') format('woff'), /* Modern Browsers */
+                   url('../../themes/projektemacher-base/static/fonts/FuturaRenner-Regular.ttf') format('truetype');
+            }
+        </style>
+        <filter
+           style="color-interpolation-filters:sRGB;"
+           inkscape:label="Drop Shadow"
+           id="filter4459"
+           y="-0.20" x="-0.20" height="1.4" width="1.4">
+          <feFlood
+             flood-opacity="0.74902"
+             flood-color="rgb(253,243,201)"
+             result="flood"
+             id="feFlood4449" />
+          <feComposite
+             in="flood"
+             in2="SourceGraphic"
+             operator="in"
+             result="composite1"
+             id="feComposite4451" />
+          <feGaussianBlur
+             in="composite1"
+             stdDeviation="10"
+             result="blur"
+             id="feGaussianBlur4453" />
+          <feOffset
+             dx="0"
+             dy="0"
+             result="offset"
+             id="feOffset4455" />
+          <feComposite
+             in="SourceGraphic"
+             in2="offset"
+             operator="over"
+             result="composite2"
+             id="feComposite4457" />
+        </filter>
+    </defs>
+    <!--
+    <rect id="bg" fill="url(#bg-pattern)" preserveAspectRatio="none" width="630" height="1200" x="0" y="-1200" transform="rotate(90)" style="opacity:0.6"/>
+-->
+    <image id="site-logo" style="filter:url(#filter4459)" xlink:href="../Logo/Header.svg" preserveAspectRatio="xMidYMid meet" width="1104" height="94" x="48" y="50"/>
+    <image id="logo" style="filter:url(#filter4459)" xlink:href="../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="xMidYMid meet" width="100" height="100" x="1100" y="530"/>
+    <!--
+    <image id="preview-image" xlink:href="../../content/post/kurische-nehrung/front.jpg" y="50" x="100" style="image-rendering:optimizeQuality" preserveAspectRatio="xMidYMid meet" height="400" width="1000"/>
+    -->
+    <text id="text-container" xml:space="preserve" style="filter:url(#filter4459);shape-inside:url(#textbox);font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:'FuturaRenner';text-align:center;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;text-align:center;" >Rossitten</text>
+</svg>

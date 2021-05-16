@@ -11,17 +11,6 @@ disablePathToLower = true
 theme = ["projektemacher-base"]
 copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemacher</a>'
 
-[params]
-    author = "Christian Mahnke"
-    homeTitle = "Backsteinexpressionismus"
-    header = "/images/header.svg"
-    description = "Alte Abbildungen von Backsteinexpressionismus-Gebäuden aus Büchen und von Postkarten."
-    keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Acrhitecture, Books, Postcards"
-    stylesheets = []
-    copyrightYears = "MMXXI"
-    cc = false
-    productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
-
 [menu]
     [[menu.main]]
         name = "Start"
