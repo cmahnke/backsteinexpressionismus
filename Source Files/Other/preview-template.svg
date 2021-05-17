@@ -62,12 +62,81 @@
              result="composite2"
              id="feComposite4457" />
         </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="header-filter"
+       y="-0.20"
+       x="-0.20"
+       height="1.4"
+       width="1.4">
+      <feFlood
+         flood-opacity="0.94999999999999996"
+         flood-color="rgb(253,243,201)"
+         result="flood"
+         id="feFlood407" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite409" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="10"
+         result="blur"
+         id="feGaussianBlur411" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset413" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite415" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix465" />
+      <feFlood
+         id="feFlood467"
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite469"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur471"
+         in="composite1"
+         stdDeviation="1"
+         result="blur" />
+      <feOffset
+         id="feOffset473"
+         dx="1"
+         dy="0"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite475"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
     </defs>
+
     <!--
     <rect id="bg" fill="url(#bg-pattern)" preserveAspectRatio="none" width="630" height="1200" x="0" y="-1200" transform="rotate(90)" style="opacity:0.6"/>
 -->
-    <image id="site-logo" style="filter:url(#filter4459)" xlink:href="../Logo/Header.svg" preserveAspectRatio="xMidYMid meet" width="1104" height="94" x="48" y="50"/>
-    <image id="logo" style="filter:url(#filter4459)" xlink:href="../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="xMidYMid meet" width="100" height="100" x="1100" y="530"/>
+    <image id="site-logo" style="filter:url(#header-filter)" xlink:href="../Logo/Header.svg" preserveAspectRatio="xMidYMid meet" width="1104" height="94" x="48" y="50"/>
+    <image id="logo" style="filter:url(#filter4459)" xlink:href="../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="xMidYMid meet" width="97.24" height="100" x="1100" y="530"/>
     <!--
     <image id="preview-image" xlink:href="../../content/post/kurische-nehrung/front.jpg" y="50" x="100" style="image-rendering:optimizeQuality" preserveAspectRatio="xMidYMid meet" height="400" width="1000"/>
     -->

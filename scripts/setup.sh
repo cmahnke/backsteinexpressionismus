@@ -15,8 +15,7 @@ for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
 done
 
 # Generate Previews
-python3 ./themes/projektemacher-base/scripts/preview.py
-find content -name ogPreview.svg -print -exec bash -c 'inkscape "{}" --export-filename=$(dirname "{}")/$(basename -s .svg "{}").png' \;
+TARGETFORMAT=png ./themes/projektemacher-base/scripts/preview.sh
 
 # Favicons
 SOURCE="Source Files/Favicon/Favicon.psd[1]" OPTIONS="-background 'rgba(255, 255, 255, .0)' -resize 300x300 -gravity center -extent 300x300 " ./themes/projektemacher-base/scripts/favicon.sh
