@@ -33,7 +33,7 @@
   </head>
 
      {{ $class := "" }}
-     {{ if hasPrefix .Page.File.Path "about" }}
+     {{- if or (hasPrefix .Page.File.Path "about") (hasPrefix .Page.File.Path "/about") -}}
          {{ $class = "about" }}
      {{ end }}
 
