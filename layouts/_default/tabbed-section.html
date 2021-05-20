@@ -1,0 +1,16 @@
+{{ define "title" }}
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+    <div class="page-container zigzag">
+        <main class="content">
+            <div class="post brick">
+                <div class="container">
+                    {{- $tabs := .CurrentSection.Pages -}}
+                    {{- .Scratch.Set "tabs" $tabs -}}
+                    {{- partial "tabs/frame.html" . -}}
+              </div>
+          </div>
+      </main>
+    </div>
+{{ end }}

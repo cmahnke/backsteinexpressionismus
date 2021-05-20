@@ -3,6 +3,7 @@ title: Gebäude
 displayinlist: false
 metaPage: true
 layout: overview
+weight: 3
 overview:
   filter: building
   filterField: type

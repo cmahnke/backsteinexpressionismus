@@ -22,6 +22,7 @@ $color-light: $color-body-text;
 @import "share.scss";
 @import "media-info";
 @import "menu";
+@import "tabs";
 
 body {
     font-family: $font-body, Helvetica;
@@ -876,4 +877,9 @@ a:visited {
     h1 {
         font-size: 1em;
     }
+}
+
+.tab-wrapper .tabs {
+    border-bottom: 2px solid #400000;
+
 }
