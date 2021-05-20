@@ -2,7 +2,7 @@
 title: Architekten
 displayinlist: false
 metaPage: true
-layout: overview
+layout: overview-content
 weight: 4
 overview:
   filter: architect

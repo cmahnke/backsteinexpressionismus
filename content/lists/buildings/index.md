@@ -2,7 +2,7 @@
 title: Gebäude
 displayinlist: false
 metaPage: true
-layout: overview
+layout: overview-content
 weight: 3
 overview:
   filter: building

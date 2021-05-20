@@ -1,6 +1,6 @@
-<div class="content">
-    {{ .Content }}
-</div>
-<div class="body">
-    {{ partial "overview-content.html" . }}
-</div>
+{{- if .Params.layout -}}
+    {{- $layout := .Params.layout -}}
+    {{ partial (printf "%s.html" .Params.layout) . }}
+{{- else -}}
+    {{- .Content -}}
+{{- end -}}
