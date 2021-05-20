@@ -23,6 +23,7 @@ $color-light: $color-body-text;
 @import "media-info";
 @import "menu";
 @import "tabs";
+@import "timeline";
 
 body {
     font-family: $font-body, Helvetica;

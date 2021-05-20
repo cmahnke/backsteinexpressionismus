@@ -1,0 +1,9 @@
+{{- $sourceSection := ( where .Site.Pages "Section" "tags") -}}
+{{- $pages := where $sourceSection "type" "eq" "builder" -}}
+
+{{- $pages = where .Site.Pages "Params.build" "!=" nil -}}
+{{- $pages = sort $pages ".Params.build" -}}
+
+<div id="vertical" class="" role="tabpanel">
+    {{- partial "timeline/vertical.html" (dict "context" . "entries" $pages) -}}
+</div>
