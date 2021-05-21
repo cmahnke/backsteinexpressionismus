@@ -5,6 +5,7 @@ tags:
 - Hamburg
 - Kaufmännische Fortbildungsschule
 - Fritz Schumacher
+- Foto
 resources:
 - src: "page081.jpg"
   name: preview

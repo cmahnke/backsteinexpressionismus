@@ -6,6 +6,7 @@ tags:
 - Kaliningrad
 - Haus der Technik
 - Hanns Hopp
+- Foto
 resources:
 - src: "page043.jpg"
   name: preview

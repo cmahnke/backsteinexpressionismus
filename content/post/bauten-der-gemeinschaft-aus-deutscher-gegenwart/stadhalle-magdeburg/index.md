@@ -5,6 +5,7 @@ tags:
 - Magdeburg
 - Stadhalle Magdeburg
 - Johannes Göderitz
+- Foto
 resources:
 - src: "page000.jpg"
   name: preview

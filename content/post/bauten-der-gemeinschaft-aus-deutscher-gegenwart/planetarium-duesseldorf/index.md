@@ -5,6 +5,7 @@ tags:
 - Düsseldorf
 - Planetarium Düsseldorf
 - Wilhelm Kreis
+- Foto
 resources:
 - src: "page041.jpg"
   name: preview

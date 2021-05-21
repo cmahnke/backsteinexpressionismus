@@ -5,6 +5,7 @@ tags:
 - Hamburg
 - Gesundheitsamt Hamburg
 - Hermann Höger
+- Foto
 resources:
 - src: "page015.jpg"
   name: preview

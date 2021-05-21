@@ -5,6 +5,7 @@ tags:
 - Pressa
 - Köln
 - Adolf Abel
+- Foto
 resources:
 - src: "page045.jpg"
   params:

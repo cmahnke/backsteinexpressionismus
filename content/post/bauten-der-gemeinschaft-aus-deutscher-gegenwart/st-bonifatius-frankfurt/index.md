@@ -5,6 +5,7 @@ tags:
 - Frankfurt
 - St. Bonifatius Frankfurt
 - Martin Weber
+- Foto
 resources:
 - src: "page097.jpg"
   name: preview

@@ -5,6 +5,7 @@ tags:
 - Düsseldorf
 - Kunstmuseum Düsseldorf
 - Wilhelm Kreis
+- Foto
 resources:
 - src: "page073.jpg"
   name: preview

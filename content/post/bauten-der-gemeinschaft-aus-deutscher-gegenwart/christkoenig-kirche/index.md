@@ -5,6 +5,7 @@ tags:
 - Bischhofsheim
 - Christkönig-Kirche
 - Dominikus Böhm
+- Foto
 resources:
 - src: "page092.jpg"
   name: preview

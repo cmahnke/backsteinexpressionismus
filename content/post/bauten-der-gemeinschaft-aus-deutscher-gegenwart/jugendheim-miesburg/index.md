@@ -6,6 +6,7 @@ tags:
 - Misburg
 - Friedrich Fischer
 - Jugendheim Misburg
+- Foto
 resources:
 - src: "page020.jpg"
   name: preview

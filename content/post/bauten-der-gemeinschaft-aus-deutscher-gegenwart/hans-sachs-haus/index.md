@@ -5,6 +5,7 @@ tags:
 - Gelsenkirchen
 - Hans-Sachs-Haus
 - Alfred Fischer
+- Foto
 resources:
 - src: "page025.jpg"
   name: preview

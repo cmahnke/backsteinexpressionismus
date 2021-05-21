@@ -6,6 +6,7 @@ tags:
 - St. Franziskus Hamburg
 - Carl Bensel
 - Johann Kamps
+- Foto
 resources:
 - src: "page096.jpg"
   name: preview

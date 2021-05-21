@@ -5,6 +5,7 @@ tags:
 - Magdeburg
 - Allgemeine Ortskrankenkasse Magdeburg
 - Karl Krayl
+- Foto
 resources:
 - src: "page014.jpg"
   name: preview

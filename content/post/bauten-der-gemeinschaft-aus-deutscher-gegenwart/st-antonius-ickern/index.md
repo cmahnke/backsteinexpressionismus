@@ -6,6 +6,7 @@ tags:
 - Ickern
 - St. Antonius Ickern
 - Alfred Fischer
+- Foto
 resources:
 - src: "page094.jpg"
   name: preview

@@ -5,6 +5,7 @@ tags:
 - Berlin
 - Grosses Schauspielhaus Berlin
 - Hans Poelzig
+- Foto
 resources:
 - src: "page061.jpg"
   name: preview

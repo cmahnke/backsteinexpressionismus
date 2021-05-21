@@ -5,6 +5,7 @@ tags:
 - Hamburg
 - Lyzeum Curschmannstrasse
 - Hermann Höger
+- Foto
 resources:
 - src: "page080.jpg"
   name: preview

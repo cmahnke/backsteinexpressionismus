@@ -5,6 +5,7 @@ tags:
 - Hamburg
 - Fritz Schumacher
 - Badeanstalt Eppendorf
+- Foto
 resources:
 - src: "page028.jpg"
   name: preview

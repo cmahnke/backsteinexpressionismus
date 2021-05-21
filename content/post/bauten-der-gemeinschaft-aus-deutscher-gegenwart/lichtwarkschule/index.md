@@ -5,6 +5,7 @@ tags:
 - Hamburg
 - Lichtwarkschule
 - Fritz Schumacher
+- Foto
 resources:
 - src: "page079.jpg"
   name: preview

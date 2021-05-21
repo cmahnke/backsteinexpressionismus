@@ -5,6 +5,7 @@ tags:
 - Neuenhagen
 - Rathaus Neuenhagen
 - Wilhelm Wagner
+- Foto
 resources:
 - src: "page009.jpg"
   name: preview

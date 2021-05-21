@@ -7,6 +7,7 @@ tags:
 - Hamburg
 - Realschule Uferstrasse
 - Fritz Schumacher
+- Foto
 resources:
 - src: "page078.jpg"
   name: preview
