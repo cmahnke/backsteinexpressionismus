@@ -7,6 +7,11 @@ tags:
 - Magdeburg
 - Foto
 - Buch
+- Magdeburg
+- Stadhalle Magdeburg
+- Albinmüller-Turm
+- Johannes Göderitz
+- Albin Müller
 resources:
 - src: "front.jpg"
   name: front
