@@ -4,6 +4,16 @@
 {{- $pages = where .Site.Pages "Params.build" "!=" nil -}}
 {{- $pages = sort $pages ".Params.build" -}}
 
+{{- $updatedPages := slice -}}
+{{- range $pages -}}
+    {{- .Scratch.Set "page" . -}}
+    {{- .Scratch.SetInMap "page.params.year" "" -}}
+
+    {{- $page := . -}}
+
+    {{- $updatedPages = $updatedPages | append $page -}}
+{{- end -}}
+
 <div id="vertical" class="" role="tabpanel">
     {{- partial "timeline/vertical.html" (dict "context" . "entries" $pages) -}}
 </div>

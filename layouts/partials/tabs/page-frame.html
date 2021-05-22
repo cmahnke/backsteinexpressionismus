@@ -8,6 +8,7 @@
             <label class="tab" id="{{ printf "tab-%d" $i }}" for="{{ printf "checkbox-%d" $i }}">{{ .Title }}</label>
         {{- end -}}
     </div>
+    <div class="tab-spacer"></div>
     <div class="panels">
         {{- range $i, $panel := $tabs -}}
              <div class="panel" id="{{ printf "panel-%d" $i }}">
