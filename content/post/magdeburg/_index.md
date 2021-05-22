@@ -26,5 +26,5 @@ resources:
 <!--more-->
 
 Diese Broschüre behandelt auch das Ausstellungsgelände im Rotehornpark, dort befindet sich die [Stadhalle](https://de.wikipedia.org/wiki/Stadthalle_Magdeburg), entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz). Und der [Albinmüller-Turm](https://de.wikipedia.org/wiki/Albinm%C3%BCller-Turm), entworfen von [Albin Müller](https://de.wikipedia.org/wiki/Albin_M%C3%BCller).
-
+<!--more-->
 <div class="source">Gefunden im <a href="https://antiquariat-pretzsch.de/">Antiquariat Pretzsch N°1</a>.</div>
