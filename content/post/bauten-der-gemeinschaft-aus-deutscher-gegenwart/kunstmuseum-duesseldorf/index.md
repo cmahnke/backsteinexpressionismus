@@ -13,4 +13,4 @@ resources:
     iiif: page073/info.json
     rotate: 90
 ---
-Seite 73: [Kunstmuseum, Rhinfront, Düsseldorf](/tags/Kunstmuseum-Düsseldorf) von [Wilhelm Kreis](/tags/Wilhelm-Kreis).
+Seite 73: [Kunstmuseum, Rheinfront, Düsseldorf](/tags/Kunstmuseum-Düsseldorf) von [Wilhelm Kreis](/tags/Wilhelm-Kreis).

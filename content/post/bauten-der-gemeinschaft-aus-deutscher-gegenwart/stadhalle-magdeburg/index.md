@@ -32,4 +32,4 @@ resources:
     iiif: page107/info.json
 ---
 
-Titelblatt, Seite 51, 52, 53, 55 und 107: [Stadhalle Magdeburg](/tags/Stadhalle Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).
+Titelblatt, Seite 51, 52, 53, 55 und 107: [Stadhalle Magdeburg](/tags/Stadhalle-Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).

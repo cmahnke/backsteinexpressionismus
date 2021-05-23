@@ -19,4 +19,4 @@ resources:
     rotate: 90
 ---
 
-Seite : [Jugendheim Misburg](/tags/Jugendheim-Misburg) (heute ein Teil von Hannover) von [Friedrich Fischer](/tags/Friedrich Fischer).
+Seite 20 und 21: [Jugendheim Misburg](/tags/Jugendheim-Misburg) (heute ein Teil von Hannover) von [Friedrich Fischer](/tags/Friedrich-Fischer).

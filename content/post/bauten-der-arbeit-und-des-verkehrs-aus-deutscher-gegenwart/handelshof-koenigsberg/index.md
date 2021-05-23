@@ -13,4 +13,4 @@ resources:
     iiif: page067/info.json
     rotate: 90
 ---
-Seite 67: [Handelshof Königsberg](/tags/Handelshof Königsberg) (heute Kaliningrad) von [Hanns Hopp](/tags/Hanns-Hopp)
+Seite 67: [Handelshof-Königsberg](/tags/Handelshof Königsberg) (heute Kaliningrad) von [Hanns Hopp](/tags/Hanns-Hopp)

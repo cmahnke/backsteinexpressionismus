@@ -12,4 +12,4 @@ resources:
     iiif: page058/info.json
 ---
 
-Seite 58: [Gewerbehaus Hamburg](/tags/Gewerbehaus-Hamburg) von[Fritz Schumacher](/tags/Fritz-Schumacher)
+Seite 58: [Gewerbehaus Hamburg](/tags/Gewerbehaus-Hamburg) von [Fritz Schumacher](/tags/Fritz-Schumacher)
