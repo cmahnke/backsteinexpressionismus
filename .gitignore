@@ -8,6 +8,7 @@ static/images/favicon*
 static/images/header.svg
 static/images/burger.svg
 static/images/down.svg
+static/pdfjs/**
 # Generated contents
 resources
 content/post/**/preview.png
