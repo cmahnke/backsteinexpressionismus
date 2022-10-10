@@ -4,6 +4,8 @@ node_modules
 docs
 resources
 yarn-error.log
+.hugo_build.lock
+hugo_stats.json
 static/images/favicon*
 static/images/header.svg
 static/images/burger.svg
