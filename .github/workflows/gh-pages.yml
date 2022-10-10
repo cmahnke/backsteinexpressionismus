@@ -44,7 +44,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3.5.0
         with:
-          node-version: lts/fermium
+          node-version-file: '.nvmrc'
+
       - name: Install Node dependencies
         run: |
           yarn install
@@ -78,10 +79,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.5.0
         with:
-          hugo-version: '0.84.4'
+          hugo-version: '0.104.3'
           extended: true
-      - name: Build Hugo site
-        run: hugo --i18n-warnings
+
+        run: hugo --printI18nWarnings --printUnusedTemplates 
 
       - name: Validate JSON
         env:
