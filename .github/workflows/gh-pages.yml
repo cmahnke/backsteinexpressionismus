@@ -82,7 +82,8 @@ jobs:
           hugo-version: '0.104.3'
           extended: true
 
-        run: hugo --printI18nWarnings --printUnusedTemplates 
+      - name: Build Hugo site
+        run: hugo --printI18nWarnings --printUnusedTemplates
 
       - name: Validate JSON
         env:
