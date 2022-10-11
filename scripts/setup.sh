@@ -6,12 +6,16 @@ if [ -z "$SKIP_IIIF" ] ; then
     ./scripts/iiif.sh
 fi
 
-rm -f 'themes/projektemacher-base/patches/mirador+3.0.0.patch'
-
+#NPM dependencies
 echo "Calling theme scripts"
 for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
     echo "Running $SCRIPT"
     bash "$SCRIPT"
+    ERR=$?
+    if [ $ERR -ne 0 ] ; then
+        echo "Execution of '$SCRIPT' failed!"
+        exit $ERR
+    fi
 done
 
 # Generate Previews
