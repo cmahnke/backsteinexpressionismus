@@ -26,3 +26,6 @@ content/post/*/front-*/
 static/images/stars.svg
 content/**/ogPreview.*g
 content/**/ogPreview-overlay.*g
+#content/**/0/default.jpg
+#content/**/page*/info.json
+**/vips-properties.xml
