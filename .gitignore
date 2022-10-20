@@ -29,3 +29,4 @@ content/**/ogPreview-overlay.*g
 #content/**/0/default.jpg
 #content/**/page*/info.json
 **/vips-properties.xml
+**/.DS_Store
