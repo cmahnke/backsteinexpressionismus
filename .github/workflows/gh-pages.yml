@@ -50,7 +50,7 @@ jobs:
       - name: Create IIIF derivates
         run: |
           echo "Running as ${UID}"
-          docker run -e CHOWN_UID=${UID} -e URL_PREFIX="https://static.projektemacher.org/backsteinexpressionismus/" -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest sh -c "cd ${PWD} && ./scripts/iiif.sh"
+          docker run -e CHOWN_UID=${UID} -e URL_PREFIX="https://static.projektemacher.org/backsteinexpressionismus/" -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest-jxl-uploader sh -c "cd ${PWD} && ./scripts/iiif.sh"
 
       - name: IIIF directory upload and cleanup
         env:
