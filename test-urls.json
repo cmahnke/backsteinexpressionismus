@@ -1,3 +1,4 @@
-[
-  {"url": "index.html"}
-]
+{
+  "urls": ["index.html", "/post/boerse-essen-1/", "/post/laboe-3/"],
+  "messages": "No map visible because"
+}

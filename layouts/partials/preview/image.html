@@ -15,7 +15,14 @@
 
     {{- range $context.Params.resources -}}
         {{- if or (eq .name "front") (eq .name "preview") -}}
+        {{/* Check for JXL */}}
             {{- $tmpImg := $context.Resources.GetMatch .name -}}
+            {{- if eq (string $tmpImg.MediaType) "image/jxl" -}}
+                {{- if not .name -}}
+                    {{- warnf "JXL Reference in %s, but no 'name' set, using default" $context.File.Path -}}
+                {{- end -}}
+                {{- $tmpImg = partial "iiif/preview.html" (dict "context" $context "name" .name) -}}
+            {{- end -}}
             {{- if isset .params "rotate" -}}
                 {{- $tmpImg = $tmpImg.Resize (printf "%dx r%d" $tmpImg.Width (add 180 .params.rotate)) -}}
             {{- end -}}

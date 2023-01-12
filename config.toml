@@ -48,6 +48,9 @@ copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemache
 [mediaTypes]
   [mediaTypes."application/json"]
     suffixes = ["geojson", "gjson"]
+  # See https://www.loc.gov/preservation/digital/formats/fdd/fdd000538.shtml
+    [mediaTypes."image/jxl"]
+      suffixes = ["jxl"]
 
 [outputFormats]
   [outputFormats.geojson]

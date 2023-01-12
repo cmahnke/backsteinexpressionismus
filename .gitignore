@@ -16,6 +16,7 @@ resources
 content/post/**/preview.png
 content/post/*/front/
 content/post/*/title/
+content/post/**/page*/
 content/post/*/end/
 content/post/*/back/
 content/post/*/cover/

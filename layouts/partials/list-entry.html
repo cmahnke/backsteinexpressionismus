@@ -10,11 +10,21 @@
         {{- $images.Set "previewLoc" (path.Join $context .src) -}}
         {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
         {{- $images.Set "params" (.params) -}}
+        {{- $images.Set "context" ($entry) -}}
     {{ end }}
 {{ end }}
 
 {{- $imgLocation := $images.Get "previewLoc" -}}
+
 {{- $previewImg := $images.Get "preview" -}}
+{{/* Check for JXL */}}
+{{- if eq (string $previewImg.MediaType) "image/jxl" -}}
+    {{- if not $previewImg.Name -}}
+        {{- warnf "JXL Reference in %s, but no 'name' set, using default" ($images.Get "context").File.Path -}}
+    {{- end -}}
+    {{- $previewImg = partial "iiif/preview.html" (dict "context" ($images.Get "context") "name" $previewImg.Name) -}}
+{{- end -}}
+
 {{- $params := $images.Get "params" -}}
 {{- if eq $previewImg nil -}}
     {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
