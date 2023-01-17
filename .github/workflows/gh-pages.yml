@@ -39,7 +39,7 @@ jobs:
           mkdir -p ~/.ssh && echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3.5.1
+        uses: actions/setup-node@v3.6.0
         with:
           node-version-file: '.nvmrc'
 
@@ -92,7 +92,7 @@ jobs:
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
 
       - name: Deploy site
-        uses: peaceiris/actions-gh-pages@v3.9.0
+        uses: peaceiris/actions-gh-pages@v3.9.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
