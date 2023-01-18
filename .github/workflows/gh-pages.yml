@@ -65,7 +65,7 @@ jobs:
           sshpass -e rsync -a --info=progress2 --size-only --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH/backsteinexpressionismus/
           rm -f files.lst
           cd ..
-          find content/post/ -name info.json -exec dirname {} \; | xargs -I {} find {} -type d -not -path '*/full*' | xargs rm -fr
+          find content/post/ -name info.json -exec dirname {} \; | xargs -I {} find {} -mindepth 1 -type d -not -path '*/full*' | xargs rm -fr
           #find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 
       - name: Generate Files
