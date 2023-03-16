@@ -81,7 +81,7 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: hugo --printI18nWarnings --printUnusedTemplates
+        run: hugo #--printI18nWarnings --printUnusedTemplates
 
       - name: Validate JSON
         env:
