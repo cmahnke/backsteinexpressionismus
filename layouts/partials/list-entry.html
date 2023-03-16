@@ -70,7 +70,7 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
                 {{ $title }}
             </div>
             <div class="summary">
-                {{ .Summary | plainify }}
+                {{ .Summary | plainify | htmlUnescape }}
                 {{/*
                 {{ partial "macros/strip-links.html" . }}
                 */}}
