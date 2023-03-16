@@ -6,3 +6,12 @@ other = "Dieses Buch enthält die folgenden Einträge"
 
 [allPostsTerm]
 other = "Alle Beiträge mit dem Schlagwort"
+
+[type]
+other = "Typ"
+
+[building]
+other = "Gebäude"
+
+[architect]
+other = "Architekt"

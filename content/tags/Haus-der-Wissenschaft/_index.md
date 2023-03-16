@@ -12,7 +12,7 @@ geojson:
   - 52.274832
 ---
 
-* Entworfen von [Emil Herzig](/tags/Emil Herzig)
+* Entworfen von [Emil Herzig](/tags/Emil-Herzig)
 
 # Das Haus der Wissenschaft in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Haus_der_Wissenschaft_Braunschweig)
