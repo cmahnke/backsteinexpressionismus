@@ -1,4 +1,4 @@
 ---
 displayinlist: false
-title: "Alle Beiträge"
+#title: "Alle Beiträge"
 ---

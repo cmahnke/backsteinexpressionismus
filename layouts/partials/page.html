@@ -32,43 +32,6 @@
                     {{ .Content }}
                 </div>
 
-                {{- if not .Params.metaPage -}}
-                    <div class="meta-container">
-
-                        {{- if or (eq .Kind "section") (ne .CurrentSection .FirstSection) -}}
-                            <div class="post-relations">
-                                {{- partial "post-relations" . -}}
-                            </div>
-                        {{- end -}}
-
-                        {{- if .Params.tags -}}
-                            {{ $tagPages := slice -}}
-                            {{- range $tag := .Params.tags -}}
-                                {{- $tagPagePath := printf "/tags/%s" (replace . " " "-") -}}
-                                {{- $tagPage := $.Site.GetPage $tagPagePath -}}
-                                {{- $tagPages = $tagPages | append $tagPage -}}
-                            {{- end -}}
-                            {{- $buildings := where $tagPages "Params.type" "building" -}}
-
-                            {{- $meta := "" -}}
-                            {{- if gt (len $buildings) 0 -}}
-                                <div class="tag-info-container">
-                                    <h2 class="building-info">Zusätzliche Informationen</h2>
-                                    {{- range $building := $buildings -}}
-                                        <h3 class="meta-title">{{ .Title }}</h3>
-                                        <div class="meta-content">
-                                            {{ .Content }}
-                                        </div>
-                                        {{- if ne $building (index (last 1 $buildings) 0) -}}
-                                            <hr class="meta-seperator">
-                                        {{- end -}}
-                                    {{- end -}}
-                                </div>
-                            {{- end -}}
-                        {{- end -}}
-                    </div>
-                {{- end -}}
-
             <div class="iiif">
               {{- $context := path.Dir .File.Path -}}
               {{- $pageURL := .Permalink -}}
@@ -86,6 +49,44 @@
             {{- end -}}
 
           </div>
+
+          {{- if not .Params.metaPage -}}
+              <div class="meta-container">
+
+                  {{- if or (eq .Kind "section") (ne .CurrentSection .FirstSection) -}}
+                      <div class="post-relations">
+                          {{- partial "post-relations" . -}}
+                      </div>
+                  {{- end -}}
+
+                  {{- if .Params.tags -}}
+                      {{ $tagPages := slice -}}
+                      {{- range $tag := .Params.tags -}}
+                          {{- $tagPagePath := printf "/tags/%s" (replace . " " "-") -}}
+                          {{- $tagPage := $.Site.GetPage $tagPagePath -}}
+                          {{- $tagPages = $tagPages | append $tagPage -}}
+                      {{- end -}}
+                      {{- $buildings := where $tagPages "Params.type" "building" -}}
+
+                      {{- $meta := "" -}}
+                      {{- if gt (len $buildings) 0 -}}
+                          <div class="tag-info-container">
+                              <h2 class="building-info">Zusätzliche Informationen</h2>
+                              {{- range $building := $buildings -}}
+                                  <h3 class="meta-title">{{ .Title }}</h3>
+                                  <div class="meta-content">
+                                      {{ .Content }}
+                                  </div>
+                                  {{- if ne $building (index (last 1 $buildings) 0) -}}
+                                      <hr class="meta-seperator">
+                                  {{- end -}}
+                              {{- end -}}
+                          </div>
+                      {{- end -}}
+                  {{- end -}}
+              </div>
+          {{- end -}}
+
           {{- if and (not .Params.metaPage) .Params.tags -}}
               <div class="tag-container">
                   <div class="tags-title">Schlagworte</div>

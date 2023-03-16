@@ -668,7 +668,10 @@ a:visited {
 
 .tag-container {
     .tags-title {
-        font-size: larger;
+        font-size: 1.4em;
+        font-weight: 400;
+        font-family: neuland;
+        /* font-size: larger; */
         margin-bottom: 0.6em;
         display: block;
     }
@@ -826,7 +829,7 @@ a:visited {
 }
 
 .meta-container {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     display: flex;
     column-gap: 4em;
     @media (max-width : 56.25em) {

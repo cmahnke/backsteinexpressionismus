@@ -3,3 +3,6 @@ other = "Diese Seite ist Teil des Buches"
 
 [sectionContentsList]
 other = "Dieses Buch enthält die folgenden Einträge"
+
+[allPostsTerm]
+other = "Alle Beiträge mit dem Schlagwort"
