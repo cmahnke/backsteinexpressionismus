@@ -28,4 +28,4 @@ resources:
     iiif: page069/info.json
 ---
 
-Der [Albinmüller-Turm](/tags/Albinmüller-Turm) von [Albin Müller](/tags/Albin Müller).
+Der [Albinmüller-Turm](/tags/Albinmüller-Turm) von [Albin Müller](/tags/Albin-Müller).
