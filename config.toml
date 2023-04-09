@@ -10,6 +10,7 @@ Paginate = 20
 disablePathToLower = true
 theme = ["projektemacher-base"]
 copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemacher</a>'
+#preserveTaxonomyNames = true
 
 [menu]
     [[menu.main]]
