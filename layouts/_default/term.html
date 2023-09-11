@@ -31,9 +31,14 @@
   </main>
   <div class="page-container zigzag">
     <main class="content brick-wall">
-      {{- range (site.Taxonomies.tags.Get .File.ContentBaseName)  -}}
-          {{ partial "list-entry.html" . }}
-      {{ end }}
+      {{- if gt hugo.Version "0.102.3" -}}
+        {{- range (site.Taxonomies.tags.Get .File.ContentBaseName)  -}}
+            {{- partial "list-entry.html" . -}}
+        {{- end -}}
+      {{- else -}}
+        {{ partial "list.html" . }}
+        {{ partial "pagination.html" . }}
+      {{- end -}}
     </main>
   </div>
 
