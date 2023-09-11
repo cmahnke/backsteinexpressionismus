@@ -30,8 +30,11 @@
       </div>
   </main>
   <div class="page-container zigzag">
-    {{ partial "list.html" . }}
-    {{ partial "pagination.html" . }}
+    <main class="content brick-wall">
+      {{- range (site.Taxonomies.tags.Get .File.ContentBaseName)  -}}
+          {{ partial "list-entry.html" . }}
+      {{ end }}
+    </main>
   </div>
 
 {{ end }}

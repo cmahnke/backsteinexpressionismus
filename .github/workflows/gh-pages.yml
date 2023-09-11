@@ -15,7 +15,7 @@ jobs:
       - name: Try to free disk space
         run: |
           sudo rm -rf /usr/local/lib/android /opt/ghc
-          
+
       - uses: actions/checkout@v4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -83,11 +83,11 @@ jobs:
         uses: peaceiris/actions-hugo@v2.6.0
         with:
 # We need an older hugo version, otherwise the tag pages won't build!
-          hugo-version: '0.102.3'
+          hugo-version: '0.118.2'
           extended: true
 
       - name: Build Hugo site
-        run: hugo #--printI18nWarnings --printUnusedTemplates
+        run: hugo --printI18nWarnings --printUnusedTemplates
 
       - name: Validate JSON
         env:
