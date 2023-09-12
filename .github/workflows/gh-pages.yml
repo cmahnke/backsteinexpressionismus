@@ -17,7 +17,6 @@ jobs:
           root-reserve-mb: 5120
           remove-android: 'true'
           remove-haskell: 'true'
-          remove-dotnet: 'true'
 
       - uses: actions/checkout@v4
         with:
