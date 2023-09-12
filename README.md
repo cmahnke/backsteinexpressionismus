@@ -40,6 +40,12 @@ find . -name '*.tif' -exec magick {} -background white -gravity NorthWest -exten
 convert Logo.tif -define webp:quality=100 -define webp:lossless=true -define webp:method=6 Logo.webp
 ```
 
+# Converting Images to JXL
+
+```
+vips copy in.tif out.jxl
+```
+
 # Generating Tiles
 
 We start to use [LibVIPS]https://github.com/libvips/libvips(), since it's very fast:
