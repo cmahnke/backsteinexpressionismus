@@ -82,18 +82,17 @@ jobs:
           find content/post/ -name info.json -exec dirname {} \; | xargs -I {} find {} -mindepth 1 -type d -not -path '*/full*' | xargs rm -fr
           #find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.6.0
+        with:
+          hugo-version: '0.118.2'
+          extended: true
+
       - name: Generate Files
         env:
           SKIP_IIIF: yes
         run: |
           ./scripts/setup.sh
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.6.0
-        with:
-# We need an older hugo version, otherwise the tag pages won't build!
-          hugo-version: '0.118.2'
-          extended: true
 
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
