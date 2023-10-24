@@ -57,7 +57,7 @@ jobs:
           mkdir -p ~/.ssh && echo "$DEPLOY_SSH_IDENTITY" >>  ~/.ssh/known_hosts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3.8.1
+        uses: actions/setup-node@v4.0.0
         with:
           node-version-file: '.nvmrc'
 
