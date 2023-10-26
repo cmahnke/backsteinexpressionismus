@@ -1,5 +1,5 @@
 ---
-title: "Albinmüller-Turm"
+title: "Allgemeine Ortskrankenkasse Magdeburg"
 date: 2021-08-07T19:15:07+01:00
 tags:
 - Magdeburg
@@ -8,6 +8,7 @@ tags:
 - Foto
 resources:
 - src: "page050.jpg"
+  name: preview
   params:
     iiif: page050/info.json
 ---
