@@ -16,4 +16,4 @@ resources:
     iiif: page082/info.json
 ---
 
-Seite 81 und 82: Der [Albinmüller-Turm](/tags/Albinmüller-Turm) von [Albin Müller](/tags/Albin Müller).
+Seite 81 und 82: Der [Albinmüller-Turm](/tags/Albinmüller-Turm) von [Albin Müller](/tags/Albin-Müller).

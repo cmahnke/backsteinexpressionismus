@@ -1,9 +1,9 @@
 ---
-title: "Albinmüller-Turm"
+title: "Stadthalle Magdeburg"
 date: 2021-08-14T19:15:07+01:00
 tags:
 - Magdeburg
-- Albinmüller-Turm
+- Stadthalle Magdeburg
 - Albin Müller
 - Foto
 resources:
@@ -24,4 +24,4 @@ resources:
     iiif: page079/info.json
 ---
 
-Seite 17, 47, 78 und 79: Die [Stadhalle Magdeburg](/tags/Stadhalle Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).
+Seite 17, 47, 78 und 79: Die [Stadthalle Magdeburg](/tags/Stadhalle-Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).
