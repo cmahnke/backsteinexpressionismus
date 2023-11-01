@@ -8,6 +8,7 @@
     copyrightYears = "MMXXI - MMXXIII"
     cc = false
     productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
+    disableScale = true
 
     [params.preview]
         outputPrefix = "ogPreview"
