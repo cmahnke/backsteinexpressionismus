@@ -1,5 +1,5 @@
 ---
-title: "Meßberghof"
+title: "Messberghof"
 aliases:
  - /tags/Ballinhaus
 description: ''

@@ -17,4 +17,4 @@ resources:
     iiif: front/info.json
 ---
 
-Eine Ansicht des [Chilehaus'](https://de.wikipedia.org/wiki/Chilehaus) und [Ballinhaus (heute Meßberghof)](https://de.wikipedia.org/wiki/Me%C3%9Fberghof) in Hamburg.
+Eine Ansicht des [Chilehaus'](https://de.wikipedia.org/wiki/Chilehaus) und [Ballinhaus (heute Messberghof)](https://de.wikipedia.org/wiki/Me%C3%9Fberghof) in Hamburg.
