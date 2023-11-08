@@ -6,6 +6,7 @@ tags:
 - Düsseldorf
 - Tonhalle Düsseldorf
 - Planetarium Düsseldorf
+- Rheinhalle
 - Wilhelm Kreis
 - Foto
 - Postkarte

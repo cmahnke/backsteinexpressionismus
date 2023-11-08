@@ -31,3 +31,5 @@ content/**/ogPreview-overlay.*g
 #content/**/page*/info.json
 **/vips-properties.xml
 **/.DS_Store
+assets/js/bbox.json
+static/fonts

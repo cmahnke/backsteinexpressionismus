@@ -90,3 +90,7 @@ hugo serve -F --debug --disableFastRender  --disableLiveReload --watch=false --r
 ```
 docker run --name hugo -v `pwd`/docs:/usr/share/nginx/html -p 1313:80 nginx
 ```
+
+# Frequency
+
+Post should be published on Sunday, since rebuild is currently on Monday.
