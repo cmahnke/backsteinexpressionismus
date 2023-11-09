@@ -1,8 +1,7 @@
 ---
-title: ''
+title: 'Hannover Messestadt und Grossstadt im Grünen'
+description: 'Dr. Wolf Strache: Hannover Messestadt und Grossstadt im Grünen. Verlag "Die schönen Bücher", Stuttgart 1970. <a class="worldcat" href="https://www.worldcat.org/de/title/73783809">&nbsp;</a>'
 date: 2024-01-07T20:25:07+02:00
-description: ''
-draft: true
 type: book
 tags:
 - Hannover
@@ -28,3 +27,5 @@ resources:
   params:
     iiif: page043/info.json
 ---
+
+Auch wenn diese Ausgabe erst 1970 erschienen ist, sind die Bilder deutlich älter, da die erste Ausgabe bereits Mitte der 50er erschien.

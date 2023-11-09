@@ -5,6 +5,8 @@ type: building
 archinformID: projekte/9722
 location: Hamburg
 build: 1922-1924
+alias:
+ - /tags/Meßberghof
 geojson:
   coordinates:
   - 10.001199

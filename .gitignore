@@ -33,3 +33,4 @@ content/**/ogPreview-overlay.*g
 **/.DS_Store
 assets/js/bbox.json
 static/fonts
+assets/css/

@@ -20,7 +20,7 @@
 {{/* Check for JXL */}}
 {{- if eq (string $previewImg.MediaType) "image/jxl" -}}
     {{- if not $previewImg.Name -}}
-        {{- warnf "JXL Reference in %s, but no 'name' set, using default" ($images.Get "context").File.Path -}}
+        {{- warnf "[partials/list-entry.html] JXL Reference in %s, but no 'name' set, using default" ($images.Get "context").File.Path -}}
     {{- end -}}
     {{- $previewImg = partial "iiif/preview.html" (dict "context" ($images.Get "context") "name" $previewImg.Name) -}}
 {{- end -}}

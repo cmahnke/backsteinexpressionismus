@@ -19,7 +19,7 @@
             {{- $tmpImg := $context.Resources.GetMatch .name -}}
             {{- if eq (string $tmpImg.MediaType) "image/jxl" -}}
                 {{- if not .name -}}
-                    {{- warnf "JXL Reference in %s, but no 'name' set, using default" $context.File.Path -}}
+                    {{- warnf "[partials/preview/image.html] JXL Reference in %s, but no 'name' set, using default" $context.File.Path -}}
                 {{- end -}}
                 {{- $tmpImg = partial "iiif/preview.html" (dict "context" $context "name" .name) -}}
             {{- end -}}
@@ -30,6 +30,10 @@
 
             {{- $images.Set "preview" $tmpImg -}}
         {{- end -}}
+    {{- end -}}
+
+    {{- if eq ($images.Get "preview") nil -}}
+      {{- warnf "[partials/preview/image.html] Can't get preview image for %s" $context.File.Path -}}
     {{- end -}}
 
     {{- $background := $images.Get "preview" -}}
