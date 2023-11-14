@@ -1,0 +1,35 @@
+.iframe-wrapper {
+  .opt-in-overlay .opt-in-overlay-content{
+    border-radius: 0.5em;
+    background-color: #112e63;
+
+  }
+
+  .iframe {
+
+    .map-wrapper {
+      height: 30em;
+
+      .map {
+        border-radius: 0.5em;
+
+        .ol-viewport {
+          border-radius: 0.5em;
+        }
+
+        .ol-popup-closer::after {
+          content: "✖";
+          color: rgb(102,0,0);
+        }
+
+        .ol-popup {
+          color: rgb(102,0,0);
+
+          a {
+            color: rgb(102,0,0);
+          }
+        }
+      }
+    }
+  }
+}

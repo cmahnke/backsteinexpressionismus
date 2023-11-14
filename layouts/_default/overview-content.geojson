@@ -12,6 +12,9 @@
     {{- $sourceSection := ( where .Site.Pages "Section" $source) -}}
     {{- $pages := where $sourceSection $filterField "eq" $filter -}}
     {{- $features := where $pages ".Page.Params.geojson" "!=" nil -}}
+    {{/* TODO filter empty tags
+    {{- $tags := site.Taxonomies.tags.Get (replace $context.File.ContentBaseName "." "") -}}
+    */}}
     {{- partial "geojson/featureCollection.geojson" $features -}}
   {{- end -}}
 {{- end -}}

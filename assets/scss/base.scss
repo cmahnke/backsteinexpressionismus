@@ -26,6 +26,7 @@ $color-light: $color-body-text;
 @import "timeline";
 @import "map";
 @import "iframe-consent";
+@import "brick-map";
 
 body {
     font-family: $font-body, Helvetica;
