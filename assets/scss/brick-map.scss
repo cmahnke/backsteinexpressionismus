@@ -1,3 +1,4 @@
+/* TODO: Use color variables */
 .iframe-wrapper {
   .opt-in-overlay .opt-in-overlay-content{
     border-radius: 0.5em;
@@ -24,6 +25,7 @@
 
         .ol-popup {
           color: rgb(102,0,0);
+          background-color: #fdf3c9;
 
           a {
             color: rgb(102,0,0);
