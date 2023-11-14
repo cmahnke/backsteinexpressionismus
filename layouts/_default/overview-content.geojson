@@ -1,0 +1,17 @@
+{{- $filter := "" -}}
+{{- $filterField := "" -}}
+{{- $source := "tags" -}}
+{{- if .Page.Params.overview -}}
+  {{- if not .Page.Params.overview.view -}}
+    {{- $filter = .Page.Params.overview.filter -}}
+    {{- $filterField = .Page.Params.overview.filterfield -}}
+    {{- if .Page.Params.overview.source -}}
+        {{- $source = .Page.Params.overview.source -}}
+    {{- end -}}
+    {{- $filterField := printf ".Page.Params.%s" $filterField -}}
+    {{- $sourceSection := ( where .Site.Pages "Section" $source) -}}
+    {{- $pages := where $sourceSection $filterField "eq" $filter -}}
+    {{- $features := where $pages ".Page.Params.geojson" "!=" nil -}}
+    {{- partial "geojson/featureCollection.geojson" $features -}}
+  {{- end -}}
+{{- end -}}

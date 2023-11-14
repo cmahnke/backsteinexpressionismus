@@ -24,6 +24,8 @@ $color-light: $color-body-text;
 @import "menu";
 @import "tabs";
 @import "timeline";
+@import "map";
+@import "iframe-consent";
 
 body {
     font-family: $font-body, Helvetica;

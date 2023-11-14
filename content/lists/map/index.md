@@ -2,6 +2,15 @@
 title: Karte
 displayinlist: false
 metaPage: true
-draft: true
-weight: 1
+layout: overview-content
+#draft: true
+weight: 2
+overview:
+  filter: building
+  filterField: type
+  view: map
 ---
+
+{{< html/iframe-consent >}}
+    {{< maps/osm src="/lists/buildings/map.geojson" >}}
+{{< /html/iframe-consent >}}

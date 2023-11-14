@@ -1,6 +1,7 @@
 ---
 title: "Gutehoffnungshütte"
 date: 2024-03-31T19:15:07+01:00
+draft: true
 tags:
 - Oberhausen
 - Gutehoffnungshütte

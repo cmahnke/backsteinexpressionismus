@@ -14,45 +14,45 @@ copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemache
 timeout = "60s"
 
 [menu]
-    [[menu.main]]
-        name = "Start"
-        url = "/"
-        weight = 1
+  [[menu.main]]
+    name = "Start"
+    url = "/"
+    weight = 1
 
-    [[menu.main]]
-        name = "Übersichten"
-        url = "/lists"
-        weight = 1
+  [[menu.main]]
+    name = "Übersichten"
+    url = "/lists"
+    weight = 1
 
-    [[menu.main]]
-        name = "Links"
-        url = "/links"
-        weight = 2
+  [[menu.main]]
+    name = "Links"
+    url = "/links"
+    weight = 2
 
-    [[menu.main]]
-        name = "Über"
-        url = "/about"
-        weight = 3
+  [[menu.main]]
+    name = "Über"
+    url = "/about"
+    weight = 3
 
 [module]
-    [[module.mounts]]
-        source = "assets/scss"
-        target = "assets/scss"
+  [[module.mounts]]
+    source = "assets/scss"
+    target = "assets/scss"
 
-    [[module.mounts]]
-        source = "assets/js"
-        target = "assets/js"
+  [[module.mounts]]
+    source = "assets/js"
+    target = "assets/js"
 
-    [[module.mounts]]
-        source = "static"
-        target = "static"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
 
 [mediaTypes]
   [mediaTypes."application/json"]
     suffixes = ["geojson", "gjson"]
   # See https://www.loc.gov/preservation/digital/formats/fdd/fdd000538.shtml
-    [mediaTypes."image/jxl"]
-      suffixes = ["jxl"]
+  [mediaTypes."image/jxl"]
+    suffixes = ["jxl"]
 
 [outputFormats]
   [outputFormats.geojson]
@@ -63,12 +63,12 @@ timeout = "60s"
     notAlternative = true
 
 [markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe= true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe= true
 
 [imaging]
-    quality = 95
+  quality = 95
 
 [taxonomies]
   tag = "tags"

@@ -1,0 +1,107 @@
+{{- $context := .context -}}
+{{- $fit := .fit -}}
+{{- $contextPath := path.Dir $context.File.Path -}}
+{{- $previewImg := "" -}}
+{{- $images := newScratch -}}
+{{- $previewReference := "" -}}
+{{- $imgLocation := "" -}}
+{{- $params := "" -}}
+{{- $previewImg := "" -}}
+
+{{- if eq $fit nil -}}
+  {{- $fit = "600x300" -}}
+{{- end -}}
+
+{{- if and (isset $context.Params "preview") $context.Params.preview -}}
+  {{- $previewReference = index (where $context.Params.resources "name" .Params.preview) 0 -}}
+{{- else if isset $context.Params "resources" -}}
+  {{- if (gt (where $context.Params.resources "name" "preview" | len) 0) -}}
+    {{- $previewReference = index (where $context.Params.resources "name" "preview") 0 -}}
+  {{- else if (gt (where $context.Params.resources "name" "cover" | len) 0) -}}
+    {{- $previewReference = index (where $context.Params.resources "name" "cover") 0 -}}
+  {{- else if (gt (where $context.Params.resources "name" "front" | len) 0) -}}
+    {{- $previewReference = index (where $context.Params.resources "name" "front") 0 -}}
+  {{- else if (gt ($context.Params.resources | len) 0) -}}
+    {{- $previewReference = index (index $context.Params.resources 0) 0 -}}
+    {{- errorf "[partials/preview/preview-internal.html] Just using first reference (#%v) as preview for %s. This is just an error to check if the data type is Map instead of Slice" $previewReference $contextPath -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (eq $previewReference "") (strings.HasPrefix $contextPath "post") (not (and (isset $context.Params "type") (eq $context.Params.type "other"))) -}}
+  {{- errorf "[partials/preview/preview-internal.html] Can't find front resource name for %s" $contextPath -}}
+{{- else if (strings.HasPrefix $contextPath "post") -}}
+  {{- warnf "[partials/preview/preview-internal.html] Using resource '#%v' as front preview for %s" $previewReference $contextPath -}}
+{{- end -}}
+
+{{- if and (ne $previewReference "") (reflect.IsMap $previewReference) -}}
+  {{- $images.Set "preview" nil -}}
+  {{- if isset $previewReference "src" -}}
+    {{- $imgLocation = (path.Join $contextPath $previewReference.src) -}}
+    {{- $images.Set "preview" ($context.Resources.Get $previewReference.src) -}}
+  {{- else -}}
+    {{ errorf "[partials/preview/preview-internal.html] No image source found in resources of %s" $contextPath }}
+  {{- end -}}
+  {{- if eq ($images.Get "preview") nil -}}
+    {{- $images.Set "preview" (($context.Resources.ByType "image").GetMatch $previewReference.name) -}}
+  {{- end -}}
+  {{- $params = $previewReference.params -}}
+{{- else if and (strings.HasPrefix $contextPath "post") (not (and (isset .Params "type") (eq .Params.type "other"))) -}}
+  {{- warnf "[partials/preview/preview-internal.html] No resources for %s" $contextPath -}}
+{{- end -}}
+
+{{- $previewImg = $images.Get "preview" -}}
+{{/* Check for JXL */}}
+{{- if eq (string $previewImg.MediaType) "image/jxl" -}}
+  {{- if not $previewReference.name -}}
+    {{- warnf "[partials/preview/preview-internal.html] JXL Reference in %s, but no 'name' set, using default" $context.File.Path -}}
+  {{- end -}}
+  {{- $previewImg = partial "iiif/preview.html" (dict "context" $context "name" $previewReference.name) -}}
+  {{- if or (eq $previewImg "") (eq $previewImg nil) -}}
+    {{- $fullResImgSuffix := "/full/full/0/default.jpg" -}}
+    {{- $previewLoc := path.Join (path.Dir $previewReference.params.iiif) $fullResImgSuffix -}}
+    {{- $imgLocation = path.Join $contextPath $previewLoc -}}
+    {{- warnf "[partials/preview/preview-internal.html] Getting JXL preview for %s failed! Trying to load from %s" $contextPath $previewLoc -}}
+
+{{/*
+{{ $relContext := strings.Substr $contextPath (len $context.Parent.Page.File.Dir) }}
+{{ warnf "--parentPath: %s -> relPAth: %s" $context.Parent.Page.File.Dir $relContext }}
+{{ $parentPreviewReference := (path.Join $relContext $previewReference.name $fullResImgSuffix) }}
+{{ warnf "--from parent--> %s #%v" $parentPreviewReference ($context.Parent.Page.Resources.GetMatch $parentPreviewReference )  }}
+
+{{ warnf "--> #%v" ($context.Page.Resources.Match (printf "%s/%s" $previewReference.name "**.jpg") )  }}
+{{ warnf "---> #%v" ($context.Parent.Page.Resources )  }}
+{{ warnf "--page-> Getting %s as page: #%v" $relContext (.GetPage $relContext) }}
+*/}}
+
+    {{- if $context.IsSection -}}
+      {{- $previewImg = $context.Page.Resources.GetMatch $previewLoc -}}
+    {{- else -}}
+      {{- $previewImg = $context.Resources.GetMatch $previewLoc -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (or (eq $previewImg nil) (eq $previewImg "")) (strings.HasPrefix $contextPath "post") (not (and (isset $context.Params "type") (eq $context.Params.type "other"))) -}}
+  {{- warnf "[partials/preview/preview-internal.html] Can't load image %s for post %s (#%v)" $imgLocation $contextPath $previewReference -}}
+  {{- if lt hugo.Version "0.121.0" -}}
+    {{- errorf "This is supposed to work with Hugo 0.121, see https://github.com/gohugoio/hugo/issues/11439" -}}
+  {{- end -}}
+  {{- if and (eq $imgLocation "") (not (fileExists $imgLocation)) -}}
+    {{- errorf "[partials/preview/preview-internal.html] Image %s doesn't exist!" $imgLocation -}}
+  {{- end -}}
+{{- else -}}
+  {{/*
+  To use real brick dimensions see https://www.hausjournal.net/ziegelsteine-masse-der-uebersicht
+  You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calculations
+  */}}
+
+  {{- $rotate := "" -}}
+  {{- if isset $params "rotate" -}}
+    {{- $rotate = printf " r%d" (add $params.rotate 180) -}}
+  {{- end -}}
+  {{- $imgOptions := (printf "%s %s %s" $fit $rotate "center") -}}
+  {{- $previewImg = $previewImg.Fit $imgOptions -}}
+
+{{- end -}}
+
+{{- return $previewImg -}}

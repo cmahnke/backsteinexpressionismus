@@ -1,6 +1,7 @@
 ---
 title: "Volksschule Südstadt"
 date: 2024-02-18T19:15:07+01:00
+draft: true
 tags:
 - Hannover
 - Volksschule Südstadt Hannover

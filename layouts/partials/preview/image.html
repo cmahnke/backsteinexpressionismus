@@ -1,47 +1,25 @@
+{{/* This gets called by the og-preview template */}}
 {{- $context := .context -}}
 {{- $width := .width -}}
 {{- $height := .height -}}
+{{- $contextPath := path.Dir $context.File.Path -}}
 
 {{- $previewImg := "" -}}
-{{- $images := newScratch -}}
-{{- if isset .context.Site.Params "preview" -}}
-    {{- $previewImgName := $context.Site.Params.preview.outputPrefix -}}
-    {{- if ne $context.Sites.First .context.Site -}}
-        {{- $previewImgName = printf "%s.%s%s" $previewImgName $context.Site.Language.Lang $context.Site.Params.preview.outputSuffix -}}
-    {{- else -}}
-        {{- $previewImgName = printf "%s%s" $previewImgName $context.Site.Params.preview.outputSuffix -}}
+
+{{- if (strings.HasPrefix $contextPath "tags") -}}
+  {{- $tags := site.Taxonomies.tags.Get (replace $context.File.ContentBaseName "." "") -}}
+  {{- if eq $tags nil -}}
+    {{- warnf "[partials/preview/image.html] No tag page for %s" $context.File.ContentBaseName -}}
+  {{- else -}}
+    {{- range $tags -}}
+      {{- $previewImg = partial "preview/preview-internal.html" (dict "context" . "fit" (printf "%dx%d" $width $height)) -}}
+      {{- if ne $previewImg "" -}}
+        {{- break -}}
+      {{- end -}}
     {{- end -}}
-    {{- $overlayImg := ($context.Resources.ByType "image").GetMatch $previewImgName -}}
-
-    {{- range $context.Params.resources -}}
-        {{- if or (eq .name "front") (eq .name "preview") -}}
-        {{/* Check for JXL */}}
-            {{- $tmpImg := $context.Resources.GetMatch .name -}}
-            {{- if eq (string $tmpImg.MediaType) "image/jxl" -}}
-                {{- if not .name -}}
-                    {{- warnf "[partials/preview/image.html] JXL Reference in %s, but no 'name' set, using default" $context.File.Path -}}
-                {{- end -}}
-                {{- $tmpImg = partial "iiif/preview.html" (dict "context" $context "name" .name) -}}
-            {{- end -}}
-            {{- if isset .params "rotate" -}}
-                {{- $tmpImg = $tmpImg.Resize (printf "%dx r%d" $tmpImg.Width (add 180 .params.rotate)) -}}
-            {{- end -}}
-            {{- $tmpImg = $tmpImg.Fill (printf "%dx%d smart" $width $height) -}}
-
-            {{- $images.Set "preview" $tmpImg -}}
-        {{- end -}}
-    {{- end -}}
-
-    {{- if eq ($images.Get "preview") nil -}}
-      {{- warnf "[partials/preview/image.html] Can't get preview image for %s" $context.File.Path -}}
-    {{- end -}}
-
-    {{- $background := $images.Get "preview" -}}
-
-    {{- if and (ne $background nil) (ne $overlayImg nil) -}}
-        {{- $overlayFilter := images.Overlay $overlayImg 1 1 -}}
-        {{- $previewImg = ($background | images.Filter $overlayFilter) -}}
-    {{- end -}}
+  {{- end -}}
+{{- else if and (strings.HasPrefix $contextPath "post") (ne $contextPath "post") -}}
+  {{- $previewImg = partial "preview/preview-internal.html" (dict "context" $context "fit" (printf "%dx%d" $width $height)) -}}
 {{- end -}}
 
 {{- return $previewImg -}}

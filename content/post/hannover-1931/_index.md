@@ -3,6 +3,7 @@ title: "Hannover aufgenommen von der Staatlichen Bildstelle"
 date: 2024-01-21T18:25:06+02:00
 description: 'Georg Hoeltje: Hannover aufgenommen von der Staatlichen Bildstelle. Deutscher Kunstverlag Berlin 1931. <a class="worldcat" href="https://www.worldcat.org/de/title/604392995">&nbsp;</a>'
 type: book
+draft: true
 tags:
 - Hannover
 - Capitol Hochhaus

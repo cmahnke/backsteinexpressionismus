@@ -7,7 +7,7 @@ tags:
 - Chilehaus
 - Fritz Höger
 - Illustration
-- Sammlebild
+- Sammelbild
 resources:
 - src: "front.jpg"
   name: front

@@ -1,51 +1,13 @@
-{{- $context := path.Dir .File.Path -}}
-{{- $entry := . -}}
+{{- $context := . -}}
+{{- $contextPath := path.Dir $context.File.Path -}}
 {{- $orientation := "" -}}
 {{- $fit := "600x300" -}}
-{{- $previewImg := "" -}}
-{{- $images := newScratch -}}
-
-{{- range .Params.resources -}}
-    {{- if or (eq .name "front") (eq .name "preview") -}}
-        {{- $images.Set "previewLoc" (path.Join $context .src) -}}
-        {{- $images.Set "preview" (($entry.Resources.ByType "image").GetMatch .name) -}}
-        {{- $images.Set "params" (.params) -}}
-        {{- $images.Set "context" ($entry) -}}
-    {{ end }}
-{{ end }}
-
-{{- $imgLocation := $images.Get "previewLoc" -}}
-
-{{- $previewImg := $images.Get "preview" -}}
-{{/* Check for JXL */}}
-{{- if eq (string $previewImg.MediaType) "image/jxl" -}}
-    {{- if not $previewImg.Name -}}
-        {{- warnf "[partials/list-entry.html] JXL Reference in %s, but no 'name' set, using default" ($images.Get "context").File.Path -}}
-    {{- end -}}
-    {{- $previewImg = partial "iiif/preview.html" (dict "context" ($images.Get "context") "name" $previewImg.Name) -}}
-{{- end -}}
-
-{{- $params := $images.Get "params" -}}
-{{- if eq $previewImg nil -}}
-    {{- warnf "Can't find image %s for post %s" $imgLocation $context -}}
-{{- end -}}
-
-{{/*
-To use real brick dimensions see https://www.hausjournal.net/ziegelsteine-masse-der-uebersicht
-You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calculations
-*/}}
-
-{{- $rotate := "" -}}
-{{- if isset $params "rotate" -}}
-    {{- $rotate = printf " r%d" (add $params.rotate  180) -}}
-{{- end -}}
-{{- $imgOptions := (printf "%s %s %s" $fit $rotate "center") -}}
-{{- $previewImg = $previewImg.Fit $imgOptions -}}
+{{- $previewImg := partial "preview/preview-internal.html" (dict "context" $context "fit" $fit) -}}
 
 {{- if lt $previewImg.Width $previewImg.Height -}}
-    {{- $orientation = "portrait" -}}
+  {{- $orientation = "portrait" -}}
 {{- else -}}
-    {{- $orientation = "landscape" -}}
+  {{- $orientation = "landscape" -}}
 {{- end -}}
 
 <div class="brick {{ .Params.type }} {{ $orientation }}">
@@ -71,9 +33,6 @@ You can use https://www.eckgolds-fotoecke.de/seitenverhaeltnis/ to do your calcu
             </div>
             <div class="summary">
                 {{ .Summary | plainify | htmlUnescape }}
-                {{/*
-                {{ partial "macros/strip-links.html" . }}
-                */}}
             </div>
         </a>
         <div class="read-more">
