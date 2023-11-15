@@ -48,6 +48,8 @@ timeout = "60s"
     target = "static"
 
 [mediaTypes]
+  [mediaTypes."application/ld+json"]
+    suffixes = ["json"]
   [mediaTypes."application/json"]
     suffixes = ["geojson", "gjson"]
   # See https://www.loc.gov/preservation/digital/formats/fdd/fdd000538.shtml
