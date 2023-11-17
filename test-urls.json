@@ -1,4 +1,9 @@
 {
-  "urls": ["index.html", "/post/boerse-essen-1/", "/post/laboe-3/"],
+  "urls": [
+    "index.html",
+    "/post/boerse-essen-1/",
+    "/post/laboe-3/",
+    "/lists/"
+  ],
   "messages": "No map visible because"
 }
