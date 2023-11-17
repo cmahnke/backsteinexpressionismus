@@ -117,7 +117,7 @@ jobs:
           #find docs -type f -size +10M -name '*.jpg' -print -exec rm {} \;
           find docs -type f -name '*.jxl' -print -exec rm {} \;
           find docs -type f -name 'vips-properties.xml' -print -exec rm {} \;
-          #find docs -type f -path '*/full/full/0/default.jpg' -print -exec rm {} \;
+          find docs -type f -path '*/full/full/0/default.jpg' -print -exec rm {} \;
           rm -rf docs/plugins
 
       - name: Deploy site
