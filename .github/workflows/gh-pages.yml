@@ -111,6 +111,15 @@ jobs:
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
 
+      - name: Cleanup Build
+        run: |
+          echo "Removing files not needed to be deployed on GitHub Pages"
+          #find docs -type f -size +10M -name '*.jpg' -print -exec rm {} \;
+          find docs -type f -name '*.jxl' -print -exec rm {} \;
+          find docs -type f -name 'vips-properties.xml' -print -exec rm {} \;
+          #find docs -type f -path '*/full/full/0/default.jpg' -print -exec rm {} \;
+          rm -rf docs/plugins
+
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:
