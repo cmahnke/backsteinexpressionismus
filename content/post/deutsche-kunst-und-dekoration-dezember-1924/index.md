@@ -1,9 +1,8 @@
 ---
 title: 'Deutsche Kunst und Dekoration Dezember 1924'
-date: 2024-02-04T18:25:06+02:00
+date: 2024-03-10T18:25:06+02:00
 description: 'Deutsche Kunst und Dekoration 3. Dezember 1924: Das neue Hamburger Chilehaus'
 type: book
-draft: true
 tags:
 - Hamburg
 - Chilehaus

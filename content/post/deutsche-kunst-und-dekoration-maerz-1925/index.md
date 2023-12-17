@@ -1,9 +1,8 @@
 ---
 title: 'Deutsche Kunst und Dekoration März 1925'
-date: 2024-02-04T18:25:06+02:00
+date: 2024-03-10T18:25:06+02:00
 description: 'Deutsche Kunst und Dekoration 6. März 1925: Das Hochhaus der Borsigwerke in Tegel'
 type: book
-draft: true
 tags:
 - Berlin
 - Tegel

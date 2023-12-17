@@ -1,23 +1,23 @@
 ---
-title: "Postkarte Stadhalle Magdeburg"
-date: 2021-04-15T19:15:07+01:00
-type: book
+title: Postkarte Albert-Ballin-Haus
+date: 2024-04-21T20:13:07+02:00
+type: postcard
+draft: true
 tags:
-- Magdeburg
-- Stadthalle Magdeburg
-- Johannes Göderitz
+- Hamburg
+- Ballinhaus
+- Hans und Oskar Gerson
 - Foto
-- Buch
+- Postkarte
 resources:
-- src: "front.jpg"
+- src: "front.jxl"
   name: front
   params:
     iiif: front/info.json
 ---
 
-Eine Postkarte der [Stadthalle Magdeburg](https://de.wikipedia.org/wiki/Stadthalle_Magdeburg)
+Eine Abbildung des Albert-Ballin-Hasues (heute [Meßberghof](https://de.wikipedia.org/wiki/Me%C3%9Fberghof)).
 
 <!--more-->
-Entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz).
 
 <div class="source"><a href="http://zeitzeug.de/">Zeitzeug</a> ist nicht nur der beste beste Anbieter historischer Tapeten in Göttingen, sondern verfügt auch über eine umfangreiche und vor allem sehr gut sortierte Auswahl an Postkarten.</div>

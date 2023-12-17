@@ -7,6 +7,7 @@ location: Hamburg
 build: 1922-1924
 alias:
  - /tags/Meßberghof
+ - /tags/Albert-Ballin-Haus
 geojson:
   coordinates:
   - 10.001199

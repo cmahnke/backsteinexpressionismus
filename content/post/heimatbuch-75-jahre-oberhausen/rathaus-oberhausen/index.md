@@ -1,6 +1,6 @@
 ---
 title: "Rathaus Oberhausen"
-date: 2024-03-17T19:15:07+01:00
+date: 2024-03-24T19:15:07+01:00
 draft: true
 tags:
 - Oberhausen
