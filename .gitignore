@@ -15,6 +15,7 @@ static/pdfjs/**
 resources
 content/post/**/preview.png
 content/post/*/front/
+content/post/*/*/front/
 content/post/*/title/
 content/post/**/page*/
 content/post/*/end/
