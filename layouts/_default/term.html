@@ -31,10 +31,14 @@
   </main>
   <div class="page-container zigzag">
     <main class="content brick-wall">
+      {{- $contentBaseName := "" -}}
+      {{- if ne .File nil -}}
+        {{- $contentBaseName := .File.ContentBaseName -}}
+      {{- end -}}
       {{- if gt hugo.Version "0.102.3" -}}
-        {{- range (site.Taxonomies.tags.Get .File.ContentBaseName)  -}}
+        {{- range (site.Taxonomies.tags.Get $contentBaseName)  -}}
             {{- partial "list-entry.html" . -}}
-        {{- end -}}
+        {{- end -}}    
       {{- else -}}
         {{ partial "list.html" . }}
         {{ partial "pagination.html" . }}
