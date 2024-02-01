@@ -3,7 +3,7 @@ title: "Hansahochhaus"
 description: ''
 type: building
 archinformID: projekte/6120
-build: 1924-1925
+yearBuild: 1924-1925
 location:
   - Köln
 geojson:

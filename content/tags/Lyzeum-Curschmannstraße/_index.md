@@ -2,7 +2,7 @@
 title: "Lyzeum Curschmannstrasse"
 description: ''
 type: building
-build: 1924-1926
+yearBuild: 1924-1926
 #archinformID:
 location: Hamburg
 geojson:

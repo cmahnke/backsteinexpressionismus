@@ -3,7 +3,7 @@ title: "Rappolthaus"
 description: ''
 type: building
 location: Hamburg
-build: 1911-1912
+yearBuild: 1911-1912
 geojson:
   coordinates:
   - 10.0014113

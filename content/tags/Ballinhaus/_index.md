@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/9722
 location: Hamburg
-build: 1922-1924
+yearBuild: 1922-1924
 alias:
  - /tags/Meßberghof
  - /tags/Albert-Ballin-Haus

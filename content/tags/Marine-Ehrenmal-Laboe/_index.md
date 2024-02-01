@@ -3,7 +3,7 @@ title: "Marine-Ehrenmal Laboe"
 description: ''
 type: building
 location: Kiel
-build: 1927-1936
+yearBuild: 1927-1936
 geojson:
   coordinates:
   - 10.2279534

@@ -3,7 +3,7 @@ title: "Technisches Verwaltungsgebäude der Hoechst AG"
 description: ''
 type: building
 archinformID: projekte/6991
-build: 1920-1924
+yearBuild: 1920-1924
 location:
   - Frankfurt
   - Frankfurt-Höchst

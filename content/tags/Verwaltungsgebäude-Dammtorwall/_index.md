@@ -3,7 +3,7 @@ title: "Verwaltungsgebäude Dammtorwall"
 description: ''
 type: building
 location: Hamburg
-build: 1913-1915
+yearBuild: 1913-1915
 geojson:
   coordinates:
   - 19.985056

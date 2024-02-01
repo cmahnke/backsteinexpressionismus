@@ -3,7 +3,7 @@ title: "Handelshof Königsberg"
 description: ''
 type: building
 archinformID: projekte/12441
-build: 1923
+yearBuild: 1923
 location:
   - Königsberg
   - Kaliningrad

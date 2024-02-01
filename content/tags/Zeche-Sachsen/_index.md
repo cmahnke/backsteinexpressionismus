@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/285
 location: Hamm
-build: 1925
+yearBuild: 1925
 geojson:
   coordinates:
   - 8.5975113

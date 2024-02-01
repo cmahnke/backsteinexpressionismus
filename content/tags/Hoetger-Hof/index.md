@@ -3,7 +3,7 @@ title: "Hoetger-Hof"
 description: ''
 type: building
 archinformID: projekte/6365
-#build: 192X-192X
+#yearBuild: 192X-192X
 location:
   - Worpswede
 geojson:

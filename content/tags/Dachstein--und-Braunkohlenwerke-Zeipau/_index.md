@@ -3,7 +3,7 @@ title: "Dachstein- und Braunkohlenwerke Zeipau"
 description: ''
 type: building
 location: Zeipau
-#build: 192X-192X
+#yearBuild: 192X-192X
 aliases:
   - /tags/Zeipauer-Dachstein--und-Braunkohlenwerke
 geojson:

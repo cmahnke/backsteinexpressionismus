@@ -3,7 +3,7 @@ title: "Voksschule Klein-Grasbrook"
 description: ''
 type: building
 location: Hamburg
-build: 1916
+yearBuild: 1916
 #geojson:
 #  coordinates:
 #  - 10.0229564

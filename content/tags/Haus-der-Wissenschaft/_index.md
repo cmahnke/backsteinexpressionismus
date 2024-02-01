@@ -3,7 +3,7 @@ title: "Haus der Wissenschaft"
 description: ''
 type: building
 #archinformID:
-build: 1935-1937
+yearBuild: 1935-1937
 location:
   - Braunschweig
 geojson:

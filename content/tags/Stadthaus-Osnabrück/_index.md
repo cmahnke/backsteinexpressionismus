@@ -3,7 +3,7 @@ title: "Stadthaus I Osnabrück"
 description: ''
 type: building
 location: Osnabrück
-build: 1928-1929
+yearBuild: 1928-1929
 alias:
  - /tags/Städtische-Krankenanstalten-Osnabrück
 geojson:

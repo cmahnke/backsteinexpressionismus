@@ -3,7 +3,7 @@ title: "Kirche am Hohenzollernplatz"
 description: ''
 type: building
 archinformID: projekte/7527
-build: 1930-1933
+yearBuild: 1930-1933
 location:
   - Berlin
 geojson:

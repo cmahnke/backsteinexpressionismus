@@ -4,7 +4,7 @@ description: ''
 type: building
 location: Hannover
 #archinformID: projekte/
-build: 1929-1930
+yearBuild: 1929-1930
 aliases:
   - /tags/Bertha-von-Suttner-Schule
   - /tags/Heinrich-Heine-Schule

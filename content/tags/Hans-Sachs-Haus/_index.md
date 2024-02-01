@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/287
 location: Gelsenkirchen
-build: 1924-1927
+yearBuild: 1924-1927
 geojson:
   coordinates:
   - 7.0906052

@@ -3,7 +3,7 @@ title: "Rüstringer Rathaus"
 description: ''
 type: building
 archinformID: projekte/1108
-build: 1928-1929
+yearBuild: 1928-1929
 location:
   - Wilhelmshaven
   - Rüstringen

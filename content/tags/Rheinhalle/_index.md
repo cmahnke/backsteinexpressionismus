@@ -2,7 +2,7 @@
 title: "Rheinhalle Düsseldorf"
 description: ''
 type: building
-build: 1925-1926
+yearBuild: 1925-1926
 archinformID: projekte/6044
 location: Düsseldorf
 aliases:

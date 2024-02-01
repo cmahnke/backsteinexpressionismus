@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/6043
 location: Düsseldorf
-build: 1922-1925
+yearBuild: 1922-1925
 geojson:
   coordinates:
   - 6.7745112

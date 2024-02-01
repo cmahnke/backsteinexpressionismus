@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/75083
 location: Frankfurt
-build: 1925-1927
+yearBuild: 1925-1927
 geojson:
   coordinates:
   - 8.6727415

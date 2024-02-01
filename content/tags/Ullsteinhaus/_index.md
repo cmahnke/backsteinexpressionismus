@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/5995
 location: Berlin
-build: 1925-1926
+yearBuild: 1925-1926
 geojson:
   coordinates:
   - 13.3825727

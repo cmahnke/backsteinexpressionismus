@@ -3,7 +3,7 @@ title: "Rathaus Neuenhagen"
 description: ''
 type: building
 location: Neuenhagen
-build: 1925-1926
+yearBuild: 1925-1926
 geojson:
   coordinates:
   - 13.6879291

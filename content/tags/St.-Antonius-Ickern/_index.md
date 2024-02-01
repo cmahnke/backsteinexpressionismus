@@ -2,7 +2,7 @@
 title: "St. Antonius Ickern"
 description: ''
 type: building
-build: 1922-1925
+yearBuild: 1922-1925
 archinformID: projekte/288
 location:
   - Castrop-Rauxel

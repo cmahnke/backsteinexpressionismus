@@ -4,7 +4,7 @@ description: ''
 type: building
 #archinformID:
 location: Köln
-#build: 192X-192X
+#yearBuild: 192X-192X
 geojson:
   coordinates:
   - 6.9697171

@@ -6,7 +6,7 @@ archinformID: projekte/1383
 location:
   - Lobau
   - Luboń
-build: 1911-1912
+yearBuild: 1911-1912
 geojson:
   coordinates:
   - 16.901342

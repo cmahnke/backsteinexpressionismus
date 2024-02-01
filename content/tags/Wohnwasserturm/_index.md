@@ -2,7 +2,7 @@
 title: "Wohnwasserturm Wulsdorf"
 description: ''
 type: building
-build: 1927
+yearBuild: 1927
 location:
   - Wesermünde
   - Bremerhaven

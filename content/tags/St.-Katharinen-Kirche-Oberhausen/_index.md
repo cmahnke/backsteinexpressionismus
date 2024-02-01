@@ -4,7 +4,7 @@ description: ''
 type: building
 location: Oberhausen
 archinformID: projekte/52302
-#build: 192X-192X
+#yearBuild: 192X-192X
 geojson:
   coordinates:
   - 6.8345599

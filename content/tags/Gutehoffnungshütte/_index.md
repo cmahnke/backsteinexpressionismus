@@ -3,7 +3,7 @@ title: "Gutehoffnungshütte"
 description: ''
 type: building
 archinformID: projekte/9881
-build: 1921-1925
+yearBuild: 1921-1925
 location: Oberhausen
 geojson:
   coordinates:

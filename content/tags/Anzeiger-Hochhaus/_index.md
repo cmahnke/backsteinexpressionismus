@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/7497
 location: Hannover
-build: 1927-1928
+yearBuild: 1927-1928
 geojson:
   coordinates:
   - 9.7293844

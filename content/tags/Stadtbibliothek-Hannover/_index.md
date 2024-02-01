@@ -4,7 +4,7 @@ description: ''
 type: building
 location: Hannover
 archinformID: projekte/8460
-build: 1929-1931
+yearBuild: 1929-1931
 geojson:
   coordinates:
   - 9.7425555

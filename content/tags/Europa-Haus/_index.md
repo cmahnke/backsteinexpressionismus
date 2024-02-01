@@ -2,7 +2,7 @@
 title: "Europa-Haus"
 description: ''
 type: building
-build: 1928-1929
+yearBuild: 1928-1929
 #archinformID:
 location: Leipzig
 aliases:

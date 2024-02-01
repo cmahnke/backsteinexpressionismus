@@ -2,7 +2,7 @@
 title: "Realschule Uferstrasse"
 description: ''
 type: building
-build: 1914-1915
+yearBuild: 1914-1915
 archinformID: projekte/5974
 location: Hamburg
 geojson:

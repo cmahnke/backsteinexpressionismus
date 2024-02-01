@@ -3,7 +3,7 @@ title: "Wilhelm-Marx-Haus"
 description: ''
 type: building
 archinformID: projekte/4250
-build: 1922-1924
+yearBuild: 1922-1924
 location:
   - Köln
 geojson:

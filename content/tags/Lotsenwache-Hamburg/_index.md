@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/5974
 location: Hamburg
-build: 1913-1914
+yearBuild: 1913-1914
 aliases:
   - /tags/Lotsenhaus-Seemannshöft
   - /tags/Seemannshöft-Lotsenhaus

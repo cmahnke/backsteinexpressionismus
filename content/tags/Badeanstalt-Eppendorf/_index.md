@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/5973
 location: Hamburg
-build: 1913-1914
+yearBuild: 1913-1914
 geojson:
   coordinates:
   - 9.9903605

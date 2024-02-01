@@ -3,7 +3,7 @@ title: "Rathaus Oberhausen"
 description: ''
 type: building
 location: Oberhausen
-build: 1927-1930
+yearBuild: 1927-1930
 geojson:
   coordinates:
   - 6.8577605

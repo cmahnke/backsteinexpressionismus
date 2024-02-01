@@ -3,7 +3,7 @@ title: "Hochhaus Glückauf"
 description: ''
 type: building
 location: Hannover
-build: 1930
+yearBuild: 1930
 geojson:
   coordinates:
   - 9.7606812

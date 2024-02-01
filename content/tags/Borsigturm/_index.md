@@ -3,7 +3,7 @@ title: "Borsigturm"
 description: ''
 type: building
 archinformID: projekte/5996
-build: 1922-1924
+yearBuild: 1922-1924
 location:
   - Berlin
 geojson:

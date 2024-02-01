@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/5980
 location: Berlin
-#build: 192X-192X
+#yearBuild: 192X-192X
 geojson:
   coordinates:
   - 13.3861983

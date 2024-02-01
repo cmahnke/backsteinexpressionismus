@@ -3,7 +3,7 @@ title: "Thaliahaus"
 description: ''
 type: building
 location: Hamburg
-build: 1921
+yearBuild: 1921
 geojson:
   coordinates:
   - 9.9982644

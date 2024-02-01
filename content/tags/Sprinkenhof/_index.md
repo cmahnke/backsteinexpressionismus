@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/6362
 location: Hamburg
-build: 1930-1932
+yearBuild: 1930-1932
 geojson:
   coordinates:
   - 10.001199

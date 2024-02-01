@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/6124
 location: Magdeburg
-build: 1926-1927
+yearBuild: 1926-1927
 geojson:
   coordinates:
   - 11.637547

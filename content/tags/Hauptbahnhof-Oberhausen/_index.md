@@ -2,7 +2,7 @@
 title: "Haupbahnhof Oberhausen"
 description: ''
 type: building
-build: 1930-1934
+yearBuild: 1930-1934
 location:
   - Oberhausen
 geojson:

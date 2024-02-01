@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/5984
 location: Hamburg
-build: 1912-1914
+yearBuild: 1912-1914
 aliases:
   - /tags/Schwesternhaus-Eppendorfer-Krankenhaus
 geojson:

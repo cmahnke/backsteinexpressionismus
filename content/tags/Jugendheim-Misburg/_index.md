@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/5956
 location: Hamburg
-#build: 192X-192X
+#yearBuild: 192X-192X
 geojson:
   coordinates:
   - 9.86058

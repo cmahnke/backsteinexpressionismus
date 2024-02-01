@@ -3,7 +3,7 @@ title: "Rheinhallen Köln"
 description: ''
 type: building
 location: Köln
-build: 1922-1924
+yearBuild: 1922-1924
 geojson:
   coordinates:
   - 6.9710936

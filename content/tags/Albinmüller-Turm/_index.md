@@ -4,7 +4,7 @@ description: ''
 type: building
 #archinformID:
 location: Magdeburg
-build: 1926-1927
+yearBuild: 1926-1927
 geojson:
   coordinates:
   - 11.6384616

@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/794
 location: Bischofsheim
-build: 1926
+yearBuild: 1926
 geojson:
   coordinates:
   - 8.3549983

@@ -4,7 +4,7 @@ description: ''
 type: building
 archinformID: projekte/6364
 location: Bremen
-build: 1927
+yearBuild: 1927
 geojson:
   coordinates:
   - 8.8038336

@@ -3,7 +3,7 @@ title: "Seglerheim"
 description: ''
 type: building
 location: Hamburg
-build: 1912
+yearBuild: 1912
 aliases:
   - /tags/Alter-JJachtclub-Hamburg
   - /tags/Seglerheim-mit-Arbeiterspeisehalle

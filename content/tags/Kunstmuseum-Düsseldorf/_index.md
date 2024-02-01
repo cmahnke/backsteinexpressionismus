@@ -2,7 +2,7 @@
 title: "Kunstmuseum Düsseldorf"
 description: ''
 type: building
-build: 1925-1926
+yearBuild: 1925-1926
 #archinformID:
 aliases:
   - /tags/Museum-Kunstpalast

@@ -2,7 +2,7 @@
 title: "Essener Börse"
 description: ''
 type: building
-build: 1925
+yearBuild: 1925
 location:
   - Essen
 aliases:

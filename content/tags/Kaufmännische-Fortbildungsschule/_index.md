@@ -3,7 +3,7 @@ title: "Kaufmännische Fortbildungsschule Lübeckertordamm"
 description: ''
 type: building
 archinformID: projekte/5956
-build: 1919-1920
+yearBuild: 1919-1920
 location: Hamburg
 geojson:
   coordinates:

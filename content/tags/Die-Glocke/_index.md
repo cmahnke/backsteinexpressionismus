@@ -3,7 +3,7 @@ title: "Die Glocke"
 description: ''
 type: building
 location: Hamburg
-build: 1926-1928
+yearBuild: 1926-1928
 geojson:
   coordinates:
   - 8.806812

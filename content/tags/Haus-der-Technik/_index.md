@@ -3,7 +3,7 @@ title: "Haus der Technik"
 description: ''
 type: building
 archinformID: projekte/12442
-build: 1924-1925
+yearBuild: 1924-1925
 location:
   - Königsberg
   - Kaliningrad
