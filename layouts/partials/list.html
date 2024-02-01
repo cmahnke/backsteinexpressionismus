@@ -1,11 +1,11 @@
-{{ $pages := .Pages }}
-{{ if .IsHome }}
-    {{ $pages = where .Site.Pages "Section" "post" }}
-{{ end }}
-{{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
+{{- $pages := .Pages -}}
+{{- if .IsHome -}}
+  {{ $pages = where .Site.Pages "Section" "post" -}}
+{{- end }}
+{{- $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
 
 <main class="content brick-wall">
-    {{- range $paginator.Pages -}}
-        {{ partial "list-entry.html" . }}
-    {{ end }}
+  {{- range $paginator.Pages -}}
+    {{- partial "list-entry.html" . -}}
+  {{- end -}}
 </main>

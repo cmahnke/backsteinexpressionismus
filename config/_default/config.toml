@@ -9,6 +9,7 @@
     cc = false
     productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
     disableScale = true
+    debug = false
 
     [params.preview]
         outputPrefix = "ogPreview"

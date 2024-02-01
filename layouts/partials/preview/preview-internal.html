@@ -1,6 +1,9 @@
 {{- $context := .context -}}
 {{- $fit := .fit -}}
-{{- $contextPath := path.Dir $context.File.Path -}}
+{{- $contextPath := "NOTFILEBACKED" -}}
+{{- if and (ne $context.File nil) (ne $context.File.Path nil) -}}
+  {{- $contextPath = path.Dir $context.File.Path -}}
+{{- end -}}
 {{- $previewImg := "" -}}
 {{- $images := newScratch -}}
 {{- $previewReference := "" -}}

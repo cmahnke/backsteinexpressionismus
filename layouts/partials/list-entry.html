@@ -1,5 +1,8 @@
 {{- $context := . -}}
-{{- $contextPath := path.Dir $context.File.Path -}}
+{{- $contextPath := "NOTFILEBACKED" -}}
+{{- if and (ne $context.File nil) (ne $context.File.Path nil) -}}
+  {{- $contextPath = path.Dir $context.File.Path -}}
+{{- end -}}
 {{- $orientation := "" -}}
 {{- $fit := "600x300" -}}
 {{- $previewImg := partial "preview/preview-internal.html" (dict "context" $context "fit" $fit) -}}
