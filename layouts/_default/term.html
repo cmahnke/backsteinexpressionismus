@@ -9,7 +9,7 @@
                 <h1>{{ i18n  "allPostsTerm" }} {{ .Title }}</h1>
             </div>
             <div class="body">
-{{/*
+{{/* TODO: Finish inclusion of preview image, referenced by post name.
                 {{- if .Params.previewimg -}}
 
                 {{- end -}}
@@ -38,7 +38,7 @@
       {{- if gt hugo.Version "0.102.3" -}}
         {{- range (site.Taxonomies.tags.Get $contentBaseName)  -}}
             {{- partial "list-entry.html" . -}}
-        {{- end -}}    
+        {{- end -}}
       {{- else -}}
         {{ partial "list.html" . }}
         {{ partial "pagination.html" . }}
