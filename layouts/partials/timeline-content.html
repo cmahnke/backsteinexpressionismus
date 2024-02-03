@@ -1,8 +1,8 @@
 {{- $sourceSection := ( where .Site.Pages "Section" "tags") -}}
 {{- $pages := where $sourceSection "type" "eq" "builder" -}}
 
-{{- $pages = where .Site.Pages "Params.build" "!=" nil -}}
-{{- $pages = sort $pages ".Params.build" -}}
+{{- $pages = where .Site.Pages "Params.yearBuild" "!=" nil -}}
+{{- $pages = sort $pages ".Params.yearBuild" -}}
 
 {{- $updatedPages := slice -}}
 {{- range $pages -}}
