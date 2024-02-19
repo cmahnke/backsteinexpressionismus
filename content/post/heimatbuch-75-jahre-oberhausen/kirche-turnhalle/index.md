@@ -1,7 +1,6 @@
 ---
 title: "Weitere Gebäude"
 date: 2024-04-07T19:15:07+01:00
-draft: true
 tags:
 - Oberhausen
 - St.-Katharinen-Kirche Oberhausen

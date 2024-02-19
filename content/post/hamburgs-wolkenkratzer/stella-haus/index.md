@@ -1,8 +1,7 @@
 ---
 title: Postkarte Stella-Haus
-date: 2024-04-28T20:13:07+02:00
+date: 2024-06-09T20:13:07+02:00
 type: postcard
-draft: true
 tags:
 - Hamburg
 - Stella-Haus

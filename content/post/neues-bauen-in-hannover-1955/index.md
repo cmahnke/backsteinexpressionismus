@@ -1,8 +1,7 @@
 ---
 title: 'Neues Bauen in Hannover'
 description: 'Neues Bauen in Hannover. AWAG Verlag, Stuttgart 1955. <a class="worldcat" href="https://www.worldcat.org/de/title/615196973">&nbsp;</a>'
-date: xxx
-draft: true
+date: 2024-06-16T20:13:07+02:00
 type: book
 tags:
 - Hannover

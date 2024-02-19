@@ -1,8 +1,7 @@
 ---
 title: Postkarte Albert-Ballin-Haus
-date: 2024-04-21T20:13:07+02:00
+date: 2024-06-02T20:13:07+02:00
 type: postcard
-draft: true
 tags:
 - Hamburg
 - Ballinhaus

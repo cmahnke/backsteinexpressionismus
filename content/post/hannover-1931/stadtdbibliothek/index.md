@@ -1,7 +1,6 @@
 ---
 title: "Stadtbibliothek"
-date: 2024-04-14T19:15:07+01:00
-draft: true
+date: 2024-05-05T19:15:07+01:00
 tags:
 - Hannover
 - Stadtbibliothek Hannover

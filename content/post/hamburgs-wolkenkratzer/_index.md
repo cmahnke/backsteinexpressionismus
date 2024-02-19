@@ -1,8 +1,7 @@
 ---
 title: "Postkartenserie 'Hamburgs Wolkenkratzer'"
-date: 2024-04-14T18:25:06+02:00
+date: 2024-06-02T18:25:06+02:00
 type: other
-draft: true
 tags:
 - Hamburg
 - Stella-Haus
