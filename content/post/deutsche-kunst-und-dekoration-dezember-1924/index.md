@@ -9,6 +9,7 @@ tags:
 - Fritz Höger
 - Foto
 - Buch
+- Artikel
 resources:
 - src: "page056.jxl"
   name: preview

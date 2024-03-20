@@ -10,6 +10,7 @@ tags:
 - Borsigturm
 - Foto
 - Buch
+- Artikel
 resources:
 - src: "page136.jxl"
   name: preview
