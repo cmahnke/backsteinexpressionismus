@@ -4,48 +4,52 @@
     <div class="post brick">
         <div class="container">
             {{- if not .Params.metaPage -}}
-                <div class="date">
-                    {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
-                </div>
+              <div class="date">
+                {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
+              </div>
             {{- end -}}
 
             {{- $title := "" -}}
             {{- if ne .Params.metaPage true -}}
-                {{- if eq .CurrentSection.Title "" -}}
-                    {{- $title = .Title -}}
-                {{- else if eq .CurrentSection.Title .Title -}}
-                    {{- $title = .Title -}}
-                {{- else -}}
-                    {{- $title = printf "%s: %s" .CurrentSection.Title .Title -}}
-                {{- end -}}
-            {{- else -}}
+              {{- if eq .CurrentSection.Title "" -}}
                 {{- $title = .Title -}}
+              {{- else if eq .CurrentSection.Title .Title -}}
+                {{- $title = .Title -}}
+              {{- else -}}
+                {{- $title = printf "%s: %s" .CurrentSection.Title .Title -}}
+              {{- end -}}
+            {{- else -}}
+              {{- $title = .Title -}}
             {{- end -}}
 
             <div class="title">
-                <h1>{{ $title }}</h1>
+              <h1>{{ $title }}</h1>
             </div>
 
             <div class="body">
 
-                <div class="text-content">
-                    {{ .Content }}
-                </div>
+              <div class="text-content">
+                {{ .Content }}
+              </div>
 
             <div class="iiif">
               {{- $context := path.Dir .File.Path -}}
               {{- $pageURL := .Permalink -}}
-              {{- range .Params.resources -}}
-                {{- if or (and (ne $.Params.type "work") (ne $.Params.type "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
-                  {{- if .params.iiif -}}
-                    {{ partial "iiif/iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page "site" $.Site) }}
+              {{- if not (hasPrefix .Params.iiifContext "http://iiif.io/api/presentation/") -}}
+                {{- range .Params.resources -}}
+                  {{- if or (and (ne $.Params.type "work") (ne $.Params.type "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
+                    {{- if .params.iiif -}}
+                      {{ partial "iiif/iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page "site" $.Site) }}
+                    {{- end -}}
                   {{- end -}}
                 {{- end -}}
+              {{- else -}}
+                {{- partial "iiif/iiif-presentation.html" . -}}
               {{- end -}}
             </div>
 
             {{- if and .Params.type .Params.description -}}
-                {{- partial (printf "media/%s.html" .Params.type ) . -}}
+              {{- partial (printf "media/%s.html" .Params.type ) . -}}
             {{- end -}}
 
           </div>
@@ -54,17 +58,17 @@
               <div class="meta-container">
 
                   {{- if or (eq .Kind "section") (ne .CurrentSection .FirstSection) -}}
-                      <div class="post-relations">
-                          {{- partial "post-relations" . -}}
-                      </div>
+                    <div class="post-relations">
+                      {{- partial "post-relations" . -}}
+                    </div>
                   {{- end -}}
 
                   {{- if .Params.tags -}}
                       {{ $tagPages := slice -}}
                       {{- range $tag := .Params.tags -}}
-                          {{- $tagPagePath := printf "/tags/%s" (replace . " " "-") -}}
-                          {{- $tagPage := $.Site.GetPage $tagPagePath -}}
-                          {{- $tagPages = $tagPages | append $tagPage -}}
+                        {{- $tagPagePath := printf "/tags/%s" (replace . " " "-") -}}
+                        {{- $tagPage := $.Site.GetPage $tagPagePath -}}
+                        {{- $tagPages = $tagPages | append $tagPage -}}
                       {{- end -}}
                       {{- $buildings := where $tagPages "Params.type" "building" -}}
 

@@ -24,6 +24,9 @@
     {{- $previewReference = index (where $context.Params.resources "name" "cover") 0 -}}
   {{- else if (gt (where $context.Params.resources "name" "front" | len) 0) -}}
     {{- $previewReference = index (where $context.Params.resources "name" "front") 0 -}}
+  {{- else if (gt (where $context.Params.resources "name" "title" | len) 0) -}}
+    {{- $previewReference = index (where $context.Params.resources "name" "title") 0 -}}
+    {{- warnf "[partials/preview/preview-internal.html] Using title page as front preview for %s" $contextPath -}}
   {{- else if (gt ($context.Params.resources | len) 0) -}}
     {{- $previewReference = index (index $context.Params.resources 0) 0 -}}
     {{- errorf "[partials/preview/preview-internal.html] Just using first reference (#%v) as preview for %s. This is just an error to check if the data type is Map instead of Slice" $previewReference $contextPath -}}

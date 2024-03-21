@@ -1,5 +1,12 @@
 #!/bin/bash
 
+echo "Pass a single argument 'local' to set up IIIF URLs to http://localhost:1313/"
+
+if [ "$1" == "local" ] ; then
+  export URL_PREFIX=http://localhost:1313
+  unset SKIP_IIIF
+fi
+
 echo "Set SKIP_IIIF to something to disable generation of IIIF derivates"
 
 if [ -z "$SKIP_IIIF" ] ; then

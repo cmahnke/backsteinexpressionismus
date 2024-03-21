@@ -693,6 +693,10 @@ a:visited {
         margin-bottom: 1rem;
     }
 }
+
+.iiif:has(.viewer.presentation-api) {
+  position: relative;
+}
 /* IIIF */
 .book-description-images,
 .description-images,
