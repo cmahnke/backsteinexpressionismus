@@ -26,8 +26,10 @@
                     <li class="entry {{ $filter }}"><a href="{{ .RelPermalink }}">{{ replace .Title "ß" "ss" }}</a></li>
                 {{- end -}}
             </ul>
+          {{/*
           {{- else if eq .Page.Params.overview.view "map" -}}
             {{- partial "building-map.html" . -}}
+          */}}
           {{- end -}}
         {{- else -}}
             {{- errorf "Overview metadata missing for page %s" .Page.path -}}

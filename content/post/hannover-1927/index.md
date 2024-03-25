@@ -19,6 +19,7 @@ resources:
   name: front
   params:
     iiif: front/info.json
+    hint: non-paged
 - src: "title.jxl"
   name: title
   params:
