@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Magdeburg on Backsteinexpressionismus</title>
+    <link>https://backsteinexpressionismus.projektemacher.org/post/magdeburg/</link>
+    <description>Recent content in Magdeburg on Backsteinexpressionismus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>&lt;a href=&#34;https://projektemacher.org/&#34; target=&#34;_blank&#34;&gt;Projektemacher&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 28 May 2021 19:15:07 +0100</lastBuildDate>
+    <atom:link href="https://backsteinexpressionismus.projektemacher.org/post/magdeburg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Albinmüller-Turm</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/</link>
+      <pubDate>Fri, 28 May 2021 19:15:07 +0100</pubDate>
+      <guid>https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/</guid>
+      <description>Der Albinmüller-Turm von Albin Müller.</description>
+    </item>
+    <item>
+      <title>Stadthalle</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/</link>
+      <pubDate>Fri, 21 May 2021 20:15:07 +0100</pubDate>
+      <guid>https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/</guid>
+      <description>Die Stadhalle Magdeburg von Johannes Göderitz.</description>
+    </item>
+  </channel>
+</rss>

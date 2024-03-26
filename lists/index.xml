@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Übersichten on Backsteinexpressionismus</title>
+    <link>https://backsteinexpressionismus.projektemacher.org/lists/</link>
+    <description>Recent content in Übersichten on Backsteinexpressionismus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>&lt;a href=&#34;https://projektemacher.org/&#34; target=&#34;_blank&#34;&gt;Projektemacher&lt;/a&gt;</copyright>
+    <atom:link href="https://backsteinexpressionismus.projektemacher.org/lists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gebäude</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/lists/buildings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://backsteinexpressionismus.projektemacher.org/lists/buildings/</guid>
+      <description>Die folgenden Gebäude sind auf dieser Seite zu finden. Die Liste ist nicht notwendigerweise vollständig, ebenso kann es passieren, dass es zu einem Eintrag noch keine Beiträge gibt.</description>
+    </item>
+    <item>
+      <title>Karte</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/lists/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://backsteinexpressionismus.projektemacher.org/lists/map/</guid>
+      <description> Externer Inhalt An dieser Stelle wird ein externer Inhalt eingebunden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden.&#xA;Externe Inhalte zulassen </description>
+    </item>
+    <item>
+      <title>Architekten</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/lists/architects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://backsteinexpressionismus.projektemacher.org/lists/architects/</guid>
+      <description>Gebäude der folgenden Architekten sind auf dieser Seite zu finden. Die Liste ist nicht notwendigerweise vollständig, ebenso kann es passieren, dass es zu einem Eintrag noch keine Beiträge gibt.</description>
+    </item>
+  </channel>
+</rss>
