@@ -111,6 +111,9 @@ jobs:
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
 
+      - name: Achive links
+        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e backsteinexpressionismus.projektemacher.org,projektemacher.org
+
       - name: Cleanup Build
         run: |
           echo "Removing files not needed to be deployed on GitHub Pages"
