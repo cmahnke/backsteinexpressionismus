@@ -12,6 +12,7 @@ theme = ["projektemacher-base"]
 copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemacher</a>'
 #preserveTaxonomyNames = true
 timeout = "60s"
+enableGitInfo = true
 
 [menu]
   [[menu.main]]
