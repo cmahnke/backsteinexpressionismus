@@ -84,3 +84,6 @@ timeout = "60s"
 
 [sitemap]
   changeFreq = 'weekly'
+
+[build]
+  writeStats = true
