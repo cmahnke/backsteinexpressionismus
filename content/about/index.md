@@ -33,6 +33,10 @@ Für die Darstellung der Digitalisate wird [OpenLayers](https://openlayers.org/)
 
 Die Seite wird von [GitHub](https://github.com/) gehosted.
 
+# Datenschutzerklärung
+
+Die Datenschutzerklärung ist [hier](/privacy) verfügbar.
+
 # Kontakt
 
 "<img src="/images/header.svg" alt="Backsteinexpressionismus" class="inline-title">" ist ein [Projekt](https://projektemacher.org) von **[Christian Mahnke](https://christianmahnke.de/)**.

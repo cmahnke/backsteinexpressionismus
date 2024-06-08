@@ -18,6 +18,7 @@ $color-bg: #112e63 !default;
 $mortar-color: darken($color-body-text, 25%);
 $color-light: $color-body-text;
 @import "icons";
+/* @import "ol"; */
 @import "ol-iiif";
 @import "share.scss";
 @import "media-info";
@@ -905,4 +906,9 @@ a:visited {
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
+}
+
+p.small {
+    font-size: smaller;
+    text-align: end;
 }
