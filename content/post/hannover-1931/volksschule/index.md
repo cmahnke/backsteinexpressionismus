@@ -18,4 +18,5 @@ resources:
 ---
 
 Seite 102: Die Volksschule in der Südstadt, früher auch Heinrich-Heine-Schule ist heute die Bertha-von-Suttner-Schule.
+<!--more-->
 Seite 103: die Mädchenberufsschule an der Lutherkirche ist ebenfalls ein Beispiel für [Neues Bauen](https://de.wikipedia.org/wiki/Neues_Bauen) in Hannover.
