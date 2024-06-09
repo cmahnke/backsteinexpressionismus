@@ -4,6 +4,7 @@ description: 'Fritz Stadelmann: Hannover die Großstadt im Grünen. Herausgegeb
 date: 2024-06-23T20:25:07+02:00
 iiifContext: http://iiif.io/api/presentation/2/context.json
 type: book
+iiifManifest: ./manifest.json
 tags:
 - Hannover
 - Karl Elkart
