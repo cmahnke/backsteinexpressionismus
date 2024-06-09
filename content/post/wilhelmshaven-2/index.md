@@ -9,7 +9,7 @@ tags:
 - Foto
 - Postkarte
 resources:
-- src: "front.xl"
+- src: "front.jxl"
   name: front
   params:
     iiif: front/info.json
