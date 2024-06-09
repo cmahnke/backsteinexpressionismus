@@ -5,7 +5,10 @@
         <div class="container">
             {{- if not .Params.metaPage -}}
               <div class="date">
-                {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
+                {{/*
+                  {{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}
+                */}}
+                {{- .Date | time.Format ":date_full" -}}
               </div>
             {{- end -}}
 
