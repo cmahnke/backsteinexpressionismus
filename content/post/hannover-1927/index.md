@@ -27,38 +27,38 @@ resources:
     iiif: title/info.json
     hint: non-paged
 - src: "page049.jxl"
-  name: page
+  name: page049
   params:
     iiif: page049/info.json
     hint: non-paged
     label: 49
 - src: "page050.jxl"
-  name: page
+  name: page050
   params:
     iiif: page050/info.json
     label: 50
 - src: "page051.jxl"
-  name: page
+  name: page051
   params:
     iiif: page051/info.json
     label: 51
 - src: "page052.jxl"
-  name: page
+  name: page052
   params:
     iiif: page052/info.json
     label: 52
 - src: "page053.jxl"
-  name: page
+  name: page053
   params:
     iiif: page053/info.json
     label: 53
 - src: "page054.jxl"
-  name: page
+  name: page054
   params:
     iiif: page054/info.json
     label: 54
 - src: "page055.jxl"
-  name: page
+  name: page055
   params:
     iiif: page055/info.json
     label: 55
