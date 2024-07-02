@@ -1,0 +1,287 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Hannover die Grossstadt im Grünen","description": "Fritz Stadelmann: Hannover die Grossstadt im Grünen. Herausgegeben und verlegt vom Verkehrs-Verein Hannover e.V., Hannover 1927. \u003ca class=\"worldcat\" href=\"https://www.worldcat.org/de/title/72612183\"\u003e\u0026nbsp;\u003c/a\u003e","sequences":[
+      {
+         "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/front",
+         "canvases":[{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/front",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/front/full/full/0/default_hu30899ed082f3dfb90b26f53921d790bc_8226433_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/front",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6685,
+                            "width": 5207
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/front"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/title",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"uncounted","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/title/full/full/0/default_hu27eb45735695098137b73954b2db5a8e_2676218_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/title",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/title",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/title",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6596,
+                            "width": 4909
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/title"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page049",
+                   "@type":"sc:Canvas","viewingHint":"non-paged","label":"49","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/page049/full/full/0/default_hu2c104225d85da5d281aa102bfeabb47f_3632349_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/page049",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page049",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page049",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6533,
+                            "width": 4963
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page049"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page050",
+                   "@type":"sc:Canvas","label":"50","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/page050/full/full/0/default_hu667c617b053d5e56df2faf7d107b9517_4036836_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/page050",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page050",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page050",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6560,
+                            "width": 4980
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page050"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page051",
+                   "@type":"sc:Canvas","label":"51","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/page051/full/full/0/default_hu7edf43c89c8dd2f1ec9b0e3d68adc2e8_3580747_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/page051",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page051",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page051",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6551,
+                            "width": 5025
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page051"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page052",
+                   "@type":"sc:Canvas","label":"52","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/page052/full/full/0/default_hu413881416be56f194ff525e74efcb277_3823711_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/page052",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page052",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page052",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6562,
+                            "width": 5034
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page052"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page053",
+                   "@type":"sc:Canvas","label":"53","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/page053/full/full/0/default_hu83e0462eb6e683d73198516ed7a7230e_3502574_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/page053",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page053",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page053",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6569,
+                            "width": 5049
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page053"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page054",
+                   "@type":"sc:Canvas","label":"54","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/page054/full/full/0/default_hu1cb7589c009ed2cafa4abe769211a6c8_4142749_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/page054",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page054",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page054",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6575,
+                            "width": 5032
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page054"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page055",
+                   "@type":"sc:Canvas","label":"55","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/page055/full/full/0/default_huea4c0ab698ded9ba24d5c9001b825184_3704105_120x80_resize_q95_box.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/annotation/page055",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page055",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/page055",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6564,
+                            "width": 5039
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/canvas/page055"
+                    }]
+               }]
+     }
+  ]}
