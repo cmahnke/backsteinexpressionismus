@@ -97,6 +97,19 @@ main {
     }
 }
 
+.term + .page-container.zigzag {
+  .content.brick-wall {
+    padding-top: 0;
+    /*
+    margin-top: 0;
+
+    .content.brick-wall {
+      margin-top: 0;
+    }
+    */
+  }
+}
+
 h1,
 h2,
 h3,
