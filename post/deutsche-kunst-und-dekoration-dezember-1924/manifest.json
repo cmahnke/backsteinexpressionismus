@@ -1,0 +1,467 @@
+{"@context":"http://iiif.io/api/presentation/2/context.json",
+    "@type":"sc:Manifest",
+    "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/",
+    "viewingDirection":"left-to-right",
+    "viewingHint":"paged",
+
+    "label":"Deutsche Kunst und Dekoration Dezember 1924","description": "Deutsche Kunst und Dekoration 3. Dezember 1924: Das neue Hamburger Chilehaus","sequences":[
+      {
+         "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/sequence/normal",
+         "@type":"sc:Sequence",
+         "label":"Current Page Order",
+         "viewingDirection":"left-to-right",
+         "viewingHint":"paged",
+         "startCanvas":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/preview",
+         "canvases":[{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/preview",
+                   "@type":"sc:Canvas","label":"56","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page056/full/full/0/default_hu17096897760654718279.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page056",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6821,
+                            "width": 4742
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/preview"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page057",
+                   "@type":"sc:Canvas","label":"57","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page057/full/full/0/default_hu15285711289443112789.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page057",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page057",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page057",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6831,
+                            "width": 4724
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page057"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page058",
+                   "@type":"sc:Canvas","label":"58","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page058/full/full/0/default_hu12857684739956277105.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page058",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page058",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page058",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6837,
+                            "width": 4759
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page058"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page059",
+                   "@type":"sc:Canvas","label":"58","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page059/full/full/0/default_hu7706087520243434545.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page059",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page059",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page059",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6824,
+                            "width": 4762
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page059"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page060",
+                   "@type":"sc:Canvas","label":"60","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page060/full/full/0/default_hu10462204920976010101.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page060",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page060",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page060",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6824,
+                            "width": 4784
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page060"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page061",
+                   "@type":"sc:Canvas","label":"61","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page061/full/full/0/default_hu17519203477527278262.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page061",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page061",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page061",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6828,
+                            "width": 4773
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page061"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page062",
+                   "@type":"sc:Canvas","label":"62","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page062/full/full/0/default_hu11233912418847173639.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page062",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page062",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page062",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6813,
+                            "width": 4801
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page062"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page063",
+                   "@type":"sc:Canvas","label":"63","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page063/full/full/0/default_hu16301696627410113468.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page063",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page063",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page063",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6832,
+                            "width": 4800
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page063"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page064",
+                   "@type":"sc:Canvas","label":"64","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page064/full/full/0/default_hu16730477457765824785.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page064",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page064",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page064",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6824,
+                            "width": 4804
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page064"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page065",
+                   "@type":"sc:Canvas","label":"65","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page065/full/full/0/default_hu2298968653130582386.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page065",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page065",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page065",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6804,
+                            "width": 4757
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page065"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page066",
+                   "@type":"sc:Canvas","label":"66","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page066/full/full/0/default_hu1565891707529596964.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page066",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page066",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page066",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6828,
+                            "width": 4787
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page066"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page067",
+                   "@type":"sc:Canvas","label":"67","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page067/full/full/0/default_hu4453923366379114952.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page067",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page067",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page067",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6840,
+                            "width": 4830
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page067"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page068",
+                   "@type":"sc:Canvas","label":"68","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page068/full/full/0/default_hu13355879868473828819.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page068",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page068",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page068",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6844,
+                            "width": 4785
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page068"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page069",
+                   "@type":"sc:Canvas","label":"69","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page069/full/full/0/default_hu7264924522156887770.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page069",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page069",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page069",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6825,
+                            "width": 4812
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page069"
+                    }]
+               },{
+                   "@id":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page070",
+                   "@type":"sc:Canvas","label":"70","height": 400,
+                   "width": 300,"thumbnail": {
+                       "@id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page070/full/full/0/default_hu15420129480377847039.jpg",
+                       "format": "image/jpeg",
+                       "@type":"dctypes:Image",
+                       "height": 80,
+                       "width": 120
+
+                    },
+                    "images":[{
+                         "@context":"http://iiif.io/api/presentation/2/context.json",
+                         "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/annotation/page070",
+                         "@type":"oa:Annotation",
+                         "motivation":"sc:painting",
+                         "resource":{
+                            "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page070",
+                            "@type":"dctypes:Image",
+                            "format":"image/jpeg",
+                            "service":{
+                               "@context":"http://iiif.io/api/image/2/context.json",
+                               "@id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page070",
+                               "profile":"http://iiif.io/api/image/2/level0.json"
+                            },
+                            "height": 6843,
+                            "width": 4836
+                         },
+                         "on":"https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/canvas/page070"
+                    }]
+               }]
+     }
+  ]}
