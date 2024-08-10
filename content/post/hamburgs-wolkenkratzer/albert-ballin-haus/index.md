@@ -15,7 +15,7 @@ resources:
     iiif: front/info.json
 ---
 
-Eine Abbildung des Albert-Ballin-Hasues (heute [Meßberghof](https://de.wikipedia.org/wiki/Me%C3%9Fberghof)).
+Eine Abbildung des Albert-Ballin-Hauses (heute [Meßberghof](https://de.wikipedia.org/wiki/Me%C3%9Fberghof)).
 
 <!--more-->
 
