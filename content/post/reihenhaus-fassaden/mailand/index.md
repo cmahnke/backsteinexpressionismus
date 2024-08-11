@@ -8,6 +8,7 @@ resources:
 - src: "page045.jxl"
   name: preview
   params:
+    rotate: 90
     iiif: page045/info.json
 ---
 

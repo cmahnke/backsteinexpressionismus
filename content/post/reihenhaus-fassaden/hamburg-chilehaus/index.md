@@ -10,6 +10,7 @@ resources:
 - src: "page206.jxl"
   name: preview
   params:
+    rotate: 90
     iiif: page206/info.json
 - src: "page249.jxl"
   params:

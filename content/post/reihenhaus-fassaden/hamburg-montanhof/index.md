@@ -11,6 +11,7 @@ resources:
 - src: "page207.jxl"
   name: preview
   params:
+    rotate: 90
     iiif: page207/info.json
 ---
 
