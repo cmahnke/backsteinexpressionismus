@@ -1,5 +1,6 @@
 {{- $context := .context -}}
 {{- $fit := .fit -}}
+{{- $debug := partialCached "partials/functions/debug/enabled.html" $context -}}
 {{- $contextPath := "NOTFILEBACKED" -}}
 {{- if and (ne $context.File nil) (ne $context.File.Path nil) -}}
   {{- $contextPath = path.Dir $context.File.Path -}}
@@ -30,6 +31,10 @@
   {{- else if (gt ($context.Params.resources | len) 0) -}}
     {{- $previewReference = index (index $context.Params.resources 0) 0 -}}
     {{- errorf "[partials/preview/preview-internal.html] Just using first reference (#%v) as preview for %s. This is just an error to check if the data type is Map instead of Slice" $previewReference $contextPath -}}
+  {{- end -}}
+{{- else -}}
+  {{- if $debug -}}
+    {{- warnf "[partials/preview/preview-internal.html] No resources for %s! (%#v)" $contextPath $context.Params -}}
   {{- end -}}
 {{- end -}}
 
@@ -88,9 +93,10 @@
 {{- end -}}
 
 {{- if and (or (eq $previewImg nil) (eq $previewImg "")) (strings.HasPrefix $contextPath "post") (not (and (isset $context.Params "type") (eq $context.Params.type "other"))) -}}
-  {{- warnf "[partials/preview/preview-internal.html] Can't load image %s for post %s (#%v)" $imgLocation $contextPath $previewReference -}}
-  {{- if lt hugo.Version "0.121.0" -}}
-    {{- errorf "This is supposed to work with Hugo 0.121, see https://github.com/gohugoio/hugo/issues/11439" -}}
+  {{- warnf "[partials/preview/preview-internal.html] Can't load image '%s' for post %s (params #%v)" $imgLocation  $contextPath $previewReference -}}
+  {{/* TODO: Remove this check */}}
+  {{- if lt hugo.Version "0.123.0" -}}
+    {{- errorf "This is supposed to work with Hugo 0.123, see https://github.com/gohugoio/hugo/issues/11439" -}}
   {{- end -}}
   {{- if and (eq $imgLocation "") (not (fileExists $imgLocation)) -}}
     {{- errorf "[partials/preview/preview-internal.html] Image %s doesn't exist!" $imgLocation -}}
