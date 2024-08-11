@@ -7,7 +7,6 @@ tags:
 - Böttcherstrasse
 - Paula-Becker-Modersohn-Haus
 - Foto
-weight: 212
 resources:
 - src: "page212.jxl"
   name: preview

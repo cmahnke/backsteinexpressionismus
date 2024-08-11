@@ -5,7 +5,6 @@ tags:
 - Berlin
 - Emil Fahrenkamp
 - Foto
-weight: 240
 resources:
 - src: "page240.jxl"
   name: preview

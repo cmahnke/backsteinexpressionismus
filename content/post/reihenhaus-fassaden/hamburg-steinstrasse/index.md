@@ -5,14 +5,12 @@ tags:
 - Hamburg
 - Hans und Oskar Gerson
 - Foto
-weight: 222
 resources:
 - src: "page222.jxl"
   name: preview
   params:
     iiif: page222/info.json
 - src: "page223.jxl"
-  name: preview
   params:
     iiif: page223/info.json
 ---

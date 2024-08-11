@@ -7,7 +7,6 @@ tags:
 - Hermann Distel
 - August Grubitz
 - Foto
-weight: 207
 resources:
 - src: "page207.jxl"
   name: preview

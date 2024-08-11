@@ -1,5 +1,5 @@
 ---
-title: "Hannover aufgenommen von der Staatlichen Bildstelle"
+title: "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
 date: 2024-08-18T18:25:06+02:00
 description: 'Werner Hegemann: Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit. Verlag Ernst Wasmuth A.G., Berlin 1929. <a class="worldcat" href="https://www.worldcat.org/de/title/958248099">&nbsp;</a>'
 type: book

@@ -6,7 +6,6 @@ tags:
 - Jacob Koerfer
 - Hansahochhaus
 - Foto
-weight: 205
 resources:
 - src: "page205.jxl"
   name: preview

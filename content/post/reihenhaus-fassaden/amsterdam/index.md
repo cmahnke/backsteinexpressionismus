@@ -7,14 +7,12 @@ tags:
 - Amsterdamer Schule
 - Amsterdam
 - Foto
-weight: 133
 resources:
 - src: "page133.jxl"
   name: preview
   params:
     iiif: page133/info.json
 - src: "page135.jxl"
-  name: preview
   params:
     iiif: page135/info.json
 ---

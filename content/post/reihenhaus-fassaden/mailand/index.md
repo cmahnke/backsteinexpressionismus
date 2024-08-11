@@ -4,7 +4,6 @@ date: 2024-08-25T19:15:07+01:00
 tags:
 - Mailand
 - Foto
-weight: 45
 resources:
 - src: "page045.jxl"
   name: preview

@@ -6,7 +6,6 @@ tags:
 - Fritz Schumacher
 - Finanzdeputation Hamburg
 - Foto
-weight: 220
 resources:
 - src: "page220.jxl"
   name: preview

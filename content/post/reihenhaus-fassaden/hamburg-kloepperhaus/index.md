@@ -6,7 +6,6 @@ tags:
 - Fritz Höger
 - Klöpperhaus
 - Foto
-weight: 248
 resources:
 - src: "page248.jxl"
   name: preview

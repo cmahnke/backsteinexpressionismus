@@ -6,7 +6,6 @@ tags:
 - Ballinhaus
 - Hans und Oskar Gerson
 - Foto
-weight: 224
 resources:
 - src: "page224.jxl"
   name: preview

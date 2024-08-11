@@ -6,18 +6,15 @@ tags:
 - Antwerpen
 - Den Haag
 - Foto
-weight: 110
 resources:
 - src: "page110.jxl"
   name: preview
   params:
     iiif: page110/info.json
 - src: "page111.jxl"
-  name: preview
   params:
     iiif: page111/info.json
 - src: "page113.jxl"
-  name: preview
   params:
     iiif: page113/info.json
 ---

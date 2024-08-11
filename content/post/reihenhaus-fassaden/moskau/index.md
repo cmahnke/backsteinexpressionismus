@@ -4,7 +4,6 @@ date: 2024-09-08T19:15:07+01:00
 tags:
 - Moskau
 - Foto
-weight: 132
 resources:
 - src: "page132.jxl"
   name: preview

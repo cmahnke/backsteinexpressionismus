@@ -6,14 +6,12 @@ tags:
 - Chilehaus
 - Fritz Höger
 - Foto
-weight: 206
 resources:
 - src: "page206.jxl"
   name: preview
   params:
     iiif: page206/info.json
 - src: "page249.jxl"
-  name: preview
   params:
     iiif: page249/info.json
 ---

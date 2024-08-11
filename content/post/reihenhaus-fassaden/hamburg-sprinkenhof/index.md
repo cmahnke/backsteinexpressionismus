@@ -6,7 +6,6 @@ tags:
 - Sprinkenhof
 - Hans und Oskar Gerson
 - Foto
-weight: 255
 resources:
 - src: "page255.jxl"
   name: preview

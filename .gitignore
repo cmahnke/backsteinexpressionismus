@@ -38,3 +38,4 @@ assets/css/**
 static/pdfjs/**
 **/vips-properties.xml
 data/stats.json
+content/post/**/README.md
