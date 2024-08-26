@@ -72,6 +72,20 @@ enableGitInfo = true
     baseName = "manifest"
     notAlternative = true
 
+  [outputFormats.iiif-manifest]
+    mediaType = "application/ld+json"
+    isPlainText = true
+    isHTML = false
+    baseName = "manifest"
+    notAlternative = true
+
+  [outputFormats.iiif-collection]
+    mediaType = "application/ld+json"
+    isPlainText = true
+    isHTML = false
+    baseName = "collection"
+    notAlternative = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
