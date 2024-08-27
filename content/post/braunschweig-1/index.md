@@ -2,6 +2,9 @@
 title: Haus der Wissenschaft Braunschweig
 date: 2020-12-12T18:23:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Braunschweig
 - Haus der Wissenschaft

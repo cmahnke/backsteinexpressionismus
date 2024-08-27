@@ -2,6 +2,9 @@
 title: Die Glocke
 date: 2023-11-26T20:13:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Bremen
 - Die Glocke

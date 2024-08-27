@@ -2,6 +2,9 @@
 title: Chilehaus
 date: 2020-09-24T18:23:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hamburg
 - Chilehaus

@@ -2,6 +2,9 @@
 title: Böttcherstrasse
 date: 2024-07-28T18:43:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Bernhard Hoetger
 - Bremen

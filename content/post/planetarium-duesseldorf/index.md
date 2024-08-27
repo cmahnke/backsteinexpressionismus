@@ -2,6 +2,9 @@
 title: "Postkarte Planetarium Düsseldorf"
 date: 2021-03-27T19:15:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Düsseldorf
 - Tonhalle Düsseldorf

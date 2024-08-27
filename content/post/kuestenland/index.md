@@ -3,6 +3,9 @@ title: 'Küstenland und Schleswig-Holstein'
 date: 2024-01-14T20:25:07+02:00
 description: 'Harald Busch und Manfred Hausmann: Küstenland und Schleswig-Holstein, Umschau Verlag, Frankfurt am Main ca. 1969 <a class="worldcat" href="https://www.worldcat.org/de/title/257207586">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hamburg
 - Sprinkenhof

@@ -2,6 +2,9 @@
 title: "Postkarte Städtische Krankenanstalten Osnabrück"
 date: 2024-03-17T19:15:07+01:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Osnabrück
 - Stadthaus Osnabrück

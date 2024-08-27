@@ -2,6 +2,9 @@
 title: "Anzeiger Hochhaus Hannover"
 date: 2023-09-11T18:29:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hannover
 - Anzeiger Hochhaus

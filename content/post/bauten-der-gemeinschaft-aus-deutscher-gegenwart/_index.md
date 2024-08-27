@@ -3,6 +3,9 @@ title: "Bauten der Gemeinschaft aus deutscher Gegenwart"
 date: 2021-05-01T18:25:06+02:00
 description: 'Walter Müller-Wulckow: Bauten der Gemeinschaft. Karl Langewiesche, Königstein im Taunus 1929. <a class="worldcat" href="http://www.worldcat.org/oclc/838124972">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Walter Müller-Wulckow
 - Buch

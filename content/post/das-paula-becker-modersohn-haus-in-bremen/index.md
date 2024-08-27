@@ -2,6 +2,9 @@
 title: "Das Paula-Becker-Modersohn-Haus in Bremen"
 date: 2020-11-02T18:29:07+02:00
 description: 'Walter Müller-Wulckow: Das Paula-Becker-Modersohn-Haus Führer und Plan. Angelsachsen-Verlag, Bremen 1930. <a class="worldcat" href="http://www.worldcat.org/oclc/61625546">&nbsp;</a>'
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Bernhard Hoetger
 - Walter Müller-Wulckow

@@ -3,6 +3,9 @@ title: 'Warum Backsteinexpressionismus?'
 date: 2020-09-01T20:25:07+02:00
 description: 'Dr. Walter Delius: Fünf Jahre Wesermünde. Wesermünde 1929. <a class="worldcat" href="http://www.worldcat.org/oclc/257313922">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Bremerhaven
 - Wesermünde

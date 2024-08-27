@@ -2,6 +2,9 @@
 title: "Hans-Sachs-Haus"
 date: 2021-05-14T19:15:07+01:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Gelsenkirchen
 - Hans-Sachs-Haus

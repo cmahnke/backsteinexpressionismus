@@ -2,6 +2,9 @@
 title: 'Postkarte "Marine-Ehrenmal Laboe"'
 date: 2024-06-30T18:18:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Marine-Ehrenmal Laboe
 - Laboe

@@ -3,6 +3,9 @@ title: "Führer durch Magdeburg"
 date: 2021-07-24T18:25:06+02:00
 description: 'Führer durch Magdeburg. Herausgegeben vom Wirtschafts- und Verkehrsamt Magdeburg 1929. <a class="worldcat" href="http://www.worldcat.org/oclc/174016887">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Magdeburg
 - Stadhalle Magdeburg

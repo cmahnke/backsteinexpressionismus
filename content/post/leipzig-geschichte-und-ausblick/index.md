@@ -3,6 +3,9 @@ title: Leipzig Geschichte und Ausblick
 description: 'Hans Albert Förster: Leipzig Geschichte und Ausblick. Sachsenverlag, Dresdens 1952. <a class="worldcat" href="http://www.worldcat.org/oclc/1082053543">&nbsp;</a>'
 date: 2021-06-19T18:23:07+02:00
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Leipzig
 - Europa-Haus

@@ -2,6 +2,9 @@
 title: Chile- und Ballinhaus
 date: 2023-10-12T20:13:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hamburg
 - Chilehaus

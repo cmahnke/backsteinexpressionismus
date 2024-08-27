@@ -2,6 +2,9 @@
 title: Hamburger Anzeiger 35/1927 Sonnabend, den 27. August
 description: 'Ein Entwurf von Max Gerntke'
 date: 2024-08-27T18:23:07+02:00
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hamburg
 - Max Gerntke

@@ -2,6 +2,9 @@
 title: Postkarte Chile-Haus und Sprinkenhof
 date: 2024-07-21T20:13:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hamburg
 - Chilehaus

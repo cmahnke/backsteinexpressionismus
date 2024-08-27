@@ -3,6 +3,9 @@ title: "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
 date: 2021-03-01T18:25:06+02:00
 description: 'Walter Müller-Wulckow: Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart. Karl Langewiesche, Königstein im Taunus 1925. <a class="worldcat" href="http://www.worldcat.org/oclc/869925265">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hamburg
 - Hamm

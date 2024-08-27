@@ -3,6 +3,9 @@ title: 'Das Oldenburgerland'
 date: 2024-01-28T20:25:07+02:00
 description: 'Hermann Lübbing und Heinrich Kunst: Das Oldenburgerland, 2. Auflage, Heinz Holzberg Verlag Oldenburg (Oldb) 1965 <a class="worldcat" href="https://www.worldcat.org/de/title/908451853">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Wilhelmshaven
 - Rüstrigen

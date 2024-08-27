@@ -3,6 +3,9 @@ title: "25 Jahre Verband Deutscher Licht- und Wasserfachbeamten"
 date: 2021-08-21T10:40:10+02:00
 description: 'W. Köllner: 25 Jahre Verband Deutscher Licht- und Wasserfachbeamten. Verband Deutscher Licht- und Wasserfachbeamten, Dresden 1931. <a class="worldcat" href="http://www.worldcat.org/oclc/915003507">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Düsseldorf
 - Tonhalle Düsseldorf

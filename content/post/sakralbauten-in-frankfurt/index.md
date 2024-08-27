@@ -3,6 +3,9 @@ title: Sakralbauten in Frankfurt am Main
 description: 'Walter G. Beck: Sakralbauten in Frankfurt am Main, Frankfurt am Main 1956. <a class="worldcat" href="http://www.worldcat.org/oclc/4071724">&nbsp;</a>'
 date: 2021-06-26T18:23:07+02:00
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Frankfurt
 - St. Bonifatius Frankfurt

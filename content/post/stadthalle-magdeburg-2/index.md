@@ -2,6 +2,9 @@
 title: "Postkarte Pferdetor Magdeburg"
 date: 2024-02-04T19:15:07+01:00
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Magdeburg
 - Stadthalle Magdeburg

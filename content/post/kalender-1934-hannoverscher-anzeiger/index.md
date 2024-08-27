@@ -3,6 +3,9 @@ title: 'Kalender 1934 - Hannoverscher Anzeiger'
 date: 2020-09-01T20:24:07+02:00
 description: 'Hannoverscher Anzeiger: Kalender 1934. Hannoverscher Anzeiger, Hannover 1934.'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hannover
 - Anzeiger Hochhaus

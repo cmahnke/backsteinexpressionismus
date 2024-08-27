@@ -2,6 +2,9 @@
 title: "Anzeiger Hochhaus Hannover"
 date: 2020-10-27T18:28:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hannover
 - Anzeiger Hochhaus

@@ -2,6 +2,9 @@
 title: Hamburger Anzeiger 44/1927 Sonnabend, den 29. Oktober
 description: 'Das Chilehaus auf der Titelseite'
 date: 2024-10-29T18:23:07+02:00
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Hamburg
 - Chilehaus

@@ -2,6 +2,9 @@
 title: "Marine-Ehrenmal Laboe"
 date: 2021-06-26T18:18:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Marine-Ehrenmal Laboe
 - Laboe

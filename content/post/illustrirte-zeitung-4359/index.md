@@ -1,6 +1,9 @@
 ---
 title: "Hagturm Köln"
 date: 2024-08-11T19:15:07+01:00
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Köln
 - Hagturm Köln

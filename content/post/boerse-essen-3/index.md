@@ -2,6 +2,9 @@
 title: Börse in Essen
 date: 2024-03-04T20:13:07+02:00
 type: postcard
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Essen
 - Edmund Körner
