@@ -22,12 +22,12 @@ resources:
   name: title
   params:
     iiif: title/info.json
+- src: "img001.jpg"
+  params:
+    iiif: img001/info.json
 - src: "page016.jpg"
   params:
     iiif: page016/info.json
-- src: "img002.jpg"
-  params:
-    iiif: img002/info.json
 - src: "img003.jpg"
   params:
     iiif: img003/info.json
