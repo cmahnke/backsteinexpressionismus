@@ -4,6 +4,9 @@ date: 2020-09-30T18:25:07+02:00
 description: 'Ernst Pollak: Der Baumeister Otto Bartning. Unser Lebensgefühl gestaltet in seinem Werk. Kurt Schroeder, Bonn 1926.
 <a class="worldcat" href="http://www.worldcat.org/oclc/1069099766">&nbsp;</a>'
 type: book
+outputs:
+  - iiif-manifest
+  - html
 tags:
 - Otto Bartning
 - Foto
@@ -19,25 +22,25 @@ resources:
   name: title
   params:
     iiif: title/info.json
-- src: "img001.jpg"
+- src: "page016.jpg"
   params:
-    iiif: img001/info.json
+    iiif: page016/info.json
 - src: "img002.jpg"
   params:
     iiif: img002/info.json
 - src: "img003.jpg"
   params:
     iiif: img003/info.json
-- src: "img004.jpg"
+- src: "page017.jpg"
   params:
-    iiif: img004/info.json
+    iiif: page017/info.json
 - src: "img005.jpg"
   params:
     iiif: img005/info.json
     rotate: 90
-- src: "img006.jpg"
+- src: "page018.jpg"
   params:
-    iiif: img006/info.json
+    iiif: page018/info.json
     rotate: 90
 ---
 
