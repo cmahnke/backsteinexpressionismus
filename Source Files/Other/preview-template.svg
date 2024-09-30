@@ -136,7 +136,7 @@
     <rect id="bg" fill="url(#bg-pattern)" preserveAspectRatio="none" width="630" height="1200" x="0" y="-1200" transform="rotate(90)" style="opacity:0.6"/>
 -->
     <image id="site-logo" style="filter:url(#header-filter)" xlink:href="../Logo/Header.svg" preserveAspectRatio="xMidYMid meet" width="1104" height="94" x="48" y="50"/>
-    <image id="logo" style="filter:url(#filter4459)" xlink:href="../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="xMidYMid meet" width="97.24" height="100" x="1100" y="530"/>
+    <image id="logo" style="filter:url(#filter4459)" xlink:href="../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="xMidYMid meet" width="97.24" height="100" x="1100" y="630"/>
     <!--
     <image id="preview-image" xlink:href="../../content/post/kurische-nehrung/front.jpg" y="50" x="100" style="image-rendering:optimizeQuality" preserveAspectRatio="xMidYMid meet" height="400" width="1000"/>
     -->

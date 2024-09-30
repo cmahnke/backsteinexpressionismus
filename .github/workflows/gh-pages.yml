@@ -125,6 +125,7 @@ jobs:
         run: |
           echo "Removing files not needed to be deployed on GitHub Pages"
           find docs -type f -size +10M -name '*.jpg' -print -exec rm {} \;
+          find docs -type f -name 'ogPreview-tmp*.jpg' -print -exec rm {} \;
           find docs -type f -name '*.jxl' -print -exec rm {} \;
           find docs -type f -name 'vips-properties.xml' -print -exec rm {} \;
           find docs -type f -path '*/full/full/0/default.jpg' -print -exec rm {} \;

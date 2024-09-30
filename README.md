@@ -97,3 +97,9 @@ Post should be published on Sunday, since rebuild is currently on Monday.
 
 # Notes
 * https://de.m.wikipedia.org/wiki/Datei:Merseburg,_Kleine_Ritterstra%C3%9Fe_9,_001.jpg
+
+# TODO:
+* https://www.architektur-bildarchiv.de/image/Universit%C3%A4t-Hannover%2C-Franzius-Institut-51023.html
+  * Find old images
+  * Add architect
+  * find more buildings on this site

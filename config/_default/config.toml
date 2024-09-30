@@ -17,6 +17,7 @@
         format =  "svg"
         image = "preview.jpg"
         source = "overlay"
+        background = "#400000"
         [params.preview.size]
             height = 630
             width = 1200
