@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu14964683807577789433.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 402,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburgs-wolkenkratzer/manifest.json",
+        "type": "Manifest","label": {
+          "de": [
+            "Postkartenserie 'Hamburgs Wolkenkratzer'"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-3/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-3/front/full/full/0/default_hu14508570952947362766.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 214,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2503,
+        "width": 3513,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Chile- und Ballinhaus"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/front_hu11462466186202134407.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5749,
+        "width": 4017,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hamburg Weltstadt am Strom"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu17672615511300071984.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+          ]}
+      }]
+}
