@@ -1,0 +1,91 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-3/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-3/front/full/full/0/default_hu4288038509909335955.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 191,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2116,
+        "width": 3316,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/boerse-essen-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Börse in Essen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-2/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-2/front/full/full/0/default_hu15969662830123669330.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 192,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2113,
+        "width": 3300,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/boerse-essen-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Börse in Essen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-1/front/full/full/0/default_hu9296898188079889926.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 192,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boerse-essen-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2146,
+        "width": 3359,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/boerse-essen-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Börse in Essen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu17672615511300071984.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+          ]}
+      }]
+}
