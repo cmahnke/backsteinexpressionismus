@@ -832,14 +832,15 @@ a:visited {
     margin: 1.5em;
     margin-bottom: 4.5em;
     /*color: lighten(#6c757d, 20%);*/
-    color: color.adjust($color-body-text, $lightness: 20%);
+    color: color.adjust($color-body-text, $lightness: 10%);
 
     @media (max-width : 30em) {
         margin-bottom: unset;
     }
 
     a {
-        color: color.adjust(#007bff, $lightness: 20%);
+        /* color: color.adjust(#007bff, $lightness: 20%); */
+        color: color.adjust($color-body-text, $lightness: 20%);
     }
 }
 
