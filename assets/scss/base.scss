@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @import "normalize";
 @import "fonts/futura-renner";
 /* Source: https://www.onlinewebfonts.com/download/3e8042d2739cb66ae6ef7ffc372014db */
@@ -10,12 +12,12 @@
 $font-body: 'FuturaRennerRegular' !default;
 $font-heading: 'Neuland' !default;
 $brick-bg-color: #660000 !default;
-$frame-bg-color: darken($brick-bg-color, 7.5%);
+$frame-bg-color: color.adjust($brick-bg-color, $lightness: -7.5%);
 $color-body-text: hsl(48, 93%, 89%) !default;
 $font-color-body: $color-body-text;
 $color-link-text: hsl(48, 93%, 89%) !default;
 $color-bg: #112e63 !default;
-$mortar-color: darken($color-body-text, 25%);
+$mortar-color: color.adjust($color-body-text, $lightness: -25%); /*darken($color-body-text, 25%); */
 $color-light: $color-body-text;
 @import "icons";
 /* @import "ol"; */
@@ -372,14 +374,14 @@ h6 {
             a:focus,
             a:hover,
             a:visited {
-                border-bottom: 2px dotted darken($brick-bg-color, 4%);
+                border-bottom: 2px dotted color.adjust($brick-bg-color, $lightness: -4%);
                 display: inline-block;
                 position: relative;
 
                 &:after {
                     content: '';
                     width: 100%;
-                    border-bottom: 2px dotted darken($brick-bg-color, 4%);
+                    border-bottom: 2px dotted color.adjust($brick-bg-color, $lightness: -4%);
                     position: absolute;
                     bottom: -1px;
                     left: -2px;
@@ -829,14 +831,15 @@ a:visited {
     text-align: right;
     margin: 1.5em;
     margin-bottom: 4.5em;
-    color: lighten(#6c757d, 20%);
+    /*color: lighten(#6c757d, 20%);*/
+    color: color.adjust($color-body-text, $lightness: 20%);
 
     @media (max-width : 30em) {
         margin-bottom: unset;
     }
 
     a {
-        color: lighten(#007bff, 20%);
+        color: color.adjust(#007bff, $lightness: 20%);
     }
 }
 
