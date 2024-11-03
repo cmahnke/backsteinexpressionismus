@@ -6,13 +6,16 @@ canonifyurls = true
 languagecode = "de"
 defaultcontentlanguage = "de"
 rssLimit = 25
-Paginate = 20
+#Paginate = 20
 disablePathToLower = true
 theme = ["projektemacher-base"]
 copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemacher</a>'
 #preserveTaxonomyNames = true
 timeout = "120s"
 enableGitInfo = true
+
+[pagination]
+  pagerSize = 20
 
 [menu]
   [[menu.main]]
