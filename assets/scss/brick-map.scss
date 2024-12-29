@@ -7,6 +7,7 @@
   }
 
   .iframe {
+    $bg-color: #fdf3c9;
 
     .map-wrapper {
       height: 30em;
@@ -25,10 +26,14 @@
 
         .ol-popup {
           color: rgb(102,0,0);
-          background-color: #fdf3c9;
+          background-color: $bg-color;
 
           a {
             color: rgb(102,0,0);
+          }
+
+          &::after, &::before {
+              border-top-color: $bg-color;
           }
         }
       }
