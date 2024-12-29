@@ -7,8 +7,8 @@ location: Hamm
 yearBuild: 1925
 geojson:
   coordinates:
-  - 8.5975113
-  - 53.5106277
+  - 7.82445
+  - 51.7065
 ---
 
 # Die Zeche Sachsen, Hamm in der...
