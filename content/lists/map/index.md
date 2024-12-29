@@ -12,5 +12,5 @@ overview:
 ---
 
 {{< html/iframe-consent >}}
-    {{< maps/osm src="/lists/buildings/map.geojson" cluster="true" >}}
+    {{< maps/osm src="/lists/buildings/map.geojson" cluster="false" >}}
 {{< /html/iframe-consent >}}
