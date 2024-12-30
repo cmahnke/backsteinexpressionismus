@@ -9,8 +9,14 @@
   .iframe {
     $bg-color: #fdf3c9;
 
+    .iframe-content {
+      transition: height .5s;
+    }
+
     .map-wrapper {
-      height: 30em;
+      aspect-ratio: 4 / 3;
+      height: unset;
+      width: 100%;
 
       .map {
         border-radius: 0.5em;
