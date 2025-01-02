@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-44-1927/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-44-1927/front/full/full/0/default_hu12521553175219898689.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-44-1927/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 9893,
+        "width": 6975,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburger-anzeiger-44-1927/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hamburger Anzeiger 44/1927 Sonnabend, den 29. Oktober"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-35-1927/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-35-1927/front/full/full/0/default_hu10008248319669716301.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 440,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-35-1927/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 10189,
+        "width": 6954,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburger-anzeiger-35-1927/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hamburger Anzeiger 35/1927 Sonnabend, den 27. August"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/illustrirte-zeitung-4359/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/illustrirte-zeitung-4359/front/full/full/0/default_hu17115282672201959743.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 424,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/illustrirte-zeitung-4359/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 9054,
+        "width": 6400,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/illustrirte-zeitung-4359/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hagturm Köln"
+          ]}
+      }]
+}

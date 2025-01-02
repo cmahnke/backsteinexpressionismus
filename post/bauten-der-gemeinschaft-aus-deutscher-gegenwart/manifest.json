@@ -1,0 +1,1092 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Walter Müller-Wulckow: Bauten der Gemeinschaft. Karl Langewiesche, Königstein im Taunus 1929. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/838124972\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu2091049947209809265.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Bauten der Gemeinschaft aus deutscher Gegenwart"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Bauten der Gemeinschaft aus deutscher Gegenwart"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 6180,
+            "width": 4464,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu2091049947209809265.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 415,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6180,
+                  "width": 4464,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 6228,
+            "width": 4194,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/title_hu12216466985435196972.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 445,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6228,
+                  "width": 4194,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/allgemeine-ortskrankenkasse-magdeburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page014"]},"height": 6220,
+            "width": 4083,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/allgemeine-ortskrankenkasse-magdeburg/page014_hu10991809581734820912.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 457,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/allgemeine-ortskrankenkasse-magdeburg/annotation/page014",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/allgemeine-ortskrankenkasse-magdeburg/annotation/page014/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/allgemeine-ortskrankenkasse-magdeburg/page014/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6220,
+                  "width": 4083,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/allgemeine-ortskrankenkasse-magdeburg/page014",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/allgemeine-ortskrankenkasse-magdeburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/badeanstalt-eppendorf/canvas/preview",
+          "type": "Canvas","label": {"none":["page028"]},"height": 6216,
+            "width": 4070,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/badeanstalt-eppendorf/page028_hu11432963288216857317.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 458,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/badeanstalt-eppendorf/annotation/page028",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/badeanstalt-eppendorf/annotation/page028/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/badeanstalt-eppendorf/page028/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6216,
+                  "width": 4070,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/badeanstalt-eppendorf/page028",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/badeanstalt-eppendorf/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/christkoenig-kirche/canvas/preview",
+          "type": "Canvas","label": {"none":["page092"]},"height": 6197,
+            "width": 4244,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/christkoenig-kirche/page092_hu280488778831023095.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 438,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/christkoenig-kirche/annotation/page092",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/christkoenig-kirche/annotation/page092/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/christkoenig-kirche/page092/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6197,
+                  "width": 4244,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/christkoenig-kirche/page092",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/christkoenig-kirche/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/gesundheitsamt-hamburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page015"]},"height": 6233,
+            "width": 4159,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/gesundheitsamt-hamburg/page015_hu4668326596012241675.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 450,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/gesundheitsamt-hamburg/annotation/page015",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/gesundheitsamt-hamburg/annotation/page015/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/gesundheitsamt-hamburg/page015/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6233,
+                  "width": 4159,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/gesundheitsamt-hamburg/page015",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/gesundheitsamt-hamburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/grosses-schauspielhaus-berlin/canvas/preview",
+          "type": "Canvas","label": {"none":["page061"]},"height": 6237,
+            "width": 4257,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/grosses-schauspielhaus-berlin/page061_hu15645404855153778336.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 440,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/grosses-schauspielhaus-berlin/annotation/page061",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/grosses-schauspielhaus-berlin/annotation/page061/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/grosses-schauspielhaus-berlin/page061/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6237,
+                  "width": 4257,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/grosses-schauspielhaus-berlin/page061",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/grosses-schauspielhaus-berlin/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/canvas/preview",
+          "type": "Canvas","label": {"none":["page025"]},"height": 6227,
+            "width": 4131,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page025_hu4648041631632340109.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 452,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/annotation/page025",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/annotation/page025/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page025/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6227,
+                  "width": 4131,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page025",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/canvas/page054",
+          "type": "Canvas","label": {"none":["page054"]},"height": 6210,
+            "width": 4180,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page054_hu7191159926607910227.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 446,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/annotation/page054",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/annotation/page054/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page054/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6210,
+                  "width": 4180,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page054",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/canvas/page054"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/canvas/page108",
+          "type": "Canvas","label": {"none":["page108"]},"height": 6204,
+            "width": 4223,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page108_hu890742341319710181.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 441,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/annotation/page108",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/annotation/page108/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page108/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6204,
+                  "width": 4223,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/page108",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/hans-sachs-haus/canvas/page108"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page020"]},"height": 6230,
+            "width": 4085,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/page020_hu17155072172602542317.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 458,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/annotation/page020",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/annotation/page020/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/page020/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6230,
+                  "width": 4085,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/page020",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/canvas/page021",
+          "type": "Canvas","label": {"none":["page021"]},"height": 6206,
+            "width": 4102,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/page021_hu13050489455129718943.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 454,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/annotation/page021",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/annotation/page021/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/page021/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6206,
+                  "width": 4102,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/page021",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/jugendheim-miesburg/canvas/page021"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kaufmaennische-fortbildungsschule/canvas/preview",
+          "type": "Canvas","label": {"none":["page081"]},"height": 6199,
+            "width": 4191,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kaufmaennische-fortbildungsschule/page081_hu16700557335418496598.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kaufmaennische-fortbildungsschule/annotation/page081",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kaufmaennische-fortbildungsschule/annotation/page081/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kaufmaennische-fortbildungsschule/page081/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6199,
+                  "width": 4191,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kaufmaennische-fortbildungsschule/page081",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kaufmaennische-fortbildungsschule/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/haus-der-technik/canvas/preview",
+          "type": "Canvas","label": {"none":["page043"]},"height": 6227,
+            "width": 4124,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/haus-der-technik/page043_hu11952132704729863768.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 453,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/haus-der-technik/annotation/page043",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/haus-der-technik/annotation/page043/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/haus-der-technik/page043/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6227,
+                  "width": 4124,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/haus-der-technik/page043",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/haus-der-technik/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kunstmuseum-duesseldorf/canvas/preview",
+          "type": "Canvas","label": {"none":["page073"]},"height": 6219,
+            "width": 4235,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kunstmuseum-duesseldorf/page073_hu14188013593401052026.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 441,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kunstmuseum-duesseldorf/annotation/page073",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kunstmuseum-duesseldorf/annotation/page073/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kunstmuseum-duesseldorf/page073/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6219,
+                  "width": 4235,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kunstmuseum-duesseldorf/page073",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/kunstmuseum-duesseldorf/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lichtwarkschule/canvas/preview",
+          "type": "Canvas","label": {"none":["page079"]},"height": 6207,
+            "width": 4188,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lichtwarkschule/page079_hu4315028238990038638.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 445,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lichtwarkschule/annotation/page079",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lichtwarkschule/annotation/page079/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lichtwarkschule/page079/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6207,
+                  "width": 4188,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lichtwarkschule/page079",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lichtwarkschule/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lyzeum-curschmannstrasse/canvas/preview",
+          "type": "Canvas","label": {"none":["page080"]},"height": 6205,
+            "width": 4198,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lyzeum-curschmannstrasse/page080_hu7613215265462492604.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 443,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lyzeum-curschmannstrasse/annotation/page080",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lyzeum-curschmannstrasse/annotation/page080/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lyzeum-curschmannstrasse/page080/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6205,
+                  "width": 4198,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lyzeum-curschmannstrasse/page080",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/lyzeum-curschmannstrasse/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/canvas/preview",
+          "type": "Canvas","label": {"none":["page041"]},"height": 6221,
+            "width": 4148,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/page041_hu10305336107331479751.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 450,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/annotation/page041",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/annotation/page041/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/page041/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6221,
+                  "width": 4148,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/page041",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/canvas/page069",
+          "type": "Canvas","label": {"none":["page069"]},"height": 6201,
+            "width": 4235,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/page069_hu1765786993181312945.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 439,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/annotation/page069",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/annotation/page069/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/page069/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6201,
+                  "width": 4235,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/page069",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/planetarium-duesseldorf/canvas/page069"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/canvas/page045",
+          "type": "Canvas","label": {"none":["page045"]},"height": 6229,
+            "width": 4166,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/page045_hu2812893836921616639.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 449,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/annotation/page045",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/annotation/page045/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/page045/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6229,
+                  "width": 4166,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/page045",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/canvas/page045"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/canvas/preview",
+          "type": "Canvas","label": {"none":["page071"]},"height": 6229,
+            "width": 4244,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/page071_hu17506747518187033514.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 440,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/annotation/page071",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/annotation/page071/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/page071/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6229,
+                  "width": 4244,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/page071",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/pressa/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/rathaus-neuenhagen/canvas/preview",
+          "type": "Canvas","label": {"none":["page009"]},"height": 6227,
+            "width": 4153,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/rathaus-neuenhagen/page009_hu8307863940356333586.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 450,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/rathaus-neuenhagen/annotation/page009",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/rathaus-neuenhagen/annotation/page009/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/rathaus-neuenhagen/page009/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6227,
+                  "width": 4153,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/rathaus-neuenhagen/page009",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/rathaus-neuenhagen/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/realschule-uferstrasse/canvas/preview",
+          "type": "Canvas","label": {"none":["page078"]},"height": 6200,
+            "width": 4187,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/realschule-uferstrasse/page078_hu18388323555141704164.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/realschule-uferstrasse/annotation/page078",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/realschule-uferstrasse/annotation/page078/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/realschule-uferstrasse/page078/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6200,
+                  "width": 4187,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/realschule-uferstrasse/page078",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/realschule-uferstrasse/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/canvas/preview",
+          "type": "Canvas","label": {"none":["page094"]},"height": 6219,
+            "width": 4262,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/page094_hu14984016345732788401.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 438,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/annotation/page094",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/annotation/page094/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/page094/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6219,
+                  "width": 4262,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/page094",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/canvas/page095",
+          "type": "Canvas","label": {"none":["page095"]},"height": 6214,
+            "width": 4215,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/page095_hu4265385434026037749.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 442,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/annotation/page095",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/annotation/page095/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/page095/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6214,
+                  "width": 4215,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/page095",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-antonius-ickern/canvas/page095"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-bonifatius-frankfurt/canvas/preview",
+          "type": "Canvas","label": {"none":["page097"]},"height": 6192,
+            "width": 4219,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-bonifatius-frankfurt/page097_hu229575376246329431.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 440,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-bonifatius-frankfurt/annotation/page097",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-bonifatius-frankfurt/annotation/page097/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-bonifatius-frankfurt/page097/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6192,
+                  "width": 4219,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-bonifatius-frankfurt/page097",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-bonifatius-frankfurt/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-franziskuskirche/canvas/preview",
+          "type": "Canvas","label": {"none":["page096"]},"height": 6220,
+            "width": 4272,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-franziskuskirche/page096_hu4192351159792794848.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 437,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-franziskuskirche/annotation/page096",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-franziskuskirche/annotation/page096/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-franziskuskirche/page096/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6220,
+                  "width": 4272,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-franziskuskirche/page096",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/st-franziskuskirche/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page000"]},"height": 6209,
+            "width": 4103,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page000_hu13138312432535841572.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 454,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page000",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page000/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page000/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6209,
+                  "width": 4103,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page000",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page051",
+          "type": "Canvas","label": {"none":["page051"]},"height": 6208,
+            "width": 4215,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page051_hu526592018054183655.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 442,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page051",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page051/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page051/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6208,
+                  "width": 4215,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page051",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page051"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page052",
+          "type": "Canvas","label": {"none":["page052"]},"height": 6236,
+            "width": 4092,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page052_hu14507854866604030385.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 457,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page052",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page052/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page052/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6236,
+                  "width": 4092,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page052",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page052"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page053",
+          "type": "Canvas","label": {"none":["page053"]},"height": 6217,
+            "width": 4248,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page053_hu8436936167260380417.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 439,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page053",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page053/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page053/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6217,
+                  "width": 4248,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page053",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page053"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page055",
+          "type": "Canvas","label": {"none":["page055"]},"height": 6218,
+            "width": 4240,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page055_hu5334452854422723290.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 440,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page055",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page055/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page055/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6218,
+                  "width": 4240,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page055",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page055"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page107",
+          "type": "Canvas","label": {"none":["page107"]},"height": 6215,
+            "width": 4268,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page107_hu12492798235522435756.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 437,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page107",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/annotation/page107/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page107/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6215,
+                  "width": 4268,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/page107",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/stadhalle-magdeburg/canvas/page107"
+            }]
+          }]
+       }]
+}

@@ -1,0 +1,149 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/rheinhalle-2/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/rheinhalle-2/front/full/full/0/default_hu13864856392526663898.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 213,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/rheinhalle-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2452,
+        "width": 3449,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/rheinhalle-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Postkarte Rheinhalle Düsseldorf"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/rheinhalle-1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/rheinhalle-1/front/full/full/0/default_hu6725288649237284942.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 215,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/rheinhalle-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2499,
+        "width": 3484,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/rheinhalle-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Postkarte Rheinhalle Düsseldorf"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front_hu4616663109974440906.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7092,
+        "width": 5034,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "25 Jahre Verband Deutscher Licht- und Wasserfachbeamten"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu2091049947209809265.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Gemeinschaft aus deutscher Gegenwart"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/stumm-konzern-duesseldorf/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/stumm-konzern-duesseldorf/front_hu13956174555109103299.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 196,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/stumm-konzern-duesseldorf/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2152,
+        "width": 3297,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/stumm-konzern-duesseldorf/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Postkarte Stummhaus Düsseldorf"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/planetarium-duesseldorf/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/planetarium-duesseldorf/front_hu11008774686564672740.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 213,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/planetarium-duesseldorf/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2478,
+        "width": 3484,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/planetarium-duesseldorf/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Postkarte Planetarium Düsseldorf"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu17672615511300071984.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+          ]}
+      }]
+}
