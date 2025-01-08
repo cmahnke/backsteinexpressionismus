@@ -12,6 +12,13 @@ displayinlist: false
 * [im Baunetz_Wissen_](https://www.baunetzwissen.de/glossar/b/backsteinexpressionismus-1479515)
 * [in der Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/gebaeude/backsteinexpressionismus)
 
+# Publikationen
+
+* Fragments of Metropolis
+  * [Auf Facebook](https://www.facebook.com/fragmentsofmetropolis/)
+  * [Tumblr](https://fragmentsofmetropolis.tumblr.com/)
+  * [Instagram](https://www.instagram.com/fragmentsofmetropolis/)
+
 # Aktuelle Abbildungen...
 
 * [von Thomas Robbin](https://thomasrobbin.de/backstein-expressionismus/)
