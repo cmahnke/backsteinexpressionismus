@@ -1,0 +1,142 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Hannoverscher Anzeiger: Kalender 1934. Hannoverscher Anzeiger, Hannover 1934."
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front_hu_b2f611c360f147a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 417,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5259,
+        "width": 3785,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Kalender 1934 - Hannoverscher Anzeiger"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Kalender 1934 - Hannoverscher Anzeiger"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 5259,
+            "width": 3785,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front_hu_b2f611c360f147a6.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 417,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5259,
+                  "width": 3785,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/canvas/end",
+          "type": "Canvas","label": {"de":["Letze Seite"],"en":["Last page"]},"height": 5252,
+            "width": 3552,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/end_hu_89f63248b4bd3fa1.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/annotation/end",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/annotation/end/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/end/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5252,
+                  "width": 3552,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/end",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/canvas/end"
+            }]
+          }]
+       }]
+}
