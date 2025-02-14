@@ -1,0 +1,173 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Walter G. Beck: Sakralbauten in Frankfurt am Main, Frankfurt am Main 1956. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/4071724\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/front_hu_60431eb8e737c1fd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 418,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5609,
+        "width": 4023,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Sakralbauten in Frankfurt am Main"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Sakralbauten in Frankfurt am Main"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 5609,
+            "width": 4023,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/front_hu_60431eb8e737c1fd.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 418,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5609,
+                  "width": 4023,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 5599,
+            "width": 3929,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/title_hu_c03a8bdf4e9c4ffe.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 428,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5599,
+                  "width": 3929,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/canvas/page028",
+          "type": "Canvas","label": {"none":["page028"]},"height": 5632,
+            "width": 3949,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/page028_hu_defdeb7a260b75cd.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 428,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/annotation/page028",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/annotation/page028/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/page028/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5632,
+                  "width": 3949,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/page028",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/canvas/page028"
+            }]
+          }]
+       }]
+}
