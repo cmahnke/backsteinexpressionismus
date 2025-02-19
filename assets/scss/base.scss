@@ -272,6 +272,11 @@ h6 {
                     font-weight: bold;
                 }
             }
+
+            .navigation-link i.link-icon {
+                display: none;
+            }
+
             @media (max-width : 20em) {
                 a,
                 span {
