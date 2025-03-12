@@ -1,0 +1,195 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu_3f8232baa7aa4931.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 402,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/illustrirte-zeitung-4359/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/illustrirte-zeitung-4359/front/full/full/0/default_hu_72af69e7d3180801.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 424,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/illustrirte-zeitung-4359/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 9054,
+        "width": 6400,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/illustrirte-zeitung-4359/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hagturm Köln"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-4/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-4/front/full/full/0/default_hu_1c47b81874e71bfd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-4/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3403,
+        "width": 2399,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/boettcherstrasse-4/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Böttcherstrasse"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-3/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-3/front/full/full/0/default_hu_e6d4a21e0cf2fbe6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 424,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3497,
+        "width": 2472,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/boettcherstrasse-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Böttcherstrasse"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-2/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-2/front/full/full/0/default_hu_63a524411ce2f05d.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 218,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2484,
+        "width": 3419,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/boettcherstrasse-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Böttcherstrasse"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/wohnbauten-und-siedlungen-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/wohnbauten-und-siedlungen-aus-deutscher-gegenwart/front_hu_186c2acb86f4ec92.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wohnbauten und Siedlungen aus Deutscher Gegenwart"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-1/front_hu_e31133e6b79687e3.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 215,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/boettcherstrasse-1/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2511,
+        "width": 3503,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/boettcherstrasse-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Böttcherstrasse"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/front_hu_23a0e11072a04e25.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 432,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4813,
+        "width": 3343,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Das Paula-Becker-Modersohn-Haus in Bremen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/front_hu_685a083f144ef545.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 443,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5245,
+        "width": 3552,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Bremen im Welthandel"
+          ]}
+      }]
+}

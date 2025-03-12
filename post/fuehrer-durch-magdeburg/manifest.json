@@ -1,0 +1,348 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Führer durch Magdeburg. Herausgegeben vom Wirtschafts- und Verkehrsamt Magdeburg 1929. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/174016887\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/front_hu_7fc715f1ee788d5a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Führer durch Magdeburg"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Führer durch Magdeburg"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 4131,
+            "width": 2911,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/front_hu_7fc715f1ee788d5a.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 426,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4131,
+                  "width": 2911,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 4134,
+            "width": 2712,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/title_hu_f03d25c6792674d6.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 457,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4134,
+                  "width": 2712,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/page017",
+          "type": "Canvas","label": {"none":["page017"]},"height": 4123,
+            "width": 2604,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page017_hu_f6404439b71bc546.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 475,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page017",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page017/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page017/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4123,
+                  "width": 2604,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page017",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/page017"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page047"]},"height": 4116,
+            "width": 2718,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page047_hu_fc60c3070b12e35b.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 454,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page047",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page047/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page047/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4116,
+                  "width": 2718,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page047",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page078"]},"height": 4150,
+            "width": 2769,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page078_hu_23b9c89ffa18cc45.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 450,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page078",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page078/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page078/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4150,
+                  "width": 2769,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page078",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page079"]},"height": 4137,
+            "width": 2689,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page079_hu_62e23d88cb01cbab.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 462,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page079",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/annotation/page079/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page079/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4137,
+                  "width": 2689,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/page079",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/stadhalle-magdeburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/allgemeine-ortskrankenkasse-magdeburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page050"]},"height": 4152,
+            "width": 2730,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/allgemeine-ortskrankenkasse-magdeburg/page050_hu_8ff2089f285fbbd1.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 456,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/allgemeine-ortskrankenkasse-magdeburg/annotation/page050",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/allgemeine-ortskrankenkasse-magdeburg/annotation/page050/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/allgemeine-ortskrankenkasse-magdeburg/page050/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4152,
+                  "width": 2730,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/allgemeine-ortskrankenkasse-magdeburg/page050",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/allgemeine-ortskrankenkasse-magdeburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/canvas/page081",
+          "type": "Canvas","label": {"none":["page081"]},"height": 4147,
+            "width": 2728,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/albinmueller-turm/page081_hu_23fb1c82137b9496.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 456,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/annotation/page081",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/annotation/page081/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/page081/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4147,
+                  "width": 2728,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/page081",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/canvas/page081"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/canvas/preview",
+          "type": "Canvas","label": {"none":["page082"]},"height": 4154,
+            "width": 2745,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/albinmueller-turm/page082_hu_4db43609e4748585.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 454,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/annotation/page082",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/annotation/page082/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/page082/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4154,
+                  "width": 2745,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/page082",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuehrer-durch-magdeburg/albinmueller-turm/canvas/preview"
+            }]
+          }]
+       }]
+}
