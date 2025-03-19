@@ -1,0 +1,731 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Hermann Muthesius: Fritz Schumachers Bautätigkeit in Hamburg. Erschienen in \"Die Kunst: Monatshefte für freie und angewandte Kunst: Angewandte Kunst = Dekorative Kunst\", Jahrgang 22 bei Bruckmann, München 1919. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/799458052\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/front_hu_362eb82242701b2c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 413,
+    "width": 300
+  },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/front.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6998,
+        "width": 5086,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Die Kunst 40: Fritz Schumachers Bautätigkeit in Hamburg"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Die Kunst 40: Fritz Schumachers Bautätigkeit in Hamburg"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 6998,
+            "width": 5086,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/front_hu_362eb82242701b2c.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 413,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6998,
+                  "width": 5086,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 6693,
+            "width": 4711,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/title_hu_9eff16758559efab.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 426,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6693,
+                  "width": 4711,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page092",
+          "type": "Canvas","label": {"none":["page092"]},"height": 6704,
+            "width": 4505,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page092_hu_e3b183ef1162ff72.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 446,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page092",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page092/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page092/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6704,
+                  "width": 4505,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page092",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page092"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page093",
+          "type": "Canvas","label": {"none":["page093"]},"height": 6681,
+            "width": 4531,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page093_hu_11cca745ad9f61d3.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 442,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page093",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page093/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page093/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6681,
+                  "width": 4531,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page093",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page093"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page094",
+          "type": "Canvas","label": {"none":["page094"]},"height": 6681,
+            "width": 4507,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page094_hu_749e1c805d10a9d4.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 445,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page094",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page094/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page094/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6681,
+                  "width": 4507,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page094",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page094"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page095",
+          "type": "Canvas","label": {"none":["page095"]},"height": 6705,
+            "width": 4533,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page095_hu_862341ebf900b63a.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page095",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page095/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page095/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6705,
+                  "width": 4533,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page095",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page095"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page096",
+          "type": "Canvas","label": {"none":["page096"]},"height": 6701,
+            "width": 4449,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page096_hu_12d3e9c1758f9b81.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 452,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page096",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page096/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page096/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6701,
+                  "width": 4449,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page096",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page096"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page097",
+          "type": "Canvas","label": {"none":["page097"]},"height": 6677,
+            "width": 4513,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page097_hu_c3e446083f48e5c3.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page097",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page097/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page097/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6677,
+                  "width": 4513,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page097",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page097"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page098",
+          "type": "Canvas","label": {"none":["page098"]},"height": 6691,
+            "width": 4458,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page098_hu_1c8b5931536a9177.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 450,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page098",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page098/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page098/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6691,
+                  "width": 4458,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page098",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page098"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page099",
+          "type": "Canvas","label": {"none":["page099"]},"height": 6707,
+            "width": 4510,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page099_hu_6d59f946df9d053c.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 446,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page099",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page099/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page099/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6707,
+                  "width": 4510,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page099",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page099"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page100",
+          "type": "Canvas","label": {"none":["page100"]},"height": 6699,
+            "width": 4456,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page100_hu_b6278431c7013548.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 451,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page100",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page100/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page100/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6699,
+                  "width": 4456,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page100",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page100"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page101",
+          "type": "Canvas","label": {"none":["page101"]},"height": 6681,
+            "width": 4517,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page101_hu_a9933171d936c686.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page101",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page101/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page101/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6681,
+                  "width": 4517,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page101",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page101"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page102",
+          "type": "Canvas","label": {"none":["page102"]},"height": 6697,
+            "width": 4520,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page102_hu_30535f93c5a3bbc5.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page102",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page102/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page102/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6697,
+                  "width": 4520,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page102",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page102"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page103",
+          "type": "Canvas","label": {"none":["page103"]},"height": 6677,
+            "width": 4717,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page103_hu_de3c5de47cd0edf2.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 425,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page103",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page103/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page103/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6677,
+                  "width": 4717,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page103",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page103"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page104",
+          "type": "Canvas","label": {"none":["page104"]},"height": 6671,
+            "width": 4677,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page104_hu_9bc6893c556cb71f.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 428,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page104",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page104/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page104/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6671,
+                  "width": 4677,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page104",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page104"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page105",
+          "type": "Canvas","label": {"none":["page105"]},"height": 6685,
+            "width": 4731,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page105_hu_c209e9c30564e64e.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 424,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page105",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page105/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page105/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6685,
+                  "width": 4731,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page105",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page105"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page106",
+          "type": "Canvas","label": {"none":["page106"]},"height": 6708,
+            "width": 4712,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page106_hu_6cb75ac8d986c44e.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 427,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page106",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page106/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page106/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6708,
+                  "width": 4712,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page106",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page106"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page107",
+          "type": "Canvas","label": {"none":["page107"]},"height": 6666,
+            "width": 4670,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page107_hu_ced55693533daed8.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 428,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page107",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page107/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page107/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6666,
+                  "width": 4670,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page107",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page107"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page108",
+          "type": "Canvas","label": {"none":["page108"]},"height": 6674,
+            "width": 4664,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page108_hu_15dd602203084ce8.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 429,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page108",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page108/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page108/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6674,
+                  "width": 4664,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page108",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page108"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page109",
+          "type": "Canvas","label": {"none":["page109"]},"height": 6653,
+            "width": 4668,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page109_hu_94ac9ea61d1743e6.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 428,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page109",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page109/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page109/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6653,
+                  "width": 4668,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page109",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page109"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page110",
+          "type": "Canvas","label": {"none":["page110"]},"height": 6687,
+            "width": 4615,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/page110_hu_b2867cbdb7f7a0f7.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page110",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/annotation/page110/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page110/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6687,
+                  "width": 4615,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/page110",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/canvas/page110"
+            }]
+          }]
+       }]
+}
