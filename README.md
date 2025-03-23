@@ -103,3 +103,7 @@ Post should be published on Sunday, since rebuild is currently on Monday.
   * Find old images
   * Add architect
   * find more buildings on this site
+
+
+# Missing buildings
+* Friedenskirche" in DU-Rheinhausen
