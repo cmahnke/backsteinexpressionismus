@@ -1,0 +1,102 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front_hu_cda59def35ba4786.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7092,
+        "width": 5034,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "25 Jahre Verband Deutscher Licht- und Wasserfachbeamten"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/sammelbild-1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/sammelbild-1/front_hu_d235e8569ee0ff90.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 191,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sammelbild-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1651,
+        "width": 2594,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sammelbild-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Chilehaus"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/feierabend-1-1951/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/feierabend-1-1951/front_hu_137c11d08cbf1f18.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 412,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/feierabend-1-1951/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4598,
+        "width": 3346,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/feierabend-1-1951/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Chilehaus"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front_hu_b2f611c360f147a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 417,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5259,
+        "width": 3785,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Kalender 1934 - Hannoverscher Anzeiger"
+          ]}
+      }]
+}
