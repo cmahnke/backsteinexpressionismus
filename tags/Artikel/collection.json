@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/front/full/full/0/default_hu_21b3ce63e24bd3dd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 385,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6685,
+        "width": 5207,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hannover die Grossstadt im Grünen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page056/full/full/0/default_hu_5eb15bab98d019d5.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 432,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6821,
+        "width": 4742,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Deutsche Kunst und Dekoration Dezember 1924"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default_hu_35cb37615919951e.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 431,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6816,
+        "width": 4748,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Deutsche Kunst und Dekoration März 1925"
+          ]}
+      }]
+}
