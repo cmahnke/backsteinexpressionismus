@@ -1,6 +1,6 @@
 {{- $context := .context -}}
 {{- $fit := .fit -}}
-{{- $debug := partialCached "partials/functions/debug/enabled.html" $context -}}
+{{- $debug := partialCached "functions/debug/enabled.html" $context -}}
 {{- $contextPath := "NOTFILEBACKED" -}}
 {{- if and (ne $context.File nil) (ne $context.File.Path nil) -}}
   {{- $contextPath = path.Dir $context.File.Path -}}
