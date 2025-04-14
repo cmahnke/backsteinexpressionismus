@@ -3,7 +3,6 @@ title: Karte
 displayinlist: false
 metaPage: true
 layout: overview-content
-#draft: true
 weight: 2
 overview:
   filter: building
