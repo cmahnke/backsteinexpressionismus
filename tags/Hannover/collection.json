@@ -1,0 +1,772 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Backsteinexpressionismus"
+      ]},
+  "items": [{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/front/full/full/0/default_hu_21b3ce63e24bd3dd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 385,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6685,
+        "width": 5207,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hannover die Grossstadt im Grünen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/front/full/full/0/default_hu_21b3ce63e24bd3dd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 385,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6685,
+        "width": 5207,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hannover die Grossstadt im Grünen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/front/full/full/0/default_hu_4a02d047a9d58dd4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7082,
+        "width": 5019,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Neues Bauen in Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/front/full/full/0/default_hu_4a02d047a9d58dd4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7082,
+        "width": 5019,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Neues Bauen in Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/cover/full/full/0/default_hu_874c20b4e2435bb3.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 438,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hannover aufgenommen von der Staatlichen Bildstelle"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/cover/full/full/0/default_hu_874c20b4e2435bb3.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 438,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hannover aufgenommen von der Staatlichen Bildstelle"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-11/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-11/front/full/full/0/default_hu_b414e178dfc3c5a1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 425,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-11/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3479,
+        "width": 2455,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-11/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-11/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-11/front/full/full/0/default_hu_b414e178dfc3c5a1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 425,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-11/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3479,
+        "width": 2455,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-11/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/cover/full/full/0/default_hu_1b3fa2ee8bcf5b7.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 401,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6240,
+        "width": 4672,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hannover Messestadt und Grossstadt im Grünen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/cover/full/full/0/default_hu_1b3fa2ee8bcf5b7.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 401,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6240,
+        "width": 4672,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Hannover Messestadt und Grossstadt im Grünen"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-10/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-10/front/full/full/0/default_hu_b226e9e43c226cdd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 474,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-10/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3307,
+        "width": 2095,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-10/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-10/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-10/front/full/full/0/default_hu_b226e9e43c226cdd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 474,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-10/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3307,
+        "width": 2095,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-10/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu_86b2887fd473f248.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Gemeinschaft aus deutscher Gegenwart"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu_86b2887fd473f248.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Gemeinschaft aus deutscher Gegenwart"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu_5294bc2ffd7da136.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu_5294bc2ffd7da136.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-9/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-9/front_hu_dce57fcf70cae846.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 424,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-9/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3491,
+        "width": 2468,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-9/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-9/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-9/front_hu_dce57fcf70cae846.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 424,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-9/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3491,
+        "width": 2468,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-9/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-8/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-8/front_hu_7a2af8ca8d62fee1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 428,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-8/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3440,
+        "width": 2414,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-8/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-8/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-8/front_hu_7a2af8ca8d62fee1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 428,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-8/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3440,
+        "width": 2414,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-8/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-7/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-7/front_hu_8a57fc35ad34e518.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 221,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-7/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2486,
+        "width": 3381,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-7/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-7/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-7/front_hu_8a57fc35ad34e518.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 221,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-7/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2486,
+        "width": 3381,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-7/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-6/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-6/front_hu_7fff429b7346c613.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 460,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-6/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3259,
+        "width": 2124,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-6/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-6/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-6/front_hu_7fff429b7346c613.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 460,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-6/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3259,
+        "width": 2124,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-6/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-5/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-5/front_hu_97a95df0e5777e4c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 471,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-5/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3352,
+        "width": 2135,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-5/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-5/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-5/front_hu_97a95df0e5777e4c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 471,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-5/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3352,
+        "width": 2135,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-5/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-4/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-4/front_hu_4878a82c9985cc2a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 465,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-4/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3283,
+        "width": 2120,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-4/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-4/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-4/front_hu_4878a82c9985cc2a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 465,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-4/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3283,
+        "width": 2120,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-4/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-3/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-3/front_hu_9a259c8ac4353cf8.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 471,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3293,
+        "width": 2099,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-3/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-3/front_hu_9a259c8ac4353cf8.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 471,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3293,
+        "width": 2099,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-2/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-2/front_hu_a6c548bfcb0580c1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2123,
+        "width": 3294,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-2/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-2/front_hu_a6c548bfcb0580c1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2123,
+        "width": 3294,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-1/front_hu_8014554256b8eca4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 468,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3322,
+        "width": 2128,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-1/front_hu_8014554256b8eca4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 468,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3322,
+        "width": 2128,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Anzeiger Hochhaus Hannover"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front_hu_b2f611c360f147a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 417,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5259,
+        "width": 3785,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Kalender 1934 - Hannoverscher Anzeiger"
+          ]}
+      },{
+        "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front_hu_b2f611c360f147a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 417,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5259,
+        "width": 3785,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Kalender 1934 - Hannoverscher Anzeiger"
+          ]}
+      }]
+}
