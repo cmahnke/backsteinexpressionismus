@@ -1,0 +1,10 @@
+logging:
+  level: DEBUG
+extraction:
+  input: "../../../content/post/"
+  output: "./data"
+  suffixes:
+    - jpg
+    - jpeg
+    - jxl
+enrichment:
