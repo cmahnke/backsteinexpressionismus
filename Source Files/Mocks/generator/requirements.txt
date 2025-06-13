@@ -9,10 +9,10 @@ transformers
 #layoutparser[layoutmodels]
 #git+https://github.com/facebookresearch/detectron2.git@ff53992b1985b63bd3262b5a36167098e3dada02#egg=detectron2
 #git+https://github.com/facebookresearch/detectron2.git@main#egg=detectron2
+#git+https://github.com/facebookresearch/detectron2.git
 ultralytics
 pytesseract
 python-doctr[torch]
-#git+https://github.com/pidahbus/deep-image-orientation-angle-detection.git@main
 datasets
 #pytorch_merge
 tensorflow
@@ -22,7 +22,7 @@ tensorflow
 numpy<2
 tf2onnx
 torchvision
-git+https://github.com/sberbank-ai/Real-ESRGAN
+git+https://github.com/ai-forever/Real-ESRGAN
 pyyaml>=5.3.1
 requests
 #jxlpy>=0.9.5
@@ -34,3 +34,11 @@ markdown
 beautifulsoup4
 toml
 python-frontmatter
+opencv-python
+opencv-contrib-python-headless
+smartcrop
+layoutparser
+scipy
+matplotlib
+scikit-image
+coloredlogs
