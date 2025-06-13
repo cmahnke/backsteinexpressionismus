@@ -5,7 +5,7 @@ type: building
 location: Hamburg
 yearBuild: 1912
 aliases:
-  - /tags/Alter-JJachtclub-Hamburg
+  - /tags/Alter-Jachtclub-Hamburg
   - /tags/Seglerheim-mit-Arbeiterspeisehalle
 geojson:
   coordinates:
