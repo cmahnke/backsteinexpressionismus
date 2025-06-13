@@ -1,0 +1,751 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Werner Hegemann: Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit. Verlag Ernst Wasmuth A.G., Berlin 1929. \u003ca class=\"worldcat\" href=\"https://www.worldcat.org/de/title/958248099\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu_3f8232baa7aa4931.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 402,
+    "width": 300
+  }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 7465,
+            "width": 5573,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu_3f8232baa7aa4931.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 402,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7465,
+                  "width": 5573,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 7308,
+            "width": 5571,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/title/full/full/0/default_hu_8073b846665a166e.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 394,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7308,
+                  "width": 5571,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-sprinkenhof/canvas/preview",
+          "type": "Canvas","label": {"none":["page255"]},"height": 7314,
+            "width": 5581,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-sprinkenhof/page255/full/full/0/default_hu_8c63226aeac21a46.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 393,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-sprinkenhof/annotation/page255",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-sprinkenhof/annotation/page255/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-sprinkenhof/page255/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7314,
+                  "width": 5581,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-sprinkenhof/page255",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-sprinkenhof/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-kloepperhaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page248"]},"height": 7323,
+            "width": 5574,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-kloepperhaus/page248/full/full/0/default_hu_8cc379fee90c1c04.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 394,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-kloepperhaus/annotation/page248",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-kloepperhaus/annotation/page248/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-kloepperhaus/page248/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7323,
+                  "width": 5574,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-kloepperhaus/page248",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-kloepperhaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/berlin/canvas/preview",
+          "type": "Canvas","label": {"none":["page240"]},"height": 7331,
+            "width": 5438,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/berlin/page240/full/full/0/default_hu_4ae26b96b03977e9.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 404,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/berlin/annotation/page240",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/berlin/annotation/page240/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/berlin/page240/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7331,
+                  "width": 5438,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/berlin/page240",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/berlin/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-ballinhaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page224"]},"height": 7313,
+            "width": 5514,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-ballinhaus/page224/full/full/0/default_hu_ed56d9890d8e3f32.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 398,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-ballinhaus/annotation/page224",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-ballinhaus/annotation/page224/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-ballinhaus/page224/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7313,
+                  "width": 5514,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-ballinhaus/page224",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-ballinhaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/canvas/preview",
+          "type": "Canvas","label": {"none":["page222"]},"height": 7335,
+            "width": 5599,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-steinstrasse/page222/full/full/0/default_hu_bad7d6d4a906e470.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 393,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/annotation/page222",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/annotation/page222/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/page222/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7335,
+                  "width": 5599,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/page222",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/canvas/page223",
+          "type": "Canvas","label": {"none":["page223"]},"height": 7319,
+            "width": 5555,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-steinstrasse/page223/full/full/0/default_hu_42022be4aa1d0487.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 395,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/annotation/page223",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/annotation/page223/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/page223/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7319,
+                  "width": 5555,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/page223",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-steinstrasse/canvas/page223"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-finanzdeputation/canvas/preview",
+          "type": "Canvas","label": {"none":["page220"]},"height": 7327,
+            "width": 5585,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-finanzdeputation/page220/full/full/0/default_hu_c452e5c157ac5f24.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 394,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-finanzdeputation/annotation/page220",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-finanzdeputation/annotation/page220/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-finanzdeputation/page220/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7327,
+                  "width": 5585,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-finanzdeputation/page220",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-finanzdeputation/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/bremen/canvas/preview",
+          "type": "Canvas","label": {"none":["page212"]},"height": 7333,
+            "width": 5596,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/bremen/page212/full/full/0/default_hu_2d564cd4efb094c3.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 393,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/bremen/annotation/page212",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/bremen/annotation/page212/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/bremen/page212/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7333,
+                  "width": 5596,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/bremen/page212",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/bremen/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-montanhof/canvas/preview",
+          "type": "Canvas","label": {"none":["page207"]},"height": 7331,
+            "width": 5515,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-montanhof/page207/full/full/0/default_hu_e8b9cadb899ff5fd.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 399,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-montanhof/annotation/page207",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-montanhof/annotation/page207/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-montanhof/page207/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7331,
+                  "width": 5515,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-montanhof/page207",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-montanhof/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page206"]},"height": 7325,
+            "width": 5569,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-chilehaus/page206/full/full/0/default_hu_f6f94106e9a991d1.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 395,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/annotation/page206",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/annotation/page206/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/page206/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7325,
+                  "width": 5569,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/page206",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/canvas/page249",
+          "type": "Canvas","label": {"none":["page249"]},"height": 7327,
+            "width": 5588,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/hamburg-chilehaus/page249/full/full/0/default_hu_a094353cb07a3e12.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 393,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/annotation/page249",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/annotation/page249/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/page249/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7327,
+                  "width": 5588,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/page249",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/hamburg-chilehaus/canvas/page249"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/barmbeck/canvas/preview",
+          "type": "Canvas","label": {"none":["page169"]},"height": 7330,
+            "width": 5529,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/barmbeck/page169/full/full/0/default_hu_a0ca1058f899d8ba.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 398,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/barmbeck/annotation/page169",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/barmbeck/annotation/page169/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/barmbeck/page169/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7330,
+                  "width": 5529,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/barmbeck/page169",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/barmbeck/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/canvas/preview",
+          "type": "Canvas","label": {"none":["page133"]},"height": 7327,
+            "width": 5598,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/amsterdam/page133/full/full/0/default_hu_1ca92b69a077d84a.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 393,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/annotation/page133",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/annotation/page133/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/page133/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7327,
+                  "width": 5598,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/page133",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/canvas/page135",
+          "type": "Canvas","label": {"none":["page135"]},"height": 7323,
+            "width": 5592,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/amsterdam/page135/full/full/0/default_hu_c73915e1929926e0.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 393,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/annotation/page135",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/annotation/page135/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/page135/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7323,
+                  "width": 5592,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/page135",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/amsterdam/canvas/page135"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/moskau/canvas/preview",
+          "type": "Canvas","label": {"none":["page132"]},"height": 7323,
+            "width": 5572,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/moskau/page132/full/full/0/default_hu_5e33ea54e4d703b4.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 394,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/moskau/annotation/page132",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/moskau/annotation/page132/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/moskau/page132/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7323,
+                  "width": 5572,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/moskau/page132",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/moskau/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/canvas/preview",
+          "type": "Canvas","label": {"none":["page110"]},"height": 7316,
+            "width": 5530,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/benelux/page110/full/full/0/default_hu_39710d1cc058bad9.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 397,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/annotation/page110",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/annotation/page110/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/page110/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7316,
+                  "width": 5530,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/page110",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/canvas/page111",
+          "type": "Canvas","label": {"none":["page111"]},"height": 7329,
+            "width": 5510,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/benelux/page111/full/full/0/default_hu_83bb2ed06cab4cd0.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 399,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/annotation/page111",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/annotation/page111/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/page111/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7329,
+                  "width": 5510,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/page111",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/canvas/page111"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/canvas/page113",
+          "type": "Canvas","label": {"none":["page113"]},"height": 7304,
+            "width": 5521,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/benelux/page113/full/full/0/default_hu_3fb51c6d9e7df11f.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 397,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/annotation/page113",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/annotation/page113/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/page113/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7304,
+                  "width": 5521,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/page113",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/benelux/canvas/page113"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/koeln/canvas/preview",
+          "type": "Canvas","label": {"none":["page205"]},"height": 7323,
+            "width": 5483,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/koeln/page205/full/full/0/default_hu_d66e1e26be9d91d5.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 401,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/koeln/annotation/page205",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/koeln/annotation/page205/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/koeln/page205/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7323,
+                  "width": 5483,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/koeln/page205",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/koeln/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/mailand/canvas/preview",
+          "type": "Canvas","label": {"none":["page045"]},"height": 7327,
+            "width": 5567,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/mailand/page045/full/full/0/default_hu_ecb04a759f9c1344.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 395,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/mailand/annotation/page045",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/mailand/annotation/page045/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/mailand/page045/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7327,
+                  "width": 5567,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/mailand/page045",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/reihenhaus-fassaden/mailand/canvas/preview"
+            }]
+          }]
+       }]
+}

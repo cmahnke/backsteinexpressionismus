@@ -1,0 +1,91 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu_3f8232baa7aa4931.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 402,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-5/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-5/front/full/full/0/default_hu_c590f04ebccf893d.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 461,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-5/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3278,
+        "width": 2134,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-5/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Chile-Haus und Sprinkenhof"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/kuestenland/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kuestenland/cover/full/full/0/default_hu_9ba85c954f085d00.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 390,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kuestenland/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6378,
+        "width": 4910,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kuestenland/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Küstenland und Schleswig-Holstein"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/front_hu_25e4c99012138217.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5749,
+        "width": 4017,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hamburg Weltstadt am Strom"
+            ]}
+        }]
+  }

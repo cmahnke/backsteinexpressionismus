@@ -1,0 +1,817 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-44-1927/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburger-anzeiger-44-1927/front/full/full/0/default_hu_b3680b9c72d08290.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hamburger-anzeiger-44-1927/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 9893,
+        "width": 6975,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburger-anzeiger-44-1927/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hamburger Anzeiger 44/1927 Sonnabend, den 29. Oktober"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu_3f8232baa7aa4931.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 402,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-6/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-6/front/full/full/0/default_hu_f0cab678422bc4bc.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 464,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-6/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3276,
+        "width": 2120,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-6/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Chile-Haus und Sprinkenhof"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/wilhelmshaven-2/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/wilhelmshaven-2/front/full/full/0/default_hu_a74d95210a5b7d26.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 216,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/wilhelmshaven-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2495,
+        "width": 3464,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/wilhelmshaven-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte \"Nordseebad Wilhelmshaven\""
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/wilhelmshaven-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/wilhelmshaven-1/front/full/full/0/default_hu_937d761fcec3441b.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/wilhelmshaven-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2124,
+        "width": 3308,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/wilhelmshaven-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte \"Nordseebad Wilhelmshaven\""
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/front/full/full/0/default_hu_4a02d047a9d58dd4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7082,
+        "width": 5019,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Neues Bauen in Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/cover/full/full/0/default_hu_874c20b4e2435bb3.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 438,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Hannover aufgenommen von der Staatlichen Bildstelle"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page056/full/full/0/default_hu_5eb15bab98d019d5.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 432,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6821,
+        "width": 4742,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Deutsche Kunst und Dekoration Dezember 1924"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-11/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-11/front/full/full/0/default_hu_b414e178dfc3c5a1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 425,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-11/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3479,
+        "width": 2455,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-11/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-5/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-5/front/full/full/0/default_hu_c590f04ebccf893d.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 461,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-5/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3278,
+        "width": 2134,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-5/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Chile-Haus und Sprinkenhof"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/das-oldenburgerland/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/das-oldenburgerland/front/full/full/0/default_hu_bdb89f17fde27626.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 372,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-oldenburgerland/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6128,
+        "width": 4942,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-oldenburgerland/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Das Oldenburgerland"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-4/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-4/front/full/full/0/default_hu_84293b68f1839d64.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 190,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-4/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2058,
+        "width": 3243,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-4/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Chile-Haus"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/kuestenland/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kuestenland/cover/full/full/0/default_hu_9ba85c954f085d00.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 390,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kuestenland/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6378,
+        "width": 4910,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kuestenland/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Küstenland und Schleswig-Holstein"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/cover/full/full/0/default_hu_1b3fa2ee8bcf5b7.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 401,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6240,
+        "width": 4672,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hannover Messestadt und Grossstadt im Grünen"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-3/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-3/front/full/full/0/default_hu_d6dae6fde5e4f185.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 214,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2503,
+        "width": 3513,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Chile- und Ballinhaus"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-10/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-10/front/full/full/0/default_hu_b226e9e43c226cdd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 474,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-10/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3307,
+        "width": 2095,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-10/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-2/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-2/front/full/full/0/default_hu_5f9634df9b99a337.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 472,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3310,
+        "width": 2105,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Chilehaus"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/front_hu_25e4c99012138217.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5749,
+        "width": 4017,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hamburg Weltstadt am Strom"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu_86b2887fd473f248.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Bauten der Gemeinschaft aus deutscher Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/sammelbild-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/sammelbild-1/front_hu_d235e8569ee0ff90.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 191,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sammelbild-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1651,
+        "width": 2594,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sammelbild-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Chilehaus"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/feierabend-1-1951/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/feierabend-1-1951/front_hu_137c11d08cbf1f18.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 412,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/feierabend-1-1951/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4598,
+        "width": 3346,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/feierabend-1-1951/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Chilehaus"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu_5294bc2ffd7da136.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-9/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-9/front_hu_dce57fcf70cae846.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 424,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-9/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3491,
+        "width": 2468,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-9/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-8/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-8/front_hu_7a2af8ca8d62fee1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 428,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-8/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3440,
+        "width": 2414,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-8/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-7/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-7/front_hu_8a57fc35ad34e518.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 221,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-7/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2486,
+        "width": 3381,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-7/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/front_hu_aaa451d17c571850.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 383,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6314,
+        "width": 4947,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Architektur und Bauplastik der Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-6/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-6/front_hu_7fff429b7346c613.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 460,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-6/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3259,
+        "width": 2124,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-6/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-5/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-5/front_hu_97a95df0e5777e4c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 471,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-5/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3352,
+        "width": 2135,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-5/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-4/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-4/front_hu_4878a82c9985cc2a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 465,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-4/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3283,
+        "width": 2120,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-4/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-1/front_hu_e3eece2d073aa6a2.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 191,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2106,
+        "width": 3300,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Chilehaus"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/rathaus-ruestringen-2/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/rathaus-ruestringen-2/front_hu_3a84a2fdb26b8450.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 218,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/rathaus-ruestringen-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2466,
+        "width": 3401,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/rathaus-ruestringen-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Rathaus Rüstringen"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-3/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-3/front_hu_9a259c8ac4353cf8.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 471,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3293,
+        "width": 2099,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/berlin-und-das-reich/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/berlin-und-das-reich/front_hu_a0b0afe0c9b55cc4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 460,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/berlin-und-das-reich/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5161,
+        "width": 3367,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/berlin-und-das-reich/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Berlin und das Reich"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-2/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-2/front_hu_a6c548bfcb0580c1.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2123,
+        "width": 3294,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/anzeiger-hochhaus-1/front_hu_8014554256b8eca4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 468,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3322,
+        "width": 2128,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/anzeiger-hochhaus-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Anzeiger Hochhaus Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/rathaus-ruestringen-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/rathaus-ruestringen-1/front_hu_1b4807acfa9a8467.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 194,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/rathaus-ruestringen-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2107,
+        "width": 3261,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/rathaus-ruestringen-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Rathaus Rüstringen"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front_hu_b2f611c360f147a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 417,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5259,
+        "width": 3785,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Kalender 1934 - Hannoverscher Anzeiger"
+            ]}
+        }]
+  }
