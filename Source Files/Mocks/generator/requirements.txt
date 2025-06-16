@@ -19,7 +19,7 @@ tensorflow
 #keras
 #keras==2.15.0
 #tf-keras
-numpy<2
+numpy<3
 tf2onnx
 torchvision
 git+https://github.com/ai-forever/Real-ESRGAN
