@@ -107,3 +107,7 @@ Post should be published on Sunday, since rebuild is currently on Monday.
 
 # Missing buildings
 * Friedenskirche" in DU-Rheinhausen
+
+
+
+https://institut-aktuelle-kunst.de/kunstlexikon/saarbruecken-bezirk-mitte-st-johann-haus-der-saarbruecker-landeszeitung-1805
