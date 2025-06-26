@@ -11,5 +11,7 @@ geojson:
 notes: nolink
 ---
 
+* Entworfen von [Tietmann & Haake](https://de.wikipedia.org/wiki/Tietmann_%26_Haake)
+
 # Das Pressehaus Düsseldorf in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Ehemaliges_Pressehaus_D%C3%BCsseldorf)

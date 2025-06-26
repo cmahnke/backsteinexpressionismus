@@ -6,7 +6,7 @@ archinformID: projekte/29525
 location: Köln
 ---
 
-Die Pessa war eine Presseausstellung in Köln 1928
+Die Pressa war eine Presseausstellung in Köln 1928
 
 # Die Pressa in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Pressa)

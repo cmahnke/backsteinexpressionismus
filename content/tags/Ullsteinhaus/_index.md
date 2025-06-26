@@ -17,3 +17,4 @@ geojson:
 * [Wikipedia](https://de.wikipedia.org/wiki/Ullsteinhaus)
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/5995.htm)
 * [Internationalen Datenbank und Galerie für Ingenieurbauwerke (Structurae)](https://structurae.net/de/bauwerke/ullsteinhaus)
+* [Denkmaldatenbank des Landesdenkmalamts Berlin](https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09055109)
