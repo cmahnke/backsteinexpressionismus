@@ -1,0 +1,589 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu_3f8232baa7aa4931.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 402,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1927/front/full/full/0/default_hu_21b3ce63e24bd3dd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 385,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6685,
+        "width": 5207,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1927/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hannover die Grossstadt im Grünen"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/neues-bauen-in-hannover-1955/front/full/full/0/default_hu_4a02d047a9d58dd4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7082,
+        "width": 5019,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/neues-bauen-in-hannover-1955/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Neues Bauen in Hannover"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1931/cover/full/full/0/default_hu_874c20b4e2435bb3.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 438,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Hannover aufgenommen von der Staatlichen Bildstelle"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/heimatbuch-75-jahre-oberhausen/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/heimatbuch-75-jahre-oberhausen/front/full/full/0/default_hu_fb4cab1749b10d02.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 446,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Heimatbuch 75 Jahre Oberhausen"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default_hu_35cb37615919951e.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 431,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6816,
+        "width": 4748,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Deutsche Kunst und Dekoration März 1925"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-dezember-1924/page056/full/full/0/default_hu_5eb15bab98d019d5.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 432,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6821,
+        "width": 4742,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-dezember-1924/page056",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Deutsche Kunst und Dekoration Dezember 1924"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-2/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-2/front/full/full/0/default_hu_d7e6a2f5916ef1d9.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 218,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2490,
+        "width": 3433,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Pferdetor Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/das-oldenburgerland/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/das-oldenburgerland/front/full/full/0/default_hu_bdb89f17fde27626.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 372,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-oldenburgerland/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6128,
+        "width": 4942,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-oldenburgerland/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Das Oldenburgerland"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/kuestenland/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kuestenland/cover/full/full/0/default_hu_9ba85c954f085d00.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 390,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kuestenland/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6378,
+        "width": 4910,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kuestenland/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Küstenland und Schleswig-Holstein"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hannover-1970/cover/full/full/0/default_hu_1b3fa2ee8bcf5b7.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 401,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6240,
+        "width": 4672,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hannover-1970/cover",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hannover Messestadt und Grossstadt im Grünen"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/front_hu_2d2ac2cec7e9a2fa.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 365,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6683,
+        "width": 5491,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Weit spannt sich der Bogen - Die Geschichte der Bauunternemung Dyckeroff \u0026 Widmann 1865-1965"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front_hu_cda59def35ba4786.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7092,
+        "width": 5034,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "25 Jahre Verband Deutscher Licht- und Wasserfachbeamten"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/front_hu_7fc715f1ee788d5a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Führer durch Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/der-geist-der-gotik/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/der-geist-der-gotik/front_hu_47d9a01f2ef727f2.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/der-geist-der-gotik/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5213,
+        "width": 3648,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/der-geist-der-gotik/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Der Geit der Gotik"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/sakralbauten-in-frankfurt/front_hu_60431eb8e737c1fd.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 418,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5609,
+        "width": 4023,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/sakralbauten-in-frankfurt/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Sakralbauten in Frankfurt am Main"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/front_hu_d4a55db18a04d257.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 378,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5848,
+        "width": 4647,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Leipzig Geschichte und Ausblick"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/front_hu_25e4c99012138217.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5749,
+        "width": 4017,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hamburg Weltstadt am Strom"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/front_hu_53b3afd4d5fe40df.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 211,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu_86b2887fd473f248.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Bauten der Gemeinschaft aus deutscher Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-1/front_hu_742c0b5406044137.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 192,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2117,
+        "width": 3307,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Stadhalle Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/wohnbauten-und-siedlungen-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/wohnbauten-und-siedlungen-aus-deutscher-gegenwart/front_hu_186c2acb86f4ec92.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Wohnbauten und Siedlungen aus Deutscher Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu_5294bc2ffd7da136.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/die-kunst-40/front_hu_362eb82242701b2c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 413,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6998,
+        "width": 5086,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-kunst-40/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Die Kunst 40: Fritz Schumachers Bautätigkeit in Hamburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/front_hu_aaa451d17c571850.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 383,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6314,
+        "width": 4947,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Architektur und Bauplastik der Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/der-baumeister-otto-bartning/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/der-baumeister-otto-bartning/front_hu_cff2a0d20702258d.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 383,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/der-baumeister-otto-bartning/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7101,
+        "width": 5567,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/der-baumeister-otto-bartning/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Der Baumeister Otto Bartning"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/berlin-und-das-reich/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/berlin-und-das-reich/front_hu_a0b0afe0c9b55cc4.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 460,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/berlin-und-das-reich/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5161,
+        "width": 3367,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/berlin-und-das-reich/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Berlin und das Reich"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/front_hu_fef30e97aeba5b8.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 403,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6643,
+        "width": 4942,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Warum Backsteinexpressionismus?"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/kalender-1934-hannoverscher-anzeiger/front_hu_b2f611c360f147a6.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 417,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5259,
+        "width": 3785,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/kalender-1934-hannoverscher-anzeiger/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Kalender 1934 - Hannoverscher Anzeiger"
+            ]}
+        }]
+  }

@@ -1,0 +1,627 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Walter von Molo: Magdeburg. Herausgegeben vom Wirtschafts- und Verkehrsamt der Stadt Magdeburg 1929. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/72236396\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/front_hu_53b3afd4d5fe40df.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 211,
+    "width": 300
+  }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Magdeburg"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Magdeburg"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 3477,
+            "width": 4940,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/front_hu_53b3afd4d5fe40df.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 211,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3477,
+                  "width": 4940,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/canvas/page001",
+          "type": "Canvas","label": {"none":["page001"]},"height": 3436,
+            "width": 4735,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/page001_hu_cdbec51800702ed1.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 218,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/annotation/page001",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/annotation/page001/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/page001/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3436,
+                  "width": 4735,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/page001",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/canvas/page001"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page064",
+          "type": "Canvas","label": {"none":["page064"]},"height": 3473,
+            "width": 4731,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/page064_hu_7f6d8f006a3df428.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 220,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page064",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page064/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page064/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3473,
+                  "width": 4731,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page064",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page064"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/preview",
+          "type": "Canvas","label": {"none":["page065"]},"height": 3467,
+            "width": 4715,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/page065_hu_f57645f9dd192627.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 221,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page065",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page065/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page065/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3467,
+                  "width": 4715,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page065",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page066",
+          "type": "Canvas","label": {"none":["page066"]},"height": 3451,
+            "width": 4707,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/page066_hu_9f8c3d4c93e6a0da.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 220,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page066",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page066/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page066/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3451,
+                  "width": 4707,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page066",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page066"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page067",
+          "type": "Canvas","label": {"none":["page067"]},"height": 3460,
+            "width": 4708,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/page067_hu_20a946de596be570.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 220,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page067",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page067/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page067/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3460,
+                  "width": 4708,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page067",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page067"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page068",
+          "type": "Canvas","label": {"none":["page068"]},"height": 3446,
+            "width": 4691,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/page068_hu_ddffadf497d2ba0.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 220,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page068",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page068/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page068/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3446,
+                  "width": 4691,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page068",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page068"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page069",
+          "type": "Canvas","label": {"none":["page069"]},"height": 3462,
+            "width": 4720,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/albinmueller-turm/page069_hu_9b888088384a94eb.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 220,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page069",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/annotation/page069/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page069/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3462,
+                  "width": 4720,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/page069",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/albinmueller-turm/canvas/page069"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page054",
+          "type": "Canvas","label": {"none":["page054"]},"height": 3466,
+            "width": 4740,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page054_hu_3c7772ca902eed4f.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 219,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page054",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page054/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page054/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3466,
+                  "width": 4740,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page054",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page054"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page055",
+          "type": "Canvas","label": {"none":["page055"]},"height": 3459,
+            "width": 4688,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page055_hu_4ecaccce80885711.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 221,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page055",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page055/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page055/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3459,
+                  "width": 4688,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page055",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page055"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page056",
+          "type": "Canvas","label": {"none":["page056"]},"height": 3457,
+            "width": 4722,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page056_hu_1636b2964d23c6b5.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 220,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page056",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page056/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page056/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3457,
+                  "width": 4722,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page056",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page056"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/preview",
+          "type": "Canvas","label": {"none":["page057"]},"height": 3470,
+            "width": 4703,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page057_hu_3b2f1f2e28ec6287.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 221,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page057",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page057/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page057/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3470,
+                  "width": 4703,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page057",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page058",
+          "type": "Canvas","label": {"none":["page058"]},"height": 3430,
+            "width": 4690,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page058_hu_25eae8207c62a1dd.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 219,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page058",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page058/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page058/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3430,
+                  "width": 4690,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page058",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page058"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page059",
+          "type": "Canvas","label": {"none":["page059"]},"height": 3462,
+            "width": 4696,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page059_hu_fa6006020281f71c.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 221,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page059",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page059/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page059/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3462,
+                  "width": 4696,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page059",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page059"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page060",
+          "type": "Canvas","label": {"none":["page060"]},"height": 3457,
+            "width": 4699,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page060_hu_9f7c58d00df64a65.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 221,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page060",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page060/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page060/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3457,
+                  "width": 4699,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page060",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page060"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page061",
+          "type": "Canvas","label": {"none":["page061"]},"height": 3480,
+            "width": 4705,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page061_hu_67126cfdc48c8464.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 222,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page061",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page061/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page061/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3480,
+                  "width": 4705,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page061",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page061"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page062",
+          "type": "Canvas","label": {"none":["page062"]},"height": 3467,
+            "width": 4697,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page062_hu_747b48ee1f628e37.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 221,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page062",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page062/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page062/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3467,
+                  "width": 4697,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page062",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page062"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page063",
+          "type": "Canvas","label": {"none":["page063"]},"height": 3477,
+            "width": 4717,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/stadthalle/page063_hu_70ef256ed202f0dc.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 221,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page063",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/annotation/page063/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page063/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3477,
+                  "width": 4717,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/page063",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/magdeburg/stadthalle/canvas/page063"
+            }]
+          }]
+       }]
+}

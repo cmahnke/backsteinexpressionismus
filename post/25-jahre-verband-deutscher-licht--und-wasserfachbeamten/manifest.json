@@ -1,0 +1,173 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "W. Köllner: 25 Jahre Verband Deutscher Licht- und Wasserfachbeamten. Verband Deutscher Licht- und Wasserfachbeamten, Dresden 1931. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/915003507\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front_hu_cda59def35ba4786.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 423,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 7092,
+        "width": 5034,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: 25 Jahre Verband Deutscher Licht- und Wasserfachbeamten"
+        ]}
+  }
+],"label": {
+    "de": [
+      "25 Jahre Verband Deutscher Licht- und Wasserfachbeamten"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 7092,
+            "width": 5034,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front_hu_cda59def35ba4786.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 423,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7092,
+                  "width": 5034,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 6951,
+            "width": 4975,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/title_hu_d49233c49150f6bf.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 419,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6951,
+                  "width": 4975,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/canvas/title",
+          "type": "Canvas","label": {"none":["page077"]},"height": 6949,
+            "width": 4965,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/page077_hu_251513357f39bd5f.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 420,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/annotation/page077",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/annotation/page077/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/page077/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6949,
+                  "width": 4965,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/page077",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/25-jahre-verband-deutscher-licht--und-wasserfachbeamten/canvas/title"
+            }]
+          }]
+       }]
+}

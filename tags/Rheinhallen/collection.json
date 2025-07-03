@@ -1,0 +1,102 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/messegelaende-koeln-3/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/messegelaende-koeln-3/front/full/full/0/default_hu_df385e3cb2d20908.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 214,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/messegelaende-koeln-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2506,
+        "width": 3509,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/messegelaende-koeln-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte 'Köln am Rhein Messehallen/Haupteingang'"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/messegelaende-koeln-2/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/messegelaende-koeln-2/front/full/full/0/default_hu_679bf3329d75ae24.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 194,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/messegelaende-koeln-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2127,
+        "width": 3295,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/messegelaende-koeln-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte 'Köln am Rhein Internationale Presseausstellung Vorderseite'"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/messegelaende-koeln-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/messegelaende-koeln-1/front_hu_b39d21a1c49c399a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 211,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/messegelaende-koeln-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2474,
+        "width": 3520,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/messegelaende-koeln-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Messegelände Köln"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/messeturm-koeln-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/messeturm-koeln-1/front_hu_675054dd6637e752.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/messeturm-koeln-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2112,
+        "width": 3281,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/messeturm-koeln-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Messeturm Köln"
+            ]}
+        }]
+  }
