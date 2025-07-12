@@ -1,0 +1,131 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/die-deutsche-zeitung/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Die deutsche Zeitung ihr Werden, Wesen und Wirken Herausgegeben vom Verein Deutscher Zeitungs-Verleger, Berlin, 1928. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/1284583115\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/die-deutsche-zeitung/front/full/full/0/default_hu_163cee2c3849ac09.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 401,
+    "width": 300
+  }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/die-deutsche-zeitung/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Die deutsche Zeitung ihr Werden, Wesen und Wirken"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Die deutsche Zeitung ihr Werden, Wesen und Wirken"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 7505,
+            "width": 5620,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-deutsche-zeitung/front/full/full/0/default_hu_163cee2c3849ac09.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 401,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7505,
+                  "width": 5620,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/messehalle/canvas/preview",
+          "type": "Canvas","label": {"none":["page001"]},"height": 7510,
+            "width": 5365,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/die-deutsche-zeitung/messehalle/page001/full/full/0/default_hu_1d78c4870f346075.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 420,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/messehalle/annotation/page001",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/messehalle/annotation/page001/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/messehalle/page001/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 7510,
+                  "width": 5365,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/messehalle/page001",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/die-deutsche-zeitung/messehalle/canvas/preview"
+            }]
+          }]
+       }]
+}
