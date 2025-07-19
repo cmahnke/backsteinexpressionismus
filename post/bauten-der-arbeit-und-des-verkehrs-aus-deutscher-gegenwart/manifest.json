@@ -1,0 +1,720 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Walter Müller-Wulckow: Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart. Karl Langewiesche, Königstein im Taunus 1925. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/869925265\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu_5294bc2ffd7da136.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 6186,
+            "width": 4467,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu_5294bc2ffd7da136.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 415,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6186,
+                  "width": 4467,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 6180,
+            "width": 4208,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/title_hu_e8d2106422e02d42.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 441,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6180,
+                  "width": 4208,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/canvas/page066",
+          "type": "Canvas","label": {"none":["page066"]},"height": 6180,
+            "width": 4273,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/page066_hu_f7e7d6fc06aa48ab.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/annotation/page066",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/annotation/page066/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/page066/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6180,
+                  "width": 4273,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/page066",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/canvas/page066"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/canvas/preview",
+          "type": "Canvas","label": {"none":["page076"]},"height": 6167,
+            "width": 4290,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/page076_hu_112fd2c3a13c84fa.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 431,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/annotation/page076",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/annotation/page076/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/page076/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6167,
+                  "width": 4290,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/page076",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/essener-boerse/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/gewerbehaus-hamburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page058"]},"height": 6160,
+            "width": 4290,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/gewerbehaus-hamburg/page058_hu_27027355bf64874d.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 431,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/gewerbehaus-hamburg/annotation/page058",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/gewerbehaus-hamburg/annotation/page058/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/gewerbehaus-hamburg/page058/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6160,
+                  "width": 4290,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/gewerbehaus-hamburg/page058",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/gewerbehaus-hamburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/handelshof-koenigsberg/canvas/preview",
+          "type": "Canvas","label": {"none":["page067"]},"height": 6182,
+            "width": 4243,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/handelshof-koenigsberg/page067_hu_2b768bef10f7b5a2.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 437,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/handelshof-koenigsberg/annotation/page067",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/handelshof-koenigsberg/annotation/page067/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/handelshof-koenigsberg/page067/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6182,
+                  "width": 4243,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/handelshof-koenigsberg/page067",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/handelshof-koenigsberg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/hansahochhaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page074"]},"height": 6171,
+            "width": 4294,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/hansahochhaus/page074_hu_e34cb2b465adf5da.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 431,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/hansahochhaus/annotation/page074",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/hansahochhaus/annotation/page074/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/hansahochhaus/page074/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6171,
+                  "width": 4294,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/hansahochhaus/page074",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/hansahochhaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/borsigturm/canvas/preview",
+          "type": "Canvas","label": {"none":["page077"]},"height": 6196,
+            "width": 4281,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/borsigturm/page077_hu_a7f8b178ac8c5cae.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/borsigturm/annotation/page077",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/borsigturm/annotation/page077/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/borsigturm/page077/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6196,
+                  "width": 4281,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/borsigturm/page077",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/borsigturm/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/stummhaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page080"]},"height": 6192,
+            "width": 4288,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/stummhaus/page080_hu_5687c9657474bb78.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 433,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/stummhaus/annotation/page080",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/stummhaus/annotation/page080/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/stummhaus/page080/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6192,
+                  "width": 4288,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/stummhaus/page080",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/stummhaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/zeche-sachsen/canvas/preview",
+          "type": "Canvas","label": {"none":["page023"]},"height": 6164,
+            "width": 4202,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/zeche-sachsen/page023_hu_5158c2314e4d4a4c.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 440,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/zeche-sachsen/annotation/page023",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/zeche-sachsen/annotation/page023/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/zeche-sachsen/page023/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6164,
+                  "width": 4202,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/zeche-sachsen/page023",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/zeche-sachsen/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page070"]},"height": 6177,
+            "width": 4290,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/page070_hu_f2ad2794054397f7.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 432,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/annotation/page070",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/annotation/page070/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/page070/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6177,
+                  "width": 4290,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/page070",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/canvas/page073",
+          "type": "Canvas","label": {"none":["page073"]},"height": 6187,
+            "width": 4267,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/page073_hu_36d07444a8e45563.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/annotation/page073",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/annotation/page073/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/page073/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6187,
+                  "width": 4267,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/page073",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/ballinhaus/canvas/page073"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/canvas/page069",
+          "type": "Canvas","label": {"none":["page069"]},"height": 6191,
+            "width": 4274,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/page069_hu_d2d4b203263311a2.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/annotation/page069",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/annotation/page069/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/page069/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6191,
+                  "width": 4274,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/page069",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/canvas/page069"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page071"]},"height": 6165,
+            "width": 4261,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/page071_hu_1687c990908e7bd0.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/annotation/page071",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/annotation/page071/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/page071/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6165,
+                  "width": 4261,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/page071",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/chilehaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/rappolthaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page056"]},"height": 6155,
+            "width": 4250,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/rappolthaus/page056_hu_cc4855625f773e1b.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/rappolthaus/annotation/page056",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/rappolthaus/annotation/page056/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/rappolthaus/page056/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6155,
+                  "width": 4250,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/rappolthaus/page056",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/rappolthaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/thaliahaus/canvas/preview",
+          "type": "Canvas","label": {"none":["page057"]},"height": 6184,
+            "width": 4253,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/thaliahaus/page057_hu_d8ead67d1245c043.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 436,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/thaliahaus/annotation/page057",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/thaliahaus/annotation/page057/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/thaliahaus/page057/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6184,
+                  "width": 4253,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/thaliahaus/page057",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/thaliahaus/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/lotsenwache-hamburg/canvas/preview",
+          "type": "Canvas","label": {"none":["page011"]},"height": 6165,
+            "width": 4164,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/lotsenwache-hamburg/page011_hu_441e0474ec2dac61.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 444,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/lotsenwache-hamburg/annotation/page011",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/lotsenwache-hamburg/annotation/page011/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/lotsenwache-hamburg/page011/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6165,
+                  "width": 4164,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/lotsenwache-hamburg/page011",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/lotsenwache-hamburg/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-der-hoechst-ag/canvas/preview",
+          "type": "Canvas","label": {"none":["page079"]},"height": 6199,
+            "width": 4273,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-der-hoechst-ag/page079_hu_7087521a2e14d47c.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-der-hoechst-ag/annotation/page079",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-der-hoechst-ag/annotation/page079/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-der-hoechst-ag/page079/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6199,
+                  "width": 4273,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-der-hoechst-ag/page079",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-der-hoechst-ag/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-gebrueder-mayer/canvas/preview",
+          "type": "Canvas","label": {"none":["page078"]},"height": 6182,
+            "width": 4290,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-gebrueder-mayer/page078_hu_ae412bf13b089a00.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 432,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-gebrueder-mayer/annotation/page078",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-gebrueder-mayer/annotation/page078/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-gebrueder-mayer/page078/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6182,
+                  "width": 4290,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-gebrueder-mayer/page078",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/verwaltungsgebaeude-gebrueder-mayer/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/canvas/page072",
+          "type": "Canvas","label": {"none":["page072"]},"height": 6154,
+            "width": 4290,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/page072_hu_419a5d704a77c0c8.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 430,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/annotation/page072",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/annotation/page072/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/page072/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6154,
+                  "width": 4290,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/page072",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/canvas/page072"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/canvas/preview",
+          "type": "Canvas","label": {"none":["page075"]},"height": 6189,
+            "width": 4273,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/page075_hu_3f22dcd0ae6c3bc6.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/annotation/page075",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/annotation/page075/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/page075/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6189,
+                  "width": 4273,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/page075",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/wilhelm-marx-haus/canvas/preview"
+            }]
+          }]
+       }]
+}
