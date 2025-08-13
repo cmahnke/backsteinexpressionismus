@@ -1,0 +1,607 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Walter Müller-Wulckow: Das Paula-Becker-Modersohn-Haus Führer und Plan. Angelsachsen-Verlag, Bremen 1930. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/61625546\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/front_hu_23a0e11072a04e25.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 432,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 4813,
+        "width": 3343,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Das Paula-Becker-Modersohn-Haus in Bremen"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Das Paula-Becker-Modersohn-Haus in Bremen"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 4813,
+            "width": 3343,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/front_hu_23a0e11072a04e25.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 432,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4813,
+                  "width": 3343,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 4650,
+            "width": 3002,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/title_hu_13b34f9def85ff4e.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 465,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4650,
+                  "width": 3002,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img001",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4669,
+            "width": 3231,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img001_hu_4bc8c03e1d3a069e.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img001",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img001/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img001/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4669,
+                  "width": 3231,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img001",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img001"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img002",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4657,
+            "width": 3232,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img002_hu_79220c57da01c4cd.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 432,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img002",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img002/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img002/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4657,
+                  "width": 3232,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img002",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img002"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img003",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4642,
+            "width": 3190,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img003_hu_563f8b82920f2241.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 437,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img003",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img003/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img003/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4642,
+                  "width": 3190,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img003",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img003"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img004",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4662,
+            "width": 3215,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img004_hu_b6c31e132f903f09.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img004",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img004/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img004/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4662,
+                  "width": 3215,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img004",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img004"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img005",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4649,
+            "width": 3215,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img005_hu_4be270b133be3d73.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img005",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img005/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img005/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4649,
+                  "width": 3215,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img005",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img005"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img006",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4664,
+            "width": 3198,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img006_hu_c1c17a359da5d287.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 438,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img006",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img006/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img006/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4664,
+                  "width": 3198,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img006",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img006"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img007",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4663,
+            "width": 3245,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img007_hu_5f7a45baf0c1ebc6.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 431,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img007",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img007/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img007/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4663,
+                  "width": 3245,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img007",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img007"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img008",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4652,
+            "width": 3218,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img008_hu_859f7f1bdd720a4b.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img008",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img008/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img008/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4652,
+                  "width": 3218,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img008",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img008"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img009",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4658,
+            "width": 3213,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img009_hu_a24108052fe30fd9.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img009",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img009/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img009/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4658,
+                  "width": 3213,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img009",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img009"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img010",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4631,
+            "width": 3197,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img010_hu_596ce49abd5bb63a.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img010",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img010/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img010/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4631,
+                  "width": 3197,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img010",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img010"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img011",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4642,
+            "width": 3194,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img011_hu_85fbe74308b7fc20.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 436,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img011",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img011/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img011/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4642,
+                  "width": 3194,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img011",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img011"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img012",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4653,
+            "width": 3222,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img012_hu_ec3ed02087112ef3.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 433,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img012",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img012/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img012/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4653,
+                  "width": 3222,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img012",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img012"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img013",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4667,
+            "width": 3234,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img013_hu_9d344a3a9b7c95d.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 433,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img013",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img013/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img013/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4667,
+                  "width": 3234,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img013",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img013"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img014",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4663,
+            "width": 3228,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img014_hu_7d43a5f6ddcd368.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 433,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img014",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img014/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img014/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4663,
+                  "width": 3228,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img014",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img014"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img015",
+          "type": "Canvas","label": {"de":["ungezählt"],"en":["uncounted"]},"height": 4661,
+            "width": 3216,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/das-paula-becker-modersohn-haus-in-bremen/img015_hu_1aa81dc1424a4910.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 435,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img015",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/annotation/img015/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img015/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 4661,
+                  "width": 3216,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/img015",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/das-paula-becker-modersohn-haus-in-bremen/canvas/img015"
+            }]
+          }]
+       }]
+}
