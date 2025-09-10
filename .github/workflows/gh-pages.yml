@@ -90,7 +90,7 @@ jobs:
           cd content
           find post -name info.json -exec dirname {} \; > files.lst
           cat files.lst | xargs chmod 775
-          sshpass -e rsync -a --info=progress2 --size-only --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH/backsteinexpressionismus/
+          sshpass -e rsync -rlptoD --info=progress2 --size-only --delete --relative $(cat files.lst) $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH/backsteinexpressionismus/
           rm -f files.lst
           cd ..
           find content/post/ -name info.json -exec dirname {} \; | xargs -I {} find {} -mindepth 1 -type d -not -path '*/full*' | xargs rm -fr
