@@ -1,0 +1,173 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Werner Rittich: Architektur und Bauplastik der Gegenwart. Rembrandt-Verlag, Berlin 1938. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/257425774\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/front_hu_aaa451d17c571850.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 383,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6314,
+        "width": 4947,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Architektur und Bauplastik der Gegenwart"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Architektur und Bauplastik der Gegenwart"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 6314,
+            "width": 4947,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/front_hu_aaa451d17c571850.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 383,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6314,
+                  "width": 4947,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 6164,
+            "width": 4802,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/title_hu_7279eac58e1063d7.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 385,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6164,
+                  "width": 4802,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/canvas/page126",
+          "type": "Canvas","label": {"none":["page126"]},"height": 6199,
+            "width": 4830,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/architektur-und-bauplastik-der-gegenwart/page126_hu_6a48a1826540adce.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 385,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/annotation/page126",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/annotation/page126/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/page126/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6199,
+                  "width": 4830,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/page126",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/architektur-und-bauplastik-der-gegenwart/canvas/page126"
+            }]
+          }]
+       }]
+}
