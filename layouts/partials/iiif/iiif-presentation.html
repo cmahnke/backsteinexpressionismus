@@ -1,0 +1,62 @@
+{{- $contextPath := path.Dir .File.Path -}}
+{{- $urlBase := printf "%s%s" .Site.BaseURL $contextPath -}}
+{{- $manifestUrl := "" -}}
+{{- $name := "front" -}}
+{{- $page := . -}}
+
+{{- $isServer := hugo.IsServer -}}
+
+{{/*
+{{- if or $isServer (not (isset .Site.Params "productioniiifurlprefix")) -}}
+*/}}
+    {{- $manifestUrl = printf "%s/%s/%s" .Site.BaseURL $contextPath (replaceRE "^\\./(.*)$" "$1" .Params.iiifManifest) -}}
+{{/*
+{{- else -}}
+    {{- $manifestUrl = printf "%s%s/%s" .Site.Params.productionIIIFURLPrefix $contextPath (replaceRE "^\\./(.*)$" "$1" .Params.iiifManifest) -}}
+{{- end -}}
+*/}}
+
+{{- $manifestUrl = replaceRE "^(https?://[^/]*/)/(.*)$" "$1$2" $manifestUrl -}}
+
+{{- $previewImg := (.Resources.ByType "image").GetMatch $name -}}
+{{- if eq $previewImg nil -}}
+    {{ warnf "%s" (index .Params.resources 0).src }}
+    {{- $previewImg = (.Resources.ByType "image").GetMatch (index .Params.resources 0).src -}}
+    {{- if ne ((.Resources.ByType "image").GetMatch (index .Params.resources 0).name) nil -}}
+      {{- $name = (.Resources.ByType "image").GetMatch (index .Params.resources 0).name -}}
+    {{- else -}}
+      {{- $name = (index .Params.resources 0).src -}}
+    {{- end -}}
+{{- end -}}
+{{- $context := path.Dir .File.Path -}}
+
+{{- $orientation := "" -}}
+{{- if eq (string $previewImg.MediaType) "image/jxl" -}}
+  {{/* {{- warnf "Page %s contains JXL image in 'iiif/iiif-image.html'" $page.File.Path -}} */}}
+  {{- if not $name -}}
+    {{- warnf "[partials/iiif/iiif-presentation.html] JXL Reference in %s, but no 'name' set, using default" $page.File.Path -}}
+  {{- end -}}
+  {{- $previewImg = partial "iiif/preview.html" (dict "context" $page "name" $name) -}}
+{{- end -}}
+{{- if eq $previewImg nil -}}
+    {{- errorf "[partials/iiif/iiif-presentation.html] Can't find image 'front' for %s" $context -}}
+{{- end -}}
+{{ if lt $previewImg.Width $previewImg.Height }}
+    {{- $orientation = "portrait" -}}
+{{- else -}}
+    {{- $orientation = "landscape" -}}
+{{- end -}}
+
+<div id="iiif-presentation" class="viewer presentation-api {{ $orientation }}"></div>
+
+<script type="text/javascript">
+  /*
+  const linkElement = document.createElement('link');
+  linkElement.rel = 'stylesheet';
+  linkElement.type = 'text/css';
+  linkElement.href = '/tify/tify.css';
+  document.head.appendChild(linkElement);
+  */
+
+  var viewer = iiifPresentationViewer('iiif-presentation', '{{ $manifestUrl }}');
+</script>

@@ -51,6 +51,10 @@ enableGitInfo = true
     source = "static"
     target = "static"
 
+  [[module.mounts]]
+    source = "node_modules/tify/dist/"
+    target = "static/tify"
+
 [mediaTypes]
   [mediaTypes."application/ld+json"]
     suffixes = ["json"]
