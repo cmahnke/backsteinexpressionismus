@@ -31,8 +31,8 @@ $color-light: $color-body-text;
 @import "iframe-consent";
 @import "brick-map";
 
-@import "tify";
-@import "iiif/tify";
+@import "iiif/presentation-tify";
+
 
 body {
     font-family: $font-body, Helvetica;
