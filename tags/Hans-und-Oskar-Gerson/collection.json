@@ -1,0 +1,109 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/reihenhaus-fassaden/front/full/full/0/default_hu_c9e501cb9b5f0533.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 402,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Reihenhaus-Fassaden Geschäfts- und Wohnhäuser aus alter und neuer Zeit"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburgs-wolkenkratzer/manifest.json",
+          "type": "Manifest","label": {
+            "de": [
+              "Postkartenserie 'Hamburgs Wolkenkratzer'"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-5/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-5/front/full/full/0/default_hu_40c65478ae472b7d.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 461,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-5/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 3278,
+        "width": 2134,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-5/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Chile-Haus und Sprinkenhof"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-3/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/chile-haus-3/front/full/full/0/default_hu_44356ac0d1d7be41.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 214,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-3/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2503,
+        "width": 3513,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/chile-haus-3/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Chile- und Ballinhaus"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/hamburg/front_hu_25e4c99012138217.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 429,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5749,
+        "width": 4017,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/hamburg/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Hamburg Weltstadt am Strom"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-arbeit-und-des-verkehrs-aus-deutscher-gegenwart/front_hu_5294bc2ffd7da136.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Bauten der Arbeit und des Verkehrs aus Deutscher Gegenwart"
+            ]}
+        }]
+  }
