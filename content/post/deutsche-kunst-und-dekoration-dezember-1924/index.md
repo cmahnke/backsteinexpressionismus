@@ -7,6 +7,7 @@ iiifManifest: ./manifest.json
 outputs:
   - iiif-manifest
   - html
+  - iiif
 iiifContext: http://iiif.io/api/presentation/2/context.json
 tags:
 - Hamburg
@@ -15,9 +16,6 @@ tags:
 - Foto
 - Buch
 - Artikel
-outputs:
-- html
-- iiif
 resources:
 - src: "page056.jxl"
   name: preview
