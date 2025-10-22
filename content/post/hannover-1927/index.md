@@ -8,6 +8,7 @@ iiifManifest: ./manifest.json
 outputs:
   - iiif-manifest
   - html
+  - iiif
 tags:
 - Hannover
 - Karl Elkart
@@ -15,9 +16,6 @@ tags:
 - Zeichnung
 - Artikel
 - Buch
-outputs:
-- html
-- iiif
 resources:
 - src: "front.jxl"
   name: front
