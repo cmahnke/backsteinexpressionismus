@@ -8,6 +8,7 @@ type: book
 outputs:
   - iiif-manifest
   - html
+  - iiif
 tags:
 - Berlin
 - Tegel
@@ -16,9 +17,6 @@ tags:
 - Foto
 - Buch
 - Artikel
-outputs:
-- html
-- iiif
 resources:
 - src: "page136.jxl"
   name: preview
