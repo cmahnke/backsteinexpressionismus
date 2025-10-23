@@ -1,0 +1,34 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/front_hu_7fc715f1ee788d5a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Führer durch Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu_86b2887fd473f248.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Bauten der Gemeinschaft aus deutscher Gegenwart"
+            ]}
+        }]
+  }
