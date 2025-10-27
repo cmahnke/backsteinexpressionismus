@@ -1,0 +1,390 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Deutsche Kunst und Dekoration 6. März 1925: Das Hochhaus der Borsigwerke in Tegel"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default_hu_35cb37615919951e.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 431,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6816,
+        "width": 4748,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Deutsche Kunst und Dekoration März 1925"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Deutsche Kunst und Dekoration März 1925"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/preview",
+          "type": "Canvas","label": {"none":[136]},"height": 6816,
+            "width": 4748,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default_hu_35cb37615919951e.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 431,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page136",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page136/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6816,
+                  "width": 4748,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page136",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/preview"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page137",
+          "type": "Canvas","label": {"none":[137]},"height": 6835,
+            "width": 4697,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page137/full/full/0/default_hu_865a52583bc98cab.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 437,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page137",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page137/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page137/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6835,
+                  "width": 4697,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page137",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page137"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page138",
+          "type": "Canvas","label": {"none":[138]},"height": 6851,
+            "width": 4744,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page138/full/full/0/default_hu_140867de23b9c6c9.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 433,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page138",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page138/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page138/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6851,
+                  "width": 4744,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page138",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page138"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page139",
+          "type": "Canvas","label": {"none":[139]},"height": 6866,
+            "width": 4742,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page139/full/full/0/default_hu_b4b49468955f4d54.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 434,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page139",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page139/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page139/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6866,
+                  "width": 4742,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page139",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page139"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page140",
+          "type": "Canvas","label": {"none":[140]},"height": 6826,
+            "width": 4773,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page140/full/full/0/default_hu_db682a66fa574cdf.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 429,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page140",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page140/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page140/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6826,
+                  "width": 4773,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page140",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page140"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page141",
+          "type": "Canvas","label": {"none":[141]},"height": 6852,
+            "width": 4764,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page141/full/full/0/default_hu_3b7a1ef92fbd8028.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 431,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page141",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page141/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page141/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6852,
+                  "width": 4764,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page141",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page141"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page142",
+          "type": "Canvas","label": {"none":[142]},"height": 6856,
+            "width": 4793,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page142/full/full/0/default_hu_97d8c56bf9e30551.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 429,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page142",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page142/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page142/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6856,
+                  "width": 4793,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page142",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page142"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page143",
+          "type": "Canvas","label": {"none":[143]},"height": 6846,
+            "width": 4746,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page143/full/full/0/default_hu_4d9a025b0f16d8d2.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 433,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page143",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page143/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page143/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6846,
+                  "width": 4746,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page143",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page143"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page144",
+          "type": "Canvas","label": {"none":[144]},"height": 6853,
+            "width": 4800,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page144/full/full/0/default_hu_62cd84a06b2cdf5.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 428,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page144",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page144/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page144/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6853,
+                  "width": 4800,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page144",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page144"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page144",
+          "type": "Canvas","label": {"none":[146]},"behavior": ["non-paged"],"height": 6854,
+            "width": 4799,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/deutsche-kunst-und-dekoration-maerz-1925/page146/full/full/0/default_hu_5860a50c4cda7c91.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 428,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page146",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/annotation/page146/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page146/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6854,
+                  "width": 4799,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/page146",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/deutsche-kunst-und-dekoration-maerz-1925/canvas/page144"
+            }]
+          }]
+       }]
+}
