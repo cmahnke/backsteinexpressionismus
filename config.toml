@@ -55,6 +55,14 @@ enableGitInfo = true
     source = "node_modules/tify/dist/"
     target = "static/tify"
 
+  [[module.mounts]]
+      source = "node_modules/@pagefind/modular-ui/css/"
+      target = "assets/scss/pagefind"
+
+  [[module.mounts]]
+      source = "node_modules/@pagefind/default-ui"
+      target = "assets/js/pagefind"
+
 [mediaTypes]
   [mediaTypes."application/ld+json"]
     suffixes = ["json"]
