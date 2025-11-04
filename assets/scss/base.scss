@@ -9,6 +9,7 @@
     font-weight: 400;
     src: url("/fonts/Neuland.woff2") format("woff2"), url("/fonts/Neuland.woff") format("woff");
 }
+
 $font-body: 'FuturaRennerRegular' !default;
 $font-heading: 'Neuland' !default;
 $brick-bg-color: #660000 !default;
@@ -19,6 +20,7 @@ $color-link-text: hsl(48, 93%, 89%) !default;
 $color-bg: #112e63 !default;
 $mortar-color: color.adjust($color-body-text, $lightness: -25%); /*darken($color-body-text, 25%); */
 $color-light: $color-body-text;
+
 @import "icons";
 /* @import "ol"; */
 @import "ol-iiif";

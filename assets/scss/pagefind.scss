@@ -11,11 +11,11 @@ $search-border-color-active: #ff073a !default;
   --pagefind-ui-primary: #034ad8;
   --pagefind-ui-text: #393939;
   --pagefind-ui-background: #ffffff;
-  --pagefind-ui-border: #000;
+  --pagefind-ui-border: $frame-bg-color;
   --pagefind-ui-tag: #000;
   --pagefind-ui-border-width: 2px;
-  --pagefind-ui-border-radius: 0;
-  --pagefind-ui-image-border-radius: 0;
+  --pagefind-ui-border-radius: .5em;
+  --pagefind-ui-image-border-radius: .5em;
   --pagefind-ui-image-box-ratio: 3 / 2;
   --pagefind-ui-font: sans-serif;
 }
@@ -35,7 +35,7 @@ $search-border-color-active: #ff073a !default;
   }
 }
 
-body.section-search {
+.post.search {
 
   .page-wrapper {
     display: flex;
@@ -44,6 +44,10 @@ body.section-search {
     .main {
       flex-grow: 1;
     }
+  }
+
+  .post-title {
+    font-family: $font-heading;
   }
 
   .content {
@@ -62,13 +66,15 @@ body.section-search {
         }
 
         .search-input {
-          border: 2px dashed black;
+          border: 2px solid $frame-bg-color;
           border-right-width: 0;
           line-height: unset;
           width: 50%;
           /* font-size: 1rem; */
           font-size: inherit;
           transition: all 250ms;
+          border-bottom-left-radius: var(--pagefind-ui-border-radius);
+          border-top-left-radius: var(--pagefind-ui-border-radius);
 
           @media (max-width: 35em) {
             width: 60%;
@@ -81,20 +87,23 @@ body.section-search {
           }
 
           &:focus {
-            border: 4px dashed black;
+            border: 4px solid $frame-bg-color;
           }
         }
 
         .search-button {
-          border: 2px dashed black;
+          border: 2px solid $frame-bg-color;
           display: inline-flex;
           align-items: center;
           line-height: unset;
           height: 2em;
           padding: 0 .8em;
           color: inherit;
-          background-color: #d3d3d3;
+          background-color: $frame-bg-color;
           font-size: inherit;
+          /* border-radius: unset; */
+          border-bottom-right-radius: var(--pagefind-ui-border-radius);
+          border-top-right-radius: var(--pagefind-ui-border-radius);
 
           @media (max-width: 35em) {
             padding: 0 .4em;
@@ -105,7 +114,7 @@ body.section-search {
             margin-right: .6rem;
 
             &:after {
-              content: url($search-dark);
+              content: url($search-light);
               transition: all 300ms;
               width: 1em;
               height: 1em;
@@ -120,6 +129,7 @@ body.section-search {
         flex-direction: row-reverse;
         gap: 1rem;
         min-width: 80%;
+        min-height: 6em;
 
         @media (max-width : 35em) {
           flex-direction: column;
@@ -145,7 +155,7 @@ body.section-search {
             justify-content: flex-end;
             padding: .8rem;
             margin-top: 1.6rem;
-            border: var(--pagefind-ui-border-width) dashed var(--pagefind-ui-border);
+            border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
 
             &:not(:has(.pagefind-modular-filter-pill)) {
               display: none;
@@ -169,7 +179,7 @@ body.section-search {
               .pagefind-modular-filter-pill {
                 padding: .8rem;
                 height: 2.4rem;
-                border-radius: 0;
+                border-radius: .5em;
                 line-height: unset;
                 color: #000;
 

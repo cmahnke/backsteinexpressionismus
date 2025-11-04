@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "vis-timeline": "8.3.1"
+  },
   "scripts": {
     "svgo": "npm run svgo-background && npm run svgo-header && npm run svgo-icons",
     "svgo-background": "node_modules/.bin/svgo -i Source\\ Files/Background/Stars.svg -o static/images/stars.svg",
