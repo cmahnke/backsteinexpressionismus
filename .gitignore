@@ -40,3 +40,4 @@ static/pdfjs/**
 data/stats.json
 content/post/**/README.md
 pagefind
+assets/scss/flags
