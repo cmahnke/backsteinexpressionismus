@@ -664,6 +664,10 @@ h6 {
 .tagcloud {
     margin: 0.6em;
     padding-left: 0.6em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
     a,
     a:active,
