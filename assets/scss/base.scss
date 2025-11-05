@@ -237,7 +237,7 @@ h6 {
         font-size: larger;
         @media (max-width : 56.25em) {
             position: absolute;
-            top: 8em;
+            top: 9.4em;
             right: 0;
             left: 0;
             z-index: 10;
@@ -668,6 +668,8 @@ h6 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgba(0 0 0 / .1);
+    border-radius: .5em;
 
     a,
     a:active,
@@ -878,7 +880,7 @@ a:visited {
     text-align: center;
 }
 @media (min-width : 56.25em) {
-    .navto-links {
+    .navto-search {
         margin-right: 1em;
     }
 

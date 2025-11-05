@@ -34,9 +34,14 @@ enableGitInfo = true
     weight = 2
 
   [[menu.main]]
+    name = "Suche"
+    url = "/search"
+    weight = 3
+
+  [[menu.main]]
     name = "Über"
     url = "/about"
-    weight = 3
+    weight = 4
 
 [module]
   [[module.mounts]]

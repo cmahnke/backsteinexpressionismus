@@ -1,4 +1,5 @@
 @use "pagefind/ui" as *;
+@use "sass:color";
 
 $search-light: '' !default;
 $search-dark: '' !default;
@@ -9,7 +10,7 @@ $search-border-color-active: #ff073a !default;
 :root {
   --pagefind-ui-scale: 1;
   --pagefind-ui-primary: #034ad8;
-  --pagefind-ui-text: #393939;
+  --pagefind-ui-text: $color-body-text;
   --pagefind-ui-background: #ffffff;
   --pagefind-ui-border: $frame-bg-color;
   --pagefind-ui-tag: #000;
@@ -17,7 +18,7 @@ $search-border-color-active: #ff073a !default;
   --pagefind-ui-border-radius: .5em;
   --pagefind-ui-image-border-radius: .5em;
   --pagefind-ui-image-box-ratio: 3 / 2;
-  --pagefind-ui-font: sans-serif;
+  --pagefind-ui-font: $font-body:;
 }
 
 .search-icon:after {
@@ -27,15 +28,26 @@ $search-border-color-active: #ff073a !default;
     vertical-align: middle;
 }
 
-.post.search {
-  margin-top: 4rem;
-
+.container:has(.post.search) {
   @media (max-width: 35em) {
-    margin-top: 1rem;
+    padding: .6em;
   }
 }
 
 .post.search {
+  margin-top: 4rem;
+
+  @media (max-width: 35em) {
+    margin-top: .4rem;
+  }
+}
+
+.post.search {
+
+  mark {
+    background-color: hsl(from $color-body-text h s l / 20%);
+    color: color.adjust($color-body-text, $saturation: +20%, $hue: +20%, $lightness: -20%);
+  }
 
   .page-wrapper {
     display: flex;
@@ -62,7 +74,7 @@ $search-border-color-active: #ff073a !default;
         justify-content: center;
 
         @media (max-width: 35em) {
-          margin-top: 4.2rem;
+          margin-top: 1.2rem;
         }
 
         .search-input {
@@ -181,7 +193,8 @@ $search-border-color-active: #ff073a !default;
                 height: 2.4rem;
                 border-radius: .5em;
                 line-height: unset;
-                color: #000;
+                color: inherit;
+                background-color: $frame-bg-color;
 
                 &:has(span[data-filter-count="0"]) {
                   opacity: 0;
@@ -209,6 +222,9 @@ $search-border-color-active: #ff073a !default;
             }
 
             .pagefind-modular-list-title {
+              font-size: larger;
+              color: inherit;
+
               .pagefind-modular-list-link {
                 &:before,
                 &:after {
