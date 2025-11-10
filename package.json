@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "vis-timeline": "8.3.1"
+    "vis-timeline": "8.4.0"
   },
   "scripts": {
     "svgo": "npm run svgo-background && npm run svgo-header && npm run svgo-icons",
