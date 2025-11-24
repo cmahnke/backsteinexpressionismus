@@ -8,7 +8,6 @@ displayinlist: false
 archive: false
 news: false
 sectionContent: false
-draft: true
 cascade:
   - _target:
       kind: '{page,section}'
