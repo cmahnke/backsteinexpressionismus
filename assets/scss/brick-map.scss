@@ -44,7 +44,14 @@
         }
 
         .ol-attribution {
-          font-family: $font-body;    
+          font-family: $font-body;
+          li {
+            color: var(--ol-foreground-color)
+
+            a:hover {
+              color: unset;
+            }
+          }
         }
       }
     }
