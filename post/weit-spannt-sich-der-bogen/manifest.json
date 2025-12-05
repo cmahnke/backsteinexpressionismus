@@ -1,0 +1,173 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Gert von Klaß: eit spannt sich der Bogen. Verlag für Wirtschaftspublizistik Bartels, Wiesbaden 1965. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/989546496\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/front_hu_2d2ac2cec7e9a2fa.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 365,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6683,
+        "width": 5491,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Weit spannt sich der Bogen - Die Geschichte der Bauunternemung Dyckeroff \u0026 Widmann 1865-1965"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Weit spannt sich der Bogen - Die Geschichte der Bauunternemung Dyckeroff \u0026 Widmann 1865-1965"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 6683,
+            "width": 5491,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/front_hu_2d2ac2cec7e9a2fa.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 365,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6683,
+                  "width": 5491,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 6581,
+            "width": 5375,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/title_hu_87d3f81456f65f7c.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 367,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6581,
+                  "width": 5375,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/canvas/title",
+          "type": "Canvas","label": {"none":["page111"]},"height": 6583,
+            "width": 5349,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/weit-spannt-sich-der-bogen/page111_hu_7cfe2bdc787e26af.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 369,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/annotation/page111",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/annotation/page111/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/page111/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6583,
+                  "width": 5349,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/page111",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/weit-spannt-sich-der-bogen/canvas/title"
+            }]
+          }]
+       }]
+}
