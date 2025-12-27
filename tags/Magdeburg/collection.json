@@ -1,0 +1,92 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-2/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-2/front/full/full/0/default_hu_6aa8402edad9391c.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 218,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-2/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2490,
+        "width": 3433,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Pferdetor Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuehrer-durch-magdeburg/front_hu_3dc474bad3abc7c2.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 426,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Führer durch Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/magdeburg/front_hu_667e93d25a63f181.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 211,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Magdeburg"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bauten-der-gemeinschaft-aus-deutscher-gegenwart/front_hu_a5976e4c89d0d9a8.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 415,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Bauten der Gemeinschaft aus deutscher Gegenwart"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-1/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/stadthalle-magdeburg-1/front_hu_1f0236536d731e8a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 192,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-1/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2117,
+        "width": 3307,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/stadthalle-magdeburg-1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Stadhalle Magdeburg"
+            ]}
+        }]
+  }
