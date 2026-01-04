@@ -1,0 +1,45 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://backsteinexpressionismus.projektemacher.org/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Backsteinexpressionismus"
+        ]},
+    "items": [{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/heimatbuch-75-jahre-oberhausen/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/heimatbuch-75-jahre-oberhausen/front/full/full/0/default_hu_f188e6adc5c4b842.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 446,
+    "width": 300
+  }],"label": {
+            "de": [
+              "Heimatbuch 75 Jahre Oberhausen"
+            ]}
+        },{
+          "id": "https://backsteinexpressionismus.projektemacher.org/post/rathaus-oberhausen/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/rathaus-oberhausen/front/full/full/0/default_hu_3815b580a83dd8dc.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/rathaus-oberhausen/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2136,
+        "width": 3312,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/rathaus-oberhausen/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Postkarte Rathaus Oberhausen"
+            ]}
+        }]
+  }

@@ -1,0 +1,204 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Alfred Lörner: Bremen im Welthandel. Verlag Fr. Leuwer, Bremen 1927. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/72176538\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/front_hu_fd8fb7e50c02108a.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 443,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5245,
+        "width": 3552,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Bremen im Welthandel"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Bremen im Welthandel"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 5245,
+            "width": 3552,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/front_hu_fd8fb7e50c02108a.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 443,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5245,
+                  "width": 3552,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 5129,
+            "width": 3272,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/title_hu_a6563bfd7ca62233.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 470,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5129,
+                  "width": 3272,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/title",
+          "type": "Canvas","label": {"none":["page018"]},"height": 5128,
+            "width": 3386,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/page018_hu_7ad23e6652798586.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 454,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/page018",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/page018/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/page018/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5128,
+                  "width": 3386,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/page018",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/title",
+          "type": "Canvas","label": {"none":["page019"]},"height": 5142,
+            "width": 3432,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/bremen-im-welthandel/page019_hu_d89d4f3741bd2720.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 449,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/page019",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/annotation/page019/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/page019/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5142,
+                  "width": 3432,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/page019",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/bremen-im-welthandel/canvas/title"
+            }]
+          }]
+       }]
+}

@@ -1,0 +1,173 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Hans Albert Förster: Leipzig Geschichte und Ausblick. Sachsenverlag, Dresdens 1952. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/1082053543\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/front_hu_5f7b239af0a0fbcb.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 378,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 5848,
+        "width": 4647,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Leipzig Geschichte und Ausblick"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Leipzig Geschichte und Ausblick"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 5848,
+            "width": 4647,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/front_hu_5f7b239af0a0fbcb.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 378,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5848,
+                  "width": 4647,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 5691,
+            "width": 4513,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/title_hu_ab1a6e5d96a2fca3.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 378,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5691,
+                  "width": 4513,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/canvas/page021",
+          "type": "Canvas","label": {"none":["page021"]},"height": 5684,
+            "width": 4530,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/page021_hu_2d6a2e09c68f557f.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 376,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/annotation/page021",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/annotation/page021/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/page021/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 5684,
+                  "width": 4530,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/page021",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/leipzig-geschichte-und-ausblick/canvas/page021"
+            }]
+          }]
+       }]
+}

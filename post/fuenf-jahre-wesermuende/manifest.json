@@ -1,0 +1,173 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/manifest.json",
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Dr. Walter Delius: Fünf Jahre Wesermünde. Wesermünde 1929. \u003ca class=\"worldcat\" href=\"http://www.worldcat.org/oclc/257313922\"\u003e\u0026nbsp;\u003c/a\u003e"
+    ]}
+,"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/front_hu_d92516b9b0af076e.jpg",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 403,
+    "width": 300
+  },{
+        "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 6643,
+        "width": 4942,
+        "service": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/manifest.json",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Backsteinexpressionismus: Warum Backsteinexpressionismus?"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Warum Backsteinexpressionismus?"
+    ]}
+,"items": [{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 6643,
+            "width": 4942,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/front_hu_d92516b9b0af076e.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 403,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6643,
+                  "width": 4942,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/canvas/front"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/canvas/title",
+          "type": "Canvas","label": {"de":["Titelseite"],"en":["Title"]},"height": 6451,
+            "width": 4597,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/title_hu_409ff47c5f0aaf1a.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 421,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/annotation/title",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/annotation/title/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/title/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6451,
+                  "width": 4597,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/title",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/canvas/title"
+            }]
+          }]
+       },{
+          "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/canvas/page",
+          "type": "Canvas","label": {"none":["page080a"]},"height": 6463,
+            "width": 4407,
+            "thumbnail": [{
+                "id": "https://backsteinexpressionismus.projektemacher.org/post/fuenf-jahre-wesermuende/page080a_hu_e45b4d3b8eb6b37.jpg",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 440,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/annotation/page080a",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/annotation/page080a/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/page080a/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 6463,
+                  "width": 4407,
+                  "service": [{
+                    "id":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/page080a",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://static.projektemacher.org/backsteinexpressionismus/post/fuenf-jahre-wesermuende/canvas/page"
+            }]
+          }]
+       }]
+}
