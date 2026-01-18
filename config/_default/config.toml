@@ -5,7 +5,7 @@
   description = "Alte Abbildungen von Backsteinexpressionismus-Gebäuden aus Büchen und von Postkarten."
   keywords = "Backsteinexpressionismus, Architektur, Bücher, Postkarten, Brickexpressionism, Architecture, Books, Postcards"
   stylesheets = []
-  copyrightYears = "MMXXI - MMXXV"
+  copyrightYears = "MMXXI - MMXXVI"
   cc = false
   productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
   disableScale = true
