@@ -26,3 +26,8 @@
     [params.preview.svg]
       template = "./Source Files/Other/preview-template.svg"
       removeMissing = true
+
+[params.author]
+    email = 'mail@christianmahnke.de'
+    name = 'Christian Mahnke'
+    uri = 'http://www.wikidata.org/entity/Q137668638'
