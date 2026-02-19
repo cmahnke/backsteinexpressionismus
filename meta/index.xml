@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Backsteinexpressionismus</title>
+    <link>https://backsteinexpressionismus.projektemacher.org/meta/</link>
+    <description>Recent content in Meta on Backsteinexpressionismus</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+    <copyright>&lt;a href=&#34;https://projektemacher.org/&#34; target=&#34;_blank&#34;&gt;Projektemacher&lt;/a&gt;</copyright>
+    <atom:link href="https://backsteinexpressionismus.projektemacher.org/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/meta/_index.en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/meta/_index.en/</guid>
+      <description>&lt;p&gt;This page provides some statistical analyses and data about the posts as JSON files&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./tags/index.json&#34;&gt;Tags&lt;/a&gt; of the blog&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./wikidata/index.json&#34;&gt;Wikidata URIs&lt;/a&gt; for posts in the blog&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/meta/tags/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/meta/tags/index.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wikidata</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/meta/wikidata/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/meta/wikidata/index.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
