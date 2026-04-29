@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Europa-Haus on Backsteinexpressionismus</title>
+    <link>https://backsteinexpressionismus.projektemacher.org/tags/Europa-Haus/</link>
+    <description>Recent content in Europa-Haus on Backsteinexpressionismus</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+    <copyright>&lt;a href=&#34;https://projektemacher.org/&#34; target=&#34;_blank&#34;&gt;Projektemacher&lt;/a&gt;</copyright>
+    <atom:link href="https://backsteinexpressionismus.projektemacher.org/tags/Europa-Haus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leipzig Geschichte und Ausblick</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/manifest.json</link>
+      <pubDate>Sat, 19 Jun 2021 18:23:07 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/post/leipzig-geschichte-und-ausblick/manifest.json</guid>
+      <description>&lt;p&gt;Eine weiter Ansicht des &#xA;        &#xA;          &#xA;        &lt;a data-wikidata-entity=&#34;Q1375330&#34; href=&#34;https://de.wikipedia.org/wiki/Europahaus_%28Leipzig%29&#34; target=&#34;_blank&#34;&gt;Europa-Haus&lt;/a&gt;, nun allerdings Karl-Marx-Haus gennant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Europa-Haus Leipzig</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/post/europa-haus-leipzig/manifest.json</link>
+      <pubDate>Sat, 05 Jun 2021 18:23:07 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/post/europa-haus-leipzig/manifest.json</guid>
+      <description>&lt;p&gt;Eine Ansicht des &#xA;        &#xA;          &#xA;        &lt;a data-wikidata-entity=&#34;Q1375330&#34; href=&#34;https://de.wikipedia.org/wiki/Europahaus_%28Leipzig%29&#34; target=&#34;_blank&#34;&gt;Europa-Haus&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
