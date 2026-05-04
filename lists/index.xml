@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Übersichten on Backsteinexpressionismus</title>
+    <link>https://backsteinexpressionismus.projektemacher.org/lists/</link>
+    <description>Recent content in Übersichten on Backsteinexpressionismus</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+    <copyright>&lt;a href=&#34;https://projektemacher.org/&#34; target=&#34;_blank&#34;&gt;Projektemacher&lt;/a&gt;</copyright>
+    <atom:link href="https://backsteinexpressionismus.projektemacher.org/lists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gebäude</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/lists/buildings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/lists/buildings/</guid>
+      <description>&lt;p&gt;Die folgenden Gebäude sind auf dieser Seite zu finden.&#xA;Die Liste ist nicht notwendigerweise vollständig, ebenso kann es passieren, dass es zu einem Eintrag noch keine Beiträge gibt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karte</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/lists/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/lists/map/</guid>
+      <description>&lt;div class=&#34;iframe-wrapper&#34; id=&#34;_iframe-ff3e9b2cf42bba5ff3bf76430edd74cb&#34;&gt;&#xA;  &lt;div class=&#34;iframe&#34;&gt;&#xA;    &lt;div class=&#34;opt-in&#34;&gt;&#xA;      &lt;div class=&#34;opt-in-overlay&#34;&gt;&lt;div class=&#34;opt-in-overlay-content&#34;&gt;&#xA;          &lt;h3 class=&#34;opt-in-header&#34;&gt;Externer Inhalt&lt;/h3&gt;&#xA;          &lt;p class=&#34;opt-in-text&#34;&gt;An dieser Stelle wird ein externer Inhalt eingebunden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden.&lt;/p&gt;&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;iframe-content&#34; id=&#34;_iframe-ff3e9b2cf42bba5ff3bf76430edd74cb-content&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;switch-wrapper&#34;&gt;&#xA;      &lt;label class=&#34;opt-in-switch&#34;&gt;&#xA;        &lt;input type=&#34;checkbox&#34;&gt;&#xA;        &lt;span class=&#34;opt-in-slider&#34;&gt;&lt;/span&gt;&#xA;      &lt;/label&gt;&#xA;      &lt;span class=&#34;opt-in-confirm&#34;&gt;Externe Inhalte zulassen&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;script&gt;&#xA;    document.addEventListener(&#34;DOMContentLoaded&#34;, function() {&#xA;      var expire = 30 * 24 * 60 * 60;&#xA;      var overlay = document.querySelector(&#39;#_iframe-ff3e9b2cf42bba5ff3bf76430edd74cb&#39;).querySelector(&#39;.opt-in&#39;);&#xA;      var toggle = document.querySelector(&#39;#_iframe-ff3e9b2cf42bba5ff3bf76430edd74cb&#39;).querySelector(&#39;.opt-in-switch input&#39;);&#xA;      addConsent(toggle, overlay, &#39;ff3e9b2cf42bba5ff3bf76430edd74cb&#39;, &#39;\n    \u003cdiv class=\u0022map-wrapper\u0022\u003e\n      \u003cdiv class=\u0022map\u0022 id=\u002260c664f00cb436b977f46d4a14780d21\u0022\u003e\u003c\/div\u003e\n      \u003cdiv id=\u002260c664f00cb436b977f46d4a14780d21-popup\u0022 class=\u0022ol-popup\u0022\u003e\n        \u003ca href=\u0022#\u0022 id=\u002260c664f00cb436b977f46d4a14780d21-popup-closer\u0022 class=\u0022ol-popup-closer\u0022\u003e\u003c\/a\u003e\n        \u003cdiv id=\u002260c664f00cb436b977f46d4a14780d21-popup-content\u0022\u003e\u003c\/div\u003e\n      \u003c\/div\u003e\n    \u003c\/div\u003e\n    \u003cscript type=\u0022text\/javascript\u0022\u003e\n      var _60c664f00cb436b977f46d4a14780d21 = window.initMap(\u002760c664f00cb436b977f46d4a14780d21\u0027, \u0027\\\/lists\\\/buildings\\\/map.geojson\u0027, \u0027osm\u0027, true );\n      _60c664f00cb436b977f46d4a14780d21.updateSize();\n    \u003c\/script\u003e\n\n&#39;);&#xA;    });&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Architekten</title>
+      <link>https://backsteinexpressionismus.projektemacher.org/lists/architects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://backsteinexpressionismus.projektemacher.org/lists/architects/</guid>
+      <description>&lt;p&gt;Gebäude der folgenden Architekten sind auf dieser Seite zu finden.&#xA;Die Liste ist nicht notwendigerweise vollständig, ebenso kann es passieren, dass es zu einem Eintrag noch keine Beiträge gibt.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
