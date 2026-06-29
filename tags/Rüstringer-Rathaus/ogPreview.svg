@@ -1,0 +1,45 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630" version="1.1" id="svg8" ns1:version="1.0.2 (e86c8708, 2021-01-15)">
+    <ns0:defs id="defs2">
+        <ns0:rect id="textbox" x="0" y="525" width="1200" height="100" />
+        <ns0:pattern id="bg-pattern" patternUnits="userSpaceOnUse" width="100" height="100">
+            <ns0:image href="../../static/images/raben.jpg" x="0" y="0" width="100" height="100" />
+        </ns0:pattern>
+        <ns0:style id="style1570">
+            @font-face {
+              font-family: 'FuturaRenner';
+              font-style: normal;
+              font-weight: 400;
+              src: local('FuturaRenner'),
+                   url('../../../themes/projektemacher-base/static/fonts/FuturaRenner-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+                   url('../../../themes/projektemacher-base/static/fonts/FuturaRenner-Regular.woff') format('woff'), /* Modern Browsers */
+                   url('../../../themes/projektemacher-base/static/fonts/FuturaRenner-Regular.ttf') format('truetype');
+            }
+        </ns0:style>
+        <ns0:filter style="color-interpolation-filters:sRGB;" ns1:label="Drop Shadow" id="filter4459" y="-0.20" x="-0.20" height="1.4" width="1.4">
+          <ns0:feFlood flood-opacity="0.74902" flood-color="rgb(253,243,201)" result="flood" id="feFlood4449" />
+          <ns0:feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1" id="feComposite4451" />
+          <ns0:feGaussianBlur in="composite1" stdDeviation="10" result="blur" id="feGaussianBlur4453" />
+          <ns0:feOffset dx="0" dy="0" result="offset" id="feOffset4455" />
+          <ns0:feComposite in="SourceGraphic" in2="offset" operator="over" result="composite2" id="feComposite4457" />
+        </ns0:filter>
+    <ns0:filter style="color-interpolation-filters:sRGB;" id="header-filter" y="-0.20" x="-0.20" height="1.4" width="1.4">
+      <ns0:feFlood flood-opacity="0.94999999999999996" flood-color="rgb(253,243,201)" result="flood" id="feFlood407" />
+      <ns0:feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1" id="feComposite409" />
+      <ns0:feGaussianBlur in="composite1" stdDeviation="10" result="blur" id="feGaussianBlur411" />
+      <ns0:feOffset dx="0" dy="0" result="offset" id="feOffset413" />
+      <ns0:feComposite in="SourceGraphic" in2="offset" operator="over" result="fbSourceGraphic" id="feComposite415" />
+      <ns0:feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0" id="feColorMatrix465" />
+      <ns0:feFlood id="feFlood467" flood-opacity="1" flood-color="rgb(0,0,0)" result="flood" in="fbSourceGraphic" />
+      <ns0:feComposite in2="fbSourceGraphic" id="feComposite469" in="flood" operator="in" result="composite1" />
+      <ns0:feGaussianBlur id="feGaussianBlur471" in="composite1" stdDeviation="1" result="blur" />
+      <ns0:feOffset id="feOffset473" dx="1" dy="0" result="offset" />
+      <ns0:feComposite in2="offset" id="feComposite475" in="fbSourceGraphic" operator="over" result="composite2" />
+    </ns0:filter>
+    </ns0:defs>
+
+    
+    <ns0:image id="site-logo" style="filter:url(#header-filter)" ns2:href="../../../Source Files/Logo/Header.svg" preserveAspectRatio="xMidYMid meet" width="1104" height="94" x="48" y="50" />
+    <ns0:image id="logo" style="filter:url(#filter4459)" ns2:href="../../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="xMidYMid meet" width="97.24" height="100" x="1100" y="630" />
+    
+    <ns0:text id="text-container" xml:space="preserve" style="filter:url(#filter4459);shape-inside:url(#textbox);font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:'FuturaRenner';text-align:center;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;text-align:center;">R&#252;stringer Rathaus</ns0:text>
+</ns0:svg>
