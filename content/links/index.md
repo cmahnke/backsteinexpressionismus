@@ -40,3 +40,9 @@ displayinlist: false
 * [Berlin](https://blog.inberlin.de/2013/11/berlin-und-der-backstein-expressionismus/)
 * [Gelsenkirchen](https://www.gelsenkirchen.de/de/freizeit/ausfluege_und_sehenswuerdigkeiten/architektur/backsteinexpressionismus/index.aspx)
 * [Hannover](https://de.wikipedia.org/wiki/Backsteinexpressionismus_in_Hannover)
+
+# Einzelne Gebäude
+
+* [Denkmalatlas Niedersachsen: Wohnhäuser Landwehrstraße 40-48](https://denkmalatlas.niedersachsen.de/viewer/metadata/d6989400-b60f-4e48-81c8-cfbb5cf877c2/1/-/)
+* [Denkmalatlas Niedersachsen: Schulgebäude](https://denkmalatlas.niedersachsen.de/viewer/metadata/76f74f4a-bbe4-4e67-8181-151fc29e44c6/1/-/)
+* [Denkmalatlas Niedersachsen: Turnhalle](https://denkmalatlas.niedersachsen.de/viewer/metadata/7b302892-3752-4ec1-9372-11fc8b85a89b/1/-/)
