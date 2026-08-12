@@ -21,6 +21,9 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      exclude:
+        - projektemacher-base
 
   - package-ecosystem: "npm"
     directory: "/Source Files/Mocks/"
