@@ -96,12 +96,6 @@ jobs:
           find content/post/ -name info.json -exec dirname {} \; | xargs -I {} find {} -mindepth 1 -type d -not -path '*/full*' | xargs rm -fr
           #find content/post/ -name info.json -exec dirname {} \; | xargs rm -r
 
-      # - name: Setup Hugo
-      #   uses: peaceiris/actions-hugo@v3.0.0
-      #   with:
-      #     hugo-version: ${{ env.HUGO_VERSION }}
-      #     extended: true
-
       - name: Install Hugo
         run: |
           ./themes/projektemacher-base/scripts/github/setup-hugo.sh ${{ env.HUGO_VERSION }}
@@ -121,7 +115,7 @@ jobs:
 
       - name: Generate stats
         run: |
-          ./themes/projektemacher-base/scripts/stat.sh
+          ./themes/projektemacher-base/scripts/stat.py
 
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
