@@ -1,9 +1,8 @@
 baseURL = "https://backsteinexpressionismus.projektemacher.org/"
-languageCode = "de"
 title = "Backsteinexpressionismus"
 publishDir = "docs"
 canonifyurls = true
-languagecode = "de"
+locale = "de"
 defaultcontentlanguage = "de"
 rssLimit = 25
 #Paginate = 20
