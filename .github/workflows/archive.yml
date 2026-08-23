@@ -45,4 +45,4 @@ jobs:
         env:
           INTERNET_ARCHIVE_ACCESS_KEY: ${{ secrets.INTERNET_ARCHIVE_ACCESS_KEY }}
           INTERNET_ARCHIVE_SECRET_KEY: ${{ secrets.INTERNET_ARCHIVE_SECRET_KEY }}
-        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e projektemacher.org
+        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e projektemacher.org -a 30
