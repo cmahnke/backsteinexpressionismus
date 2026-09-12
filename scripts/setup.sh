@@ -2,6 +2,10 @@
 
 set -e
 
+if [ -z "$DEPENDENCY_MANAGER" ] ; then
+  export DEPENDENCY_MANAGER=npm
+fi
+
 echo "Pass a single argument 'local' to set up IIIF URLs to http://localhost:1313/"
 
 if [ "$1" == "local" ] ; then
