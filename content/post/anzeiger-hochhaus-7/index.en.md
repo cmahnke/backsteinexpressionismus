@@ -1,0 +1,22 @@
+---
+title: "Anzeiger Hochhaus Hanover"
+date: 2020-11-14T18:29:07+02:00
+type: postcard
+outputs:
+  - iiif-manifest
+  - html
+tags:
+- Hannover
+- Anzeiger Hochhaus
+- Fritz Höger
+- Foto
+- Postkarte
+resources:
+- src: "front.jpg"
+  name: front
+  params:
+    iiif: front/info.json
+---
+
+Another postcard of the [Anzeiger Hochhaus in Hanover](https://en.wikipedia.org/wiki/Anzeiger-Hochhaus).
+<!--more-->

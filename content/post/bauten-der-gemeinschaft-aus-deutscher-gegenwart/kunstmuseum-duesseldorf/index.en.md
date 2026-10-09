@@ -1,0 +1,17 @@
+---
+title: "Kunstmuseum Düsseldorf"
+date: 2021-05-01T18:25:07+02:00
+tags:
+- Düsseldorf
+- Kunstmuseum Düsseldorf
+- Wilhelm Kreis
+- Foto
+resources:
+- src: "page073.jpg"
+  name: preview
+  params:
+    iiif: page073/info.json
+    rotate: 90
+---
+
+Page 73: [Kunstmuseum, Rheinfront, Düsseldorf](/tags/Kunstmuseum-Düsseldorf) by [Wilhelm Kreis](/tags/Wilhelm-Kreis).

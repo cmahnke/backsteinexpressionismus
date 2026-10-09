@@ -1,0 +1,21 @@
+---
+title: Die Glocke
+date: 2023-11-26T20:13:07+02:00
+type: postcard
+outputs:
+  - iiif-manifest
+  - html
+tags:
+- Bremen
+- Die Glocke
+- Walter Göring
+- Foto
+- Postkarte
+resources:
+- src: "front.jxl"
+  name: front
+  params:
+    iiif: front/info.json
+---
+
+A view of [Die Glocke](https://de.wikipedia.org/wiki/Die_Glocke_(Bremen)) (German) in Bremen.

@@ -1,0 +1,25 @@
+---
+title: "Search"
+layout: search
+js:
+  - js/search.js
+metaPage: true
+displayinlist: false
+archive: false
+news: false
+sectionContent: false
+sitemap:
+  disable: true
+cascade:
+  - target:
+      kind: '{page,section}'
+      sites:
+        matrix:
+          languages: [de]
+      path: '**'
+    params:
+      archive: false
+      news: false
+      sitemap:
+        disable: true
+---

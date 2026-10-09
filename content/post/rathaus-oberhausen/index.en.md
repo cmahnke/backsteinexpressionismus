@@ -1,0 +1,21 @@
+---
+title: "Postcard Oberhausen Town Hall"
+date: 2023-12-17T18:18:07+02:00
+type: postcard
+outputs:
+  - iiif-manifest
+  - html
+tags:
+- Oberhausen
+- Rathaus Oberhausen
+- Ludwig Freitag
+- Foto
+- Postkarte
+resources:
+- src: "front.jxl"
+  name: front
+  params:
+    iiif: front/info.json
+---
+
+A postcard of the [town hall in Oberhausen](https://de.wikipedia.org/wiki/Rathaus_Oberhausen) (German).

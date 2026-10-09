@@ -1,0 +1,17 @@
+---
+title: "Lyzeum Curschmannstrasse"
+date: 2021-05-01T18:25:07+02:00
+tags:
+- Hamburg
+- Lyzeum Curschmannstrasse
+- Hermann Höger
+- Foto
+resources:
+- src: "page080.jpg"
+  name: preview
+  params:
+    iiif: page080/info.json
+    rotate: 90
+---
+
+Page 80: [Lyzeum Curschmannstrasse](/tags/Lyzeum-Curschmannstrasse) by [Hermann Höger](/tags/Hermann-Höger).
