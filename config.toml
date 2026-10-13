@@ -55,27 +55,27 @@ enableGitInfo = true
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "Home"
-        url = "/en/"
+        url = "/"
         weight = 1
 
       [[languages.en.menu.main]]
         name = "Overviews"
-        url = "/en/lists"
+        url = "lists"
         weight = 1
 
       [[languages.en.menu.main]]
         name = "Links"
-        url = "/en/links"
+        url = "links"
         weight = 2
 
       [[languages.en.menu.main]]
         name = "Search"
-        url = "/en/search"
+        url = "search"
         weight = 3
 
       [[languages.en.menu.main]]
         name = "About"
-        url = "/en/about"
+        url = "about"
         weight = 4
 
 [module]
