@@ -16,31 +16,67 @@ enableGitInfo = true
 [pagination]
   pagerSize = 20
 
-[menu]
-  [[menu.main]]
-    name = "Start"
-    url = "/"
-    weight = 1
+[languages]
+  [languages.de]
+    label = "Deutsch"
 
-  [[menu.main]]
-    name = "Übersichten"
-    url = "/lists"
-    weight = 1
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        name = "Start"
+        url = "/"
+        weight = 1
 
-  [[menu.main]]
-    name = "Links"
-    url = "/links"
-    weight = 2
+      [[languages.de.menu.main]]
+        name = "Übersichten"
+        url = "/lists"
+        weight = 1
 
-  [[menu.main]]
-    name = "Suche"
-    url = "/search"
-    weight = 3
+      [[languages.de.menu.main]]
+        name = "Links"
+        url = "/links"
+        weight = 2
 
-  [[menu.main]]
-    name = "Über"
-    url = "/about"
-    weight = 4
+      [[languages.de.menu.main]]
+        name = "Suche"
+        url = "/search"
+        weight = 3
+
+      [[languages.de.menu.main]]
+        name = "Über"
+        url = "/about"
+        weight = 4
+
+  [languages.en]
+    label = "English"
+
+    [languages.en.params]
+      description = "Historic depictions of Brick Expressionism buildings from books and postcards."
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/en/"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        name = "Overviews"
+        url = "/en/lists"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        name = "Links"
+        url = "/en/links"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        name = "Search"
+        url = "/en/search"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/en/about"
+        weight = 4
 
 [module]
   [[module.mounts]]

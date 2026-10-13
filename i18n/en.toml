@@ -1,0 +1,53 @@
+[sectionParent]
+other = "This page is part of the book"
+
+[sectionContentsList]
+other = "This book contains the following entries"
+
+[allPostsTerm]
+other = "All posts tagged"
+
+[type]
+other = "Type"
+
+[building]
+other = "Building"
+
+[architect]
+other = "Architect"
+
+[WikidataEntries]
+other = "Wikidata entries"
+
+[WikidataEntry]
+other = "Wikidata entry"
+
+[InlinePDFNotSupported]
+other = "Inline PDF not supported"
+
+[source]
+other = "Source"
+
+[generated]
+other = "Generated"
+
+[revision]
+other = "Revision"
+
+[notes]
+other = "Notes"
+
+[pageAbbr]
+other = "p."
+
+[other]
+other = "other"
+
+[additionalInfo]
+other = "Additional information"
+
+[tagsTitle]
+other = "Tags"
+
+[tagsAdditional]
+other = "The tag pages also contain further links to buildings and architects"

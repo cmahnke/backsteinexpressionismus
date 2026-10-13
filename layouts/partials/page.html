@@ -75,7 +75,7 @@
                       {{- $meta := "" -}}
                       {{- if gt (len $buildings) 0 -}}
                           <div class="tag-info-container">
-                              <h2 class="building-info">Zusätzliche Informationen</h2>
+                              <h2 class="building-info">{{ i18n "additionalInfo" }}</h2>
                               {{- range $building := $buildings -}}
                                   <h3 class="meta-title">{{ .Title }}</h3>
                                   <div class="meta-content">
@@ -93,8 +93,8 @@
 
           {{- if and (not .Params.metaPage) .Params.tags -}}
               <div class="tag-container">
-                  <div class="tags-title">Schlagworte</div>
-                  <div class="tags-additional">Auf den Seiten der Tags finden sich auch weiterführende Links zu Gebäuden und Architekten</div>
+                  <div class="tags-title">{{ i18n "tagsTitle" }}</div>
+                  <div class="tags-additional">{{ i18n "tagsAdditional" }}</div>
                   {{ partial "meta/tags.html" . }}
               </div>
           {{- end -}}
