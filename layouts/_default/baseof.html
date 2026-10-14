@@ -29,7 +29,7 @@
     {{ range .Site.Params.stylesheets -}}
         <link href="{{ . }}" rel="stylesheet">
     {{- end -}}
-
+    {{- partial "metadata/schema.org/schema.org.html" . -}}
   </head>
 
      {{- $class := "" }}
