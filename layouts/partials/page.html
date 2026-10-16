@@ -35,7 +35,9 @@
             <div class="iiif">
               {{- $context := path.Dir .File.Path -}}
               {{- $pageURL := .Permalink -}}
-              {{- if not (hasPrefix .Params.iiifContext "http://iiif.io/api/presentation/") -}}
+              {{- if and (hasPrefix .Params.iiifcontext "http://iiif.io/api/presentation/") (or .Params.iiifmanifest .Params.iiif.manifest) -}}
+                {{- partial "iiif/iiif-presentation.html" . -}}
+              {{- else -}}
                 {{- range .Params.resources -}}
                   {{- if or (and (ne $.Params.type "work") (ne $.Params.type "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
                     {{- if .params.iiif -}}
@@ -43,8 +45,6 @@
                     {{- end -}}
                   {{- end -}}
                 {{- end -}}
-              {{- else -}}
-                {{- partial "iiif/iiif-presentation.html" . -}}
               {{- end -}}
             </div>
 
