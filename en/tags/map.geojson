@@ -1,0 +1,1114 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+  "type": "Feature",
+  "properties": {
+      "name": "Pressehaus Düsseldorf",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pressehaus Düsseldorf\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q26882953\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Tietmann_%26_Haake\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Tietmann \u0026amp;amp; Haake\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-pressehaus-düsseldorf-in\"\u003eThe Pressehaus Düsseldorf in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1299518\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Ehemaliges_Pressehaus_D%C3%BCsseldorf\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Pressehaus-D%C3%BCsseldorf/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.782081,51.224908]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Messeturm Köln",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Messeturm Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Adolf-Abel\"\u003eAdolf Abel\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-messeturm-cologne-in\"\u003eThe Messeturm Cologne in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q881186\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Messeturm_K%C3%B6ln\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\u003cp\u003eSee also \u003ca href=\"/tags/Pressa\"\u003ePressa\u003c/a\u003e\u003c/p\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Messeturm-K%C3%B6ln/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.9697171,50.9445674]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Böttcherstrasse",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Böttcherstrasse\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003ch1 id=\"böttcherstrasse-in\"\u003eBöttcherstrasse in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q531367\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/B%C3%B6ttcherstra%C3%9Fe_%28Bremen%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/p\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSee also \u003ca href=\"/tags/Paula-Becker-Modersohn-Haus\"\u003ePaula-Becker-Modersohn-Haus\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/B%C3%B6ttcherstrasse/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.8035073,53.0750456]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Hagturm Köln",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hagturm Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/bernhard-hoetger\"\u003eBernhard Hoetger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-messeturm-cologne-in\"\u003eThe Messeturm Cologne in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2108907\u0026quot; href=\u0026quot;https://en.wikipedia.org/wiki/Pressa#HAG-Turm\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\u003cp\u003eSee also \u003ca href=\"/tags/Pressa\"\u003ePressa\u003c/a\u003e\u003c/p\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Hagturm-K%C3%B6ln/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.9697171,50.9445674]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rüstringer Rathaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rüstringer Rathaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-H%c3%b6ger\"\u003eFritz Höger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-rüstringer-rathaus-today-wilhelmshaven-in\"\u003eThe Rüstringer Rathaus (today Wilhelmshaven) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q21037076\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Rathaus_Wilhelmshaven\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/1108.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/rathaus-von-wilhelmshaven\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/R%C3%BCstringer-Rathaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.1076964,53.5267311]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Hochhaus Glückauf",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hochhaus Glückauf\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Wilhelm-Ziegeler\"\u003eWilhelm Ziegelert\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-hochhaus-glückauf-in\"\u003eThe Hochhaus Glückauf in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1400121\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Hochhaus_Gl%C3%BCckauf\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Hochhaus-Gl%C3%BCckauf/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.7606812,52.3627004]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Volksschule Südstadt Hannover",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Volksschule Südstadt Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hans-Bettex\"\u003eHans Bettex\u003c/a\u003e and \u003ca href=\"/tags/Karl-Elkart\"\u003eKarl Elkart\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-volksschule-südstadt-today-bertha-von-suttner-schule-in\"\u003eThe Volksschule Südstadt (today Bertha-von-Suttner-Schule) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Bertha-von-Suttner-Schule_%28Hannover%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Volksschule-S%C3%BCdstadt-Hannover/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.6010219,52.3576214]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Gutehoffnungshütte",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gutehoffnungshütte\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Peter-Behrens\"\u003ePeter Behrens\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-main-warehouse-of-the-gutehoffnungshütte-oberhausen-in\"\u003eThe main warehouse of the Gutehoffnungshütte Oberhausen in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q883655\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Gutehoffnungsh%C3%BCtte\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/9881.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Gutehoffnungsh%C3%BCtte/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.870877,51.488266]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Stadthaus I Osnabrück",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stadthaus I Osnabrück\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Friedrich-Lehmann\"\u003eFriedrich Lehmann\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eFormerly Municipal Hospital Osnabrück\u003c/p\u003e\n\u003ch1 id=\"the-stadthaus-i-osnabrück-in\"\u003eThe Stadthaus I Osnabrück in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q96755328\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Stadthaus_%28Osnabr%C3%BCck%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Stadthaus-Osnabr%C3%BCck/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.0347124,52.2779691]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Essener Börse",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Essener Börse\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Edmund-K%c3%b6rner\"\u003eEdmund Körner\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-essener-börse-today-haus-der-technik-in\"\u003eThe Essener Börse (today Haus der Technik) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1590821\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Haus_der_Technik_%28Essen%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/haus-der-technik\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Essener-B%C3%B6rse/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.0136258,51.4526649]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Albinmüller-Turm Magdeburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Albinmüller-Turm Magdeburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Albin-M%c3%bcller\"\u003eAlbin Müller\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-albinmüller-turm-magdeburg-in\"\u003eThe Albinmüller-Turm Magdeburg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2639663\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Albinm%C3%BCller-Turm\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Albinm%C3%BCller-Turm/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [11.6384616,52.1177189]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Chemische Fabrik Luboń",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Chemische Fabrik Luboń\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hans-Poelzig\"\u003eHans Poelzig\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-chemische-fabrik-luboń-in\"\u003eThe Chemische Fabrik Luboń in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/1383.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Chemische-Fabrik-Lubo%C5%84/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [16.901342,52.32839]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Christkönig-Kirche",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Christkönig-Kirche\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Dominikus-B%c3%b6hm\"\u003eDominikus Böhm\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-christkönig-kirche-in\"\u003eThe Christkönig-Kirche in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q22087527\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Christk%C3%B6nig_%28Bischofsheim%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/794.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/christkoenigskirche\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Christk%C3%B6nig-Kirche/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.3549983,49.99169]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Kaufmännische Fortbildungsschule Lübeckertordamm",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kaufmännische Fortbildungsschule Lübeckertordamm\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-kaufmännische-fortbildungsschule-lübeckertordamm-in\"\u003eThe Kaufmännische Fortbildungsschule Lübeckertordamm in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5956.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://fritzschumacher.de/gesellschaft/werkkatalog/214\" target=\"_blank\"\u003eWork catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Kaufm%C3%A4nnische-Fortbildungsschule/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.0224847,53.5579355]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Kunstmuseum Düsseldorf",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kunstmuseum Düsseldorf\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Wilhelm-Kreis\"\u003eWilhelm Kreis\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-kunstmuseum-düsseldorf-today-museum-kunstpalast-in\"\u003eThe Kunstmuseum Düsseldorf (today Museum Kunstpalast) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q461277\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Museum_Kunstpalast\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/museum-kunstpalast\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Kunstmuseum-D%C3%BCsseldorf/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.7700138,51.2350772]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Handelshof Königsberg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Handelshof Königsberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hanns-Hopp\"\u003eHanns Hopp\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-handelshof-königsberg-in\"\u003eThe Handelshof Königsberg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/12441.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Handelshof-K%C3%B6nigsberg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [20.4982724,54.7194071]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Technisches Verwaltungsgebäude der Hoechst AG",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Technisches Verwaltungsgebäude der Hoechst AG\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Peter-Behrens\"\u003ePeter Behrens\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-technisches-verwaltungsgebäude-der-hoechst-ag-in\"\u003eThe Technisches Verwaltungsgebäude der Hoechst AG in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q875969\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Technisches_Verwaltungsgeb%C3%A4ude_der_Hoechst_AG\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6991.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Verwaltungsgeb%C3%A4ude-der-Hoechst-AG/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.5322369,50.09472]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Verwaltungsgebäude und Lagerschuppen Gebrüder Mayer",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Verwaltungsgebäude und Lagerschuppen Gebrüder Mayer\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hans-Poelzig\"\u003eHans Poelzig\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-verwaltungsgebäude-und-lagerschuppen-gebrüder-mayer-in\"\u003eThe Verwaltungsgebäude und Lagerschuppen Gebrüder Mayer in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6773.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Verwaltungsgeb%C3%A4ude-Gebr%C3%BCder-Mayer/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.7076216,52.4202276]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Verwaltungsgebäude Dammtorwall",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Verwaltungsgebäude Dammtorwall\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-verwaltungsgebäude-dammtorwall-in\"\u003eThe Verwaltungsgebäude Dammtorwall in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"http://fritzschumacher.de/gesellschaft/werkkatalog/163-verwaltungsgebaeude-dammtorwall/\" target=\"_blank\"\u003eWork Catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Verwaltungsgeb%C3%A4ude-Dammtorwall/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [19.985056,53.557252]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Allgemein Ortskrankenkasse Magdeburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Allgemein Ortskrankenkasse Magdeburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Karl-Krayl\"\u003eKarl Krayl\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-allgemein-ortskrankenkasse-magdeburg-in\"\u003eThe Allgemein Ortskrankenkasse Magdeburg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6125.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Allgemein-Ortskrankenkasse-Magdeburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [11.6384616,52.1177189]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Anzeiger Hochhaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Anzeiger Hochhaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-H%c3%b6ger\"\u003eFritz Höger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-anzeiger-hochhaus-in\"\u003eThe Anzeiger Hochhaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q614321\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Anzeiger-Hochhaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/7497.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/anzeigerhochhaus\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Anzeiger-Hochhaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.7293844,52.3770514]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Badeanstalt Eppendorf",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Badeanstalt Eppendorf\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-badeanstalt-eppendorf-in\"\u003eThe Badeanstalt Eppendorf in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5973.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://fritzschumacher.de/gesellschaft/werkkatalog/158-badeanstalt-eppendorf/\" target=\"_blank\"\u003eWork catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Badeanstalt-Eppendorf/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9903605,53.5895387]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Ballinhaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ballinhaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hans-und-Oskar-Gerson\"\u003eHans und Oskar Gerson\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-ballinhaus-today-messberghof-in\"\u003eThe Ballinhaus (today Messberghof) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1545737\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Me%C3%9Fberghof\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/9722.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/messberghof\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Ballinhaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.001199,53.5480155]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Borsigturm",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Borsigturm\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Eugen-Schmohl\"\u003eEugen Schmohl\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-borsigturm-in\"\u003eThe Borsigturm in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q546769\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Borsig_%28Unternehmen%29#Der_Borsigturm\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5996.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/borsigturm\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Borsigturm/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.2834519,52.5830488]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Broschek-Haus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Broschek-Haus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-H%c3%b6ger\"\u003eFritz Höger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-broschek-haus-in\"\u003eThe Broschek-Haus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q990681\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Broschek-Haus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6361.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/structures/renaissance-hotel\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Broschek-Haus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9994392,53.5484695]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Capitol-Hochhaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Capitol-Hochhaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Friedrich-Hartjenstein\"\u003eFriedrich Hartjenstein\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-capitol-hochhaus-in\"\u003eThe Capitol-Hochhaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1034682\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Capitol-Hochhaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Capitol-Hochhaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.7178757,52.3683918]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Chilehaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Chilehaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-H%c3%b6ger\"\u003eFritz Höger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-chilehaus-in\"\u003eThe Chilehaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q542783\u0026quot; href=\u0026quot;https://en.wikipedia.org/wiki/Chilehaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/1109.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/chilehaus\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.architektur-bildarchiv.de/image/Chilehaus-Hamburg-113592.html\" target=\"_blank\"\u003eArchitektur Bildarchiv\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Chilehaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9994392,53.5484695]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Dachstein- und Braunkohlenwerke Zeipau",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Dachstein- und Braunkohlenwerke Zeipau\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Otto-Bartning\"\u003eOtto Bartning\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-dachstein--und-braunkohlenwerke-zeipau-in\"\u003eThe Dachstein- und Braunkohlenwerke Zeipau in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/4016.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/wasserturm-zeipau\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe director\u0026rsquo;s house is now destroyed; the water tower still exists today in Jankowa Żagańska, Szczepanów, municipality of \n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q161909\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/I%C5%82owa\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Iłowa\u0026lt;/a\u0026gt; (German), Poland (formerly near Zeipau, Silesia). Current images can be found on a \u0026lt;a href=\u0026quot;https://wiezecisnien.eu/lubuskie/jankowa-zaganska_cegielnia/\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;page about Polish water towers\u0026lt;/a\u0026gt; (German) – which is worth a visit even if you don\u0026amp;rsquo;t understand the text\u0026amp;hellip;\u0026lt;/p\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Dachstein--und-Braunkohlenwerke-Zeipau/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [15.1812843,51.565413]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Die Glocke",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Die Glocke\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Walter-G%c3%b6ring\"\u003eWalter Göring\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-glocke-in\"\u003eThe Glocke in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1213067\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Die_Glocke_%28Bremen%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Die-Glocke/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.806812,53.0748449]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Erika-Schwesternhaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Erika-Schwesternhaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-erika-schwesternhaus-in\"\u003eThe Erika-Schwesternhaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5984.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://fritzschumacher.de/gesellschaft/werkkatalog/141-schwesternhaus-eppendorfer-krankenhaus/\" target=\"_blank\"\u003eWork catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Erika-Schwesternhaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9727276,53.5887367]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Europa-Haus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Europa-Haus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eBuilt by \u003ca href=\"/tags/Otto-Paul-Burghardt\"\u003eOtto Paul Burghardt\u003c/a\u003e and \u003ca href=\"/tags/Wilhelm-Kreis\"\u003eWilhelm Kreis\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-europa-haus-in\"\u003eThe Europa-Haus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1375330\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Europahaus_%28Leipzig%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/europahaus\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Europa-Haus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.3793817,51.3374508]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Finanzdeputation Hamburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Finanzdeputation Hamburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schuhmacher\"\u003eFritz Schuhmacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-finanzdeputation-hamburg-in\"\u003eThe Finanzdeputation Hamburg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q19278262\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Dienstgeb%C3%A4ude_der_Finanzbeh%C3%B6rde_Hamburg\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5952.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Finanzdeputation-Hamburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9872473,53.5550798]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Gesundheitsamt Hamburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gesundheitsamt Hamburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hermann-H%c3%b6ger\"\u003eHermann Höger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-gesundheitsamt-hamburg-in\"\u003eThe Gesundheitsamt Hamburg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/75941.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Gesundheitsamt-Hamburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.014444,53.551833]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Gewerbehaus Hamburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gewerbehaus Hamburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-gewerbehaus-hamburg-in\"\u003eThe Gewerbehaus Hamburg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5980.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://fritzschumacher.de/gesellschaft/werkkatalog/145-gewerbehaus-hamburg/\" target=\"_blank\"\u003eWork catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Gewerbehaus-Hamburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9747827,53.553134]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Großes Schauspielhaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Großes Schauspielhaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eConverted by \u003ca href=\"/tags/Hans-Poelzig\"\u003eHans Poelzig\u003c/a\u003e, no longer extant.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-großes-schauspielhaus-berlin-in\"\u003eThe Großes Schauspielhaus Berlin in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/1381.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Grosses-Schauspielhaus-Berlin/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.3861983,52.5227333]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Hans-Sachs-Haus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hans-Sachs-Haus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Alfred-Fischer\"\u003eAlfred Fischer\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-hans-sachs-haus-in\"\u003eThe Hans-Sachs-Haus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1578189\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Hans-Sachs-Haus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/287.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/hans-sachs-haus\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Hans-Sachs-Haus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.0906052,51.5110761]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Hansahochhaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hansahochhaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Jacob-Koerfer\"\u003eJacob Koerfer\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-hansahochhaus-in\"\u003eThe Hansahochhaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q281051\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Hansahochhaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6120.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Hansahochhaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.9490351,50.9490277]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Haupbahnhof Oberhausen",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Haupbahnhof Oberhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by Schwingel and Reichsbahn senior architect Karl Herrmann\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-oberhausen-hauptbahnhof-in\"\u003eThe Oberhausen Hauptbahnhof in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q472955\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Oberhausen_Hauptbahnhof\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Oberhausen Hauptbahnhof\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Hauptbahnhof-Oberhausen/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.8524849,51.4742029]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Hauptfeuerwache Berliner Tor",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hauptfeuerwache Berliner Tor\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-hauptfeuerwache-berliner-tor-in\"\u003eThe Hauptfeuerwache Berliner Tor in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q19285020\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Hauptfeuerwache_Berliner_Tor\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5962.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://fritzschumacher.de/gesellschaft/werkkatalog/138-seglerheim-mit-arbeiterspeisehalle/\" target=\"_blank\"\u003eWork catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Hauptfeuerwache-Berliner-Tor/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.0229564,53.5544775]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Haus der Technik",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Haus der Technik\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hans-Hopp\"\u003eHanns Hopp\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-haus-der-technik-in\"\u003eThe Haus der Technik in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q830344\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Haus_der_Technik_%28K%C3%B6nigsberg%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/12442.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Haus-der-Technik/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [20.5086936,54.7215982]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Haus der Wissenschaft",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Haus der Wissenschaft\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Emil-Herzig\"\u003eEmil Herzig\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-haus-der-wissenschaft-in\"\u003eThe Haus der Wissenschaft in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1590845\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Haus_der_Wissenschaft_Braunschweig\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Haus-der-Wissenschaft/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.5274163,52.274832]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Het Schip",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Het Schip\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Michel-de-Klerk\"\u003eMichel de Klerk\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"het-schip-in\"\u003eHet Schip in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/2311.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1616115\u0026quot; href=\u0026quot;https://en.wikipedia.org/wiki/Het_Schip\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"other-links\"\u003eOther links\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.hetschip.nl/other/de\" target=\"_blank\"\u003eHet Schip Museum\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Het-Schip/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.8737688,52.3898437]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Jugendheim Miesburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Jugendheim Miesburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Friedrich-Fischer\"\u003eFriedrich Fischer\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Jugendheim-Misburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.86058,52.38507]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Kirche am Hohenzollernplatz",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kirche am Hohenzollernplatz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Ossip-Klarwein\"\u003eOssip Klarwein\u003c/a\u003e (office of \u003ca href=\"/tags/Fritz-H%c3%b6ger\"\u003eFritz Höger\u003c/a\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-kirche-am-hohenzollernplatz-in\"\u003eThe Kirche am Hohenzollernplatz in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1742773\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Kirche_am_Hohenzollernplatz\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/7527.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/hohenzollernkirche\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Kirche-am-Hohenzollernplatz/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.3247507,52.4941648]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Lichtwarkschule",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lichtwarkschule\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-lichtwarkschule-in\"\u003eThe Lichtwarkschule in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1613747\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Lichtwarkschule\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5953.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://fritzschumacher.de/gesellschaft/werkkatalog/211-lichtwarkschule/\" target=\"_blank\"\u003eWork catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Lichtwarkschule/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.0103887,53.5918343]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Liststadt",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Liststadt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Adolf-Falke\"\u003eAdolf Falke\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-liststadt-in\"\u003eThe Liststadt in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q96254662\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Liststadt\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Liststadt/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.7880461,52.4020301]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Lotsenwache Hamburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lotsenwache Hamburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-lotsenwache--the-lotsenhaus-seemannshöft-in\"\u003eThe Lotsenwache / the Lotsenhaus Seemannshöft in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q114042\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Lotsenhaus_Seemannsh%C3%B6ft\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5974.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://fritzschumacher.de/gesellschaft/werkkatalog/157-lotsenhaus/\" target=\"_blank\"\u003eWork catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Lotsenwache-Hamburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.8787266,53.5398525]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Lyzeum Curschmannstrasse",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lyzeum Curschmannstrasse\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-H%c3%b6ger\"\u003eFritz Höger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-lyzeum-curschmannstrasse-today-stadtteilschule-eppendorf-in\"\u003eThe Lyzeum Curschmannstrasse (today Stadtteilschule Eppendorf) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2328167\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Stadtteilschule_Eppendorf\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Lyzeum-Curschmannstrasse/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9762056,53.5875113]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Marine-Ehrenmal Laboe",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Marine-Ehrenmal Laboe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Gustav-August-Munzer\"\u003eGustav August Munzer\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-marine-ehrenmal-laboe-in\"\u003eThe Marine-Ehrenmal Laboe in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q538382\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Marine-Ehrenmal_Laboe\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/marine-ehrenmal\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Marine-Ehrenmal-Laboe/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.2279534,54.4131637]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Montanhof",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Montanhof\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by the architectural firm Distel and Grubitz (\u003ca href=\"/tags/Hermann-Distel\"\u003eHermann Distel\u003c/a\u003e and \u003ca href=\"/tags/August-Grubitz\"\u003eAugust Grubitz\u003c/a\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-montanhof-in\"\u003eThe Montanhof in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1783238\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Kontorhausviertel#Montanhof\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Montanhof/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9971489,53.548999]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Mossehaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mossehaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eOriginal building erected 1901-1903, designed by \n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2572291\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Wilhelm_Cremer_%28Architekt%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wilhelm Cremer\u0026lt;/a\u0026gt; (German) and \n    \n      \n    \u0026lt;a data-wikidata-entity=\u0026quot;Q2150950\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Richard_Wolffenstein_%28Architekt%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Richard Wolffenstein\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003eConversion 1921-1923 by \u003ca href=\"/tags/Erich-Mendelsohn\"\u003eErich Mendelsohn\u003c/a\u003e and \u003ca href=\"/tags/Richard-Neutra\"\u003eRichard Neutra\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-mossehaus-in\"\u003eThe Mossehaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q820531\u0026quot; href=\u0026quot;https://en.wikipedia.org/wiki/Mossehaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt;\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/3321.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Mossehaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.39673,52.50869]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Paula-Becker-Modersohn-Haus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Paula-Becker-Modersohn-Haus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Bernhard-Hoetger\"\u003eBernhard Hoetger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-paula-becker-modersohn-haus-in\"\u003eThe Paula-Becker-Modersohn-Haus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q318983\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Paula_Modersohn-Becker_Museum\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6364.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Paula-Becker-Modersohn-Haus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.8038336,53.0751097]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rappolthaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rappolthaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-H%c3%b6ger\"\u003eFritz Höger\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-rappolthaus-in\"\u003eThe Rappolthaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q534777\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/M%C3%B6nckebergstra%C3%9Fe#Exemplarische_Klinkerbauten_Fritz_H%C3%B6gers\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Rappolthaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.0014113,53.5511975]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rathaus Neuenhagen",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rathaus Neuenhagen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Wilhelm-Wagner\"\u003eWilhelm Wagner\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"rathaus-neuenhagen-in\"\u003eRathaus Neuenhagen in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/rathaus-neuenhagen\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Rathaus-Neuenhagen/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.6879291,52.526545]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rathaus Oberhausen",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rathaus Oberhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Ludwig-Freitag\"\u003eLudwig Freitag\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"rathaus-oberhausen-in\"\u003eRathaus Oberhausen in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2132591\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Rathaus_Oberhausen\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Rathaus-Oberhausen/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.8577605,51.473704]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Realschule Uferstrasse",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Realschule Uferstrasse\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e, today only partially preserved.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-realschule-uferstrasse-hamburg-in\"\u003eThe Realschule Uferstrasse Hamburg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5959.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://fritzschumacher.de/gesellschaft/werkkatalog/176-realschule-uferstrasse/\" target=\"_blank\"\u003eWork Catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Realschule-Uferstrasse/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.034982,53.5719123]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rheinhalle Düsseldorf",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rheinhalle Düsseldorf\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Wilhelm-Kreis\"\u003eWilhelm Kreis\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-rheinhalle-or-planetarium-düsseldorf-today-tonhalle-düsseldorf-in\"\u003eThe Rheinhalle (or Planetarium) Düsseldorf (today Tonhalle Düsseldorf) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q139206\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Tonhalle_D%C3%BCsseldorf\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6044.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/tonhalle\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Rheinhalle/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.7704388,51.2320933]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rheinhallen Köln",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rheinhallen Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Adolf-Abel\"\u003eAdolf Abel\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-rheinhallen-köln-in\"\u003eThe Rheinhallen Köln in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2147690\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Rheinhallen\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/p\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://structurae.net/en/bauwerke/rheinhallen\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSee also \u003ca href=\"/tags/Pressa\"\u003ePressa\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Rheinhallen/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.9710936,50.9427122]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Seglerheim",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Seglerheim\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Fritz-Schumacher\"\u003eFritz Schumacher\u003c/a\u003e, not realised in the planned form.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-seglerheim-in\"\u003eThe Seglerheim in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"http://fritzschumacher.de/gesellschaft/werkkatalog/138-seglerheim-mit-arbeiterspeisehalle/\" target=\"_blank\"\u003eWork Catalogue of the Fritz Schumacher Society\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Seglerheim-Hamburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.8832127,53.5392879]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Sprinkenhof",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Sprinkenhof\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hans-und-Oskar-Gerson\"\u003eHans and Oskar Gerson\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-sprinkenhof-in\"\u003eThe Sprinkenhof in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2801439\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Sprinkenhof\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6362.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/sprinkenhof\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Sprinkenhof/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.001199,53.5480155]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "St. Antonius Ickern",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        St. Antonius Ickern\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Alfred-Fischer\"\u003eAlfred Fischer\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-st-antonius-church-ickern-today-part-of-castrop-rauxel-in\"\u003eThe St. Antonius Church Ickern (today part of Castrop-Rauxel) in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1697168\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/St._Antonius_%28Castrop-Rauxel%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/288.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/sankt-antonius-kirche\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/St.-Antonius-Ickern/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.3374243,51.5924924]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "St. Bonifatius Frankfurt",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        St. Bonifatius Frankfurt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Martin-Weber\"\u003eMartin Weber\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-st-bonifatius-church-frankfurt-in\"\u003eThe St. Bonifatius Church Frankfurt in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/St._Bonifatius_%28Frankfurt_am_Main%29\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/75083.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/St.-Bonifatius-Frankfurt/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.6727415,50.0934171]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "St. Franziskuskirche",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        St. Franziskuskirche\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Carl-Bensel\"\u003eCarl Bensel\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe St. Franziskus Church in\u0026hellip;\u003c/p\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/St.-Franziskuskirche/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.055408,53.585457]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "St. Katharinen Kirche ",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        St. Katharinen Kirche \n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by city building director Lois Welzenbacher\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-st-katharinen-church-in\"\u003eThe St. Katharinen Church in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/52302.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/St.-Katharinen-Kirche-Oberhausen/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.8345599,51.4813794]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Stadhalle Magdeburg",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stadhalle Magdeburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Johannes-G%c3%b6deritz\"\u003eJohannes Göderitz\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-stadhalle-magdeburg-in\"\u003eThe Stadhalle Magdeburg in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1281266\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Stadthalle_Magdeburg\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6124.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Stadhalle-Magdeburg/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [11.637547,52.118304]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Stadtbibliothek Hannover",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stadtbibliothek Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Karl-Elkart\"\u003eKarl Elkart\u003c/a\u003e and \u003ca href=\"/tags/Hans-Bettex\"\u003eHans Bettex\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-stadtbibliothek-hannover-in\"\u003eThe Stadtbibliothek Hannover in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1430761\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Stadtbibliothek_Hannover\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/8460.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Stadtbibliothek-Hannover/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.7425555,52.3668687]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Stella-Haus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stella-Haus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Albert-Lindhorst\"\u003eAlbert Lindhorst\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-stella-haus-in\"\u003eThe Stella-Haus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q19309524\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Stellahaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Stella-Haus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9818164,53.5457806]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Stummhaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stummhaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Paul-Bonatz\"\u003ePaul Bonatz\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-stummhaus-in\"\u003eThe Stummhaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q1400490\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Stummhaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/6043.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/stumm-konzern-verwaltungsgebaeude\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Stummhaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.7745112,51.2203605]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Tagblatt-Turm",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Tagblatt-Turm\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Ernst-Otto-O%c3%9fwald\"\u003eErnst Otto Oßwald\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-tagblatt-turm-in\"\u003eThe Tagblatt-Turm in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q896764\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Tagblatt-Turm\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/804.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/tagblatt-turm\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Tagblatt-Turm/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.1761,48.7727]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Thaliahaus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Thaliahaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Hans-und-Oskar-Gerson\"\u003eHans and Oskar Gerson\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-thaliahaus-in\"\u003eThe Thaliahaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/thaliahaus\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Thaliahaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9982644,53.5520277]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Ullsteinhaus Berlin",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ullsteinhaus Berlin\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Eugen-Schmohl\"\u003eEugen Schmohl\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-ullsteinhaus-in\"\u003eThe Ullsteinhaus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q143984\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Ullsteinhaus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/5995.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/ullsteinhaus\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09055109\" target=\"_blank\"\u003eBerlin Heritage Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Ullsteinhaus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.3825727,52.4530317]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Wilhelm-Marx-Haus",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wilhelm-Marx-Haus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cul\u003e\n\u003cli\u003eDesigned by \u003ca href=\"/tags/Wilhelm-Kreis\"\u003eWilhelm Kreis\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1 id=\"the-wilhelm-marx-haus-in\"\u003eThe Wilhelm-Marx-Haus in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2571528\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Wilhelm-Marx-Haus\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/4250.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://structurae.net/en/bauwerke/wilhelm-marx-haus\" target=\"_blank\"\u003eInternational Database and Gallery of Structures (Structurae)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Wilhelm-Marx-Haus/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.7746431,51.224654]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Wohnwasserturm Wulsdorf",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wohnwasserturm Wulsdorf\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003ch1 id=\"the-wohnwasserturm-wulsdorf-in\"\u003eThe Wohnwasserturm Wulsdorf in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q2588167\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Wohnwasserturm_Wulsdorf\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Wohnwasserturm/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.5975113,53.5106277]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Zeche Sachsen",
+      "popupContent": "\n\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Zeche Sachsen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003ch1 id=\"the-zeche-sachsen-hamm-in\"\u003eThe Zeche Sachsen, Hamm in\u0026hellip;\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cpre\u003e\u003ccode\u003e    \u0026lt;a data-wikidata-entity=\u0026quot;Q183944\u0026quot; href=\u0026quot;https://de.wikipedia.org/wiki/Zeche_Sachsen\u0026quot; target=\u0026quot;_blank\u0026quot;\u0026gt;Wikipedia\u0026lt;/a\u0026gt; (German)\u0026lt;/li\u0026gt;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cli\u003e\u003ca href=\"https://deu.archinform.net/projekte/285.htm\" target=\"_blank\"\u003eInternational Architecture Database\u003c/a\u003e (German)\u003c/li\u003e\n\u003c/ul\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/en/tags/Zeche-Sachsen/\"\u003eRead More...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.82445,51.7065]
+  }
+}
+
+
+
+
+]
+}
