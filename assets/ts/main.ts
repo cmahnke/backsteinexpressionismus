@@ -1,1 +1,1 @@
-export {}
+import './iiif-image-viewer'

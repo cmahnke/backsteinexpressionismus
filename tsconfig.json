@@ -13,7 +13,8 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "ts/*": ["themes/projektemacher-base/assets/ts/*"]
+      "ts/*": ["themes/projektemacher-base/assets/ts/*"],
+      "./iiif-image-viewer": ["themes/projektemacher-base/assets/ts/iiif-image-viewer.ts"]
     }
   },
   "include": ["assets/ts/**/*.ts"]
