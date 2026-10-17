@@ -13,6 +13,8 @@
         <meta name="projektemacher:notes" content="{{ .Params.notes }}">
     {{- end -}}
 
+    {{- partial "html/head/title.html" . -}}
+
     {{- partial "html/head/style.html" (dict "context" . "css" "css/style.css") -}}
     {{- partial "html/head/script.html" (dict "context" . "js" (partial "html/head/iiif-js.html" .)) -}}
 
