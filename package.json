@@ -23,7 +23,7 @@
     "pdfjs-dist": "^5.7.284",
     "pdfobject": "^2.3.1",
     "stickybits": "^3.7.11",
-    "tify": "^0.35.0",
+    "tify": "^0.36.2",
     "vis-timeline": "8.5.1",
     "yargs": "^18.0.0",
     "@projektemacher/lucienne": "^0.1.3"
