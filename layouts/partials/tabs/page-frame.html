@@ -1,4 +1,5 @@
-{{ $tabs := .Scratch.Get "tabs" }}
+{{- $tabs := .tabs -}}
+{{- $context := .context -}}
 
 {{- define "partials/tab-name.html" -}}
   {{- $handle := strings.ToLower .Title -}}
@@ -10,53 +11,55 @@
 {{- end -}}
 
 <div class="tab-wrapper">
-  {{- range $i, $panel := $tabs -}}
-    {{- $tabHandle := partial "tab-name.html" . -}}
-    <input class="tab-radio" id="{{ printf "checkbox-%d" $i }}" name="tabs" data-tabname="{{ $tabHandle }}" type="radio" {{ if eq $i 0  }} checked {{- end -}}>
-  {{- end -}}
-  <div class="tabs">
+  <div class="tabs" role="tablist">
     {{- range $i, $panel := $tabs -}}
       {{- $tabHandle := partial "tab-name.html" . -}}
-      <label class="tab" id="{{ printf "tab-%d" $i }}" data-tabname="{{ $tabHandle }}" for="{{ printf "checkbox-%d" $i }}">{{ .Title }}</label>
+      <a class="tab{{ if eq $i 0 }} active{{ end }}" role="tab" href="{{ printf "#panel-%d" $i }}" id="{{ printf "tab-%d" $i }}" data-tabname="{{ $tabHandle }}" aria-controls="{{ printf "panel-%d" $i }}" aria-selected="{{ eq $i 0 }}">{{ .Title }}</a>
     {{- end -}}
   </div>
   <div class="tab-spacer"></div>
   <div class="panels">
     {{- range $i, $panel := $tabs -}}
-      <div class="panel" id="{{ printf "panel-%d" $i }}">
-        {{ partial "tabs/content.html" . }}
+      <div class="panel{{ if eq $i 0 }} active show{{ end }}" role="tabpanel" id="{{ printf "panel-%d" $i }}" aria-labelledby="{{ printf "tab-%d" $i }}">
+        {{ partial "tabs/content.html" $context }}
       </div>
     {{- end -}}
   </div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function(event) {
-      /* This isn't implemented even in modern Browsers
-      if (!URL.canParse(window.location)) {
-        return;
+  <noscript>
+    <style>
+      .tab-wrapper .panels .panel {
+          display: block;
       }
-      */
+    </style>
+  </noscript>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var setName = function(name) {
+        history.replaceState(null, "", "#" + name);
+      };
+      var showTabByName = function(name) {
+        var tab = document.querySelector(`.tab-wrapper [role="tab"][data-tabname="${name}"]`);
+        if (tab !== null && typeof window.showTab === "function") {
+          window.showTab(tab.id);
+        }
+        return tab;
+      };
       var url = new URL(window.location);
       if (url.hash !== "") {
-        var name = url.hash.replace(/^#/,"");
-        var activeTab = document.querySelector(`.tab-wrapper .tab-radio[data-tabname="${name}"]`);
-        if (activeTab !== null) {
-          Array.from(document.querySelectorAll('.tab-wrapper .tab-radio')).forEach(el => el.checked = false);
-          activeTab.checked = true;
-        }
+        showTabByName(decodeURIComponent(url.hash.replace(/^#/, "")));
       } else {
-        var checked = document.querySelector('.tab-wrapper .tab-radio:checked');
-        if (checked !== null && checked.hasAttribute('data-tabname')) {
-          var tabName = checked.dataset.tabname;
-          window.location = `${window.location}#${tabName}`;
+        var active = document.querySelector('.tab-wrapper [role="tab"][aria-selected="true"]');
+        if (active !== null && active.hasAttribute("data-tabname")) {
+          setName(active.dataset.tabname);
         }
       }
-    });
-    document.querySelectorAll('.tab-wrapper label.tab').forEach(tabLabel => {
-      tabLabel.addEventListener('click', (e) => {
-        var tabName = e.target.dataset.tabname;
-        window.location = `${window.location.href.replace(/#.*/, "")}#${tabName}`;
+      document.querySelectorAll('.tab-wrapper [role="tab"]').forEach(tab => {
+        tab.addEventListener('click', () => {
+          if (tab.hasAttribute("data-tabname")) {
+            setName(tab.dataset.tabname);
+          }
+        });
       });
     });
-
   </script>
 </div>

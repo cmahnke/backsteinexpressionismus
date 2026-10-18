@@ -11,11 +11,13 @@
     "isolatedModules": true,
     "useDefineForClassFields": false,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
     "paths": {
-      "ts/*": ["themes/projektemacher-base/assets/ts/*"],
-      "./iiif-image-viewer": ["themes/projektemacher-base/assets/ts/iiif-image-viewer.ts"]
+      "ts/*": ["./themes/projektemacher-base/assets/ts/*"]
     }
   },
-  "include": ["assets/ts/**/*.ts"]
+  "include": [
+    "assets/ts/**/*.ts",
+    "themes/projektemacher-base/assets/ts/globals.d.ts",
+    "themes/projektemacher-base/assets/ts/vendor.d.ts"
+  ]
 }

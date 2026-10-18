@@ -4,7 +4,7 @@
 @import "fonts/futura-renner";
 /* Source: https://www.onlinewebfonts.com/download/3e8042d2739cb66ae6ef7ffc372014db */
 @font-face {
-    font-family: "Neuland";
+    font-family: Neuland;
     font-style: normal;
     font-weight: 400;
     src: url("/fonts/Neuland.woff2") format("woff2"), url("/fonts/Neuland.woff") format("woff");
@@ -12,7 +12,7 @@
 
 $font-body: 'FuturaRennerRegular' !default;
 $font-heading: 'Neuland' !default;
-$brick-bg-color: #660000 !default;
+$brick-bg-color: #600 !default;
 $frame-bg-color: color.adjust($brick-bg-color, $lightness: -7.5%);
 $color-body-text: hsl(48, 93%, 89%) !default;
 $font-color-body: $color-body-text;
@@ -24,7 +24,7 @@ $color-light: $color-body-text;
 @import "icons";
 /* @import "ol"; */
 @import "ol-iiif";
-@import "share.scss";
+@import "share";
 @import "media-info";
 @import "menu";
 @import "tabs";
@@ -36,6 +36,8 @@ $color-light: $color-body-text;
 
 @import "iiif/presentation-tify";
 
+/* Skip link and visually-hidden utility (theme baseof/pagination) */
+@import "theme";
 
 body {
     font-family: $font-body, Helvetica;
@@ -293,7 +295,7 @@ h6 {
         }
     }
 
-    &:after {
+    &::after {
         background: $frame-bg-color;
     }
 }
@@ -348,12 +350,12 @@ h6 {
 .page-container {
     position: relative;
 
-    &:after {
+    &::after {
         background: $color-bg;
     }
 }
 
-.zigzag:after {
+.zigzag::after {
     content: "";
     height: 2vw;
     position: absolute;
@@ -376,7 +378,7 @@ h6 {
         }
 
         .type {
-            padding: 0.0rem 0.2rem;
+            padding: 0.0 0.2rem;
         }
 
         .text-content {
@@ -389,7 +391,7 @@ h6 {
                 display: inline-block;
                 position: relative;
 
-                &:after {
+                &::after {
                     content: '';
                     width: 100%;
                     border-bottom: 2px dotted color.adjust($brick-bg-color, $lightness: -4%);
@@ -668,7 +670,7 @@ h6 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(0 0 0 / .1);
+    background-color: rgb(0, 0, 0, .1);
     border-radius: .5em;
 
     a,
@@ -678,7 +680,7 @@ h6 {
     a:visited {
         border-bottom: none !important;
 
-        &:after {
+        &::after {
             border-bottom: none !important;
         }
     }
@@ -749,7 +751,7 @@ a:visited {
 
             .tify-header-button {
               backdrop-filter: blur(8px);
-              background: oklch(from var(--tify-bg-color, light-dark(#fff, oklch(from var(--tify-base-color-dark, oklch(from var(--tify-base-color, #06b) calc(l * 1.5) c h)) calc(l / 4) calc(c / 20) h))) l c h / 38.2%);
+              background: oklch(from var(--tify-bg-color, light-dark(#fff, oklch(from var(--tify-base-color-dark, oklch(from var(--tify-base-color, #06b) calc(l * 1.5) c h)) calc(l / 4) calc(c / 20) h))) l c h / 0.382);
             }
           }
         }
@@ -950,6 +952,7 @@ a:visited {
     .tab-spacer {
         width: 100%;
     }
+
     .tab {
         background-color: #400000;
         border-top-left-radius: 1rem;

@@ -1,21 +1,8 @@
-{{- $sourceSection := ( where .Site.Pages "Section" "tags") -}}
+{{- $sourceSection := ( where site.Pages "Section" "tags") -}}
 {{- $pages := where $sourceSection "type" "eq" "builder" -}}
 
-{{- $pages = where .Site.Pages "Params.yearBuild" "!=" nil -}}
+{{- $pages = where site.Pages "Params.yearBuild" "!=" nil -}}
 {{- $pages = sort $pages ".Params.yearBuild" -}}
-
-{{- $updatedPages := slice -}}
-{{- range $pages -}}
-    {{- .Scratch.Set "page" . -}}
-
-    {{/* TODO: Unfinished
-    {{- .Scratch.SetInMap "page.params.year" "" -}}
-    */}}
-
-    {{- $page := . -}}
-
-    {{- $updatedPages = $updatedPages | append $page -}}
-{{- end -}}
 
 <div id="vertical" class="" role="tabpanel">
     {{- partial "timeline/vertical.html" (dict "context" . "entries" $pages) -}}

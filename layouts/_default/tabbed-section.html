@@ -1,5 +1,5 @@
 {{ define "title" }}
-  {{- .Title }} · {{ .Site.Title -}}
+  {{- .Title }} · {{ site.Title -}}
 {{ end }}
 {{ define "content" }}
     <div class="page-container zigzag">
@@ -7,8 +7,7 @@
             <div class="post brick">
                 <div class="container">
                     {{- $tabs := .CurrentSection.Pages -}}
-                    {{- .Scratch.Set "tabs" $tabs -}}
-                    {{- partial "tabs/page-frame.html" . -}}
+                    {{- partial "tabs/page-frame.html" (dict "tabs" $tabs "context" .) -}}
               </div>
           </div>
       </main>

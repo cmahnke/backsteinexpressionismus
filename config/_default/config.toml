@@ -7,7 +7,6 @@
   copyrightYears = "MMXXI - MMXXVI"
   cc = false
   productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
-  disableScale = true
   wikidata = true
   debug = false
   schemaPerson = "https://christianmahnke.de/person.jsonld"

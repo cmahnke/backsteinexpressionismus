@@ -18,7 +18,7 @@
                 {{- $source = .Page.Params.overview.source -}}
             {{- end -}}
             {{- $filterField := printf ".Page.Params.%s" $filterField -}}
-            {{- $sourceSection := ( where .Site.Pages "Section" $source) -}}
+            {{- $sourceSection := ( where site.Pages "Section" $source) -}}
             {{- $pages := where $sourceSection $filterField "eq" $filter -}}
 
             <ul class="overview page {{ $filter }}">

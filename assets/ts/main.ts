@@ -1,1 +1,1 @@
-import './iiif-image-viewer'
+import 'ts/iiif-image-viewer'

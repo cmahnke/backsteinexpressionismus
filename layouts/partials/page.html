@@ -67,7 +67,7 @@
                       {{ $tagPages := slice -}}
                       {{- range $tag := .Params.tags -}}
                         {{- $tagPagePath := printf "/tags/%s" (replace . " " "-") -}}
-                        {{- $tagPage := $.Site.GetPage $tagPagePath -}}
+                        {{- $tagPage := site.GetPage $tagPagePath -}}
                         {{- $tagPages = $tagPages | append $tagPage -}}
                       {{- end -}}
                       {{- $buildings := where $tagPages "Params.type" "building" -}}

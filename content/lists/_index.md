@@ -7,6 +7,7 @@ layout: tabbed-section
 # child pages rendered as tabs, which HasShortcode can't detect on this page
 js:
   - ts/iframe-consent.ts
+  - ts/tabs.ts
 ---
 
 Diese Seite bietet eine Übersicht über die präsentierten Gebäude und Architekten. Dabei sind die Liste nicht notwendigerweise vollständig.
