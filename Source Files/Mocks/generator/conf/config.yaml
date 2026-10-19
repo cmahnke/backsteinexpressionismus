@@ -1,10 +1,46 @@
 logging:
   level: DEBUG
 extraction:
-  input: "../../../content/post/"
+  input:
+    base: "../../../"
+    content: "./content/post/"
   output: "./data"
   suffixes:
     - jpg
     - jpeg
     - jxl
+ocr:
+  device: cpu
+  threshold: 0.5
+  lang: german
 enrichment:
+  captions:
+    model: "Salesforce/blip-image-captioning-large"
+image:
+  process:
+    size:
+      - 1024
+      - 1024
+  filter:
+    min_size: 512
+classification:
+  type_labels:
+    - "a black and white photograph of a building"
+    - "a hand drawn sketch or illustration"
+    - "a printed map or floor plan"
+    - "a technical diagram or chart"
+
+  photo_labels:
+    - "an interior shot of a building"
+    - "an exterior shot of a building"
+    - "a photograph of people"
+    - "a street scene"
+    - "a construction site"
+
+  drawing_labels:
+    - "a technical architectural drawing"
+    - "a perspective drawing of a building"
+    - "a hand drawn sketch"
+    - "an ornamental illustration"
+
+  threshold: 0.5

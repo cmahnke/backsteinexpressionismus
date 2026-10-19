@@ -1,7 +1,9 @@
 from ultralytics import YOLO
 from .classifier import Classifier
 import os
-from termcolor import cprint
+import logging
+
+log = logging.getLogger(__name__)
 
 lib_dir = os.path.dirname(os.path.realpath(__file__))
 # TODO: Add Model Management
@@ -10,7 +12,7 @@ model_path = os.path.join(lib_dir, model_path)
 
 
 SCORES = {}
-SCORES['INTERIOR'] = {"score": 1, "additional_classes": ["interior"]}
+SCORES['INTERIOR'] = {"score": -1, "additional_classes": ["interior"]}
 SCORES['INTERIOR']["classes"] = ["saltshaker", "shower_curtain","switch", "sliding_door", "shoji","wardrobe", "bookshop", "throne", "altar", "desk", "library", "restaurant", "cinema", "bakery", "barbershop", "dining_table", 'wall_clock', 'pool_table', 'barbershop', 'grand_piano', 'bookcase', 'desk', 'file', 'vault', 'barber_chair', "folding_chair", "organ", "stage", "academic_gown", "bucket", "ashcan", "cup", "pedestal", "window_shade", "crate", "theater_curtain", "letter_opener", "library"]
 SCORES['EXTERIOR'] = {"score": 2, "additional_classes": ["exterior"]}
 SCORES['EXTERIOR']["classes"] = ["radio_telescope", "tobacco_shop", "boathouse", "bell_cote",  "tile_roof", "seashore", "greenhouse", "obelisk"]
@@ -48,7 +50,7 @@ class UltralyticsClassifier(Classifier):
             return
         if model is None:
             model = UltralyticsClassifier.model
-        self.results = model(self.image, verbose=False) 
+        self.results = model(self.image, verbose=False)
         for result in self.results:
             names = result.names
             for i, cls in enumerate(result.probs.top5):
@@ -77,10 +79,10 @@ class UltralyticsClassifier(Classifier):
                 all_classes.extend(SCORES[key]["classes"])
             for key in classification:
                 if not key in all_classes:
-                    cprint(f"!Class {key} isn't configured", "red")
+                    log.warning(f"!Class {key} isn't configured")
 
         if not self.classification:
             raise ValueError("No classifications, run classify() first")
-        
+
         check_missing_classes(self.classification)
         return UltralyticsClassifier.calculate_score(self.classification)["_total"]

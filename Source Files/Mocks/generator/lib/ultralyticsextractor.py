@@ -1,15 +1,14 @@
 import os
+import logging
+
 from PIL import Image
 from ultralytics import YOLO
 from .ultralyticslayout import UltralyticsLayout
 from .ultralyticsoiv7classifier import SCORES
 from .extractor import Extractor
 from .layout import Block
-from termcolor import cprint
 
-# TODO: Annotate
-# TODO: Resize
-# TODO: get rid of halftone grid
+log = logging.getLogger(__name__)
 
 lib_dir = os.path.dirname(os.path.realpath(__file__))
 # TODO: Add Model Management
@@ -24,7 +23,7 @@ class UltralyticsExtractor(Extractor, UltralyticsLayout):
     def __init__(self, image, max_px=640, additional_classes=[]):
         self.orig_image = image
         self.additional_classes = additional_classes
-        
+
         #self.image = image.thumbnail((max_px,max_px), Image.Resampling.LANCZOS)
         #self.image = UltralyticsExtractor.preprocess_scale(image, max_px)
         self.image = image
@@ -52,8 +51,8 @@ class UltralyticsExtractor(Extractor, UltralyticsLayout):
                     self.detected_blocks.append(b)
                     if logger is not None:
                         logger.info(f"Extracting detected object {t} at {coords}")
-                    cprint(f"{t}: {coords}", "white")
-        map(lambda x: cprint(x.__dict__, 'white'), self.detected_blocks)
+                    log.info(f"{t}: {coords}")
+        map(lambda x: log.info(x.__dict__), self.detected_blocks)
         #for result in self.results:
         #    print(result)
 

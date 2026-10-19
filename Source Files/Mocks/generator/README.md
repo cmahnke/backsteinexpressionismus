@@ -38,3 +38,10 @@ git clone https://github.com/huggingface/diffusers
 cd diffusers/examples/text_to_image
 pip install -r requirements.txt
 ```
+
+## Models
+
+### Detection
+
+* http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar
+* https://raw.githubusercontent.com/CSAILVision/places365/master/labels/places365_labels.txt

@@ -73,7 +73,7 @@ jobs:
 
       - name: Install Node dependencies
         run: |
-          yarn install
+          npm install --no-audit
 
       - name: Create IIIF derivates
         run: |
@@ -128,7 +128,7 @@ jobs:
         env:
           OSTYPE: linux
         run: |
-          yarn run validate
+          npm run validate
 
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh

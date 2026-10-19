@@ -294,7 +294,6 @@ def detect_orientation_doctr2(pil_image):
     cprint(f"DocTR {page_orientations}", "green")
 
 
-
 def predict_orientation(pil_image):
     #os.environ["KERAS_BACKEND"] = "tensorflow"
 
@@ -395,67 +394,6 @@ def smoothen_ht(cv_img, middle=4, radius=6, thresh=92):
 
     return cv_img
 
-# See https://www.kaggle.com/code/djokester/image-super-resolution-upscaling-with-real-esrgan
-def enhance_ai(img, params=None, factor=4, smoothen=False, weights="RealESRGAN_x{factor}plus.pth"):
-    start = time.time()
-    global model
-    from huggingface_hub import hf_hub_download
-    def cached_download_stub(config_file_url, cache_dir="", force_filename=""):
-        from RealESRGAN.model import HF_MODELS
-        import re
-        scale = re.sub(r'http.*_x(\d).pth', '\\1', config_file_url)
-        repo = HF_MODELS[int(scale)]['repo_id']
-        filename = HF_MODELS[int(scale)]['filename']
-        if debug:
-            cprint(f"Downloading {config_file_url} to {cache_dir} (repo: {repo}, filename: {filename})", "yellow")
-        return hf_hub_download(repo, filename, cache_dir=cache_dir, force_filename=force_filename)
-
-    import torch
-
-    from torchvision.transforms.functional import rgb_to_grayscale
-
-    import types, sys
-    functional_tensor_mod = types.ModuleType('functional_tensor')
-    functional_tensor_mod.rgb_to_grayscale = rgb_to_grayscale
-
-    import huggingface_hub
-    huggingface_hub.cached_download = cached_download_stub
-
-    sys.modules.setdefault('torchvision.transforms.functional_tensor', functional_tensor_mod)
-    sys.modules.setdefault('huggingface_hub', huggingface_hub)
-
-    from RealESRGAN import RealESRGAN
-
-    if img.mode in ("RGBA", "L"):
-        img = img.convert('RGB')
-
-    if torch.cuda.is_available():
-        device = torch.device('cuda')
-    #elif torch.mps.is_available():
-    #    device = torch.device('mps')
-    else:
-        device = torch.device('cpu')
-
-    if model is None:
-        weight_file = weights.format(**{"factor": factor})
-        model = RealESRGAN(device, scale=factor)
-        model_path = os.path.join(weights_dir, weight_file)
-        model.load_weights(os.path.abspath(model_path), download=False)
-
-    with torch.no_grad():
-        output_image = model.predict(img)
-
-    if smoothen:
-        output_image = output_image.filter(ImageFilter.SMOOTH)
-    width, height = output_image.size
-    output_image = output_image.resize((int((1/factor)*width), (int((1/factor)*height))), Image.LANCZOS)
-    if debug:
-        cprint(f"Scaled from {width}x{height} to {output_image.size[0]}x{output_image.size[1]}", "yellow")
-    end = time.time()
-    if debug:
-        cprint(f"Processing took {(end-start) * 10**3}ms", "yellow")
-    return output_image
-
 # Taken from never-built/scripts/extract-images.py
 def clahe_contrast(bgr_img=None, rgb_img=None):
     def safe_rgb(cv_image):
@@ -530,64 +468,3 @@ def normalize(im, params=None):
     cvAr = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2GRAY)
     normalized = cv2.normalize(cvAr, None, beta=0, alpha=255, norm_type=cv2.NORM_MINMAX)
     return Image.fromarray(cv2.cvtColor(normalized, cv2.COLOR_GRAY2RGB))
-
-# See https://www.kaggle.com/code/djokester/image-super-resolution-upscaling-with-real-esrgan
-def enhance_ai(img, params=None, factor=4, smoothen=False, weights="RealESRGAN_x{factor}plus.pth"):
-    start = time.time()
-    global model
-    from huggingface_hub import hf_hub_download
-    def cached_download_stub(config_file_url, cache_dir="", force_filename=""):
-        from RealESRGAN.model import HF_MODELS
-        import re
-        scale = re.sub(r'http.*_x(\d).pth', '\\1', config_file_url)
-        repo = HF_MODELS[int(scale)]['repo_id']
-        filename = HF_MODELS[int(scale)]['filename']
-        if debug:
-            cprint(f"Downloading {config_file_url} to {cache_dir} (repo: {repo}, filename: {filename})", "yellow")
-        return hf_hub_download(repo, filename, cache_dir=cache_dir, force_filename=force_filename)
-
-    import torch
-
-    from torchvision.transforms.functional import rgb_to_grayscale
-
-    import types, sys
-    functional_tensor_mod = types.ModuleType('functional_tensor')
-    functional_tensor_mod.rgb_to_grayscale = rgb_to_grayscale
-
-    import huggingface_hub
-    huggingface_hub.cached_download = cached_download_stub
-
-    sys.modules.setdefault('torchvision.transforms.functional_tensor', functional_tensor_mod)
-    sys.modules.setdefault('huggingface_hub', huggingface_hub)
-
-    from RealESRGAN import RealESRGAN
-
-    if img.mode in ("RGBA", "L"):
-        img = img.convert('RGB')
-
-    if torch.cuda.is_available():
-        device = torch.device('cuda')
-    #elif torch.mps.is_available():
-    #    device = torch.device('mps')
-    else:
-        device = torch.device('cpu')
-
-    if model is None:
-        weight_file = weights.format(**{"factor": factor})
-        model = RealESRGAN(device, scale=factor)
-        model_path = os.path.join(weights_dir, weight_file)
-        model.load_weights(os.path.abspath(model_path), download=False)
-
-    with torch.no_grad():
-        output_image = model.predict(img)
-
-    if smoothen:
-        output_image = output_image.filter(ImageFilter.SMOOTH)
-    width, height = output_image.size
-    output_image = output_image.resize((int((1/factor)*width), (int((1/factor)*height))), Image.LANCZOS)
-    if debug:
-        cprint(f"Scaled from {width}x{height} to {output_image.size[0]}x{output_image.size[1]}", "yellow")
-    end = time.time()
-    if debug:
-        cprint(f"Processing took {(end-start) * 10**3}ms", "yellow")
-    return output_image

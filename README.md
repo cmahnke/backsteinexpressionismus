@@ -103,11 +103,12 @@ Post should be published on Sunday, since rebuild is currently on Monday.
   * Find old images
   * Add architect
   * find more buildings on this site
-
+* https://de.wikipedia.org/wiki/Polizeipr%C3%A4sidium_Bochum
 
 # Missing buildings
 * Friedenskirche" in DU-Rheinhausen
 
 
+# Links
 
-https://institut-aktuelle-kunst.de/kunstlexikon/saarbruecken-bezirk-mitte-st-johann-haus-der-saarbruecker-landeszeitung-1805
+http://www.ruhr-bauten.de/

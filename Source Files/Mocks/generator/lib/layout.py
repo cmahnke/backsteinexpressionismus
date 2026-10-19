@@ -1,7 +1,10 @@
 import json
-from termcolor import cprint
+import logging
+
 from .util import *
 from PIL import Image
+
+log = logging.getLogger(__name__)
 
 def doc_tr_orientation(pil_image):
     dl = DocTRLayout(pil_image)
@@ -15,7 +18,7 @@ class Layout:
         self.orientation = 0
         self.name = name
         self.sub_image_meta = {}
-        
+
         if isinstance(image, Layout):
             self.image = image.orig_image
             self.orig_image = image.orig_image
@@ -46,8 +49,8 @@ class Layout:
         #    orig = orig.rotate(self.orientation*-1, expand=True, resample=Image.Resampling.LANCZOS)
         #    #raise NotImplementedError(f"Handling rotation of {self.orientation} not implemented")
         #else:
-        #    
-        
+        #
+
         b = self.detected_blocks[i].dict()
         if self.border is None:
             self.border = 0
@@ -62,20 +65,20 @@ class Layout:
         if auto_rotate:
             rot = int(detect_orientation_davidmerrick(sub_image))
             if self.orientation != 0 and rot != 0:
-                cprint(f"ocr orientation is {self.orientation}, image rotation is {rot}", "yellow")
+                log.warning(f"ocr orientation is {self.orientation}, image rotation is {rot}")
             elif self.orientation != rot:
-                cprint(f"ocr orientation is {self.orientation}, image rotation is {rot}", "red")
+                log.info(f"ocr orientation is {self.orientation}, image rotation is {rot}")
             else:
-                cprint(f"ocr orientation is {self.orientation}, image rotation is {rot}", "green")
+                log.trace(f"ocr orientation is {self.orientation}, image rotation is {rot}")
             self.sub_image_meta[i] = {"rotation": rot}
 
             if rot != 0:
                 sub_image = sub_image.rotate(rot, expand = True) #resample=Image.Resampling.LANCZOS)[0]
         return sub_image
-    
+
     def json(self):
         return json.dumps(list(map(lambda x: x.dict(), self.blocks)))
-    
+
     def filter(self, type):
         self.detected_blocks = list(filter(lambda b: b.type == type, self.detected_blocks))
 
@@ -93,6 +96,6 @@ class Block:
     def dict(self):
         # TODO This will fail with Numpy based backend
         return {"x1": int(self.x1), "y1": int(self.y1), "x2": int(self.x2), "y2": int(self.y2), "type": self.type }
-    
+
     #def __repr__(self):
     #    return rept(self.dict())

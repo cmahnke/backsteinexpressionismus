@@ -41,4 +41,21 @@ layoutparser
 scipy
 matplotlib
 scikit-image
+
+
+# Computer Vision & Bildverarbeitung
+opencv-python
+numpy
+Pillow
+
+# JPEG XL Support
+jxlpy
+
+# OCR & Layout-Analyse
+paddleocr
+
+# Logging
 coloredlogs
+
+# Konfiguration
+pyyaml

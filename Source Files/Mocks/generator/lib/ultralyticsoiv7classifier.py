@@ -2,8 +2,9 @@
 from ultralytics import YOLO
 from .classifier import Classifier
 import os
-from termcolor import cprint
+import logging
 
+log = logging.getLogger(__name__)
 lib_dir = os.path.dirname(os.path.realpath(__file__))
 # TODO: Add Model Management
 model_path = "../models/yolov8x-oiv7.pt"
@@ -11,7 +12,7 @@ model_path = os.path.join(lib_dir, model_path)
 
 
 SCORES = {}
-SCORES['INTERIOR'] = {"score": 1, "additional_classes": ["interior"]}
+SCORES['INTERIOR'] = {"score": -1, "additional_classes": ["interior"]}
 SCORES['INTERIOR']["classes"] = ["Chair", "Table", "Stairs"]
 SCORES['EXTERIOR'] = {"score": 2, "additional_classes": ["exterior"]}
 SCORES['EXTERIOR']["classes"] = ["Building", "House", "Tower", "Skyscraper"]
@@ -50,7 +51,7 @@ class UltralyticsClassifier(Classifier):
         if model is None:
             model = UltralyticsClassifier.model
         self.results = model(self.image, verbose=False)
-        
+
         for result in self.results:
             names = result.names
             for box in result.boxes:
@@ -83,10 +84,10 @@ class UltralyticsClassifier(Classifier):
                 all_classes.extend(SCORES[key]["classes"])
             for key in classification:
                 if not key in all_classes:
-                    cprint(f"!Class {key} isn't configured", "red")
+                    log.warning(f"!Class {key} isn't configured")
 
         if not self.classification:
             raise ValueError("No classifications, run classify() first")
-        
+
         check_missing_classes(self.classification)
         return UltralyticsClassifier.calculate_score(self.classification)["_total"]
