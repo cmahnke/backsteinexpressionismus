@@ -1,7 +1,21 @@
 @use "sass:color";
+@use "normalize";
+@use "fonts/futura-renner";
+@use "icons" as * with ($color-light: hsl(48, 93%, 89%));
+@use "ol-iiif";
+@use "share";
+@use "media-info";
+@use "menu" as * with ($font-color-body: hsl(48, 93%, 89%), $frame-bg-color: color.adjust(#600, $lightness: -7.5%));
+@use "tabs";
+@use "timeline";
+@use "map";
+@use "iframe-consent";
+@use "brick-map";
+@use "pagefind";
+@use "iiif/presentation-tify";
+@use "theme";
 
-@import "normalize";
-@import "fonts/futura-renner";
+
 /* Source: https://www.onlinewebfonts.com/download/3e8042d2739cb66ae6ef7ffc372014db */
 @font-face {
     font-family: Neuland;
@@ -15,29 +29,14 @@ $font-heading: 'Neuland' !default;
 $brick-bg-color: #600 !default;
 $frame-bg-color: color.adjust($brick-bg-color, $lightness: -7.5%);
 $color-body-text: hsl(48, 93%, 89%) !default;
-$font-color-body: $color-body-text;
 $color-link-text: hsl(48, 93%, 89%) !default;
 $color-bg: #112e63 !default;
 $mortar-color: color.adjust($color-body-text, $lightness: -25%); /*darken($color-body-text, 25%); */
-$color-light: $color-body-text;
 
-@import "icons";
 /* @import "ol"; */
-@import "ol-iiif";
-@import "share";
-@import "media-info";
-@import "menu";
-@import "tabs";
-@import "timeline";
-@import "map";
-@import "iframe-consent";
-@import "brick-map";
-@import "pagefind";
 
-@import "iiif/presentation-tify";
 
 /* Skip link and visually-hidden utility (theme baseof/pagination) */
-@import "theme";
 
 body {
     font-family: $font-body, Helvetica;
