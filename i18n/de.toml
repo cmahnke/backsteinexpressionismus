@@ -16,29 +16,11 @@ other = "Gebäude"
 [architect]
 other = "Architekt"
 
-[WikidataEntries]
-other = "Wikidata-Einträge"
-
-[WikidataEntry]
-other = "Wikidata-Eintrag"
-
 [InlinePDFNotSupported]
 other = "Inline-PDF nicht unterstützt"
 
-[source]
-other = "Quelle"
-
 [generated]
 other = "Erstellt"
-
-[revision]
-other = "Revision"
-
-[notes]
-other = "Anmerkungen"
-
-[pageAbbr]
-other = "S."
 
 [other]
 other = "andere"
