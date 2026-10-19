@@ -1,5 +1,4 @@
 {{- $tabs := .tabs -}}
-{{- $context := .context -}}
 
 {{- define "partials/tab-name.html" -}}
   {{- $handle := strings.ToLower .Title -}}
@@ -21,7 +20,7 @@
   <div class="panels">
     {{- range $i, $panel := $tabs -}}
       <div class="panel{{ if eq $i 0 }} active show{{ end }}" role="tabpanel" id="{{ printf "panel-%d" $i }}" aria-labelledby="{{ printf "tab-%d" $i }}">
-        {{ partial "tabs/content.html" $context }}
+        {{ partial "tabs/content.html" $panel }}
       </div>
     {{- end -}}
   </div>

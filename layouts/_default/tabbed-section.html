@@ -7,7 +7,7 @@
             <div class="post brick">
                 <div class="container">
                     {{- $tabs := .CurrentSection.Pages -}}
-                    {{- partial "tabs/page-frame.html" (dict "tabs" $tabs "context" .) -}}
+                    {{- partial "tabs/page-frame.html" (dict "tabs" $tabs) -}}
               </div>
           </div>
       </main>
