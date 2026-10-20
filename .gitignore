@@ -43,3 +43,11 @@ pagefind
 assets/scss/flags
 assets/scss/flags/flags.scss
 assets/scss/npm-fonts/
+
+/package-lock.json
+
+/npm-shrinkwrap.json
+
+/pnpm-lock.yaml
+
+/yarn.lock
