@@ -131,7 +131,7 @@ jobs:
           npm run validate
 
       - name: Puppeteer
-        run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
+        run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh -i
 
       # - name: Archive links
       #   run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e backsteinexpressionismus.projektemacher.org,projektemacher.org

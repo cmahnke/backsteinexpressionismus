@@ -158,6 +158,18 @@ h6 {
     }
 }
 
+/* JS-enhanced menu state: menu.ts replaces the label with a button, so the
+   checkbox sibling chain no longer matches — key the open state off the
+   data attribute the script sets (no-JS fallback stays on :checked above) */
+.top-menu[data-menu-open="true"] ul {
+    @media (max-width : 56.25em) {
+        visibility: visible;
+        opacity: 1;
+        max-height: 100rem;
+        display: block;
+    }
+}
+
 .top-nav {
     width: 100%;
     margin: 0 auto 1em;
