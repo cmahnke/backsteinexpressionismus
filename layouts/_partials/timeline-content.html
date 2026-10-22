@@ -1,9 +1,7 @@
 {{- $sourceSection := ( where site.Pages "Section" "tags") -}}
-{{- $pages := where $sourceSection "type" "eq" "builder" -}}
+{{- $pages := where $sourceSection ".Page.Params.type" "eq" "building" -}}
+{{- $pages = where $pages ".Page.Params.yearBuild" "!=" nil -}}
 
-{{- $pages = where site.Pages "Params.yearBuild" "!=" nil -}}
-{{- $pages = sort $pages ".Params.yearBuild" -}}
-
-<div id="vertical" class="" role="tabpanel">
-    {{- partial "timeline/vertical.html" (dict "context" . "entries" $pages) -}}
+<div class="timeline-content">
+    {{- partial "timeline/horizontal.html" (dict "context" . "entries" $pages "yearKey" "yearBuild") -}}
 </div>

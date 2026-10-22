@@ -1,0 +1,14 @@
+{{ define "title" }}
+  {{- .Title }} · {{ site.Title -}}
+{{ end }}
+{{ define "content" }}
+    <div class="page-container zigzag">
+        <main class="content">
+            <div class="post brick">
+                <div class="container">
+                    {{- partial "timeline-content.html" . -}}
+              </div>
+          </div>
+      </main>
+    </div>
+{{ end }}
