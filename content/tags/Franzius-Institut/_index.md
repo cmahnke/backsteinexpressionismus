@@ -3,13 +3,14 @@ title: "Franzius-Institut (Universität Hannover)"
 description: ''
 draft: true
 type: building
-location: Hannover
-yearBuild: 1927
 #geojson:
 #  coordinates:
 #  - 10.0229564
 #  - 53.5544775
-notes: nogeoref
+params:
+  location: Hannover
+  yearBuild: 1927
+  notes: nogeoref
 ---
 
 * Entworfen von [Franz Erich Kassbaum](/tags/Franz-Erich-Kassbaum)

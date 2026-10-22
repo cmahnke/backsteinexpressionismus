@@ -2,18 +2,19 @@
 title: "Rüstringer Rathaus"
 description: ''
 type: building
-archinformID: projekte/1108
-yearBuild: 1928-1929
-location:
-  - Wilhelmshaven
-  - Rüstringen
 aliases:
   - /tags/Rathaus-Wilhelmshaven
   - /tags/Wilhelmshavener-Rathaus
-geojson:
-  coordinates:
-  - 8.1076964
-  - 53.5267311
+params:
+  archinformID: projekte/1108
+  yearBuild: 1928-1929
+  location:
+    - Wilhelmshaven
+    - Rüstringen
+  geojson:
+    coordinates:
+    - 8.1076964
+    - 53.5267311
 ---
 
 * Designed by [Fritz Höger](/tags/Fritz-Höger)

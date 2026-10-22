@@ -2,7 +2,8 @@
 title: "Hans Poelzig"
 description: ''
 type: architect
-archinformID: arch/633
+params:
+  archinformID: arch/633
 ---
 
 # Hans Poelzig in der...

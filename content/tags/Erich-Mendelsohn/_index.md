@@ -2,7 +2,8 @@
 title: "Erich Mendelsohn"
 description: ''
 type: architect
-archinformID: arch/202
+params:
+  archinformID: arch/202
 ---
 
 # Richard Neutra in der...

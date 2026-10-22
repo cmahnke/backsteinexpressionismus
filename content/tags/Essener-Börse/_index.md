@@ -2,15 +2,16 @@
 title: "Essener Börse"
 description: ''
 type: building
-yearBuild: 1925
-location:
-  - Essen
 aliases:
   - /tags/Haus-der-Technik-Essen
-geojson:
-  coordinates:
-  - 7.0136258
-  - 51.4526649
+params:
+  yearBuild: 1925
+  location:
+    - Essen
+  geojson:
+    coordinates:
+    - 7.0136258
+    - 51.4526649
 ---
 
 * Entworfen von [Edmund Körner](/tags/Edmund-Körner)

@@ -1,8 +1,9 @@
 ---
 title: "Links"
 description: "Links and Publications"
-metaPage: true
-displayinlist: false
+params:
+  metaPage: true
+  displayinlist: false
 ---
 
 # Brick Expressionism...

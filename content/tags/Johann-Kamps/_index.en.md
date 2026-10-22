@@ -2,7 +2,8 @@
 title: "Johann Kamps"
 description: ''
 type: architect
-archinformID: arch/23217
+params:
+  archinformID: arch/23217
 ---
 
 # Johann Kamps in...

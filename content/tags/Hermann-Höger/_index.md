@@ -2,7 +2,8 @@
 title: "Hermann Höger"
 description: ''
 type: architect
-archinformID: arch/62645
+params:
+  archinformID: arch/62645
 ---
 
 * Jüngerer Bruder von Fritz Höger](/tags/Fritz-Höger)

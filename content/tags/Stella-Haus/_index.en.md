@@ -2,14 +2,15 @@
 title: "Stella-Haus"
 description: ''
 type: building
-location: Hamburg
-yearBuild: 1922-1923
-alias:
- - /tags/Stellahaus
-geojson:
-  coordinates:
-  - 9.9818164
-  - 53.5457806
+params:
+  location: Hamburg
+  yearBuild: 1922-1923
+  alias:
+   - /tags/Stellahaus
+  geojson:
+    coordinates:
+    - 9.9818164
+    - 53.5457806
 ---
 
 * Designed by [Albert Lindhorst](/tags/Albert-Lindhorst)

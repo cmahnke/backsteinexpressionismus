@@ -2,7 +2,8 @@
 title: "Alfred Fischer"
 description: ''
 type: architect
-archinformID: arch/130
+params:
+  archinformID: arch/130
 ---
 
 # Alfred Fischer in...

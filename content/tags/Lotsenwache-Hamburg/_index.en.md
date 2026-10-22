@@ -2,16 +2,17 @@
 title: "Lotsenwache Hamburg"
 description: ''
 type: building
-archinformID: projekte/5974
-location: Hamburg
-yearBuild: 1913-1914
 aliases:
   - /tags/Lotsenhaus-Seemannshöft
   - /tags/Seemannshöft-Lotsenhaus
-geojson:
-  coordinates:
-  - 9.8787266
-  - 53.5398525
+params:
+  archinformID: projekte/5974
+  location: Hamburg
+  yearBuild: 1913-1914
+  geojson:
+    coordinates:
+    - 9.8787266
+    - 53.5398525
 ---
 
 * Designed by [Fritz Schumacher](/tags/Fritz-Schumacher)

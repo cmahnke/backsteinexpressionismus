@@ -2,7 +2,8 @@
 title: "Bernhard Hoetger"
 description: ''
 type: architect
-archinformID: arch/3125
+params:
+  archinformID: arch/3125
 ---
 
 # Bernhard Hoetger in der...

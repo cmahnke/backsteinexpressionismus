@@ -2,8 +2,9 @@
 title: "Amsterdamer Schule"
 description: ''
 type: other
-archinformID: stich/44.htm
-location: Amsterdam
+params:
+  archinformID: stich/44.htm
+  location: Amsterdam
 ---
 
 The Amsterdam School is the name for an architectural style closely related to Brick Expressionism.

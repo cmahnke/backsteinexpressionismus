@@ -2,8 +2,9 @@
 title: "Pressa"
 description: ''
 type: other
-archinformID: projekte/29525
-location: Köln
+params:
+  archinformID: projekte/29525
+  location: Köln
 ---
 
 Die Pressa war eine Presseausstellung in Köln 1928

@@ -2,12 +2,13 @@
 title: "Die Glocke"
 description: ''
 type: building
-location: Hamburg
-yearBuild: 1926-1928
-geojson:
-  coordinates:
-  - 8.806812
-  - 53.0748449
+params:
+  location: Hamburg
+  yearBuild: 1926-1928
+  geojson:
+    coordinates:
+    - 8.806812
+    - 53.0748449
 ---
 
 * Entworfen von [Walter Göring](/tags/Walter-Göring)

@@ -2,7 +2,8 @@
 title: "Otto Bartning"
 description: ''
 type: architect
-archinformID: arch/1056
+params:
+  archinformID: arch/1056
 ---
 
 # Otto Bartning in der...

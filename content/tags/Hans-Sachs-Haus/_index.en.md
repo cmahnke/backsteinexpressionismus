@@ -2,13 +2,14 @@
 title: "Hans-Sachs-Haus"
 description: ''
 type: building
-archinformID: projekte/287
-location: Gelsenkirchen
-yearBuild: 1924-1927
-geojson:
-  coordinates:
-  - 7.0906052
-  - 51.5110761
+params:
+  archinformID: projekte/287
+  location: Gelsenkirchen
+  yearBuild: 1924-1927
+  geojson:
+    coordinates:
+    - 7.0906052
+    - 51.5110761
 ---
 
 * Designed by [Alfred Fischer](/tags/Alfred-Fischer)

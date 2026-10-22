@@ -2,12 +2,13 @@
 title: "Marine-Ehrenmal Laboe"
 description: ''
 type: building
-location: Kiel
-yearBuild: 1927-1936
-geojson:
-  coordinates:
-  - 10.2279534
-  - 54.4131637
+params:
+  location: Kiel
+  yearBuild: 1927-1936
+  geojson:
+    coordinates:
+    - 10.2279534
+    - 54.4131637
 ---
 
 * Designed by [Gustav August Munzer](/tags/Gustav-August-Munzer)

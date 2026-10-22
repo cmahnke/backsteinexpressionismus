@@ -2,7 +2,8 @@
 title: "Peter Behrens"
 description: ''
 type: architect
-archinformID: arch/418
+params:
+  archinformID: arch/418
 ---
 
 # Peter Behrens in der...

@@ -2,7 +2,8 @@
 title: "Hanns Hopp"
 description: ''
 type: architect
-archinformID: arch/3007
+params:
+  archinformID: arch/3007
 ---
 
 # Hanns Hopp in der...

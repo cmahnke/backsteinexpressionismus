@@ -2,7 +2,8 @@
 title: "Friedrich Lehmann"
 description: ''
 type: architect
-archinformID: arch/18700
+params:
+  archinformID: arch/18700
 ---
 
 # Friedrich Lehmann in...

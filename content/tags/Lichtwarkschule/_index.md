@@ -2,13 +2,14 @@
 title: "Lichtwarkschule"
 description: ''
 type: building
-archinformID: projekte/5953
-location: Hamburg
-yearBuild: 1919
-geojson:
-  coordinates:
-  - 10.0103887
-  - 53.5918343
+params:
+  archinformID: projekte/5953
+  location: Hamburg
+  yearBuild: 1919
+  geojson:
+    coordinates:
+    - 10.0103887
+    - 53.5918343
 ---
 
 * Entworfen von [Fritz Schumacher](/tags/Fritz-Schumacher)

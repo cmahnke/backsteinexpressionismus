@@ -2,12 +2,13 @@
 title: "Rathaus Oberhausen"
 description: ''
 type: building
-location: Oberhausen
-yearBuild: 1927-1930
-geojson:
-  coordinates:
-  - 6.8577605
-  - 51.473704
+params:
+  location: Oberhausen
+  yearBuild: 1927-1930
+  geojson:
+    coordinates:
+    - 6.8577605
+    - 51.473704
 ---
 
 * Designed by [Ludwig Freitag](/tags/Ludwig-Freitag)

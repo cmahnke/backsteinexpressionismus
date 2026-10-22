@@ -2,16 +2,17 @@
 title: "Finanzdeputation Hamburg"
 description: ''
 type: building
-archinformID: projekte/5952
-location: Hamburg
-yearBuild: 1919-1926
-alias:
- - /tags/Dienstgebäude-der-Finanzbehörde-Hamburg
- - /tags/Dienstgebäude-der-Finanzdeputation-Hamburg
-geojson:
-  coordinates:
-  - 9.9872473
-  - 53.5550798
+params:
+  archinformID: projekte/5952
+  location: Hamburg
+  yearBuild: 1919-1926
+  alias:
+   - /tags/Dienstgebäude-der-Finanzbehörde-Hamburg
+   - /tags/Dienstgebäude-der-Finanzdeputation-Hamburg
+  geojson:
+    coordinates:
+    - 9.9872473
+    - 53.5550798
 ---
 
 * Designed by [Fritz Schuhmacher](/tags/Fritz-Schuhmacher)

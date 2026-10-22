@@ -2,7 +2,8 @@
 title: "Adolf Abel"
 description: ''
 type: architect
-archinformID: arch/120
+params:
+  archinformID: arch/120
 ---
 
 # Adolf Abel in...

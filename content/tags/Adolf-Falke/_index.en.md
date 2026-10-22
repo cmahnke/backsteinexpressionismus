@@ -2,7 +2,8 @@
 title: "Adolf Falke"
 description: ''
 type: architect
-archinformID: arch/64194
+params:
+  archinformID: arch/64194
 ---
 
 # Adolf Falke in...

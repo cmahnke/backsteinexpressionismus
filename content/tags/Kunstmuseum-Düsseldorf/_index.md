@@ -2,14 +2,15 @@
 title: "Kunstmuseum Düsseldorf"
 description: ''
 type: building
-yearBuild: 1925-1926
 #archinformID:
 aliases:
   - /tags/Museum-Kunstpalast
-geojson:
-  coordinates:
-  - 6.7700138
-  - 51.2350772
+params:
+  yearBuild: 1925-1926
+  geojson:
+    coordinates:
+    - 6.7700138
+    - 51.2350772
 ---
 
 * Entworfen von [Wilhelm Kreis](/tags/Wilhelm-Kreis)

@@ -2,7 +2,8 @@
 title: "Hans Herkommer"
 description: ''
 type: architect
-archinformID: arch/872
+params:
+  archinformID: arch/872
 ---
 
 # Hans Herkommer in...

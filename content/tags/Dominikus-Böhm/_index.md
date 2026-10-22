@@ -2,7 +2,8 @@
 title: "Dominikus Böhm"
 description: ''
 type: architect
-archinformID: arch/772
+params:
+  archinformID: arch/772
 ---
 
 # Dominikus Böhm in der...

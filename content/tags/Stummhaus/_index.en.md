@@ -2,13 +2,14 @@
 title: "Stummhaus"
 description: ''
 type: building
-archinformID: projekte/6043
-location: Düsseldorf
-yearBuild: 1922-1925
-geojson:
-  coordinates:
-  - 6.7745112
-  - 51.2203605
+params:
+  archinformID: projekte/6043
+  location: Düsseldorf
+  yearBuild: 1922-1925
+  geojson:
+    coordinates:
+    - 6.7745112
+    - 51.2203605
 ---
 
 * Designed by [Paul Bonatz](/tags/Paul-Bonatz)

@@ -2,7 +2,8 @@
 title: "Max Gerntke"
 description: ''
 type: architect
-archinformID: arch/58496
+params:
+  archinformID: arch/58496
 ---
 
 # Max Gerntke in der...

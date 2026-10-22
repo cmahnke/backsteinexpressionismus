@@ -2,13 +2,14 @@
 title: "Christkönig-Kirche"
 description: ''
 type: building
-archinformID: projekte/794
-location: Bischofsheim
-yearBuild: 1926
-geojson:
-  coordinates:
-  - 8.3549983
-  - 49.99169
+params:
+  archinformID: projekte/794
+  location: Bischofsheim
+  yearBuild: 1926
+  geojson:
+    coordinates:
+    - 8.3549983
+    - 49.99169
 ---
 
 * Designed by [Dominikus Böhm](/tags/Dominikus-Böhm)

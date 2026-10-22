@@ -2,7 +2,8 @@
 title: "Jacob Koerfer"
 description: ''
 type: architect
-archinformID: arch/3017
+params:
+  archinformID: arch/3017
 ---
 
 # Jacob Koerfer in der...

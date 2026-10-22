@@ -2,7 +2,8 @@
 title: "Eugen Schmohl"
 description: ''
 type: architect
-archinformID: arch/2934
+params:
+  archinformID: arch/2934
 ---
 
 # Eugen Schmohl in...

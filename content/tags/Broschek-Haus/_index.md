@@ -2,13 +2,14 @@
 title: "Broschek-Haus"
 description: ''
 type: building
-archinformID: projekte/6361
-location: Hamburg
-yearBuild: 1926-1927
-geojson:
-  coordinates:
-  - 9.9994392
-  - 53.5484695
+params:
+  archinformID: projekte/6361
+  location: Hamburg
+  yearBuild: 1926-1927
+  geojson:
+    coordinates:
+    - 9.9994392
+    - 53.5484695
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)

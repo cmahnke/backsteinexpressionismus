@@ -2,13 +2,14 @@
 title: "Stadhalle Magdeburg"
 description: ''
 type: building
-archinformID: projekte/6124
-location: Magdeburg
-yearBuild: 1926-1927
-geojson:
-  coordinates:
-  - 11.637547
-  - 52.118304
+params:
+  archinformID: projekte/6124
+  location: Magdeburg
+  yearBuild: 1926-1927
+  geojson:
+    coordinates:
+    - 11.637547
+    - 52.118304
 ---
 
 * Designed by [Johannes Göderitz](/tags/Johannes-Göderitz)

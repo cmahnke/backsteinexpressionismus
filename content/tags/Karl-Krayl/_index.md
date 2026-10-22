@@ -2,9 +2,10 @@
 title: "Karl Krayl"
 description: ''
 type: architect
-archinformID: arch/7649
 aliases:
   - /tags/Carl-Krayl
+params:
+  archinformID: arch/7649
 ---
 
 # Karl Krayl in der...

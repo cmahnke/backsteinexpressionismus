@@ -2,13 +2,14 @@
 title: "Chilehaus"
 description: ''
 type: building
-archinformID: projekte/1109
-location: Hamburg
-yearBuild: 1922-1924
-geojson:
-  coordinates:
-  - 9.9994392
-  - 53.5484695
+params:
+  archinformID: projekte/1109
+  location: Hamburg
+  yearBuild: 1922-1924
+  geojson:
+    coordinates:
+    - 9.9994392
+    - 53.5484695
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)

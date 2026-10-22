@@ -2,7 +2,8 @@
 title: "Martin Weber"
 description: ''
 type: architect
-archinformID: arch/67704
+params:
+  archinformID: arch/67704
 ---
 
 # Martin Weber in...

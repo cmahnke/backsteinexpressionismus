@@ -2,13 +2,14 @@
 title: "Paula-Becker-Modersohn-Haus"
 description: ''
 type: building
-archinformID: projekte/6364
-location: Bremen
-yearBuild: 1927
-geojson:
-  coordinates:
-  - 8.8038336
-  - 53.0751097
+params:
+  archinformID: projekte/6364
+  location: Bremen
+  yearBuild: 1927
+  geojson:
+    coordinates:
+    - 8.8038336
+    - 53.0751097
 ---
 
 * Entworfen von [Bernhard Hoetger](/tags/Bernhard-Hoetger)

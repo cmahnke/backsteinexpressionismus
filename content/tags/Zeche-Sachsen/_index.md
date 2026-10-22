@@ -2,13 +2,14 @@
 title: "Zeche Sachsen"
 description: ''
 type: building
-archinformID: projekte/285
-location: Hamm
-yearBuild: 1925
-geojson:
-  coordinates:
-  - 7.82445
-  - 51.7065
+params:
+  archinformID: projekte/285
+  location: Hamm
+  yearBuild: 1925
+  geojson:
+    coordinates:
+    - 7.82445
+    - 51.7065
 ---
 
 # Die Zeche Sachsen, Hamm in der...

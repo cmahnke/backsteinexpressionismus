@@ -2,15 +2,16 @@
 title: "Erika-Schwesternhaus"
 description: ''
 type: building
-archinformID: projekte/5984
-location: Hamburg
-yearBuild: 1912-1914
 aliases:
   - /tags/Schwesternhaus-Eppendorfer-Krankenhaus
-geojson:
-  coordinates:
-  - 9.9727276
-  - 53.5887367
+params:
+  archinformID: projekte/5984
+  location: Hamburg
+  yearBuild: 1912-1914
+  geojson:
+    coordinates:
+    - 9.9727276
+    - 53.5887367
 ---
 
 * Designed by [Fritz Schumacher](/tags/Fritz-Schumacher)

@@ -2,8 +2,9 @@
 title: "Amsterdamer Schule"
 description: ''
 type: other
-archinformID: stich/44.htm
-location: Amsterdam
+params:
+  archinformID: stich/44.htm
+  location: Amsterdam
 ---
 
 Die Amsterdamer Schule ist die Bezeichnung für einen Architekturstil, der mit dem Backsteinexpressionismus eng verwand ist.

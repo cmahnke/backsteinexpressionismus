@@ -2,7 +2,8 @@
 title: "Edmund Körner"
 description: ''
 type: architect
-archinformID: arch/68931
+params:
+  archinformID: arch/68931
 ---
 
 # Edmund Körner in...

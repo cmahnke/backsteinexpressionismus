@@ -2,7 +2,8 @@
 title: "Paul Bonatz"
 description: ''
 type: architect
-archinformID: arch/414
+params:
+  archinformID: arch/414
 ---
 
 # Paul Bonatz in...

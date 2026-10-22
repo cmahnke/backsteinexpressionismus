@@ -2,13 +2,14 @@
 title: "Realschule Uferstrasse"
 description: ''
 type: building
-yearBuild: 1914-1915
-archinformID: projekte/5974
-location: Hamburg
-geojson:
-  coordinates:
-  - 10.034982
-  - 53.5719123
+params:
+  yearBuild: 1914-1915
+  archinformID: projekte/5974
+  location: Hamburg
+  geojson:
+    coordinates:
+    - 10.034982
+    - 53.5719123
 ---
 
 * Entworfen von [Fritz Schumacher](/tags/Fritz-Schumacher), heute nur noch teilweise erhalten.

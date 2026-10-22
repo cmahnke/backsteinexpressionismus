@@ -2,7 +2,8 @@
 title: "Ernst Otto Oßwald"
 description: ''
 type: architect
-archinformID: arch/776
+params:
+  archinformID: arch/776
 ---
 
 # Ernst Otto Oßwald in der...

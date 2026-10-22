@@ -2,7 +2,8 @@
 title: "Friedrich Fischer"
 description: ''
 type: architect
-archinformID: arch/64253
+params:
+  archinformID: arch/64253
 ---
 
 # Friedrich Fischer in...

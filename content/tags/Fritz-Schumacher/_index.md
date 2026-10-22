@@ -2,7 +2,8 @@
 title: "Fritz Schuhmacher"
 description: ''
 type: architect
-archinformID: arch/2724
+params:
+  archinformID: arch/2724
 ---
 
 # Fritz Schuhmacher in der...

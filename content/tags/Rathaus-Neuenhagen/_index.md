@@ -2,12 +2,13 @@
 title: "Rathaus Neuenhagen"
 description: ''
 type: building
-location: Neuenhagen
-yearBuild: 1925-1926
-geojson:
-  coordinates:
-  - 13.6879291
-  - 52.526545
+params:
+  location: Neuenhagen
+  yearBuild: 1925-1926
+  geojson:
+    coordinates:
+    - 13.6879291
+    - 52.526545
 ---
 
 * Entworfen von [Wilhelm Wagner](/tags/Wilhelm-Wagner)

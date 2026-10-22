@@ -2,7 +2,8 @@
 title: "Zollverwaltungsgebäude Hamburg"
 description: ''
 type: draft
-location: Hamburg
+params:
+  location: Hamburg
 ---
 
 * Entworfen von [Fritz Schumacher](/tags/Fritz-Schumacher)

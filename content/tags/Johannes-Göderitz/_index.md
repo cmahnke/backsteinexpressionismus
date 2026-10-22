@@ -2,7 +2,8 @@
 title: "Johannes Göderitz"
 description: ''
 type: architect
-archinformID: arch/3019
+params:
+  archinformID: arch/3019
 ---
 
 # Johannes Göderitz in der

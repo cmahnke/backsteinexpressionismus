@@ -2,7 +2,8 @@
 title: "August Grubitz"
 description: ''
 type: architect
-archinformID: arch/65633
+params:
+  archinformID: arch/65633
 ---
 
 # August Grubitz in...

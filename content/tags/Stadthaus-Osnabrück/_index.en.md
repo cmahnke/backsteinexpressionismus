@@ -2,14 +2,15 @@
 title: "Stadthaus I Osnabrück"
 description: ''
 type: building
-location: Osnabrück
-yearBuild: 1928-1929
-alias:
- - /tags/Städtische-Krankenanstalten-Osnabrück
-geojson:
-  coordinates:
-  - 8.0347124
-  - 52.2779691
+params:
+  location: Osnabrück
+  yearBuild: 1928-1929
+  alias:
+   - /tags/Städtische-Krankenanstalten-Osnabrück
+  geojson:
+    coordinates:
+    - 8.0347124
+    - 52.2779691
 ---
 
 * Designed by [Friedrich Lehmann](/tags/Friedrich-Lehmann)

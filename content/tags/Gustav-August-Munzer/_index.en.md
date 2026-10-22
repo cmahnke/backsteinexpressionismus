@@ -2,7 +2,8 @@
 title: "Gustav August Munzer"
 description: ''
 type: architect
-archinformID: arch/216043
+params:
+  archinformID: arch/216043
 ---
 
 # Gustav August Munzer in...

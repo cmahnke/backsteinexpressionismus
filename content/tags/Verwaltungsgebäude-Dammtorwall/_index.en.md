@@ -2,12 +2,13 @@
 title: "Verwaltungsgebäude Dammtorwall"
 description: ''
 type: building
-location: Hamburg
-yearBuild: 1913-1915
-geojson:
-  coordinates:
-  - 19.985056
-  - 53.557252
+params:
+  location: Hamburg
+  yearBuild: 1913-1915
+  geojson:
+    coordinates:
+    - 19.985056
+    - 53.557252
 ---
 
 * Designed by [Fritz Schumacher](/tags/Fritz-Schumacher)

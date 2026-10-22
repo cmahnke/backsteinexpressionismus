@@ -2,17 +2,18 @@
 title: "Rheinhalle Düsseldorf"
 description: ''
 type: building
-yearBuild: 1925-1926
-archinformID: projekte/6044
-location: Düsseldorf
 aliases:
   - /tags/Tonhalle-Düsseldorf
   - /tags/Planetarium-Düsseldorf
   - /tags/Rheinhalle-Düsseldorf
-geojson:
-  coordinates:
-  - 6.7704388
-  - 51.2320933
+params:
+  yearBuild: 1925-1926
+  archinformID: projekte/6044
+  location: Düsseldorf
+  geojson:
+    coordinates:
+    - 6.7704388
+    - 51.2320933
 ---
 
 * Entworfen von [Wilhelm Kreis](/tags/Wilhelm-Kreis)

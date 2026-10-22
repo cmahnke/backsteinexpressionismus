@@ -2,7 +2,8 @@
 title: "Otto Paul Burghardt"
 description: ''
 type: architect
-archinformID: arch/26479
+params:
+  archinformID: arch/26479
 ---
 
 # Otto Paul Burghardt in der...

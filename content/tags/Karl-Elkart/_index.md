@@ -2,7 +2,8 @@
 title: "Karl Elkart"
 description: ''
 type: architect
-archinformID: arch/6484
+params:
+  archinformID: arch/6484
 ---
 
 # Karl Elkart in der...

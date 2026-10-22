@@ -1,13 +1,14 @@
 ---
 title: Map
-displayinlist: false
-metaPage: true
+params:
+  displayinlist: false
+  metaPage: true
+  overview:
+    filter: building
+    filterField: type
+    view: map
 layout: overview-content
 weight: 2
-overview:
-  filter: building
-  filterField: type
-  view: map
 ---
 
 {{< html/iframe-consent >}}

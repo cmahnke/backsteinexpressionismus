@@ -2,7 +2,8 @@
 title: "Friedrich Hartjenstein"
 description: ''
 type: architect
-archinformID: arch/65240
+params:
+  archinformID: arch/65240
 ---
 
 # Friedrich Hartjenstein in der...

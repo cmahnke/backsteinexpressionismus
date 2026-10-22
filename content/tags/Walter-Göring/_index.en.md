@@ -2,7 +2,8 @@
 title: "Walter Göring"
 description: ''
 type: architect
-archinformID: arch/65387
+params:
+  archinformID: arch/65387
 ---
 
 # Walter Göring in...

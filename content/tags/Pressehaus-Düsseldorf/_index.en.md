@@ -2,13 +2,14 @@
 title: "Pressehaus Düsseldorf"
 description: ''
 type: building
-location: Düsseldorf
-yearBuild: 1925-1926
-geojson:
-  coordinates:
-  - 6.782081
-  - 51.224908
-notes: nolink
+params:
+  location: Düsseldorf
+  yearBuild: 1925-1926
+  geojson:
+    coordinates:
+    - 6.782081
+    - 51.224908
+  notes: nolink
 ---
 
 * Designed by [Tietmann & Haake](https://de.wikipedia.org/wiki/Tietmann_%26_Haake) (German)

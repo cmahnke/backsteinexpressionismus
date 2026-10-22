@@ -2,14 +2,15 @@
 title: "Dachstein- und Braunkohlenwerke Zeipau"
 description: ''
 type: building
-location: Zeipau
 #yearBuild: 192X-192X
 aliases:
   - /tags/Zeipauer-Dachstein--und-Braunkohlenwerke
-geojson:
-  coordinates:
-  - 15.1812843
-  - 51.565413
+params:
+  location: Zeipau
+  geojson:
+    coordinates:
+    - 15.1812843
+    - 51.565413
 ---
 
 * Entworfen von [Otto Bartning](/tags/Otto-Bartning)

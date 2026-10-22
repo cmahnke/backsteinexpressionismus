@@ -2,13 +2,14 @@
 title: "Ullsteinhaus Berlin"
 description: ''
 type: building
-archinformID: projekte/5995
-location: Berlin
-yearBuild: 1925-1926
-geojson:
-  coordinates:
-  - 13.3825727
-  - 52.4530317
+params:
+  archinformID: projekte/5995
+  location: Berlin
+  yearBuild: 1925-1926
+  geojson:
+    coordinates:
+    - 13.3825727
+    - 52.4530317
 ---
 
 * Designed by [Eugen Schmohl](/tags/Eugen-Schmohl)

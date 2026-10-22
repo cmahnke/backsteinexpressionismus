@@ -1,8 +1,9 @@
 ---
 title: "Walter Müller-Wulckow"
 description: ''
-archinformID: arch/4441
 type: person
+params:
+  archinformID: arch/4441
 ---
 
 # Walter Müller-Wulckow in...

@@ -2,12 +2,13 @@
 title: "Thaliahaus"
 description: ''
 type: building
-location: Hamburg
-yearBuild: 1921
-geojson:
-  coordinates:
-  - 9.9982644
-  - 53.5520277
+params:
+  location: Hamburg
+  yearBuild: 1921
+  geojson:
+    coordinates:
+    - 9.9982644
+    - 53.5520277
 ---
 
 * Designed by [Hans and Oskar Gerson](/tags/Hans-und-Oskar-Gerson)

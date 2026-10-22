@@ -2,14 +2,15 @@
 title: "Kirche am Hohenzollernplatz"
 description: ''
 type: building
-archinformID: projekte/7527
-yearBuild: 1930-1933
-location:
-  - Berlin
-geojson:
-  coordinates:
-  - 13.3247507
-  - 52.4941648
+params:
+  archinformID: projekte/7527
+  yearBuild: 1930-1933
+  location:
+    - Berlin
+  geojson:
+    coordinates:
+    - 13.3247507
+    - 52.4941648
 ---
 
 * Entworfen von [Ossip Klarwein](/tags/Ossip-Klarwein) (Büro [Fritz Höger](/tags/Fritz-Höger))

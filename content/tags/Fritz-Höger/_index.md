@@ -2,7 +2,8 @@
 title: "Fritz Höger"
 description: ''
 type: architect
-archinformID: arch/821
+params:
+  archinformID: arch/821
 ---
 
 #Fritz Höger in der...

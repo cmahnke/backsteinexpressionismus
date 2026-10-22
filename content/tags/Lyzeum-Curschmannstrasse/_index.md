@@ -2,13 +2,14 @@
 title: "Lyzeum Curschmannstrasse"
 description: ''
 type: building
-yearBuild: 1924-1926
 #archinformID:
-location: Hamburg
-geojson:
-  coordinates:
-  - 9.9762056
-  - 53.5875113
+params:
+  yearBuild: 1924-1926
+  location: Hamburg
+  geojson:
+    coordinates:
+    - 9.9762056
+    - 53.5875113
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)

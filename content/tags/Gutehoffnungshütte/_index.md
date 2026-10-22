@@ -2,13 +2,14 @@
 title: "Gutehoffnungshütte"
 description: ''
 type: building
-archinformID: projekte/9881
-yearBuild: 1921-1925
-location: Oberhausen
-geojson:
-  coordinates:
-  - 6.870877
-  - 51.488266
+params:
+  archinformID: projekte/9881
+  yearBuild: 1921-1925
+  location: Oberhausen
+  geojson:
+    coordinates:
+    - 6.870877
+    - 51.488266
 ---
 
 * Entworfen von [Peter Behrens](/tags/Peter-Behrens)

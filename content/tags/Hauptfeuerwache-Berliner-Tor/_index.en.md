@@ -2,13 +2,14 @@
 title: "Hauptfeuerwache Berliner Tor"
 description: ''
 type: building
-archinformID: projekte/5962
-location: Hamburg
-yearBuild: 1911-1915
-geojson:
-  coordinates:
-  - 10.0229564
-  - 53.5544775
+params:
+  archinformID: projekte/5962
+  location: Hamburg
+  yearBuild: 1911-1915
+  geojson:
+    coordinates:
+    - 10.0229564
+    - 53.5544775
 ---
 
 * Designed by [Fritz Schumacher](/tags/Fritz-Schumacher)

@@ -2,14 +2,15 @@
 title: "Borsigturm"
 description: ''
 type: building
-archinformID: projekte/5996
-yearBuild: 1922-1924
-location:
-  - Berlin
-geojson:
-  coordinates:
-  - 13.2834519
-  - 52.5830488
+params:
+  archinformID: projekte/5996
+  yearBuild: 1922-1924
+  location:
+    - Berlin
+  geojson:
+    coordinates:
+    - 13.2834519
+    - 52.5830488
 ---
 
 * Designed by [Eugen Schmohl](/tags/Eugen-Schmohl)

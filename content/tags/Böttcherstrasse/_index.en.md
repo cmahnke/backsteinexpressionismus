@@ -2,12 +2,13 @@
 title: "Böttcherstrasse"
 description: ''
 type: building
-location: Bremen
 #yearBuild: 192X-192X
-geojson:
-  coordinates:
-  - 8.8035073
-  - 53.0750456
+params:
+  location: Bremen
+  geojson:
+    coordinates:
+    - 8.8035073
+    - 53.0750456
 ---
 
 # Böttcherstrasse in...

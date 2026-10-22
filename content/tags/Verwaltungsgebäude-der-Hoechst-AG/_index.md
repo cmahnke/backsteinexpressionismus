@@ -2,15 +2,16 @@
 title: "Technisches Verwaltungsgebäude der Hoechst AG"
 description: ''
 type: building
-archinformID: projekte/6991
-yearBuild: 1920-1924
-location:
-  - Frankfurt
-  - Frankfurt-Höchst
-geojson:
-  coordinates:
-  - 8.5322369
-  - 50.09472
+params:
+  archinformID: projekte/6991
+  yearBuild: 1920-1924
+  location:
+    - Frankfurt
+    - Frankfurt-Höchst
+  geojson:
+    coordinates:
+    - 8.5322369
+    - 50.09472
 ---
 
 * Entworfen von [Peter Behrens](/tags/Peter-Behrens)

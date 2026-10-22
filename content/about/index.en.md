@@ -1,7 +1,8 @@
 ---
 title: "About This Site"
-metaPage: true
-displayinlist: false
+params:
+  metaPage: true
+  displayinlist: false
 ---
 
 Due to [some](/post/fuenf-jahre-wesermuende) [experiences](/post/das-paula-becker-modersohn-haus-in-bremen) in my childhood, buildings in a distinctive style caught my eye. For a long time without knowing exactly what it was about. From time to time I happened to think of it, e.g. in Hanover. Only when I was in Halle more often in 2014 and noticed some buildings there as well, I started to take a closer interest....
@@ -24,7 +25,6 @@ This site was generated with [Hugo](https://gohugo.io/).
 The theme is inspired by the [Kalender des Hanoverschen Anzeigers 1934](/post/logo), [FuturaRenner](https://github.com/noirblancrouge/FuturaRenner), [Neuland](https://en.wikipedia.org/wiki/Neuland) and [Holofernes NF](http://luc.devroye.org/fonts-64098.html) (more about this typeface can be found in the [Internet Archive](https://web.archive.org/web/20170925054409/http://www.myfonts.com/fonts/aarhaus/irrlicht/)) are used as fonts.
 
 The following JavaScript and CSS frameworks are used:
-* [jQuery](https://jquery.com/)
 * [normalize.css](https://necolas.github.io/normalize.css/)
 
 Post-processing of the scans was done with [ScanTailor Advanced](https://github.com/4lex4/scantailor-advanced).

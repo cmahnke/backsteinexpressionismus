@@ -2,7 +2,8 @@
 title: "Hans und Oskar Gerson"
 description: ''
 type: architect
-archinformID: arch/216084
+params:
+  archinformID: arch/216084
 ---
 
 # Hans und Oskar Gerson in der...

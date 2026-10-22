@@ -2,15 +2,16 @@
 title: "St. Antonius Ickern"
 description: ''
 type: building
-yearBuild: 1922-1925
-archinformID: projekte/288
-location:
-  - Castrop-Rauxel
-  - Ickern
-geojson:
-  coordinates:
-  - 7.3374243
-  - 51.5924924
+params:
+  yearBuild: 1922-1925
+  archinformID: projekte/288
+  location:
+    - Castrop-Rauxel
+    - Ickern
+  geojson:
+    coordinates:
+    - 7.3374243
+    - 51.5924924
 ---
 
 * Designed by [Alfred Fischer](/tags/Alfred-Fischer)

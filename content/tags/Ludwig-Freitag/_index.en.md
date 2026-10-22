@@ -2,7 +2,8 @@
 title: "Ludwig Freitag"
 description: ''
 type: architect
-archinformID: arch/60495
+params:
+  archinformID: arch/60495
 ---
 
 # Ludwig Freitag in...

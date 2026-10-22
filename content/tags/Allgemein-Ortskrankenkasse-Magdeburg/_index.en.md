@@ -2,13 +2,14 @@
 title: "Allgemein Ortskrankenkasse Magdeburg"
 description: ''
 type: building
-archinformID: projekte/6125
-location: Magdeburg
-yearBuild: 1926-1927
-geojson:
-  coordinates:
-  - 11.6384616
-  - 52.1177189
+params:
+  archinformID: projekte/6125
+  location: Magdeburg
+  yearBuild: 1926-1927
+  geojson:
+    coordinates:
+    - 11.6384616
+    - 52.1177189
 ---
 
 * Designed by [Karl Krayl](/tags/Karl-Krayl)

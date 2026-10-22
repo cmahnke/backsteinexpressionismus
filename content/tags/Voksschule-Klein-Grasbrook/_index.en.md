@@ -2,13 +2,14 @@
 title: "Voksschule Klein-Grasbrook"
 description: ''
 type: building
-location: Hamburg
-yearBuild: 1916
 #geojson:
 #  coordinates:
 #  - 10.0229564
 #  - 53.5544775
-notes: nogeoref
+params:
+  location: Hamburg
+  yearBuild: 1916
+  notes: nogeoref
 ---
 
 * Designed by [Fritz Schumacher](/tags/Fritz-Schumacher)

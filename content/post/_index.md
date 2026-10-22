@@ -1,4 +1,5 @@
 ---
-displayinlist: false
-#title: "Alle Beiträge"
+params:
+  #title: "Alle Beiträge"
+  displayinlist: false
 ---

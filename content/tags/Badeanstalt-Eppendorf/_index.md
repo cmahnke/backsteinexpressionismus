@@ -2,13 +2,14 @@
 title: "Badeanstalt Eppendorf"
 description: ''
 type: building
-archinformID: projekte/5973
-location: Hamburg
-yearBuild: 1913-1914
-geojson:
-  coordinates:
-  - 9.9903605
-  - 53.5895387
+params:
+  archinformID: projekte/5973
+  location: Hamburg
+  yearBuild: 1913-1914
+  geojson:
+    coordinates:
+    - 9.9903605
+    - 53.5895387
 ---
 
 * Entworfen von [Fritz Schumacher](/tags/Fritz-Schumacher)

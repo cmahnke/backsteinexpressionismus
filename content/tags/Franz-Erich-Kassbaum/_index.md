@@ -2,7 +2,8 @@
 title: "Franz Erich Kassbaum"
 description: ''
 type: architect
-archinformID: arch/63470
+params:
+  archinformID: arch/63470
 ---
 
 #Franz Erich Kassbaum in der...

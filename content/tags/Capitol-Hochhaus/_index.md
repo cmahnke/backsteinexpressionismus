@@ -2,13 +2,14 @@
 title: "Capitol-Hochhaus"
 description: ''
 type: building
-location: Hannover
 #archinformID: projekte/
-yearBuild: 1930
-geojson:
-  coordinates:
-  - 9.7178757
-  - 52.3683918
+params:
+  location: Hannover
+  yearBuild: 1930
+  geojson:
+    coordinates:
+    - 9.7178757
+    - 52.3683918
 ---
 
 * Entworfen von [Friedrich Hartjenstein](/tags/Friedrich-Hartjenstein)

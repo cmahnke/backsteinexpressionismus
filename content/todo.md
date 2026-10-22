@@ -1,8 +1,9 @@
 ---
 title: "Quellen für neue Beiträge - TODO"
 draft: true
-metaPage: true
-displayinlist: false
+params:
+  metaPage: true
+  displayinlist: false
 ---
 
 Natürlich gibt es im Netz und in Büchern viele Listen über relevante Gebäude, Architekten und Literatur, aber manchmal findet man auch Dinge, die nicht so offensichtlich sind.

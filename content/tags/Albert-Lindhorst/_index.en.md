@@ -2,7 +2,8 @@
 title: "Albert Lindhorst"
 description: ''
 type: architect
-archinformID: arch/68408
+params:
+  archinformID: arch/68408
 ---
 
 # Albert Lindhorst in...

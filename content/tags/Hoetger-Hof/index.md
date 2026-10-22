@@ -2,14 +2,15 @@
 title: "Hoetger-Hof"
 description: ''
 type: building
-archinformID: projekte/6365
 #yearBuild: 192X-192X
-location:
-  - Worpswede
-geojson:
-  coordinates:
-  - 8.9165857
-  - 53.2108673
+params:
+  archinformID: projekte/6365
+  location:
+    - Worpswede
+  geojson:
+    coordinates:
+    - 8.9165857
+    - 53.2108673
 ---
 
 * Entworfen von [Bernhard Hoetger](/tags/Bernhard-Hoetger)

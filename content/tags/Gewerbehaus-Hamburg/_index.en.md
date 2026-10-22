@@ -2,13 +2,14 @@
 title: "Gewerbehaus Hamburg"
 description: ''
 type: building
-archinformID: projekte/5980
-location: Hamburg
-yearBuild: 1912-1915
-geojson:
-  coordinates:
-  - 9.9747827
-  - 53.553134
+params:
+  archinformID: projekte/5980
+  location: Hamburg
+  yearBuild: 1912-1915
+  geojson:
+    coordinates:
+    - 9.9747827
+    - 53.553134
 ---
 
 * Designed by [Fritz Schumacher](/tags/Fritz-Schumacher)

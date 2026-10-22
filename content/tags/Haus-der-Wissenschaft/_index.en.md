@@ -3,13 +3,14 @@ title: "Haus der Wissenschaft"
 description: ''
 type: building
 #archinformID:
-yearBuild: 1935-1937
-location:
-  - Braunschweig
-geojson:
-  coordinates:
-  - 10.5274163
-  - 52.274832
+params:
+  yearBuild: 1935-1937
+  location:
+    - Braunschweig
+  geojson:
+    coordinates:
+    - 10.5274163
+    - 52.274832
 ---
 
 * Designed by [Emil Herzig](/tags/Emil-Herzig)

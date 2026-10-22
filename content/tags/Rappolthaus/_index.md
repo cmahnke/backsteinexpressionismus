@@ -2,13 +2,14 @@
 title: "Rappolthaus"
 description: ''
 type: building
-location: Hamburg
-yearBuild: 1911-1912
-geojson:
-  coordinates:
-  - 10.0014113
-  - 53.5511975
-notes: nolink
+params:
+  location: Hamburg
+  yearBuild: 1911-1912
+  geojson:
+    coordinates:
+    - 10.0014113
+    - 53.5511975
+  notes: nolink
 ---
 
 * Entworfen von [Fritz Höger](/tags/Fritz-Höger)

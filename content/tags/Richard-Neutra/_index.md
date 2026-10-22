@@ -2,7 +2,8 @@
 title: "Richard Neutra"
 description: ''
 type: architect
-archinformID: arch/3
+params:
+  archinformID: arch/3
 ---
 
 # Richard Neutra in der...

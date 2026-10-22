@@ -2,14 +2,15 @@
 title: "Wilhelm-Marx-Haus"
 description: ''
 type: building
-archinformID: projekte/4250
-yearBuild: 1922-1924
-location:
-  - Köln
-geojson:
-  coordinates:
-  - 6.7746431
-  - 51.224654
+params:
+  archinformID: projekte/4250
+  yearBuild: 1922-1924
+  location:
+    - Köln
+  geojson:
+    coordinates:
+    - 6.7746431
+    - 51.224654
 ---
 
 * Entworfen von [Wilhelm Kreis](/tags/Wilhelm-Kreis)

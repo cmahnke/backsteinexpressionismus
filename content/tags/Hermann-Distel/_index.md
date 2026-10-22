@@ -2,7 +2,8 @@
 title: "Hermann Distel"
 description: ''
 type: architect
-archinformID: arch/64594
+params:
+  archinformID: arch/64594
 ---
 
 # Hermann Distel in der...

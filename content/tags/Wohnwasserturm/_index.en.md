@@ -2,14 +2,15 @@
 title: "Wohnwasserturm Wulsdorf"
 description: ''
 type: building
-yearBuild: 1927
-location:
-  - Wesermünde
-  - Bremerhaven
-geojson:
-  coordinates:
-  - 8.5975113
-  - 53.5106277
+params:
+  yearBuild: 1927
+  location:
+    - Wesermünde
+    - Bremerhaven
+  geojson:
+    coordinates:
+    - 8.5975113
+    - 53.5106277
 ---
 
 # The Wohnwasserturm Wulsdorf in...

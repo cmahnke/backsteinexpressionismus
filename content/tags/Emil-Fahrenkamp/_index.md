@@ -2,7 +2,8 @@
 title: "Emil Fahrenkamp"
 description: ''
 type: architect
-archinformID: arch/784
+params:
+  archinformID: arch/784
 ---
 
 # Emil Fahrenkamp in der...

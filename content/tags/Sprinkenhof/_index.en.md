@@ -2,13 +2,14 @@
 title: "Sprinkenhof"
 description: ''
 type: building
-archinformID: projekte/6362
-location: Hamburg
-yearBuild: 1930-1932
-geojson:
-  coordinates:
-  - 10.001199
-  - 53.5480155
+params:
+  archinformID: projekte/6362
+  location: Hamburg
+  yearBuild: 1930-1932
+  geojson:
+    coordinates:
+    - 10.001199
+    - 53.5480155
 ---
 
 * Designed by [Hans and Oskar Gerson](/tags/Hans-und-Oskar-Gerson)

@@ -2,7 +2,8 @@
 title: "Wilhelm Kreis"
 description: ''
 type: architect
-archinformID: arch/2734
+params:
+  archinformID: arch/2734
 ---
 
 # Wilhelm Kreis in...

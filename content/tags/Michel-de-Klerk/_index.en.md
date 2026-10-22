@@ -2,7 +2,8 @@
 title: "Michel de Klerk"
 description: ''
 type: architect
-archinformID: arch/394
+params:
+  archinformID: arch/394
 ---
 
 # Michel de Klerk in...

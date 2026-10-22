@@ -2,16 +2,17 @@
 title: "Ballinhaus"
 description: ''
 type: building
-archinformID: projekte/9722
-location: Hamburg
-yearBuild: 1922-1924
-alias:
- - /tags/Meßberghof
- - /tags/Albert-Ballin-Haus
-geojson:
-  coordinates:
-  - 10.001199
-  - 53.5480155
+params:
+  archinformID: projekte/9722
+  location: Hamburg
+  yearBuild: 1922-1924
+  alias:
+   - /tags/Meßberghof
+   - /tags/Albert-Ballin-Haus
+  geojson:
+    coordinates:
+    - 10.001199
+    - 53.5480155
 ---
 
 * Designed by [Hans und Oskar Gerson](/tags/Hans-und-Oskar-Gerson)

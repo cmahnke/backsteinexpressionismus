@@ -1,8 +1,9 @@
 ---
 title: "Links"
 description: "Links und Publikationen"
-metaPage: true
-displayinlist: false
+params:
+  metaPage: true
+  displayinlist: false
 ---
 
 # Backsteinexpressionismus...
