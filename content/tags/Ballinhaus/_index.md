@@ -8,13 +8,13 @@ params:
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q1545737
   yearBuild: 1922-1924
-aliases:
-  - /tags/Meßberghof
-  - /tags/Albert-Ballin-Haus
   geojson:
     coordinates:
     - 10.001199
     - 53.5480155
+aliases:
+  - /tags/Meßberghof
+  - /tags/Albert-Ballin-Haus
 ---
 
 * Entworfen von [Hans und Oskar Gerson](/tags/Hans-und-Oskar-Gerson)

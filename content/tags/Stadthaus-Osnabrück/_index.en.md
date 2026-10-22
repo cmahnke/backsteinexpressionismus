@@ -6,12 +6,12 @@ params:
   location: Osnabrück
   wikidata: http://www.wikidata.org/entity/Q96755328
   yearBuild: 1928-1929
-aliases:
-  - /tags/Städtische-Krankenanstalten-Osnabrück
   geojson:
     coordinates:
     - 8.0347124
     - 52.2779691
+aliases:
+  - /tags/Städtische-Krankenanstalten-Osnabrück
 ---
 
 * Designed by [Friedrich Lehmann](/tags/Friedrich-Lehmann)
