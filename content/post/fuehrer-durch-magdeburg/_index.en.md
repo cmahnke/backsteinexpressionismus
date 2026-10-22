@@ -8,7 +8,7 @@ outputs:
   - html
 tags:
 - Magdeburg
-- Stadhalle Magdeburg
+- Stadthalle Magdeburg
 - Albinmüller-Turm
 - Johannes Göderitz
 - Allgemeine Ortskrankenkasse Magdeburg

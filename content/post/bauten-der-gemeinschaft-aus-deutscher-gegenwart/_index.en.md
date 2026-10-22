@@ -14,7 +14,7 @@ tags:
 - Hamburg
 - Gelsenkirchen
 - Düsseldorf
-- Bischhofsheim
+- Bischofsheim
 - Köln
 - Castrop-Rauxel
 - Königsberg
@@ -25,7 +25,7 @@ tags:
 - Kaliningrad
 - Ickern
 - Berlin
-- Stadhalle Magdeburg
+- Stadthalle Magdeburg
 - Allgemeine Ortskrankenkasse Magdeburg
 - Rathaus Neuenhagen
 - Planetarium Düsseldorf

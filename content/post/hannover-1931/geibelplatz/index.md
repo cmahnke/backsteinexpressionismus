@@ -4,7 +4,7 @@ date: 2024-05-26T19:15:07+01:00
 tags:
 - Hannover
 - Hochhaus Glückauf
-- Wilhelm Ziegelert
+- Wilhelm Ziegeler
 - Foto
 resources:
 - src: "page106.jxl"

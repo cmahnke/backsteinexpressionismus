@@ -6,8 +6,8 @@ params:
   location: Osnabrück
   wikidata: http://www.wikidata.org/entity/Q96755328
   yearBuild: 1928-1929
-  alias:
-   - /tags/Städtische-Krankenanstalten-Osnabrück
+aliases:
+  - /tags/Städtische-Krankenanstalten-Osnabrück
   geojson:
     coordinates:
     - 8.0347124

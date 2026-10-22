@@ -10,7 +10,7 @@ tags:
 - Köln
 - Jacob Koerfer
 - Hansahochhaus
-- Photo
+- Foto
 - Buch
 resources:
 - src: "front.jpg"

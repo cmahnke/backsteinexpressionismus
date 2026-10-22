@@ -1,4 +1,4 @@
 ---
-title: "Alle Postkarten"
+title: "All Postcards"
 description: ''
 ---

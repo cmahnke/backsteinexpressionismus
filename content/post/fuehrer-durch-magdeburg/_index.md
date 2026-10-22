@@ -8,7 +8,7 @@ outputs:
   - html
 tags:
 - Magdeburg
-- Stadhalle Magdeburg
+- Stadthalle Magdeburg
 - Albinmüller-Turm
 - Johannes Göderitz
 - Allgemeine Ortskrankenkasse Magdeburg
@@ -29,7 +29,7 @@ resources:
 
 [Wieder](/post/magdeburg) eine Publikation vom Wirtschaft- und Verkehrsamt der Stadt Magdeburg...
 <!--more-->
-Auch diese Broschüre behandelt auch das Ausstellungsgelände im Rotehornpark, dort befindet sich die [Stadhalle](https://de.wikipedia.org/wiki/Stadthalle_Magdeburg), entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz). Und der [Albinmüller-Turm](https://de.wikipedia.org/wiki/Albinm%C3%BCller-Turm), entworfen von [Albin Müller](https://de.wikipedia.org/wiki/Albin_M%C3%BCller).
+Auch diese Broschüre behandelt auch das Ausstellungsgelände im Rotehornpark, dort befindet sich die [Stadthalle](https://de.wikipedia.org/wiki/Stadthalle_Magdeburg), entworfen von [Johannes Göderitz](/tags/Johannes-Göderitz). Und der [Albinmüller-Turm](https://de.wikipedia.org/wiki/Albinm%C3%BCller-Turm), entworfen von [Albin Müller](https://de.wikipedia.org/wiki/Albin_M%C3%BCller).
 
 [Allgemeine Ortskrankenkasse Magdeburg](/tags/Allgemeine-Ortskrankenkasse-Magdeburg) von [Karl Krayl](/tags/Karl-Krayl).
 

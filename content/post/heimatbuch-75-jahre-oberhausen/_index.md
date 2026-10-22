@@ -10,7 +10,7 @@ tags:
 - Oberhausen
 - Rathaus Oberhausen
 - Gutehoffnungshütte
-- Haupbahnhof Oberhausen
+- Hauptbahnhof Oberhausen
 - St.-Katharinen-Kirche Oberhausen
 - Peter Behrens
 - Ludwig Freitag

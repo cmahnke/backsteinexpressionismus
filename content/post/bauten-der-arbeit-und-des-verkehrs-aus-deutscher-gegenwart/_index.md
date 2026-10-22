@@ -59,7 +59,7 @@ Dieses Buch gehört zur Reihe der "Blauen Bücher"...
 <!--more-->
 Genauer, zu einer in dieser Reihe erschienen Bücher von [Walter Müller-Wulckow](https://de.wikipedia.org/wiki/Walter_M%C3%BCller-Wulckow), die die damals moderne Architektur und Inneneinrichtung präsentiert hat. Aus dieser werden in Zukunft noch weitere Bände präsentiert werden.
 In diesem Band geht es, wie der Titel schon verrät, um Wirtschaftsgebäude. Bauten der folgenden Architekten sind abgebildet:
-* [Fritz Schuhmacher](https://de.wikipedia.org/wiki/Fritz_Schumacher)
+* [Fritz Schumacher](https://de.wikipedia.org/wiki/Fritz_Schumacher)
 * [Alfred Fischer](https://de.wikipedia.org/wiki/Alfred_Fischer_(Architekt))
 * [Fritz Höger](https://de.wikipedia.org/wiki/Fritz_H%C3%B6ger)
 * [Hans und Oskar Gerson](https://de.wikipedia.org/wiki/Hans_und_Oskar_Gerson)

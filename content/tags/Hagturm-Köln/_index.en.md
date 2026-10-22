@@ -12,7 +12,7 @@ params:
     - 50.9445674
 ---
 
-* Designed by [Bernhard Hoetger](/tags/bernhard-hoetger)
+* Designed by [Bernhard Hoetger](/tags/Bernhard-Hoetger)
 
 # The Messeturm Cologne in...
 * [Wikipedia](https://en.wikipedia.org/wiki/Pressa#HAG-Turm)

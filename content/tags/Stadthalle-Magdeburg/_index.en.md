@@ -2,6 +2,8 @@
 title: "Stadthalle Magdeburg"
 description: ''
 type: building
+aliases:
+  - /tags/Stadhalle-Magdeburg
 params:
   archinformID: projekte/6124
   location: Magdeburg

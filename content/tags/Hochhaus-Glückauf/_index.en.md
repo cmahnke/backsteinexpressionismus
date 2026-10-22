@@ -12,7 +12,7 @@ params:
     - 52.3627004
 ---
 
-* Designed by [Wilhelm Ziegelert](/tags/Wilhelm-Ziegeler)
+* Designed by [Wilhelm Ziegeler](/tags/Wilhelm-Ziegeler)
 
 # The Hochhaus Glückauf in...
 * [Wikipedia](https://de.wikipedia.org/wiki/Hochhaus_Gl%C3%BCckauf) (German)

@@ -15,7 +15,7 @@ tags:
 - Stadtbibliothek Hannover
 - Karl Elkart
 - Hochhaus Glückauf
-- Wilhelm Ziegelert
+- Wilhelm Ziegeler
 - Volksschule Südstadt Hannover
 - Hans Bettex
 - Liststadt

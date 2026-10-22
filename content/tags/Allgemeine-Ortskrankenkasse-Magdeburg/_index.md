@@ -1,7 +1,9 @@
 ---
-title: "Allgemein Ortskrankenkasse Magdeburg"
+title: "Allgemeine Ortskrankenkasse Magdeburg"
 description: ''
 type: building
+aliases:
+  - /tags/Allgemein-Ortskrankenkasse-Magdeburg
 params:
   archinformID: projekte/6125
   location: Magdeburg
@@ -14,5 +16,5 @@ params:
 
 * Entworfen von [Carl Krayl](/tags/Karl-Krayl)
 
-# Die Allgemein Ortskrankenkasse Magdeburg in der...
+# Die Allgemeine Ortskrankenkasse Magdeburg in der...
 * [Internationalen Architektur-Datenbank](https://deu.archinform.net/projekte/6125.htm)

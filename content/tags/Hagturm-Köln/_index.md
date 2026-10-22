@@ -12,7 +12,7 @@ params:
     - 50.9445674
 ---
 
-* Entworfen von [Bernhard Hoetger](/tags/bernhard-hoetger)
+* Entworfen von [Bernhard Hoetger](/tags/Bernhard-Hoetger)
 
 # Der Hagturm Köln in der...
 * [Wikipedia](https://en.wikipedia.org/wiki/Pressa#HAG-Turm)

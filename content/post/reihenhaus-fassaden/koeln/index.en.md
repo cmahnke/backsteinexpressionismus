@@ -16,4 +16,4 @@ resources:
 
 Page 205: Cologne.
 <!--moere-->
-The [Hansahochhaus](/tags/Hansahochaus) by [Jacob Koerfer](/tags/Jacob-Koerfer)
+The [Hansahochhaus](/tags/Hansahochhaus) by [Jacob Koerfer](/tags/Jacob-Koerfer)

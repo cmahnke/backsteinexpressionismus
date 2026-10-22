@@ -23,7 +23,7 @@ resources:
     iiif: end/info.json
 ---
 
-The first entry is about the inspiration for some design elements. They are taken from the cover of the 1934 calendar of the Hannoverscher Anzeiger. A very beautiful depiction of the [Anzeiger Hochhaus](/tags/anzeiger-hochaus) in [Hanover](/tags/hannover) by [Fritz Höger](/tags/fritz-hoeger). Unfortunately, apart from the advertisement at the end, this illustration is all there is on the subject in the calendar.
+The first entry is about the inspiration for some design elements. They are taken from the cover of the 1934 calendar of the Hannoverscher Anzeiger. A very beautiful depiction of the [Anzeiger Hochhaus](/tags/Anzeiger-Hochhaus) in [Hanover](/tags/Hannover) by [Fritz Höger](/tags/Fritz-Höger). Unfortunately, apart from the advertisement at the end, this illustration is all there is on the subject in the calendar.
 <!--more-->
 More information about the building, which will certainly be seen here more often, can be found on [Wikipedia](https://de.wikipedia.org/wiki/Anzeiger-Hochhaus) (German).
 

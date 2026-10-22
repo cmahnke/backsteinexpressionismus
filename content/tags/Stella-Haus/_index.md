@@ -6,8 +6,8 @@ params:
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q19309524
   yearBuild: 1922-1923
-  alias:
-   - /tags/Stellahaus
+aliases:
+  - /tags/Stellahaus
   geojson:
     coordinates:
     - 9.9818164

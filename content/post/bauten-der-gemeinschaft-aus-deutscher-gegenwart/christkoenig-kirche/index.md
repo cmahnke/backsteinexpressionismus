@@ -2,7 +2,7 @@
 title: "Christkönig-Kirche"
 date: 2021-05-01T18:25:07+02:00
 tags:
-- Bischhofsheim
+- Bischofsheim
 - Christkönig-Kirche
 - Dominikus Böhm
 - Foto

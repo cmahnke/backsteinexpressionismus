@@ -24,4 +24,4 @@ resources:
     iiif: page079/info.json
 ---
 
-Seite 17, 47, 78 und 79: Die [Stadthalle Magdeburg](/tags/Stadhalle-Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).
+Seite 17, 47, 78 und 79: Die [Stadthalle Magdeburg](/tags/Stadthalle-Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).

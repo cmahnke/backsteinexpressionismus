@@ -16,4 +16,4 @@ resources:
 
 Seite 205: Köln.
 <!--moere-->
-Das [Hansahochhaus](/tags/Hansahochaus) von [Jacob Koerfer](/tags/Jacob-Koerfer)
+Das [Hansahochhaus](/tags/Hansahochhaus) von [Jacob Koerfer](/tags/Jacob-Koerfer)

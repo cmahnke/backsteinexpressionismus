@@ -1,6 +1,8 @@
 ---
 title: "Stadtbibliothek"
 date: 2024-05-05T19:15:07+01:00
+aliases:
+  - /post/hannover-1931/stadtdbibliothek/
 tags:
 - Hannover
 - Stadtbibliothek Hannover
@@ -13,4 +15,4 @@ resources:
     iiif: page101/info.json
 ---
 
-Page 101: The "Hochaus an der Hildesheimer Straße" was already the city library at that time.
+Seite 101: Das "Hochaus an der Hildesheimer Straße" war auch damals schon die Stadtbibliothek.

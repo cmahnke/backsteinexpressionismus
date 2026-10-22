@@ -1,9 +1,9 @@
 ---
-title: "Stadhalle Magdeburg"
+title: "Stadthalle Magdeburg"
 date: 2021-05-01T18:25:07+02:00
 tags:
 - Magdeburg
-- Stadhalle Magdeburg
+- Stadthalle Magdeburg
 - Johannes Göderitz
 - Foto
 resources:
@@ -32,4 +32,4 @@ resources:
     iiif: page107/info.json
 ---
 
-Titelblatt, Seite 51, 52, 53, 55 und 107: [Stadhalle Magdeburg](/tags/Stadhalle-Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).
+Titelblatt, Seite 51, 52, 53, 55 und 107: [Stadthalle Magdeburg](/tags/Stadthalle-Magdeburg) von [Johannes Göderitz](/tags/Johannes-Göderitz).

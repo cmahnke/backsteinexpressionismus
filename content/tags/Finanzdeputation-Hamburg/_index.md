@@ -7,16 +7,16 @@ params:
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q19278262
   yearBuild: 1919-1926
-  alias:
-   - /tags/Dienstgebäude-der-Finanzbehörde-Hamburg
-   - /tags/Dienstgebäude-der-Finanzdeputation-Hamburg
+aliases:
+  - /tags/Dienstgebäude-der-Finanzbehörde-Hamburg
+  - /tags/Dienstgebäude-der-Finanzdeputation-Hamburg
   geojson:
     coordinates:
     - 9.9872473
     - 53.5550798
 ---
 
-* Entworfen von [Fritz Schumacher](/tags/Fritz-Schuhmacher)
+* Entworfen von [Fritz Schumacher](/tags/Fritz-Schumacher)
 
 # Die Finanzdeputation Hamburg in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Dienstgeb%C3%A4ude_der_Finanzbeh%C3%B6rde_Hamburg)

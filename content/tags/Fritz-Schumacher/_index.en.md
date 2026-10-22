@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/2724
+  gndID: 118611585
+  wikidata: http://www.wikidata.org/entity/Q77353
 ---
 
 # Fritz Schumacher in...

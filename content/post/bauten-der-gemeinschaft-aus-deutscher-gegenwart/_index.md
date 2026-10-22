@@ -14,7 +14,7 @@ tags:
 - Hamburg
 - Gelsenkirchen
 - Düsseldorf
-- Bischhofsheim
+- Bischofsheim
 - Köln
 - Castrop-Rauxel
 - Königsberg
@@ -25,7 +25,7 @@ tags:
 - Kaliningrad
 - Ickern
 - Berlin
-- Stadhalle Magdeburg
+- Stadthalle Magdeburg
 - Allgemeine Ortskrankenkasse Magdeburg
 - Rathaus Neuenhagen
 - Planetarium Düsseldorf
@@ -80,7 +80,7 @@ In diesem Band geht es, wie der Titel schon verrät, um Bauten der Gemeinschaft,
 * [Friedrich Fischer](https://de.wikipedia.org/wiki/Friedrich_Fischer_(Architekt))
 * [Wilhelm Wagner](https://de.wikipedia.org/wiki/Wilhelm_Wagner_(Architekt))
 * [Hermann Höger](https://de.wikipedia.org/wiki/Hermann_H%C3%B6ger)
-* [Fritz Schuhmacher](https://de.wikipedia.org/wiki/Fritz_Schumacher)
+* [Fritz Schumacher](https://de.wikipedia.org/wiki/Fritz_Schumacher)
 * [Wilhelm Kreis](https://de.wikipedia.org/wiki/Wilhelm_Kreis)
 * [Alfred Fischer](https://de.wikipedia.org/wiki/Alfred_Fischer_(Architekt))
 * [Hans Poelzig](https://de.wikipedia.org/wiki/Hans_Poelzig)

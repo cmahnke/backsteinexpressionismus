@@ -10,7 +10,7 @@ tags:
 - Köln
 - Jacob Koerfer
 - Hansahochhaus
-- Photo
+- Foto
 - Buch
 resources:
 - src: "front.jpg"
@@ -27,4 +27,4 @@ resources:
     iiif: page111/info.json
 ---
 
-Dieses Buch zur Geschichte von Dyckeroff & Widmann enthält auch eine Abbildung des Hansahochauses in Köln.
+Dieses Buch zur Geschichte von Dyckeroff & Widmann enthält auch eine Abbildung des Hansahochhauses in Köln.

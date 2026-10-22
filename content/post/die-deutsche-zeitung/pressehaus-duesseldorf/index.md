@@ -10,4 +10,4 @@ resources:
   params:
     iiif: page110/info.json
 ---
-Seite 110: Das ["Pressehaus Düsseldorf"](/tags/Presseahaus-Düsseldorf).
+Seite 110: Das ["Pressehaus Düsseldorf"](/tags/Pressehaus-Düsseldorf).

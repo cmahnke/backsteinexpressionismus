@@ -17,7 +17,7 @@ params:
     - 54.7215982
 ---
 
-* Designed by [Hanns Hopp](/tags/Hans-Hopp)
+* Designed by [Hanns Hopp](/tags/Hanns-Hopp)
 
 # The Haus der Technik in...
 * [Wikipedia](https://de.wikipedia.org/wiki/Haus_der_Technik_(K%C3%B6nigsberg)) (German)

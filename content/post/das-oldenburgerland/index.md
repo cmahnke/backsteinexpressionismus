@@ -8,8 +8,8 @@ outputs:
   - html
 tags:
 - Wilhelmshaven
-- Rüstrigen
-- Rüstriger Rathaus
+- Rüstringen
+- Rüstringer Rathaus
 - Fritz Höger
 - Foto
 - Buch

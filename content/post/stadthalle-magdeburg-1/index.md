@@ -1,5 +1,5 @@
 ---
-title: "Postkarte Stadhalle Magdeburg"
+title: "Postkarte Stadthalle Magdeburg"
 date: 2021-04-15T19:15:07+01:00
 type: book
 outputs:

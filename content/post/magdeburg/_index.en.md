@@ -11,7 +11,7 @@ tags:
 - Foto
 - Buch
 - Magdeburg
-- Stadhalle Magdeburg
+- Stadthalle Magdeburg
 - Albinmüller-Turm
 - Johannes Göderitz
 - Albin Müller
