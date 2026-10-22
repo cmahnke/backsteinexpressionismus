@@ -629,6 +629,10 @@ h6 {
     margin: 0 auto;
     background-color: $frame-bg-color;
 
+    a {
+        white-space: nowrap;
+    }
+
     .menu-footer {
         .menu {
             list-style-type: none;
@@ -869,6 +873,12 @@ a:visited {
     display: inline;
     height: 1.125em;
     vertical-align: sub;
+}
+
+/* Recolor the black-rendering header.svg to the body text color */
+.top-nav .navigation-title img,
+.footer .inline-title {
+    filter: invert(56.8%) sepia(21.6%) saturate(219.1%) hue-rotate(11.1deg) brightness(135.3%) contrast(147.8%);
 }
 
 .source {
