@@ -140,6 +140,13 @@ enableRobotsTXT = true
     baseName = "collection"
     notAlternative = true
 
+  [outputFormats.beacon]
+    mediaType = "text/plain"
+    isPlainText = true
+    isHTML = false
+    baseName = "BEACON"
+    notAlternative = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -161,7 +168,7 @@ enableRobotsTXT = true
   writeStats = true
 
 [outputs]
-  home = ["html", "rss", "iiif-collection"]
+  home = ["html", "rss", "iiif-collection", "beacon"]
 
 [[cascade]]
   outputs = ['html','rss', 'iiif-collection']

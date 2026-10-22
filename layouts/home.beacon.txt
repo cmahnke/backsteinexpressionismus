@@ -1,0 +1,22 @@
+{{- $links := slice -}}
+{{- range site.Taxonomies.tags.Alphabetical -}}
+{{- $page := .Page -}}
+{{- with $page.Params.gndID -}}
+{{- $links = $links | append (printf "http://d-nb.info/gnd/%s|%s|%s" . $page.Title $page.Permalink) -}}
+{{- end -}}
+{{- with $page.Params.archinformID -}}
+{{- $links = $links | append (printf "https://deu.archinform.net/%s|%s|%s" . $page.Title $page.Permalink) -}}
+{{- end -}}
+{{- with $page.Params.wikidata -}}
+{{- $links = $links | append (printf "%s|%s|%s" . $page.Title $page.Permalink) -}}
+{{- end -}}
+{{- end -}}
+#FORMAT: BEACON
+#NAME: Backsteinexpressionismus – Tags
+#DESCRIPTION: Tag pages of the Backsteinexpressionismus blog
+#HOMEPAGE: {{ site.BaseURL }}
+#FEED: {{ .Permalink }}
+#TIMESTAMP: {{ now.Format "2006-01-02T15:04:05Z07:00" }}
+#UPDATE: weekly
+
+{{ delimit $links "\n" }}
