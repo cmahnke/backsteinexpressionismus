@@ -1,0 +1,70 @@
+{{- $lang := .Lang -}}
+{{- with site.Language.Locale -}}
+  {{- $lang = . -}}
+{{- end -}}
+{{- $permalink := site.BaseURL -}}
+{{- with .OutputFormats.Get "html" -}}
+  {{- $permalink = .Permalink -}}
+{{- end -}}
+{{- $page := dict
+  "@context" "https://schema.org"
+  "@type" "CollectionPage"
+  "@id" $permalink
+  "url" $permalink
+  "name" .Title
+  "inLanguage" $lang
+-}}
+{{- with .Description -}}
+  {{- $page = $page | merge (dict "description" .) -}}
+{{- end -}}
+{{- $sameAs := slice -}}
+{{- with .Params.gndID -}}
+  {{- $sameAs = $sameAs | append (printf "http://d-nb.info/gnd/%s" .) -}}
+{{- end -}}
+{{- with .Params.wikidata -}}
+  {{- if reflect.IsSlice . -}}
+    {{- range . -}}
+      {{- $sameAs = $sameAs | append . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- if hasPrefix . "http" -}}
+      {{- $sameAs = $sameAs | append . -}}
+    {{- else -}}
+      {{- $sameAs = $sameAs | append (printf "http://www.wikidata.org/entity/%s" .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with .Params.archinformID -}}
+  {{- $sameAs = $sameAs | append (printf "https://deu.archinform.net/%s.htm" .) -}}
+{{- end -}}
+{{- $entityType := "Thing" -}}
+{{- if or (eq .Params.type "architect") (eq .Params.type "person") -}}
+  {{- $entityType = "Person" -}}
+{{- else if eq .Params.type "building" -}}
+  {{- $entityType = "Building" -}}
+{{- end -}}
+{{- $entity := dict "@type" $entityType "name" .Title -}}
+{{- with $sameAs -}}
+  {{- $entity = $entity | merge (dict "sameAs" .) -}}
+{{- end -}}
+{{- if eq $entityType "Building" -}}
+  {{- with .Params.location -}}
+    {{- $entity = $entity | merge (dict "address" (dict "@type" "PostalAddress" "addressLocality" .)) -}}
+  {{- end -}}
+  {{- with .Params.geojson -}}
+    {{- with index . "coordinates" -}}
+      {{- if eq (len .) 2 -}}
+        {{- $entity = $entity | merge (dict "geo" (dict "@type" "GeoCoordinates" "latitude" (index . 1) "longitude" (index . 0))) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with .Params.yearBuild -}}
+  {{- if findRE `^\d{4}$` (printf "%v" .) -}}
+    {{- $entity = $entity | merge (dict "dateCreated" (printf "%v" .)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $page = $page | merge (dict "mainEntity" $entity) -}}
+<script type="application/ld+json">
+  {{- $page | jsonify | safeJS -}}
+</script>

@@ -3,8 +3,8 @@ title: "Messeturm Köln"
 description: ''
 type: building
 #archinformID:
-#yearBuild: 192X-192X
 params:
+  yearBuild: 1927-1928
   location: Köln
   geojson:
     coordinates:

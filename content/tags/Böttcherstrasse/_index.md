@@ -2,8 +2,8 @@
 title: "Böttcherstrasse"
 description: ''
 type: building
-#yearBuild: 192X-192X
 params:
+  yearBuild: 1922-1931
   gndID: 4310497-6
   location: Bremen
   geojson:

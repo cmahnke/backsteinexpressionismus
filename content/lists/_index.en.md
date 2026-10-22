@@ -9,6 +9,7 @@ params:
   js:
   - ts/iframe-consent.ts
   - ts/tabs.ts
+  - ts/maps/osm-map.ts
 ---
 
 This page provides an overview of the presented buildings and architects. The lists are not necessarily complete.

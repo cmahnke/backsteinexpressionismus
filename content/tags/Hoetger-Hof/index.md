@@ -2,8 +2,8 @@
 title: "Hoetger-Hof"
 description: ''
 type: building
-#yearBuild: 192X-192X
 params:
+  yearBuild: 1920-1923
   archinformID: projekte/6365
   location:
     - Worpswede
