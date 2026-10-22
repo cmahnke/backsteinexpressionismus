@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/794
+  gndID: 1395728984
   location: Bischofsheim
+  wikidata: http://www.wikidata.org/entity/Q22087527
   yearBuild: 1926
   geojson:
     coordinates:

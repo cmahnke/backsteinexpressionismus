@@ -7,6 +7,7 @@ aliases:
   - /tags/Wilhelmshavener-Rathaus
 params:
   archinformID: projekte/1108
+  wikidata: http://www.wikidata.org/entity/Q21037076
   yearBuild: 1928-1929
   location:
     - Wilhelmshaven

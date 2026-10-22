@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/64253
+  gndID: 13012009X
+  wikidata: http://www.wikidata.org/entity/Q1459092
 ---
 
 # Friedrich Fischer in der...

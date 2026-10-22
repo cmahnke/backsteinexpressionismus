@@ -6,6 +6,7 @@ type: building
 aliases:
   - /tags/Zeipauer-Dachstein--und-Braunkohlenwerke
 params:
+  gndID: 1223114899
   location: Zeipau
   geojson:
     coordinates:

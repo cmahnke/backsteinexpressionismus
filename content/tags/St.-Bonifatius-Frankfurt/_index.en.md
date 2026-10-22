@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/75083
+  gndID: 6523536-8
   location: Frankfurt
+  wikidata: http://www.wikidata.org/entity/Q2317619
   yearBuild: 1925-1927
   geojson:
     coordinates:

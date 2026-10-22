@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/23216
+  gndID: 127517014
+  wikidata: http://www.wikidata.org/entity/Q1037022
 ---
 
 # Carl Bensel in der...

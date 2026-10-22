@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/3
+  gndID: 118734679
+  wikidata: http://www.wikidata.org/entity/Q84312
 ---
 
 # Richard Neutra in der...

@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/1109
+  gndID: 4570640-2
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q542783
   yearBuild: 1922-1924
   geojson:
     coordinates:

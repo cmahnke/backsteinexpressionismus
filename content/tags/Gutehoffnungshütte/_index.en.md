@@ -4,6 +4,8 @@ description: ''
 type: building
 params:
   archinformID: projekte/9881
+  gndID: 1039378-X
+  wikidata: http://www.wikidata.org/entity/Q883655
   yearBuild: 1921-1925
   location: Oberhausen
   geojson:

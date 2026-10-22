@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/2934
+  gndID: 116816562
+  wikidata: http://www.wikidata.org/entity/Q1372873
 ---
 
 # Eugen Schmohl in...

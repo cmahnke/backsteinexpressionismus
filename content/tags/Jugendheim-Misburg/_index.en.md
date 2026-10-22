@@ -1,11 +1,10 @@
 ---
-title: "Jugendheim Miesburg"
+title: "Jugendheim Misburg"
 description: ''
 type: building
 #yearBuild: 192X-192X
 params:
-  archinformID: projekte/5956
-  location: Hamburg
+  location: Hannover
   geojson:
     coordinates:
     - 9.86058

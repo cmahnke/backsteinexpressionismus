@@ -5,6 +5,7 @@ type: building
 #archinformID: projekte/
 params:
   location: Hannover
+  wikidata: http://www.wikidata.org/entity/Q96254662
   yearBuild: 1929-31
   geojson:
     coordinates:

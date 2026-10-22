@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/784
+  gndID: 116382996
+  wikidata: http://www.wikidata.org/entity/Q95816
 ---
 
 # Emil Fahrenkamp in der...

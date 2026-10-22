@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/202
+  gndID: 11858071X
+  wikidata: http://www.wikidata.org/entity/Q76730
 ---
 
 # Erich Mendelsohn in...

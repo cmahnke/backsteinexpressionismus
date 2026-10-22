@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/216043
+  gndID: 124468675
+  wikidata: http://www.wikidata.org/entity/Q107771
 ---
 
 # Gustav August Munzer in...

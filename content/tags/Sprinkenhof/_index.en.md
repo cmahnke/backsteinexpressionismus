@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/6362
+  gndID: 1059707470
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q2801439
   yearBuild: 1930-1932
   geojson:
     coordinates:

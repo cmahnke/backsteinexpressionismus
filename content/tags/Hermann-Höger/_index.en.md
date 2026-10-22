@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/62645
+  gndID: 1051519861
+  wikidata: http://www.wikidata.org/entity/Q14544301
 ---
 
 * Younger brother of [Fritz Höger](/tags/Fritz-Höger)

@@ -4,6 +4,8 @@ description: ''
 type: building
 params:
   archinformID: projekte/6991
+  gndID: 1060738503
+  wikidata: http://www.wikidata.org/entity/Q875969
   yearBuild: 1920-1924
   location:
     - Frankfurt

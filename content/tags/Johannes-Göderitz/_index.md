@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/3019
+  gndID: 118695703
+  wikidata: http://www.wikidata.org/entity/Q1283666
 ---
 
 # Johannes Göderitz in der

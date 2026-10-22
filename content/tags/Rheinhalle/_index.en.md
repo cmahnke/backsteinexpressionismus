@@ -7,6 +7,8 @@ aliases:
   - /tags/Planetarium-Düsseldorf
   - /tags/Rheinhalle-Düsseldorf
 params:
+  gndID: 4506857-4
+  wikidata: http://www.wikidata.org/entity/Q139206
   yearBuild: 1925-1926
   archinformID: projekte/6044
   location: Düsseldorf

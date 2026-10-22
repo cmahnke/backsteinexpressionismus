@@ -4,6 +4,7 @@ description: ''
 type: building
 #archinformID: projekte/6362
 params:
+  gndID: 1378274555
   location: Hamburg
   yearBuild: 1924–1926
   geojson:

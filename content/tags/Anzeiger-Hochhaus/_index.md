@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/7497
+  gndID: 4406840-2
   location: Hannover
+  wikidata: http://www.wikidata.org/entity/Q614321
   yearBuild: 1927-1928
   geojson:
     coordinates:

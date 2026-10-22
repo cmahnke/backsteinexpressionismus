@@ -10,6 +10,7 @@ params:
     coordinates:
     - 6.9697171
     - 50.9445674
+  wikidata: http://www.wikidata.org/entity/Q881186
 ---
 
 * Entworfen von [Adolf Abel](/tags/Adolf-Abel)

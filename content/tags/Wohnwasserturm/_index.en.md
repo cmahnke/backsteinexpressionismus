@@ -3,6 +3,7 @@ title: "Wohnwasserturm Wulsdorf"
 description: ''
 type: building
 params:
+  wikidata: http://www.wikidata.org/entity/Q2588167
   yearBuild: 1927
   location:
     - Wesermünde

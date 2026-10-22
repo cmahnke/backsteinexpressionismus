@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/772
+  gndID: 118660632
+  wikidata: http://www.wikidata.org/entity/Q75843
 ---
 
 # Dominikus Böhm in der...

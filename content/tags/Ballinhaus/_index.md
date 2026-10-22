@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/9722
+  gndID: 4525209-9
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q1545737
   yearBuild: 1922-1924
   alias:
    - /tags/Meßberghof

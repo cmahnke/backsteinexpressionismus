@@ -4,7 +4,6 @@ description: ''
 type: building
 params:
   yearBuild: 1914-1915
-  archinformID: projekte/5974
   location: Hamburg
   geojson:
     coordinates:

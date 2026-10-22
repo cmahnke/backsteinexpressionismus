@@ -4,6 +4,8 @@ description: ''
 type: person
 params:
   archinformID: arch/4441
+  gndID: 117172553
+  wikidata: http://www.wikidata.org/entity/Q2545575
 ---
 
 # Walter Müller-Wulckow in...

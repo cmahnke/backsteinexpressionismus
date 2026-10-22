@@ -4,6 +4,8 @@ description: ''
 type: building
 #archinformID:
 params:
+  gndID: 1178637239
+  wikidata: http://www.wikidata.org/entity/Q2328167
   yearBuild: 1924-1926
   location: Hamburg
   geojson:

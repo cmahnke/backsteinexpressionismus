@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/68931
+  gndID: 118943545
+  wikidata: http://www.wikidata.org/entity/Q1286553
 ---
 
 # Edmund Körner in der...

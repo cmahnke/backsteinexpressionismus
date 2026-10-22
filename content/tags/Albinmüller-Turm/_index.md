@@ -5,6 +5,7 @@ type: building
 #archinformID:
 params:
   location: Magdeburg
+  wikidata: http://www.wikidata.org/entity/Q2639663
   yearBuild: 1926-1927
   geojson:
     coordinates:

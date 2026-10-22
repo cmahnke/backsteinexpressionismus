@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/5995
+  gndID: 4524436-4
   location: Berlin
+  wikidata: http://www.wikidata.org/entity/Q143984
   yearBuild: 1925-1926
   geojson:
     coordinates:

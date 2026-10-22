@@ -6,6 +6,8 @@ type: building
 aliases:
   - /tags/Museum-Kunstpalast
 params:
+  gndID: 10019225-7
+  wikidata: http://www.wikidata.org/entity/Q461277
   yearBuild: 1925-1926
   geojson:
     coordinates:

@@ -12,7 +12,7 @@ params:
     - 52.1177189
 ---
 
-* Designed by [Karl Krayl](/tags/Karl-Krayl)
+* Designed by [Carl Krayl](/tags/Karl-Krayl)
 
 # The Allgemein Ortskrankenkasse Magdeburg in...
 * [International Architecture Database](https://deu.archinform.net/projekte/6125.htm) (German)

@@ -4,6 +4,8 @@ description: ''
 type: building
 params:
   archinformID: projekte/4250
+  gndID: 7664583-6
+  wikidata: http://www.wikidata.org/entity/Q2571528
   yearBuild: 1922-1924
   location:
     - Köln

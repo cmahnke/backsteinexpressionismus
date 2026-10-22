@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/633
+  gndID: 118741217
+  wikidata: http://www.wikidata.org/entity/Q76734
 ---
 
 # Hans Poelzig in der...

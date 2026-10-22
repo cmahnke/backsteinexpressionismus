@@ -4,7 +4,9 @@ description: ''
 type: other
 params:
   archinformID: projekte/29525
+  gndID: 5121396-5
   location: Köln
+  wikidata: http://www.wikidata.org/entity/Q2108907
 ---
 
 Die Pressa war eine Presseausstellung in Köln 1928

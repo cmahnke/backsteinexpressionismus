@@ -5,6 +5,7 @@ type: building
 params:
   archinformID: projekte/5952
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q19278262
   yearBuild: 1919-1926
   alias:
    - /tags/Dienstgebäude-der-Finanzbehörde-Hamburg
@@ -15,7 +16,7 @@ params:
     - 53.5550798
 ---
 
-* Entworfen von [Fritz Schuhmacher](/tags/Fritz-Schuhmacher)
+* Entworfen von [Fritz Schumacher](/tags/Fritz-Schuhmacher)
 
 # Die Finanzdeputation Hamburg in der...
 * [Wikipedia](https://de.wikipedia.org/wiki/Dienstgeb%C3%A4ude_der_Finanzbeh%C3%B6rde_Hamburg)

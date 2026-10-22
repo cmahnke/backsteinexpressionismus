@@ -3,6 +3,7 @@ title: "St. Antonius Ickern"
 description: ''
 type: building
 params:
+  wikidata: http://www.wikidata.org/entity/Q1697168
   yearBuild: 1922-1925
   archinformID: projekte/288
   location:

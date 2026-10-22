@@ -7,7 +7,9 @@ aliases:
   - /tags/Seemannshöft-Lotsenhaus
 params:
   archinformID: projekte/5974
+  gndID: 1381593062
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q114042
   yearBuild: 1913-1914
   geojson:
     coordinates:

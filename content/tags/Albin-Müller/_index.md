@@ -6,6 +6,8 @@ aliases:
   - /tags/Albinmüller
 params:
   archinformID: arch/4734
+  gndID: 117604674
+  wikidata: http://www.wikidata.org/entity/Q2639617
 ---
 
 # Albin Müller in der...

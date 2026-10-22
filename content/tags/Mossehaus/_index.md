@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/3321
+  gndID: 1378523989
   location: Berlin
+  wikidata: http://www.wikidata.org/entity/Q820531
   yearBuild: 1921–1923
   geojson:
     coordinates:

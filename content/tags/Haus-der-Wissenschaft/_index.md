@@ -4,6 +4,8 @@ description: ''
 type: building
 #archinformID:
 params:
+  gndID: 16343643-5
+  wikidata: http://www.wikidata.org/entity/Q1590845
   yearBuild: 1935-1937
   location:
     - Braunschweig

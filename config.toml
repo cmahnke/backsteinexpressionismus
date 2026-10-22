@@ -13,6 +13,8 @@ copyright = '<a href="https://projektemacher.org/" target="_blank">Projektemache
 timeout = "120s"
 enableGitInfo = true
 
+enableRobotsTXT = true
+
 [pagination]
   pagerSize = 20
 
@@ -173,3 +175,6 @@ enableGitInfo = true
 
 [params.js]
   format = "esm"
+
+[params.robots]
+  llmsTXT = true

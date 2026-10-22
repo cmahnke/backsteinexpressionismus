@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/65633
+  gndID: 129343633
+  wikidata: http://www.wikidata.org/entity/Q116915260
 ---
 
 # August Grubitz in der...

@@ -6,6 +6,7 @@ type: building
 aliases:
   - /tags/Karl-Marx-Haus
 params:
+  wikidata: http://www.wikidata.org/entity/Q1375330
   yearBuild: 1928-1929
   location: Leipzig
   geojson:

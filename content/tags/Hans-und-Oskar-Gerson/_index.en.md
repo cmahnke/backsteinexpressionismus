@@ -4,6 +4,7 @@ description: ''
 type: architect
 params:
   archinformID: arch/216084
+  wikidata: http://www.wikidata.org/entity/Q2712301
 ---
 
 # Hans and Oskar Gerson in...

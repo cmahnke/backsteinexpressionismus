@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/3017
+  gndID: 118824287
+  wikidata: http://www.wikidata.org/entity/Q1677555
 ---
 
 # Jacob Koerfer in der...

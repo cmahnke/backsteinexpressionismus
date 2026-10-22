@@ -4,6 +4,8 @@ description: ''
 type: building
 params:
   archinformID: projekte/2311
+  gndID: 1031932623
+  wikidata: http://www.wikidata.org/entity/Q1616115
   yearBuild: 1919-1921
   location:
     - Amsterdam

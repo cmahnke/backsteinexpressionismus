@@ -4,6 +4,7 @@ description: ''
 type: architect
 params:
   archinformID: arch/68408
+  wikidata: http://www.wikidata.org/entity/Q20979890
 ---
 
 # Albert Lindhorst in der...

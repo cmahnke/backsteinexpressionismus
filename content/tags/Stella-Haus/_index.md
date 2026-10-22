@@ -4,6 +4,7 @@ description: ''
 type: building
 params:
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q19309524
   yearBuild: 1922-1923
   alias:
    - /tags/Stellahaus

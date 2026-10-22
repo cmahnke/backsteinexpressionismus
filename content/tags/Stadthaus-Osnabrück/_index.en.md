@@ -4,6 +4,7 @@ description: ''
 type: building
 params:
   location: Osnabrück
+  wikidata: http://www.wikidata.org/entity/Q96755328
   yearBuild: 1928-1929
   alias:
    - /tags/Städtische-Krankenanstalten-Osnabrück

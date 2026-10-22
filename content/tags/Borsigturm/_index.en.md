@@ -4,6 +4,7 @@ description: ''
 type: building
 params:
   archinformID: projekte/5996
+  wikidata: http://www.wikidata.org/entity/Q13034395
   yearBuild: 1922-1924
   location:
     - Berlin

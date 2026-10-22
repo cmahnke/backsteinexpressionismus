@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/1056
+  gndID: 118506897
+  wikidata: http://www.wikidata.org/entity/Q62322
 ---
 
 # Otto Bartning in...

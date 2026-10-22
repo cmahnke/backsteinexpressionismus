@@ -4,11 +4,13 @@ description: ''
 type: building
 #yearBuild: 192X-192X
 params:
+  gndID: 4310497-6
   location: Bremen
   geojson:
     coordinates:
     - 8.8035073
     - 53.0750456
+  wikidata: http://www.wikidata.org/entity/Q531367
 ---
 
 # Böttcherstrasse in...

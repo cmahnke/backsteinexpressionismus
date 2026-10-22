@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/821
+  gndID: 118705474
+  wikidata: http://www.wikidata.org/entity/Q77380
 ---
 
 # Fritz Höger in...

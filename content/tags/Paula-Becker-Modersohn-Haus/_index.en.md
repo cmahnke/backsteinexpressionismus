@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/6364
+  gndID: 5147151-6
   location: Bremen
+  wikidata: http://www.wikidata.org/entity/Q318983
   yearBuild: 1927
   geojson:
     coordinates:

@@ -8,6 +8,7 @@ aliases:
   - /tags/Heinrich-Heine-Schule
 params:
   location: Hannover
+  wikidata: http://www.wikidata.org/entity/Q29353533
   yearBuild: 1929-1930
   geojson:
     coordinates:

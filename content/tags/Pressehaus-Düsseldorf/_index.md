@@ -4,6 +4,7 @@ description: ''
 type: building
 params:
   location: Düsseldorf
+  wikidata: http://www.wikidata.org/entity/Q1299518
   yearBuild: 1925-1926
   geojson:
     coordinates:

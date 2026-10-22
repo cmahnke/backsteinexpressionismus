@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/2734
+  gndID: 11877798X
+  wikidata: http://www.wikidata.org/entity/Q69473
 ---
 
 # Wilhelm Kreis in der...

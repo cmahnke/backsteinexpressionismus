@@ -4,6 +4,7 @@ description: ''
 type: building
 params:
   location: Hannover
+  wikidata: http://www.wikidata.org/entity/Q1400121
   yearBuild: 1930
   geojson:
     coordinates:

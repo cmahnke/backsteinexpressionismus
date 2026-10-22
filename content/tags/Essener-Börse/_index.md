@@ -5,6 +5,8 @@ type: building
 aliases:
   - /tags/Haus-der-Technik-Essen
 params:
+  gndID: 2002043-0
+  wikidata: http://www.wikidata.org/entity/Q1590821
   yearBuild: 1925
   location:
     - Essen

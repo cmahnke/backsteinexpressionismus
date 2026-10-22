@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/414
+  gndID: 118513168
+  wikidata: http://www.wikidata.org/entity/Q67612
 ---
 
 # Paul Bonatz in...

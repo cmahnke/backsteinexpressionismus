@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/3007
+  gndID: 121831450
+  wikidata: http://www.wikidata.org/entity/Q214888
 ---
 
 # Hanns Hopp in der...

@@ -4,6 +4,7 @@ description: ''
 type: building
 params:
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q125525792
   yearBuild: 1911-1912
   geojson:
     coordinates:

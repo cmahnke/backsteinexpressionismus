@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/120
+  gndID: 116001305
+  wikidata: http://www.wikidata.org/entity/Q5637020
 ---
 
 # Adolf Abel in der...

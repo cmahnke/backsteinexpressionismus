@@ -4,7 +4,9 @@ description: ''
 type: building
 params:
   archinformID: projekte/804
+  gndID: 7651423-7
   location: Stuttgart
+  wikidata: http://www.wikidata.org/entity/Q896764
   yearBuild: 1928-1929
   geojson:
     coordinates:

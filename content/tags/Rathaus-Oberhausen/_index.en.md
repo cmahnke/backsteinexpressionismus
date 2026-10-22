@@ -4,6 +4,7 @@ description: ''
 type: building
 params:
   location: Oberhausen
+  wikidata: http://www.wikidata.org/entity/Q2132591
   yearBuild: 1927-1930
   geojson:
     coordinates:

@@ -3,7 +3,9 @@ title: "Marine-Ehrenmal Laboe"
 description: ''
 type: building
 params:
+  gndID: 4125727-3
   location: Kiel
+  wikidata: http://www.wikidata.org/entity/Q538382
   yearBuild: 1927-1936
   geojson:
     coordinates:

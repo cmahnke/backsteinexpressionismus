@@ -3,8 +3,10 @@ title: "Stadtbibliothek Hannover"
 description: ''
 type: building
 params:
+  gndID: 2022746-2
   location: Hannover
   archinformID: projekte/8460
+  wikidata: http://www.wikidata.org/entity/Q1430761
   yearBuild: 1929-1931
   geojson:
     coordinates:

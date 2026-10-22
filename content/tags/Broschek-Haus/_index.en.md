@@ -5,6 +5,7 @@ type: building
 params:
   archinformID: projekte/6361
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q990681
   yearBuild: 1926-1927
   geojson:
     coordinates:

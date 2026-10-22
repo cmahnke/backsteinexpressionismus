@@ -1,5 +1,5 @@
 ---
-title: "Fritz Schuhmacher"
+title: "Fritz Schumacher"
 description: ''
 type: architect
 params:

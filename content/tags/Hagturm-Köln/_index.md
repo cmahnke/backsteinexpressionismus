@@ -14,7 +14,7 @@ params:
 
 * Entworfen von [Bernhard Hoetger](/tags/bernhard-hoetger)
 
-# Der Messeturm Köln in der...
+# Der Hagturm Köln in der...
 * [Wikipedia](https://en.wikipedia.org/wiki/Pressa#HAG-Turm)
 
 Siehe auch [Pressa](/tags/Pressa)

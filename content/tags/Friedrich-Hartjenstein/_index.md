@@ -4,6 +4,7 @@ description: ''
 type: architect
 params:
   archinformID: arch/65240
+  wikidata: http://www.wikidata.org/entity/Q1459515
 ---
 
 # Friedrich Hartjenstein in der...

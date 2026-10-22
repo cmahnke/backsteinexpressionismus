@@ -4,6 +4,8 @@ description: ''
 type: architect
 params:
   archinformID: arch/58496
+  gndID: 1016020511
+  wikidata: http://www.wikidata.org/entity/Q20979993
 ---
 
 # Max Gerntke in der...

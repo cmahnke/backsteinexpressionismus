@@ -5,6 +5,7 @@ type: building
 params:
   archinformID: projekte/5962
   location: Hamburg
+  wikidata: http://www.wikidata.org/entity/Q19285020
   yearBuild: 1911-1915
   geojson:
     coordinates:
