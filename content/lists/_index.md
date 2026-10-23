@@ -9,8 +9,12 @@ params:
   js:
   - ts/iframe-consent.ts
   - ts/tabs.ts
-  - ts/maps/osm-map.ts
+  - ts/maps/mapWrapper.ts
   - ts/timeline.ts
+  scss:
+  - scss/timeline-colors.scss
+  css:
+  - vendor/vis-timeline-graph2d.min.css
 ---
 
 Diese Seite bietet eine Übersicht über die präsentierten Gebäude und Architekten. Dabei sind die Liste nicht notwendigerweise vollständig.

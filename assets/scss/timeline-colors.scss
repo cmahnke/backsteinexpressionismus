@@ -1,0 +1,9 @@
+.timeline.timeline-horizontal .vis-timeline{background-color:transparent;border:none}
+.timeline.timeline-horizontal .vis-item{background-color:#fdf3c9;border-radius:4px;border-color:#400000;color:#660000}
+.timeline.timeline-horizontal .vis-item a{color:#660000}
+.timeline.timeline-horizontal .vis-item:hover{border-color:#ff073a}
+.timeline.timeline-horizontal .vis-item.vis-selected{background-color:#fdf3c9;border-color:#ff073a}
+.timeline.timeline-horizontal .vis-time-axis .vis-text{color:#fdf3c9}
+.timeline.timeline-horizontal .vis-time-axis .vis-grid.vis-minor{border-color:rgba(253,243,201,.25)}
+.timeline.timeline-horizontal .vis-time-axis .vis-grid.vis-major{border-color:rgba(253,243,201,.6)}
+.timeline.timeline-horizontal .vis-current-time{background-color:#ff073a}
