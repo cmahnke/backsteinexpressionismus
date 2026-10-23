@@ -33,6 +33,9 @@
     {{- end -}}
     {{- partial "metadata/schema.org/schema.org.html" . -}}
     {{- partialCached "html/head/webmention.html" . "webmentions" -}}
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ site.Title | default "" }}" />
+    {{ end }}
   </head>
 
      {{- $class := "" }}
