@@ -4,7 +4,7 @@
   {{- $contextPath = path.Dir $context.File.Path -}}
 {{- end -}}
 {{- $orientation := "" -}}
-{{- $fit := "600x300" -}}
+{{- $fit := "600x300 webp" -}}
 {{- $previewImg := partial "preview/preview-internal.html" (dict "context" $context "fit" $fit) -}}
 
 {{- if lt $previewImg.Width $previewImg.Height -}}
