@@ -107,7 +107,7 @@
   {{- if isset $params "rotate" -}}
     {{- $rotate = printf " r%d" (add $params.rotate 180) -}}
   {{- end -}}
-  {{- $imgOptions := (printf "%s %s %s" $fit $rotate "center") -}}
+  {{- $imgOptions := (printf "%s %s %s webp" $fit $rotate "center") -}}
   {{- $previewImg = $previewImg.Fit $imgOptions -}}
 
 {{- end -}}
