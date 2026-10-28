@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Overviews on Backsteinexpressionismus</title>
+		<link>https://backsteinexpressionismus.projektemacher.org/en/lists/</link>
+		<description>Recent content in Overviews on Backsteinexpressionismus</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+			<managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+		
+		
+			<copyright>&lt;a href=&#34;https://projektemacher.org/&#34; target=&#34;_blank&#34;&gt;Projektemacher&lt;/a&gt;</copyright>
+		
+		
+			<atom:link href="https://backsteinexpressionismus.projektemacher.org/en/lists/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Buildings</title>
+				<link>https://backsteinexpressionismus.projektemacher.org/en/lists/buildings/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://backsteinexpressionismus.projektemacher.org/en/lists/buildings/</guid>
+				<description>&lt;p&gt;The following buildings can be found on this site.&#xA;The list is not necessarily complete, and it may also happen that there are no posts for an entry yet.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Map</title>
+				<link>https://backsteinexpressionismus.projektemacher.org/en/lists/map/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://backsteinexpressionismus.projektemacher.org/en/lists/map/</guid>
+				<description>&lt;div class=&#34;iframe-wrapper&#34; id=&#34;_iframe-da8429151b3182f753b3c33cb301ad93&#34;&gt;&#xA;  &lt;div class=&#34;iframe&#34;&gt;&#xA;    &lt;div class=&#34;opt-in&#34;&gt;&#xA;      &lt;div class=&#34;opt-in-overlay&#34;&gt;&lt;div class=&#34;opt-in-overlay-content&#34;&gt;&#xA;          &lt;h3 class=&#34;opt-in-header&#34;&gt;External Content&lt;/h3&gt;&#xA;          &lt;p class=&#34;opt-in-text&#34;&gt;External content is included at this point. Personal data might be transmitted to third-party platforms.&lt;/p&gt;&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;iframe-content&#34; id=&#34;_iframe-da8429151b3182f753b3c33cb301ad93-content&#34; aria-live=&#34;polite&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;switch-wrapper&#34;&gt;&#xA;      &lt;label class=&#34;opt-in-switch&#34;&gt;&#xA;        &lt;input type=&#34;checkbox&#34; aria-labelledby=&#34;_iframe-da8429151b3182f753b3c33cb301ad93-confirm&#34;&gt;&#xA;        &lt;span class=&#34;opt-in-slider&#34;&gt;&lt;/span&gt;&#xA;      &lt;/label&gt;&#xA;      &lt;span class=&#34;opt-in-confirm&#34; id=&#34;_iframe-da8429151b3182f753b3c33cb301ad93-confirm&#34;&gt;Allow external content&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;script&gt;&#xA;    document.addEventListener(&#34;DOMContentLoaded&#34;, function() {&#xA;      var expire = 30 * 24 * 60 * 60;&#xA;      var overlay = document.querySelector(&#39;#_iframe-da8429151b3182f753b3c33cb301ad93&#39;).querySelector(&#39;.opt-in&#39;);&#xA;      var toggle = document.querySelector(&#39;#_iframe-da8429151b3182f753b3c33cb301ad93&#39;).querySelector(&#39;.opt-in-switch input&#39;);&#xA;      addConsent(toggle, overlay, &#39;da8429151b3182f753b3c33cb301ad93&#39;, &#39;\n    \u003cdiv class=\u0022map-wrapper script\u0022\u003e\n      \u003cdiv class=\u0022map\u0022 id=\u002260c664f00cb436b977f46d4a14780d21\u0022 aria-label=\u0022Interactive map\u0022\u003e\u003c\/div\u003e\n      \u003cdiv id=\u002260c664f00cb436b977f46d4a14780d21-popup\u0022 class=\u0022ol-popup\u0022\u003e\n        \u003ca href=\u0022#\u0022 id=\u002260c664f00cb436b977f46d4a14780d21-popup-closer\u0022 class=\u0022ol-popup-closer\u0022 role=\u0022button\u0022 aria-label=\u0022Close\u0022\u003e\u003c\/a\u003e\n        \u003cdiv id=\u002260c664f00cb436b977f46d4a14780d21-popup-content\u0022 class=\u0022ol-popup-content\u0022 aria-live=\u0022polite\u0022\u003e\u003c\/div\u003e\n      \u003c\/div\u003e\n    \u003c\/div\u003e\n    \u003cscript type=\u0022text\/javascript\u0022\u003e\n      (function() {\n        var start = function() {\n          var _60c664f00cb436b977f46d4a14780d21 = window.projektemacherMap(\u002760c664f00cb436b977f46d4a14780d21\u0027, \u0027\\\/lists\\\/buildings\\\/map.geojson\u0027, \u0027\u0027, \u0027https:\/\/backsteinexpressionismus.projektemacher.org\/map-styles\/graybeard.json\u0027, undefined, undefined, undefined, undefined, undefined, true, false, true, undefined, false, {src: \u0022\/images\/map-marker.svg\u0022, scale: 0.1243, anchor: [0.5, 1], anchorXUnits: \u0022fraction\u0022, anchorYUnits: \u0022fraction\u0022});\n          document.getElementById(\u002760c664f00cb436b977f46d4a14780d21-popup-closer\u0027).addEventListener(\u0027keydown\u0027, function(event) {\n            if (event.key === \u0027 \u0027 || event.key === \u0027Spacebar\u0027) {\n              event.preventDefault();\n              this.click();\n            }\n          });\n        };\n        if (document.readyState === \u0027loading\u0027) {\n          document.addEventListener(\u0027DOMContentLoaded\u0027, start);\n        } else {\n          start();\n        }\n      })();\n    \u003c\/script\u003e\n\n&#39;);&#xA;    });&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Architects</title>
+				<link>https://backsteinexpressionismus.projektemacher.org/en/lists/architects/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://backsteinexpressionismus.projektemacher.org/en/lists/architects/</guid>
+				<description>&lt;p&gt;Buildings by the following architects can be found on this site.&#xA;The list is not necessarily complete, and it may also happen that there are no posts for an entry yet.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Timeline</title>
+				<link>https://backsteinexpressionismus.projektemacher.org/en/lists/timeline/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://backsteinexpressionismus.projektemacher.org/en/lists/timeline/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>
