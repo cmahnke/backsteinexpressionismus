@@ -48,7 +48,7 @@
               {{- end -}}
             </div>
 
-            {{- if and .Params.type .Params.description -}}
+            {{- if and .Params.type .Description -}}
               {{- partial (printf "media/%s.html" .Params.type ) . -}}
             {{- end -}}
 
@@ -70,7 +70,7 @@
                         {{- $tagPage := site.GetPage $tagPagePath -}}
                         {{- $tagPages = $tagPages | append $tagPage -}}
                       {{- end -}}
-                      {{- $buildings := where $tagPages "Params.type" "building" -}}
+                      {{- $buildings := where $tagPages "Type" "building" -}}
 
                       {{- $meta := "" -}}
                       {{- if gt (len $buildings) 0 -}}

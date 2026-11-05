@@ -1,6 +1,6 @@
-{{- if .Params.layout -}}
-    {{- $layout := .Params.layout -}}
-    {{ partial (printf "%s.html" .Params.layout) . }}
+{{- if .Layout -}}
+    {{- $layout := .Layout -}}
+    {{ partial (printf "%s.html" .Layout) . }}
 {{- else -}}
     {{- .Content -}}
 {{- end -}}
