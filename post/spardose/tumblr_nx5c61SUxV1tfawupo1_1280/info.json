@@ -1,0 +1,27 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://static.projektemacher.org/backsteinexpressionismus/post/spardose/tumblr_nx5c61SUxV1tfawupo1_1280",
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 512
+    }
+  ],
+  "width": 1280,
+  "height": 1539
+}

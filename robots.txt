@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /privacy/
+
+
+Disallow: /*.bib$
+
+Disallow: /*.json$
+
+Disallow: /*.xml$
+
+Sitemap: https://backsteinexpressionismus.projektemacher.org/sitemap.xml
+
+
+llms-txt: https://backsteinexpressionismus.projektemacher.org/llms.txt
