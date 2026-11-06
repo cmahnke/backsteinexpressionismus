@@ -2,7 +2,8 @@
 title: "Bremen im Welthandel"
 date: 2020-10-21T18:27:07+02:00
 description: 'Alfred Lörner: Bremen im Welthandel. Verlag Fr. Leuwer, Bremen 1927. <a class="worldcat" href="http://www.worldcat.org/oclc/72176538">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

@@ -2,7 +2,8 @@
 title: "Berlin und das Reich"
 date: 2020-09-18T10:40:10+02:00
 description: 'Mario Krammer: Berlin und das Reich - Geschichte der Reichshauptstadt. Verlag Ullstein, Berlin 1935. <a class="worldcat" href="http://www.worldcat.org/oclc/604135612">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

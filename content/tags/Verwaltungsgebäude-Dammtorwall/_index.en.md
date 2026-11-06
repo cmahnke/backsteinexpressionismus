@@ -1,8 +1,8 @@
 ---
 title: "Verwaltungsgebäude Dammtorwall"
 description: ''
-type: building
 params:
+  itemType: building
   location: Hamburg
   yearBuild: 1913-1915
   geojson:

@@ -1,8 +1,8 @@
 ---
 title: "Anzeiger Hochhaus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/7497
   gndID: 4406840-2
   location: Hannover

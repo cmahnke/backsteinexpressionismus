@@ -1,8 +1,8 @@
 ---
 title: "Hanns Hopp"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/3007
   gndID: 121831450
   wikidata: http://www.wikidata.org/entity/Q214888

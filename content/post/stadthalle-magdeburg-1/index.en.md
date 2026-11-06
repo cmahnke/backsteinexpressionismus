@@ -1,7 +1,8 @@
 ---
 title: "Postcard Stadthalle Magdeburg"
 date: 2021-04-15T19:15:07+01:00
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

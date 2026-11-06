@@ -1,7 +1,8 @@
 ---
 title: "Postkarte Rheinhalle Düsseldorf"
 date: 2023-12-10T19:15:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

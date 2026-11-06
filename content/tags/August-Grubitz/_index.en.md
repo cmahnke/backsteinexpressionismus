@@ -1,8 +1,8 @@
 ---
 title: "August Grubitz"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/65633
   gndID: 129343633
   wikidata: http://www.wikidata.org/entity/Q116915260

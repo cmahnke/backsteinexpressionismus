@@ -1,8 +1,8 @@
 ---
 title: "Jacob Koerfer"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/3017
   gndID: 118824287
   wikidata: http://www.wikidata.org/entity/Q1677555

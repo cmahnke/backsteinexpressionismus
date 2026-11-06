@@ -1,9 +1,9 @@
 ---
 title: "Montanhof"
 description: ''
-type: building
 #archinformID: projekte/6362
 params:
+  itemType: building
   gndID: 1378274555
   location: Hamburg
   yearBuild: 1924–1926

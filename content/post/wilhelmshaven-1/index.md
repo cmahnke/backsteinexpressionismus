@@ -1,7 +1,8 @@
 ---
 title: 'Postkarte "Nordseebad Wilhelmshaven"'
 date: 2024-07-07T19:15:07+01:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

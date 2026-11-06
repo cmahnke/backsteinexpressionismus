@@ -3,10 +3,10 @@ title: 'Hannover die Grossstadt im Grünen'
 description: 'Fritz Stadelmann: Hannover die Grossstadt im Grünen. Herausgegeben und verlegt vom Verkehrs-Verein Hannover e.V., Hannover 1927. <a class="worldcat" href="https://www.worldcat.org/de/title/72612183">&nbsp;</a>'
 date: 2024-06-23T20:25:07+02:00
 params:
+  itemType: book
   iiifcontext: http://iiif.io/api/presentation/3/context.json
   iiif:
     manifest: ./manifest.json
-type: book
 outputs:
   - iiif-manifest
   - html

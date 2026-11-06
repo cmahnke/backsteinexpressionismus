@@ -1,8 +1,8 @@
 ---
 title: "Rathaus Oberhausen"
 description: ''
-type: building
 params:
+  itemType: building
   location: Oberhausen
   wikidata: http://www.wikidata.org/entity/Q2132591
   yearBuild: 1927-1930

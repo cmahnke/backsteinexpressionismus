@@ -1,8 +1,8 @@
 ---
 title: "Emil Fahrenkamp"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/784
   gndID: 116382996
   wikidata: http://www.wikidata.org/entity/Q95816

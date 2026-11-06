@@ -1,8 +1,8 @@
 ---
 title: "Bernhard Hoetger"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/3125
   gndID: 118552260
   wikidata: http://www.wikidata.org/entity/Q213790

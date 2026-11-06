@@ -38,9 +38,9 @@
   {{- $sameAs = $sameAs | append (printf "https://deu.archinform.net/%s.htm" .) -}}
 {{- end -}}
 {{- $entityType := "Thing" -}}
-{{- if or (eq .Params.type "architect") (eq .Params.type "person") -}}
+{{- if or (eq .Params.itemType "architect") (eq .Params.itemType "person") -}}
   {{- $entityType = "Person" -}}
-{{- else if eq .Params.type "building" -}}
+{{- else if eq .Params.itemType "building" -}}
   {{- $entityType = "Building" -}}
 {{- end -}}
 {{- $entity := dict "@type" $entityType "name" .Title -}}

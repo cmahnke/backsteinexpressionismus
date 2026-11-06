@@ -1,8 +1,8 @@
 ---
 title: "Stadthaus I Osnabrück"
 description: ''
-type: building
 params:
+  itemType: building
   location: Osnabrück
   wikidata: http://www.wikidata.org/entity/Q96755328
   yearBuild: 1928-1929

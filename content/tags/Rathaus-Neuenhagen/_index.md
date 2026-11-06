@@ -1,8 +1,8 @@
 ---
 title: "Rathaus Neuenhagen"
 description: ''
-type: building
 params:
+  itemType: building
   location: Neuenhagen
   yearBuild: 1925-1926
   geojson:

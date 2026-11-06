@@ -1,8 +1,8 @@
 ---
 title: "Die Glocke"
 description: ''
-type: building
 params:
+  itemType: building
   gndID: 4442414-0
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q1213067

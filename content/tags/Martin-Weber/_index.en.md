@@ -1,8 +1,8 @@
 ---
 title: "Martin Weber"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/67704
   gndID: 121948722
   wikidata: http://www.wikidata.org/entity/Q108629

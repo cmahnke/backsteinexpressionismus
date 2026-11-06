@@ -39,7 +39,7 @@
                 {{- partial "iiif/iiif-presentation.html" . -}}
               {{- else -}}
                 {{- range .Params.resources -}}
-                  {{- if or (and (ne $.Params.type "work") (ne $.Params.type "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
+                  {{- if or (and (ne $.Params.itemType "work") (ne $.Params.itemType "book")) (not (or (or (eq .name "front") (eq .name "title")) (eq .name "cover"))) -}}
                     {{- if .params.iiif -}}
                       {{ partial "iiif/iiif-image.html" (dict "context" . "contextPath" $context "pageURL" .Permalink "pageContext" $page "site" $.Site) }}
                     {{- end -}}
@@ -48,9 +48,9 @@
               {{- end -}}
             </div>
 
-            {{- if and .Params.type .Description -}}
-              {{- partial (printf "media/%s.html" .Params.type ) . -}}
-            {{- end -}}
+{{- if and .Params.itemType .Description -}}
+  {{- partial (printf "media/%s.html" .Params.itemType ) . -}}
+{{- end -}}
 
           </div>
 
@@ -70,7 +70,7 @@
                         {{- $tagPage := site.GetPage $tagPagePath -}}
                         {{- $tagPages = $tagPages | append $tagPage -}}
                       {{- end -}}
-                      {{- $buildings := where $tagPages "Type" "building" -}}
+                      {{- $buildings := where $tagPages "Params.itemType" "building" -}}
 
                       {{- $meta := "" -}}
                       {{- if gt (len $buildings) 0 -}}

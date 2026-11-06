@@ -1,8 +1,8 @@
 ---
 title: "Wilhelm-Marx-Haus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/4250
   gndID: 7664583-6
   wikidata: http://www.wikidata.org/entity/Q2571528

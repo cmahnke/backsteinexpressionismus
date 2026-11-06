@@ -1,8 +1,8 @@
 ---
 title: "St. Bonifatius Frankfurt"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/75083
   gndID: 6523536-8
   location: Frankfurt

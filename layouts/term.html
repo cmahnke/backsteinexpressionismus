@@ -19,8 +19,8 @@
                         {{ .Description }}
                     </div>
                 {{ end }}
-                {{- if .Params.type -}}
-                <div class="type">{{ i18n "type" }}: {{ i18n .Params.type }}</div>
+{{- if .Params.itemType -}}
+<div class="type">{{ i18n "type" }}: {{ i18n .Params.itemType }}</div>
                 {{- end -}}
                 <div class="text-content">
                   {{ .Content }}

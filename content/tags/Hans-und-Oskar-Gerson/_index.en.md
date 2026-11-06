@@ -1,8 +1,8 @@
 ---
 title: "Hans und Oskar Gerson"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/216084
   wikidata: http://www.wikidata.org/entity/Q2712301
 ---

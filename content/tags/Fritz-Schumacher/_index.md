@@ -1,8 +1,8 @@
 ---
 title: "Fritz Schumacher"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/2724
   gndID: 118611585
   wikidata: http://www.wikidata.org/entity/Q77353

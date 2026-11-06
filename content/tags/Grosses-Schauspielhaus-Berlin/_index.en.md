@@ -1,8 +1,8 @@
 ---
 title: "Großes Schauspielhaus"
 description: ''
-type: building
 params:
+  itemType: building
   yearBuild: 1918-1919
   gndID: 46021-7
   location: Berlin

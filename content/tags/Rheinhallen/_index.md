@@ -1,8 +1,8 @@
 ---
 title: "Rheinhallen Köln"
 description: ''
-type: building
 params:
+  itemType: building
   location: Köln
   wikidata: http://www.wikidata.org/entity/Q2147690
   yearBuild: 1922-1924

@@ -1,7 +1,8 @@
 ---
 title: 'Postcard "Marine-Ehrenmal Laboe"'
 date: 2024-08-04T18:18:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

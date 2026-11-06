@@ -1,8 +1,8 @@
 ---
 title: "Gustav August Munzer"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/216043
   gndID: 124468675
   wikidata: http://www.wikidata.org/entity/Q107771

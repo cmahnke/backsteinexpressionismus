@@ -1,8 +1,8 @@
 ---
 title: "Zeche Sachsen"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/285
   gndID: 4475261-1
   location: Hamm

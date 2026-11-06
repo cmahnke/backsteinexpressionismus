@@ -1,7 +1,8 @@
 ---
 title: "Postkarte Messeturm Köln"
 date: 2021-04-08T19:15:07+01:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

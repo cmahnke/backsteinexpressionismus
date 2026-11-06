@@ -1,9 +1,9 @@
 ---
 title: "Messeturm Köln"
 description: ''
-type: building
 #archinformID:
 params:
+  itemType: building
   yearBuild: 1927-1928
   location: Köln
   geojson:

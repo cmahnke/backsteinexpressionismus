@@ -1,7 +1,8 @@
 ---
 title: Europa-Haus Leipzig
 date: 2021-06-05T18:23:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

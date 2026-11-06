@@ -1,11 +1,11 @@
 ---
 title: "Lotsenwache Hamburg"
 description: ''
-type: building
 aliases:
   - /tags/Lotsenhaus-Seemannshöft
   - /tags/Seemannshöft-Lotsenhaus
 params:
+  itemType: building
   archinformID: projekte/5974
   gndID: 1381593062
   location: Hamburg

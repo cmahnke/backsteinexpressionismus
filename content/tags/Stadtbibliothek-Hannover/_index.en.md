@@ -1,8 +1,8 @@
 ---
 title: "Stadtbibliothek Hannover"
 description: ''
-type: building
 params:
+  itemType: building
   gndID: 2022746-2
   location: Hannover
   archinformID: projekte/8460

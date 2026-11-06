@@ -1,8 +1,8 @@
 ---
 title: "Kirche am Hohenzollernplatz"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/7527
   wikidata: http://www.wikidata.org/entity/Q1742773
   yearBuild: 1930-1933

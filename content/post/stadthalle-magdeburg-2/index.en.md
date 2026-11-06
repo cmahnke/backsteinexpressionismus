@@ -1,7 +1,8 @@
 ---
 title: "Postcard Horse Gate Magdeburg"
 date: 2024-02-04T19:15:07+01:00
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

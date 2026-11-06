@@ -1,12 +1,12 @@
 ---
 title: "Feuerwache Petroleumhafen"
 description: ''
-type: building
 #geojson:
 #  coordinates:
 #  - 10.0229564
 #  - 53.5544775
 params:
+  itemType: building
   location: Hamburg
   yearBuild: 1913
   notes: nogeoref

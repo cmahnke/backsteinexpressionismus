@@ -1,8 +1,8 @@
 ---
 title: "Friedrich Hartjenstein"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/65240
   wikidata: http://www.wikidata.org/entity/Q1459515
 ---

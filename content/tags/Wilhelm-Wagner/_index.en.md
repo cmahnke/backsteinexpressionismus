@@ -1,8 +1,8 @@
 ---
 title: "Wilhelm Wagner"
 description: ''
-type: architect
 params:
+  itemType: architect
   gndID: 122964144
   wikidata: http://www.wikidata.org/entity/Q9374534
 ---

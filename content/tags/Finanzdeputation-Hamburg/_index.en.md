@@ -1,8 +1,8 @@
 ---
 title: "Finanzdeputation Hamburg"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/5952
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q19278262

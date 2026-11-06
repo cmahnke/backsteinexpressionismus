@@ -1,7 +1,8 @@
 ---
 title: "Postkarte 'Köln am Rhein Internationale Presseausstellung Vorderseite'"
 date: 2024-02-11T19:15:07+01:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

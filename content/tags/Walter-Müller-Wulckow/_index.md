@@ -1,8 +1,8 @@
 ---
 title: "Walter Müller-Wulckow"
 description: ''
-type: person
 params:
+  itemType: person
   archinformID: arch/4441
   gndID: 117172553
   wikidata: http://www.wikidata.org/entity/Q2545575

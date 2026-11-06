@@ -41,7 +41,7 @@
   {{- end -}}
 {{- end -}}
 
-{{- if and (eq $previewReference "") (strings.HasPrefix $contextPath "post") (not (and (isset $context.Params "type") (eq $context.Params.type "other"))) -}}
+{{- if and (eq $previewReference "") (strings.HasPrefix $contextPath "post") (not (and (isset $context.Params "itemtype") (eq $context.Params.itemType "other"))) -}}
   {{- errorf "[partials/preview/preview-internal.html] Can't find front resource name for %s" $contextPath -}}
 {{- else if (strings.HasPrefix $contextPath "post") -}}
   {{- if $debug -}}
@@ -61,7 +61,7 @@
     {{- $images.Set "preview" (($context.Resources.ByType "image").GetMatch $previewReference.name) -}}
   {{- end -}}
   {{- $params = $previewReference.params -}}
-{{- else if and (strings.HasPrefix $contextPath "post") (not (and (isset .Params "type") (eq .Params.type "other"))) -}}
+{{- else if and (strings.HasPrefix $contextPath "post") (not (and (isset .Params "itemtype") (eq .Params.itemType "other"))) -}}
   {{- if $debug -}}
     {{- warnf "[partials/preview/preview-internal.html] No resources for %s" $contextPath -}}
   {{- end -}}
@@ -92,7 +92,7 @@
   {{- end -}}
 {{- end -}}
 
-{{- if and (or (eq $previewImg nil) (eq $previewImg "")) (strings.HasPrefix $contextPath "post") (not (and (isset $context.Params "type") (eq $context.Params.type "other"))) -}}
+{{- if and (or (eq $previewImg nil) (eq $previewImg "")) (strings.HasPrefix $contextPath "post") (not (and (isset $context.Params "itemtype") (eq $context.Params.itemType "other"))) -}}
   {{- warnf "[partials/preview/preview-internal.html] Can't load image %s for post %s (#%v)" $imgLocation $contextPath $previewReference -}}
   {{- if and (eq $imgLocation "") (not (fileExists $imgLocation)) -}}
     {{- errorf "[partials/preview/preview-internal.html] Image %s doesn't exist!" $imgLocation -}}

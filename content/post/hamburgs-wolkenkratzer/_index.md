@@ -1,7 +1,8 @@
 ---
 title: "Postkartenserie 'Hamburgs Wolkenkratzer'"
 date: 2024-06-02T18:25:06+02:00
-type: other
+params:
+  itemType: other
 outputs:
   - iiif-manifest
   - html

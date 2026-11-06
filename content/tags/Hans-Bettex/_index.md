@@ -1,8 +1,8 @@
 ---
 title: "Hans Bettex"
 description: ''
-type: architect
 params:
+  itemType: architect
   gndID: 127531122
   wikidata: http://www.wikidata.org/entity/Q29350891
 ---

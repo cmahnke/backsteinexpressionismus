@@ -1,8 +1,8 @@
 ---
 title: "Hans Herkommer"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/872
   gndID: 119096609
   wikidata: http://www.wikidata.org/entity/Q1580198

@@ -1,10 +1,10 @@
 ---
 title: "Albin Müller"
 description: ''
-type: architect
 aliases:
   - /tags/Albinmüller
 params:
+  itemType: architect
   archinformID: arch/4734
   gndID: 117604674
   wikidata: http://www.wikidata.org/entity/Q2639617

@@ -1,8 +1,8 @@
 ---
 title: "Verwaltungsgebäude und Lagerschuppen Gebrüder Mayer"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/6773
   location: Hannover
   yearBuild: 1923-1924

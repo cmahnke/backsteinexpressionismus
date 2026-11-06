@@ -1,10 +1,10 @@
 ---
 title: "Erika-Schwesternhaus"
 description: ''
-type: building
 aliases:
   - /tags/Schwesternhaus-Eppendorfer-Krankenhaus
 params:
+  itemType: building
   archinformID: projekte/5984
   location: Hamburg
   yearBuild: 1912-1914

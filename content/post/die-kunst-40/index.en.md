@@ -2,7 +2,8 @@
 title: "Die Kunst 40: Fritz Schumachers Bautätigkeit in Hamburg"
 date: 2021-02-01T18:25:07+02:00
 description: 'Hermann Muthesius: Fritz Schumachers Bautätigkeit in Hamburg. Erschienen in "Die Kunst: Monatshefte für freie und angewandte Kunst: Angewandte Kunst = Dekorative Kunst", Jahrgang 22 bei Bruckmann, München 1919. <a class="worldcat" href="http://www.worldcat.org/oclc/799458052">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

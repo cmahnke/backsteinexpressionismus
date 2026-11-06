@@ -1,8 +1,8 @@
 ---
 title: "Otto Bartning"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/1056
   gndID: 118506897
   wikidata: http://www.wikidata.org/entity/Q62322

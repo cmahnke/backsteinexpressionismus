@@ -1,7 +1,8 @@
 ---
 title: Chilehaus
 date: 2022-10-20T20:13:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

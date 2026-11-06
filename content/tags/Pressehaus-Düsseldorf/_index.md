@@ -1,8 +1,8 @@
 ---
 title: "Pressehaus Düsseldorf"
 description: ''
-type: building
 params:
+  itemType: building
   location: Düsseldorf
   wikidata: http://www.wikidata.org/entity/Q1299518
   yearBuild: 1925-1926

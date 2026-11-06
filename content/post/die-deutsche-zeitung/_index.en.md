@@ -2,7 +2,8 @@
 title: "Die deutsche Zeitung - Ihr Werden, Wesen und Wirken"
 date: 2025-07-10T12:25:06+02:00
 description: 'Die deutsche Zeitung ihr Werden, Wesen und Wirken Herausgegeben vom Verein Deutscher Zeitungs-Verleger, Berlin, 1928. <a class="worldcat" href="http://www.worldcat.org/oclc/1284583115">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

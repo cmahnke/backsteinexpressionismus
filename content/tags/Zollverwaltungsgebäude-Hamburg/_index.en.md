@@ -1,8 +1,8 @@
 ---
 title: "Zollverwaltungsgebäude Hamburg"
 description: ''
-type: draft
 params:
+  itemType: draft
   location: Hamburg
 ---
 

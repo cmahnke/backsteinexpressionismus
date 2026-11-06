@@ -2,7 +2,8 @@
 title: "Realschule Uferstrasse"
 date: 2021-05-01T18:25:07+02:00
 description: 'Walter Müller-Wulckow: Bauten der Gemeinschaft. Karl Langewiesche, Königstein im Taunus 1929. <a class="worldcat" href="http://www.worldcat.org/oclc/838124972">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 tags:
 - Hamburg
 - Realschule Uferstrasse

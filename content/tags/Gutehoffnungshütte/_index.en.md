@@ -1,8 +1,8 @@
 ---
 title: "Gutehoffnungshütte"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/9881
   gndID: 1039378-X
   wikidata: http://www.wikidata.org/entity/Q883655

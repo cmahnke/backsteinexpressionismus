@@ -1,11 +1,11 @@
 ---
 title: "Seglerheim"
 description: ''
-type: building
 aliases:
   - /tags/Alter-Jachtclub-Hamburg
   - /tags/Seglerheim-mit-Arbeiterspeisehalle
 params:
+  itemType: building
   location: Hamburg
   yearBuild: 1912
   geojson:

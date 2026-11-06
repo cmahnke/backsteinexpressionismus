@@ -1,8 +1,8 @@
 ---
 title: "Het Schip"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/2311
   gndID: 1031932623
   wikidata: http://www.wikidata.org/entity/Q1616115

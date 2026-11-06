@@ -1,8 +1,8 @@
 ---
 title: "Chilehaus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/1109
   gndID: 4570640-2
   location: Hamburg

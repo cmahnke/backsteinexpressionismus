@@ -1,8 +1,8 @@
 ---
 title: "Fritz Höger"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/821
   gndID: 118705474
   wikidata: http://www.wikidata.org/entity/Q77380

@@ -1,8 +1,8 @@
 ---
 title: "Erich Mendelsohn"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/202
   gndID: 11858071X
   wikidata: http://www.wikidata.org/entity/Q76730

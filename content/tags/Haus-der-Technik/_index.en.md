@@ -1,10 +1,10 @@
 ---
 title: "Haus der Technik"
 description: ''
-type: building
 aliases:
   - /tags/Haus-der-Technik-Königsberg
 params:
+  itemType: building
   archinformID: projekte/12442
   wikidata: http://www.wikidata.org/entity/Q830344
   yearBuild: 1924-1925

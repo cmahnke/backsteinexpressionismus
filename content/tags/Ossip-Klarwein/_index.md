@@ -1,8 +1,8 @@
 ---
 title: "Ossip Klarwein"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/68687
   gndID: 1185113169
   wikidata: http://www.wikidata.org/entity/Q216516

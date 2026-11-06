@@ -1,8 +1,8 @@
 ---
 title: "Wilhelm Kreis"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/2734
   gndID: 11877798X
   wikidata: http://www.wikidata.org/entity/Q69473

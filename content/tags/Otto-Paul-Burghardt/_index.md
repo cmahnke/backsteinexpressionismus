@@ -1,8 +1,8 @@
 ---
 title: "Otto Paul Burghardt"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/26479
   gndID: 1147386641
   wikidata: http://www.wikidata.org/entity/Q2040119

@@ -1,8 +1,8 @@
 ---
 title: "Tagblatt-Turm"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/804
   gndID: 7651423-7
   location: Stuttgart

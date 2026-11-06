@@ -1,12 +1,12 @@
 ---
 title: "Rheinhalle Düsseldorf"
 description: ''
-type: building
 aliases:
   - /tags/Tonhalle-Düsseldorf
   - /tags/Planetarium-Düsseldorf
   - /tags/Rheinhalle-Düsseldorf
 params:
+  itemType: building
   gndID: 4506857-4
   wikidata: http://www.wikidata.org/entity/Q139206
   yearBuild: 1925-1926

@@ -1,8 +1,8 @@
 ---
 title: "Walter Görig"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/65387
   gndID: 1173438491
   wikidata: http://www.wikidata.org/entity/Q1788273

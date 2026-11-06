@@ -1,8 +1,8 @@
 ---
 title: "Dominikus Böhm"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/772
   gndID: 118660632
   wikidata: http://www.wikidata.org/entity/Q75843

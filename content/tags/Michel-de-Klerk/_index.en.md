@@ -1,8 +1,8 @@
 ---
 title: "Michel de Klerk"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/394
   gndID: 120134535
   wikidata: http://www.wikidata.org/entity/Q920277

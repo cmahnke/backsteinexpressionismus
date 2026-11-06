@@ -1,10 +1,10 @@
 ---
 title: "Dachstein- und Braunkohlenwerke Zeipau"
 description: ''
-type: building
 aliases:
   - /tags/Zeipauer-Dachstein--und-Braunkohlenwerke
 params:
+  itemType: building
   yearBuild: 1922
   gndID: 1223114899
   location: Zeipau

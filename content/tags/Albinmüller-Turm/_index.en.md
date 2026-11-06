@@ -1,9 +1,9 @@
 ---
 title: "Albinmüller-Turm Magdeburg"
 description: ''
-type: building
 #archinformID:
 params:
+  itemType: building
   location: Magdeburg
   wikidata: http://www.wikidata.org/entity/Q2639663
   yearBuild: 1926-1927

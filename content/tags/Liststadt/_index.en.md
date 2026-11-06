@@ -1,9 +1,9 @@
 ---
 title: "Liststadt"
 description: ''
-type: building
 #archinformID: projekte/
 params:
+  itemType: building
   location: Hannover
   wikidata: http://www.wikidata.org/entity/Q96254662
   yearBuild: 1929-31

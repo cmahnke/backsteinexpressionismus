@@ -1,8 +1,8 @@
 ---
 title: "Franz Erich Kassbaum"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/63470
   gndID: 1034923005
   wikidata: http://www.wikidata.org/entity/Q1446678

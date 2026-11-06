@@ -1,12 +1,12 @@
 ---
 title: "Volksschule Südstadt Hannover"
 description: ''
-type: building
 #archinformID: projekte/
 aliases:
   - /tags/Bertha-von-Suttner-Schule
   - /tags/Heinrich-Heine-Schule
 params:
+  itemType: building
   location: Hannover
   wikidata: http://www.wikidata.org/entity/Q29353533
   yearBuild: 1929-1930

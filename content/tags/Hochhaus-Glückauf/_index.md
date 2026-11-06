@@ -1,8 +1,8 @@
 ---
 title: "Hochhaus Glückauf"
 description: ''
-type: building
 params:
+  itemType: building
   location: Hannover
   wikidata: http://www.wikidata.org/entity/Q1400121
   yearBuild: 1930

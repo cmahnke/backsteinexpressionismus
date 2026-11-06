@@ -1,7 +1,8 @@
 ---
 title: Börse in Essen
 date: 2023-12-31T20:13:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

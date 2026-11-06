@@ -1,8 +1,8 @@
 ---
 title: "Hans Poelzig"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/633
   gndID: 118741217
   wikidata: http://www.wikidata.org/entity/Q76734

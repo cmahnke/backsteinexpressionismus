@@ -1,7 +1,8 @@
 ---
 title: Postcard Chilehaus and Sprinkenhof
 date: 2024-02-18T20:13:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

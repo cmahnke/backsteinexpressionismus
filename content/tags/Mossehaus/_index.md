@@ -1,8 +1,8 @@
 ---
 title: "Mossehaus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/3321
   gndID: 1378523989
   location: Berlin

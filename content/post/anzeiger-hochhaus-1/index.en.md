@@ -1,7 +1,8 @@
 ---
 title: "Anzeiger Hochhaus Hanover"
 date: 2020-09-12T18:18:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

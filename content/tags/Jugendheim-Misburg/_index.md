@@ -1,8 +1,8 @@
 ---
 title: "Jugendheim Misburg"
 description: ''
-type: building
 params:
+  itemType: building
   yearBuild: 1926-1927
   location: Hannover
   geojson:

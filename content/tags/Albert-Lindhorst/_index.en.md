@@ -1,8 +1,8 @@
 ---
 title: "Albert Lindhorst"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/68408
   wikidata: http://www.wikidata.org/entity/Q20979890
 ---

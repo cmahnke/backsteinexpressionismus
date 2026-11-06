@@ -1,8 +1,8 @@
 ---
 title: "Hoetger-Hof"
 description: ''
-type: building
 params:
+  itemType: building
   yearBuild: 1920-1923
   archinformID: projekte/6365
   location:

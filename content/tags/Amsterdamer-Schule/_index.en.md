@@ -1,8 +1,8 @@
 ---
 title: "Amsterdamer Schule"
 description: ''
-type: other
 params:
+  itemType: other
   archinformID: stich/44.htm
   gndID: 4211289-8
   location: Amsterdam

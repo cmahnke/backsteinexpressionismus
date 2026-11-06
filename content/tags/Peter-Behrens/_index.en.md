@@ -1,8 +1,8 @@
 ---
 title: "Peter Behrens"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/418
   gndID: 118508466
   wikidata: http://www.wikidata.org/entity/Q76726

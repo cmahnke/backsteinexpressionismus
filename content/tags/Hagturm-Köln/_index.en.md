@@ -1,9 +1,9 @@
 ---
 title: "Hagturm Köln"
 description: ''
-type: building
 #archinformID:
 params:
+  itemType: building
   location: Köln
   yearBuild: 1928
   geojson:

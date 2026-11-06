@@ -1,5 +1,5 @@
 {{- $sourceSection := ( where site.Pages "Section" "tags") -}}
-{{- $pages := where $sourceSection ".Page.Params.type" "eq" "building" -}}
+{{- $pages := where $sourceSection ".Page.Params.itemType" "eq" "building" -}}
 {{- $pages = where $pages ".Page.Params.yearBuild" "!=" nil -}}
 
 <div class="timeline-content">

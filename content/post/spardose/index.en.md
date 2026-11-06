@@ -1,7 +1,8 @@
 ---
 title: 'The Chilehaus as a Money Box'
 date: 2020-09-02T20:25:07+02:00
-type: other
+params:
+  itemType: other
 tags:
 - Hamburg
 - Chilehaus

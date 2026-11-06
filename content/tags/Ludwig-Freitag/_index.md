@@ -1,8 +1,8 @@
 ---
 title: "Ludwig Freitag"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/60495
   wikidata: http://www.wikidata.org/entity/Q1874395
 ---

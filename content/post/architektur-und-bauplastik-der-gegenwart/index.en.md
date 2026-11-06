@@ -2,7 +2,8 @@
 title: "Architektur und Bauplastik der Gegenwart"
 date: 2020-11-07T19:05:10+02:00
 description: 'Werner Rittich: Architektur und Bauplastik der Gegenwart. Rembrandt-Verlag, Berlin 1938. <a class="worldcat" href="http://www.worldcat.org/oclc/257425774">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

@@ -1,8 +1,8 @@
 ---
 title: "Thaliahaus"
 description: ''
-type: building
 params:
+  itemType: building
   location: Hamburg
   yearBuild: 1921
   geojson:

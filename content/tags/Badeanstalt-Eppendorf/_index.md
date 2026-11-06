@@ -1,8 +1,8 @@
 ---
 title: "Badeanstalt Eppendorf"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/5973
   location: Hamburg
   yearBuild: 1913-1914

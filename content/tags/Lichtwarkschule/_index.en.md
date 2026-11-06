@@ -1,8 +1,8 @@
 ---
 title: "Lichtwarkschule"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/5953
   gndID: 5186798-9
   location: Hamburg

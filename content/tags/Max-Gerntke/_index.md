@@ -1,8 +1,8 @@
 ---
 title: "Max Gerntke"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/58496
   gndID: 1016020511
   wikidata: http://www.wikidata.org/entity/Q20979993

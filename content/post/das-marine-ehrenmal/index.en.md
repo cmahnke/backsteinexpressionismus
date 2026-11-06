@@ -2,7 +2,8 @@
 title: "Das Marine-Ehrenmal"
 date: 2024-06-30T18:18:07+02:00
 description: 'Werner Fuchs: Das Marine-Ehrenmal, 3. Auflage, Deutscher Marinebund e.V. Wilhelmshaven 1962 <a class="worldcat" href="https://www.worldcat.org/de/title/249236780">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

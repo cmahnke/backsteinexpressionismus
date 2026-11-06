@@ -1,8 +1,8 @@
 ---
 title: "Wohnwasserturm Wulsdorf"
 description: ''
-type: building
 params:
+  itemType: building
   wikidata: http://www.wikidata.org/entity/Q2588167
   yearBuild: 1927
   location:

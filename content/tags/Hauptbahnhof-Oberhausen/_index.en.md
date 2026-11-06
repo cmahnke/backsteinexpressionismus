@@ -1,8 +1,8 @@
 ---
 title: "Hauptbahnhof Oberhausen"
 description: ''
-type: building
 params:
+  itemType: building
   wikidata: http://www.wikidata.org/entity/Q472955
   yearBuild: 1930-1934
   location:

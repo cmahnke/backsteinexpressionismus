@@ -1,7 +1,8 @@
 ---
 title: House of Science Braunschweig
 date: 2020-12-12T18:23:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

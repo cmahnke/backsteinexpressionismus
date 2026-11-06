@@ -1,11 +1,11 @@
 ---
 title: "Europa-Haus"
 description: ''
-type: building
 #archinformID:
 aliases:
   - /tags/Karl-Marx-Haus
 params:
+  itemType: building
   wikidata: http://www.wikidata.org/entity/Q1375330
   yearBuild: 1928-1929
   location: Leipzig

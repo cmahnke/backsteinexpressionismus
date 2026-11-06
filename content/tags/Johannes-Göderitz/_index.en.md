@@ -1,8 +1,8 @@
 ---
 title: "Johannes Göderitz"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/3019
   gndID: 118695703
   wikidata: http://www.wikidata.org/entity/Q1283666

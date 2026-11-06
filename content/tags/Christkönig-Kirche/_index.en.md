@@ -1,8 +1,8 @@
 ---
 title: "Christkönig-Kirche"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/794
   gndID: 1395728984
   location: Bischofsheim

@@ -1,11 +1,11 @@
 ---
 title: "Rüstringer Rathaus"
 description: ''
-type: building
 aliases:
   - /tags/Rathaus-Wilhelmshaven
   - /tags/Wilhelmshavener-Rathaus
 params:
+  itemType: building
   archinformID: projekte/1108
   wikidata: http://www.wikidata.org/entity/Q21037076
   yearBuild: 1928-1929

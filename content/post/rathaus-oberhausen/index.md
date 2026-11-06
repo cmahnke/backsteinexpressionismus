@@ -1,7 +1,8 @@
 ---
 title: "Postkarte Rathaus Oberhausen"
 date: 2023-12-17T18:18:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

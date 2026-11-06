@@ -1,8 +1,8 @@
 ---
 title: "Broschek-Haus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/6361
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q990681

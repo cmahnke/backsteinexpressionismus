@@ -1,8 +1,8 @@
 ---
 title: "Paula-Becker-Modersohn-Haus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/6364
   gndID: 5147151-6
   location: Bremen

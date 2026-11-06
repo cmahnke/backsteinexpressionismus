@@ -1,9 +1,9 @@
 ---
 title: "Capitol-Hochhaus"
 description: ''
-type: building
 #archinformID: projekte/
 params:
+  itemType: building
   location: Hannover
   wikidata: http://www.wikidata.org/entity/Q1034682
   yearBuild: 1930

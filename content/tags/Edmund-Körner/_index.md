@@ -1,8 +1,8 @@
 ---
 title: "Edmund Körner"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/68931
   gndID: 118943545
   wikidata: http://www.wikidata.org/entity/Q1286553

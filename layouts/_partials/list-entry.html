@@ -13,8 +13,8 @@
   {{- $orientation = "landscape" -}}
 {{- end -}}
 
-<div class="brick {{ .Params.type }} {{ $orientation }}">
-    {{- if ne .Params.type "other" -}}
+<div class="brick {{ .Params.itemType }} {{ $orientation }}">
+    {{- if ne .Params.itemType "other" -}}
         <a href="{{ .RelPermalink }}">
             <div class="preview-img" >
                 <img src="{{ $previewImg.RelPermalink }}" alt="{{ .Title}}">

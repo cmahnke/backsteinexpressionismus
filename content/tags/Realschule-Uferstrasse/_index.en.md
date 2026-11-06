@@ -1,8 +1,8 @@
 ---
 title: "Realschule Uferstrasse"
 description: ''
-type: building
 params:
+  itemType: building
   yearBuild: 1914-1915
   location: Hamburg
   geojson:

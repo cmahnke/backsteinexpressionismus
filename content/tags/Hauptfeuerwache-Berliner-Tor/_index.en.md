@@ -1,8 +1,8 @@
 ---
 title: "Hauptfeuerwache Berliner Tor"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/5962
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q19285020

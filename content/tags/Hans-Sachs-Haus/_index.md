@@ -1,8 +1,8 @@
 ---
 title: "Hans-Sachs-Haus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/287
   location: Gelsenkirchen
   wikidata: http://www.wikidata.org/entity/Q1578189

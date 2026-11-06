@@ -1,8 +1,8 @@
 ---
 title: "Technisches Verwaltungsgebäude der Hoechst AG"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/6991
   gndID: 1060738503
   wikidata: http://www.wikidata.org/entity/Q875969

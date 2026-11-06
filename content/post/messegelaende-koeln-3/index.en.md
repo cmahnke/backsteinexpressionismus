@@ -1,7 +1,8 @@
 ---
 title: "Postcard 'Cologne on the Rhine Exhibition Halls/Main Entrance'"
 date: 2025-06-17T00:15:07+01:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

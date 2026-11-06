@@ -1,8 +1,8 @@
 ---
 title: "Chemische Fabrik Luboń"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/1383
   location:
     - Lobau

@@ -1,8 +1,8 @@
 ---
 title: "Stella-Haus"
 description: ''
-type: building
 params:
+  itemType: building
   location: Hamburg
   wikidata: http://www.wikidata.org/entity/Q19309524
   yearBuild: 1922-1923

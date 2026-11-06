@@ -1,8 +1,8 @@
 ---
 title: "Stummhaus"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/6043
   location: Düsseldorf
   wikidata: http://www.wikidata.org/entity/Q1400490

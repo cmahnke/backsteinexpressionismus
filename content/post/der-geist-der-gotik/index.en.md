@@ -2,7 +2,8 @@
 title: 'Der Geit der Gotik'
 date: 2021-07-17T18:18:07+02:00
 description: 'Karl Scheffler: Der Geist der Gotik. Insel-Verlag, Leipzig 1925. <a class="worldcat" href="http://www.worldcat.org/oclc/254192285">&nbsp;</a>'
-type: book
+params:
+  itemType: book
 outputs:
   - iiif-manifest
   - html

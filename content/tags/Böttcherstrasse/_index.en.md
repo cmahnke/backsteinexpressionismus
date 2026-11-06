@@ -1,8 +1,8 @@
 ---
 title: "Böttcherstrasse"
 description: ''
-type: building
 params:
+  itemType: building
   yearBuild: 1922-1931
   gndID: 4310497-6
   location: Bremen

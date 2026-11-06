@@ -1,8 +1,8 @@
 ---
 title: "Johann Kamps"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/23217
   gndID: 1105582590
   wikidata: http://www.wikidata.org/entity/Q20980200

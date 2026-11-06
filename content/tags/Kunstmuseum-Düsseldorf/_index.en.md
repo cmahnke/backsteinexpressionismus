@@ -1,11 +1,11 @@
 ---
 title: "Kunstmuseum Düsseldorf"
 description: ''
-type: building
 #archinformID:
 aliases:
   - /tags/Museum-Kunstpalast
 params:
+  itemType: building
   gndID: 10019225-7
   wikidata: http://www.wikidata.org/entity/Q461277
   yearBuild: 1925-1926

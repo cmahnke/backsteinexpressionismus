@@ -1,10 +1,10 @@
 ---
 title: "Allgemeine Ortskrankenkasse Magdeburg"
 description: ''
-type: building
 aliases:
   - /tags/Allgemein-Ortskrankenkasse-Magdeburg
 params:
+  itemType: building
   archinformID: projekte/6125
   location: Magdeburg
   yearBuild: 1926-1927

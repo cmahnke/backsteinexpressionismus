@@ -1,8 +1,8 @@
 ---
 title: "Sprinkenhof"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/6362
   gndID: 1059707470
   location: Hamburg

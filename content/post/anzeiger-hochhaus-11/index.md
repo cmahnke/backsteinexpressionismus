@@ -1,7 +1,8 @@
 ---
 title: "Anzeiger Hochhaus Hannover"
 date: 2024-02-25T18:29:07+02:00
-type: postcard
+params:
+  itemType: postcard
 outputs:
   - iiif-manifest
   - html

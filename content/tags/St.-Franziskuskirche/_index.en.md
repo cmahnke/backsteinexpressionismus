@@ -1,8 +1,8 @@
 ---
 title: "St. Franziskuskirche"
 description: ''
-type: building
 params:
+  itemType: building
   yearBuild: 1926-1927
   location: Hamburg
   geojson:

@@ -1,8 +1,8 @@
 ---
 title: "Gewerbehaus Hamburg"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/5980
   location: Hamburg
   yearBuild: 1912-1915

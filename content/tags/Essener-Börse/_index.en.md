@@ -1,10 +1,10 @@
 ---
 title: "Essener Börse"
 description: ''
-type: building
 aliases:
   - /tags/Haus-der-Technik-Essen
 params:
+  itemType: building
   gndID: 2002043-0
   wikidata: http://www.wikidata.org/entity/Q1590821
   yearBuild: 1925

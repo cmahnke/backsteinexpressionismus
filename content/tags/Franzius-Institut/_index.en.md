@@ -2,12 +2,12 @@
 title: "Franzius-Institut (Universität Hannover)"
 description: ''
 draft: true
-type: building
 #geojson:
 #  coordinates:
 #  - 10.0229564
 #  - 53.5544775
 params:
+  itemType: building
   location: Hannover
   yearBuild: 1927
   notes: nogeoref

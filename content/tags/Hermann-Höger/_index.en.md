@@ -1,8 +1,8 @@
 ---
 title: "Hermann Höger"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/62645
   gndID: 1051519861
   wikidata: http://www.wikidata.org/entity/Q14544301

@@ -1,8 +1,8 @@
 ---
 title: "Borsigturm"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/5996
   wikidata: http://www.wikidata.org/entity/Q13034395
   yearBuild: 1922-1924

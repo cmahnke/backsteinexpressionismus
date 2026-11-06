@@ -1,8 +1,8 @@
 ---
 title: "Ullsteinhaus Berlin"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/5995
   gndID: 4524436-4
   location: Berlin

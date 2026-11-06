@@ -1,8 +1,8 @@
 ---
 title: "Otto Kohtz"
 description: ''
-type: architect
 params:
+  itemType: architect
   gndID: 119419580
   wikidata: http://www.wikidata.org/entity/Q2039584
 ---

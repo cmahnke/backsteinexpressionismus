@@ -1,8 +1,8 @@
 ---
 title: "Friedrich Fischer"
 description: ''
-type: architect
 params:
+  itemType: architect
   archinformID: arch/64253
   gndID: 13012009X
   wikidata: http://www.wikidata.org/entity/Q1459092

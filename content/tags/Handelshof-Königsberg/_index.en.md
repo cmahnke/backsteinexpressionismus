@@ -1,8 +1,8 @@
 ---
 title: "Handelshof Königsberg"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/12441
   yearBuild: 1923
   location:

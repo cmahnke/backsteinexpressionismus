@@ -1,9 +1,9 @@
 ---
 title: "Lyzeum Curschmannstrasse"
 description: ''
-type: building
 #archinformID:
 params:
+  itemType: building
   gndID: 1178637239
   wikidata: http://www.wikidata.org/entity/Q2328167
   yearBuild: 1924-1926

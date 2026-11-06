@@ -1,8 +1,8 @@
 ---
 title: "Pressa"
 description: ''
-type: other
 params:
+  itemType: other
   archinformID: projekte/29525
   gndID: 5121396-5
   location: Köln

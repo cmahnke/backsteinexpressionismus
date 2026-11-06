@@ -1,8 +1,8 @@
 ---
 title: "Gesundheitsamt Hamburg"
 description: ''
-type: building
 params:
+  itemType: building
   archinformID: projekte/75941
   location: Hamburg
   yearBuild: 1925

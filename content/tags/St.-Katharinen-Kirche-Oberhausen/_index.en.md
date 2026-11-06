@@ -1,8 +1,8 @@
 ---
 title: "St. Katharinen Kirche "
 description: ''
-type: building
 params:
+  itemType: building
   yearBuild: 1929
   location: Oberhausen
   archinformID: projekte/52302
