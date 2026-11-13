@@ -1,0 +1,79 @@
+{{- /*
+  Place related metadata entries for IIIF Presentation manifests, appended by
+  iiif/3/common.json for page kind manifests:
+
+  Site-local copy of the theme's layouts/_partials/iiif/3/metadata-place.json
+  with two deviations (see "IIIF manifest: place and year metadata from tag
+  terms" in the theme's Upgrade.md):
+
+  - Place terms are matched against `building` in addition to `place` (this
+    site's building terms carry the geometry and year data)
+  - "Jahr" is taken from the term's `params.yearBuild` instead of
+    `params.year` (construction years, e.g. "1930-1933")
+
+  Keep the diff to the theme file minimal for future re-syncs.
+
+  - "Place": names of tags whose term page carries `params.itemType: place`
+  - "Jahr": the term's `params.yearBuild`, one entry per matched place term
+  - "Address": the page's `params.address`
+  - "Coordinates": the page's `params.geojson.coordinates` (GeoJSON order,
+    longitude first), Point geometries only
+
+  Everything is optional: only entries with data are returned. Labels are
+  bilingual ("de"/"en") dictionaries like the built-in "Year of publication"
+  entry, values are IIIF language maps (see
+  functions/iiif/coerce-language-map.html). Kinds other than page return an
+  empty slice, so section manifests stay untouched.
+*/ -}}
+
+{{- if ne .Kind "page" -}}
+  {{- return slice -}}
+{{- end -}}
+
+{{- $metadata := slice -}}
+
+{{- /* Place names from tags whose term page is marked as a place */ -}}
+{{- $placeNames := dict -}}
+{{- range $term := .GetTerms "tags" -}}
+  {{- if in (slice "place" "building") $term.Params.itemType -}}
+    {{- $termMap := dict site.Language.Lang (slice $term.Title) -}}
+    {{- if hugo.IsMultilingual -}}
+      {{- range $translation := $term.Translations -}}
+        {{- if ne $translation.Language.Lang site.Language.Lang -}}
+          {{- $termMap = $termMap | merge (dict $translation.Language.Lang (slice $translation.Title)) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- range $lang, $names := $termMap -}}
+      {{- $existing := index $placeNames $lang -}}
+      {{- if not $existing -}}
+        {{- $existing = slice -}}
+      {{- end -}}
+      {{- $placeNames = $placeNames | merge (dict $lang ($existing | append (index $names 0))) -}}
+    {{- end -}}
+    {{- with $term.Params.yearBuild -}}
+      {{- $metadata = $metadata | append (dict "label" (dict "en" (slice "Year") "de" (slice "Jahr")) "value" (dict "none" (slice (printf "%v" .)))) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $placeNames -}}
+  {{- $metadata = $metadata | append (dict "label" (dict "en" (slice "Place") "de" (slice "Ort")) "value" $placeNames) -}}
+{{- end -}}
+
+{{- with .Params.address -}}
+  {{- $metadata = $metadata | append (dict "label" (dict "en" (slice "Address") "de" (slice "Adresse")) "value" (dict "none" (slice (printf "%v" .)))) -}}
+{{- end -}}
+
+{{- with .Params.geojson -}}
+  {{- $geometryType := "Point" -}}
+  {{- with index . "type" -}}
+    {{- $geometryType = . -}}
+  {{- end -}}
+  {{- if eq $geometryType "Point" -}}
+    {{- with index . "coordinates" -}}
+      {{- $metadata = $metadata | append (dict "label" (dict "en" (slice "Coordinates") "de" (slice "Koordinaten")) "value" (dict "none" (slice (printf "%v, %v" (index . 0) (index . 1))))) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $metadata -}}

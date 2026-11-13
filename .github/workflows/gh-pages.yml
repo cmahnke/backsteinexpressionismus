@@ -130,6 +130,9 @@ jobs:
         run: |
           npm run validate
 
+      - name: Validate IIIF output
+        run: ./themes/projektemacher-base/scripts/validate-iiif.sh docs
+
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh -i
 
