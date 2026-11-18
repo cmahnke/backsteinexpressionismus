@@ -8,6 +8,8 @@
   cc = false
   productionIIIFURLPrefix="https://static.projektemacher.org/backsteinexpressionismus/"
   wikidata = true
+  wikidatasparqlbackend = 'qlever'
+  useragent = 'https://backsteinexpressionismus.projektemacher.org/ mail@christianmahnke.de'
   debug = false
   schemaPerson = "https://christianmahnke.de/person.jsonld"
 
@@ -33,3 +35,6 @@
   email = 'mail@christianmahnke.de'
   name = 'Christian Mahnke'
   uri = 'http://www.wikidata.org/entity/Q137668638'
+
+[security.http]
+  mediaTypes = ['^application/ld\+json', '^application/json', '^application/sparql-results\+json']
