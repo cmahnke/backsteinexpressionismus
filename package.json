@@ -2,7 +2,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp-cli": "^3.1.0",
-    "stylelint-config-recommended-scss": "^17.0.1"
+    "stylelint-config-recommended-scss": "^18.0.0"
   },
   "scripts": {
     "lint-scss": "stylelint 'assets/scss/**/*.scss'",
