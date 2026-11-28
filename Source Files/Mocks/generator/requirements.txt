@@ -23,7 +23,7 @@ numpy<3
 tf2onnx
 torchvision
 git+https://github.com/ai-forever/Real-ESRGAN
-pyyaml>=6.0.3
+pyyaml>=6.0.4
 requests
 #jxlpy>=0.9.5
 accelerate
